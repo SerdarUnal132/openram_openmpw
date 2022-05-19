@@ -18,6 +18,7 @@
 // This include is relative to $CARAVEL_PATH (see Makefile)
 #include <defs.h>
 #include <stub.c>
+#include "../register_map.h"
 
 /*
 	Wishbone Test:
@@ -64,24 +65,47 @@ void main()
     reg_mprj_io_24 = GPIO_MODE_MGMT_STD_OUTPUT;
     reg_mprj_io_23 = GPIO_MODE_MGMT_STD_OUTPUT;
     reg_mprj_io_22 = GPIO_MODE_MGMT_STD_OUTPUT;
-    reg_mprj_io_21 = GPIO_MODE_MGMT_STD_OUTPUT;
-    reg_mprj_io_20 = GPIO_MODE_MGMT_STD_OUTPUT;
-    reg_mprj_io_19 = GPIO_MODE_MGMT_STD_OUTPUT;
-    reg_mprj_io_18 = GPIO_MODE_MGMT_STD_OUTPUT;
-    reg_mprj_io_17 = GPIO_MODE_MGMT_STD_OUTPUT;
-    reg_mprj_io_16 = GPIO_MODE_MGMT_STD_OUTPUT;
+    reg_mprj_io_21 = GPIO_MODE_USER_STD_OUT_MONITORED;
+    reg_mprj_io_20 = GPIO_MODE_USER_STD_OUT_MONITORED;
+    reg_mprj_io_19 = GPIO_MODE_USER_STD_OUT_MONITORED;
+    reg_mprj_io_18 = GPIO_MODE_USER_STD_OUT_MONITORED;
+    reg_mprj_io_17 = GPIO_MODE_USER_STD_OUT_MONITORED;
+    reg_mprj_io_16 = GPIO_MODE_USER_STD_OUT_MONITORED;
+
+    reg_mprj_io_15 = GPIO_MODE_USER_STD_OUT_MONITORED;
+    reg_mprj_io_14 = GPIO_MODE_USER_STD_OUT_MONITORED;
+    reg_mprj_io_13 = GPIO_MODE_USER_STD_OUT_MONITORED;
+    reg_mprj_io_12 = GPIO_MODE_USER_STD_OUT_MONITORED;
+    reg_mprj_io_11 = GPIO_MODE_USER_STD_OUT_MONITORED;
+    reg_mprj_io_10 = GPIO_MODE_USER_STD_OUT_MONITORED;
+    reg_mprj_io_9  = GPIO_MODE_USER_STD_OUT_MONITORED;
+    reg_mprj_io_8  = GPIO_MODE_USER_STD_OUT_MONITORED;
+    reg_mprj_io_7  = GPIO_MODE_USER_STD_OUT_MONITORED;
+    reg_mprj_io_6  = GPIO_MODE_USER_STD_OUT_MONITORED;
+    reg_mprj_io_5  = GPIO_MODE_USER_STD_OUT_MONITORED;
+    reg_mprj_io_4  = GPIO_MODE_USER_STD_OUT_MONITORED;
+    reg_mprj_io_3  = GPIO_MODE_USER_STD_OUT_MONITORED;
+    reg_mprj_io_2  = GPIO_MODE_USER_STD_OUT_MONITORED;
+    reg_mprj_io_1  = GPIO_MODE_USER_STD_OUT_MONITORED;
+    reg_mprj_io_0  = GPIO_MODE_USER_STD_OUT_MONITORED;
 
      /* Apply configuration */
     reg_mprj_xfer = 1;
     while (reg_mprj_xfer == 1);
 
-	reg_la2_oenb = reg_la2_iena = 0x00000000;    // [95:64]
+    reg_la0_oenb = reg_la0_iena = 0x00000000;    // [31:0]
+	reg_la1_oenb = reg_la1_iena = 0x00000000;    // [63:32]
+	reg_la2_oenb = reg_la2_iena = 0xFFFFFFFE;    // [95:64]
+	reg_la3_oenb = reg_la3_iena = 0xFFFFFFFF;    // [127:96]
 
-    // Flag start of the test
-	reg_mprj_datal = 0xAB600000;
+	// reg_la2_oenb = reg_la2_iena = 0x00000000;    // [95:64]
 
-    reg_mprj_slave = 0x00002710;
-    if (reg_mprj_slave == 0x2B3D) {
-        reg_mprj_datal = 0xAB610000;
+    reg_la2_data = 0x00000002;
+    reg_la2_data = 0x00000000;
+    
+    reg_write = 0x000000FF;
+    int value;
+    while (1) {
+      value = reg_read1;
     }
 }

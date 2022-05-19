@@ -29,6 +29,7 @@ set script_dir [file dirname [file normalize [info script]]]
 
 set ::env(DESIGN_NAME) user_project_wrapper
 #section end
+set ::env(BASE_SDC_FILE) /home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/base.sdc
 
 # User Configurations
 
@@ -38,8 +39,8 @@ set ::env(VERILOG_FILES) "\
 	$script_dir/../../verilog/rtl/user_project_wrapper.v"
 
 ## Clock configurations
-set ::env(CLOCK_PORT) "user_clock2"
-set ::env(CLOCK_NET) "mprj.clk"
+set ::env(CLOCK_PORT) "wb_clk_i"
+set ::env(CLOCK_NET) "mprj.wb_clk_i"
 
 set ::env(CLOCK_PERIOD) "10"
 
@@ -54,29 +55,38 @@ set ::env(MACRO_PLACEMENT_CFG) $script_dir/macro.cfg
 ### Black-box verilog and views
 set ::env(VERILOG_FILES_BLACKBOX) "\
 	$::env(CARAVEL_ROOT)/verilog/rtl/defines.v \
-	$script_dir/../../verilog/rtl/user_proj_example.v"
+	$script_dir/../../verilog/gl/openram_demo.v"
 
 set ::env(EXTRA_LEFS) "\
-	$script_dir/../../lef/user_proj_example.lef"
+	$script_dir/../../lef/openram_demo.lef"
 
 set ::env(EXTRA_GDS_FILES) "\
-	$script_dir/../../gds/user_proj_example.gds"
+	$script_dir/../../gds/openram_demo.gds"
 
 # set ::env(GLB_RT_MAXLAYER) 5
-set ::env(RT_MAX_LAYER) {met4}
+set ::env(RT_MAX_LAYER) {met5}
 
 # disable pdn check nodes becuase it hangs with multiple power domains.
 # any issue with pdn connections will be flagged with LVS so it is not a critical check.
 set ::env(FP_PDN_CHECK_NODES) 0
 
+set ::env(FP_PDN_ENABLE_MACROS_GRID) "1"
+
+set ::env(VDD_NETS) "vccd1 vccd2 vdda1 vdda2"
+set ::env(GND_NETS) "vssd1 vssd2 vssa1 vssa2"
+
 # The following is because there are no std cells in the example wrapper project.
 set ::env(SYNTH_TOP_LEVEL) 1
 set ::env(PL_RANDOM_GLB_PLACEMENT) 1
 
-set ::env(PL_RESIZER_DESIGN_OPTIMIZATIONS) 0
+set ::env(PL_RESIZER_DESIGN_OPTIMIZATIONS) 1
 set ::env(PL_RESIZER_TIMING_OPTIMIZATIONS) 0
 set ::env(PL_RESIZER_BUFFER_INPUT_PORTS) 0
 set ::env(PL_RESIZER_BUFFER_OUTPUT_PORTS) 0
+
+set ::env(DETAILED_ROUTER) tritonroute
+set ::env(RUN_ROUTING_DETAILED) 1
+set ::env(DRT_OPT_ITERS) 10
 
 set ::env(FP_PDN_ENABLE_RAILS) 0
 
@@ -84,3 +94,9 @@ set ::env(DIODE_INSERTION_STRATEGY) 0
 set ::env(FILL_INSERTION) 0
 set ::env(TAP_DECAP_INSERTION) 0
 set ::env(CLOCK_TREE_SYNTH) 0
+
+##################################################################
+# Checkers
+##################################################################
+set ::env(QUIT_ON_LVS_ERROR) 0
+set ::env(QUIT_ON_MAGIC_DRC) 0
