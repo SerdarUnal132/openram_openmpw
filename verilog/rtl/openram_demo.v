@@ -107,8 +107,8 @@ openram_demo #(
   reg [3:0] w_addr_q;
   reg [3:0] r_addr_q;
 
-  sram_32_16_sky130 SRAM0 (
-  // sky130_sram_1kbyte_1rw1r_32x256_8 SRAM0 (
+  // sram_32_16_sky130 SRAM0 (
+  sky130_sram_1kbyte_1rw1r_32x256_8 SRAM0 (
     `ifdef USE_POWER_PINS
       .vccd1(vccd1),
       .vssd1(vssd1),

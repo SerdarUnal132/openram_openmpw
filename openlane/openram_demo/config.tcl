@@ -25,28 +25,25 @@ set ::env(VERILOG_FILES) "\
 	$script_dir/../../verilog/rtl/openram_demo.v "
 
 ### Black-box verilog and views
-# set ::env(VERILOG_FILES_BLACKBOX) "\
-# 	$::env(CARAVEL_ROOT)/verilog/rtl/defines.v \
-# 	$script_dir/../../verilog/rtl/sram_32_16_sky130.v \
-# 	/home/serdar/pdks/sky130A/libs.ref/sky130_sram_macros/verilog/sky130_sram_1kbyte_1rw1r_32x256_8.v"
-# # SRAM is 
-# set ::env(EXTRA_LEFS) "\
-# 	$script_dir/../../lef/sram_32_16_sky130.lef \
-# 	/home/serdar/pdks/sky130A/libs.ref/sky130_sram_macros/lef/sky130_sram_1kbyte_1rw1r_32x256_8.lef"
-
-# set ::env(EXTRA_GDS_FILES) "\
-# 	$script_dir/../../gds/sram_32_16_sky130.gds \
-# 	/home/serdar/pdks/sky130A/libs.ref/sky130_sram_macros/gds/sky130_sram_1kbyte_1rw1r_32x256_8.gds"
-
 set ::env(VERILOG_FILES_BLACKBOX) "\
 	$::env(CARAVEL_ROOT)/verilog/rtl/defines.v \
-	$script_dir/../../verilog/rtl/sram_32_16_sky130.v"
+	/home/serdar/pdks/sky130A/libs.ref/sky130_sram_macros/verilog/sky130_sram_1kbyte_1rw1r_32x256_8.v"
 # SRAM is 
-set ::env(EXTRA_LEFS) "\
-	$script_dir/../../lef/sram_32_16_sky130.lef"
+set ::env(EXTRA_LEFS) " \
+	/home/serdar/pdks/sky130A/libs.ref/sky130_sram_macros/lef/sky130_sram_1kbyte_1rw1r_32x256_8.lef"
 
 set ::env(EXTRA_GDS_FILES) "\
-	$script_dir/../../gds/sram_32_16_sky130.gds"
+	/home/serdar/pdks/sky130A/libs.ref/sky130_sram_macros/gds/sky130_sram_1kbyte_1rw1r_32x256_8.gds"
+
+# set ::env(VERILOG_FILES_BLACKBOX) "\
+# 	$::env(CARAVEL_ROOT)/verilog/rtl/defines.v \
+# 	$script_dir/../../verilog/rtl/sram_32_16_sky130.v"
+# # SRAM is 
+# set ::env(EXTRA_LEFS) "\
+# 	$script_dir/../../lef/sram_32_16_sky130.lef"
+
+# set ::env(EXTRA_GDS_FILES) "\
+# 	$script_dir/../../gds/sram_32_16_sky130.gds"
 
 
 set ::env(CLOCK_PORT) "wb_clk_i"

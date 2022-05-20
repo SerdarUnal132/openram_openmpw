@@ -84,9 +84,6 @@ set ::env(PL_RESIZER_TIMING_OPTIMIZATIONS) 0
 set ::env(PL_RESIZER_BUFFER_INPUT_PORTS) 0
 set ::env(PL_RESIZER_BUFFER_OUTPUT_PORTS) 0
 
-set ::env(DETAILED_ROUTER) tritonroute
-set ::env(RUN_ROUTING_DETAILED) 1
-set ::env(DRT_OPT_ITERS) 10
 
 set ::env(FP_PDN_ENABLE_RAILS) 0
 
@@ -96,7 +93,31 @@ set ::env(TAP_DECAP_INSERTION) 0
 set ::env(CLOCK_TREE_SYNTH) 0
 
 ##################################################################
+# Flow Control
+##################################################################
+set ::env(RUN_ROUTING_DETAILED) 1
+# If you're going to use multiple power domains, then disable cvc run.
+set ::env(RUN_CVC) 1
+set ::env(LEC_ENABLE) 0
+set ::env(RUN_KLAYOUT_DRC) 0
+set ::env(RUN_MAGIC_DRC) 0
+set ::env(KLAYOUT_DRC_KLAYOUT_GDS) 0
+
+##################################################################
+# Detailed Routing
+##################################################################
+set ::env(DRT_OPT_ITERS) 10
+set ::env(ROUTING_CORES) 8
+set ::env(DETAILED_ROUTER) tritonroute
+
+##################################################################
+# Physical Verification
+##################################################################
+set ::env(MAGIC_DRC_USE_GDS) 1
+
+##################################################################
 # Checkers
 ##################################################################
 set ::env(QUIT_ON_LVS_ERROR) 0
 set ::env(QUIT_ON_MAGIC_DRC) 0
+set ::env(QUIT_ON_TR_DRC) 0
