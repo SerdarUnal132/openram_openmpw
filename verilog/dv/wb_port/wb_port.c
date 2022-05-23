@@ -105,7 +105,13 @@ void main()
     
     reg_write = 0x000000FF;
     int value;
-    while (1) {
-      value = reg_read1;
-    }
+    (*(volatile uint32_t*)0x30000000) = 0xAAAAAAAA;
+    value = (*(volatile uint32_t*)0x30000000);
+    (*(volatile uint32_t*)0x30000400) = 0xBBBBBBBB;
+    value = (*(volatile uint32_t*)0x30000400);
+    (*(volatile uint32_t*)0x30000800) = 0xCCCCCCCC;
+    value = (*(volatile uint32_t*)0x30000800);
+    (*(volatile uint32_t*)0x30000C00) = 0xDDDDDDDD;
+    value = (*(volatile uint32_t*)0x30000C00);
+    
 }

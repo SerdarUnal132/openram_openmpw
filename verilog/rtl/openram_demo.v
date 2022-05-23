@@ -93,20 +93,26 @@ openram_demo #(
   assign irq = 3'b000;	// Unused
 
   // LA
-  assign la_data_out = {{64{1'b0}}, wdata_q, rdata_q};
+  assign la_data_out = {{64{1'b0}}, wdata, rdata};
   // Assuming LA probes [65:64] are for controlling the count clk & reset  
   assign clk = (~la_oenb[64]) ? la_data_in[64]: wb_clk_i;
   assign rst = (~la_oenb[65]) ? la_data_in[65]: wb_rst_i;
     
-  assign wbs_ack_o = | ready;
+  assign wbs_ack_o = ready;
 
-  wire [31:0] sram0_dout0;
-  wire [31:0] sram0_dout1;
+  // Register interface
+  reg         ready_q;
+  
+  assign rdata = sram0_dout1[sram_select];
+  assign ready = ready_q;
 
-  reg [9:0] counter_q;
-  reg [3:0] w_addr_q;
-  reg [3:0] r_addr_q;
+  wire [31:0] sram0_dout0 [3:0];
+  wire [31:0] sram0_dout1 [3:0];
 
+  wire [1:0] sram_select;
+  assign sram_select =  wbs_adr_i[11:10];
+  wire [7:0] sram_address;
+  assign sram_address = wbs_adr_i[9:0] >> 2;
   // sram_32_16_sky130 SRAM0 (
   sky130_sram_1kbyte_1rw1r_32x256_8 SRAM0 (
     `ifdef USE_POWER_PINS
@@ -114,71 +120,83 @@ openram_demo #(
       .vssd1(vssd1),
     `endif
     .clk0   (clk),
-    .csb0   (1'b0),
+    .csb0   (!(!wbs_adr_i[11] & !wbs_adr_i[10] & valid & !ready_q & wbs_we_i)),
     .web0   (1'b0),
-    .addr0  (w_addr_q),
-    .din0   ({{22{1'b0}}, counter_q}),
-    .dout0  (sram0_dout0),
+    .wmask0 (4'hF),
+    .addr0  (sram_address),
+    .din0   (wdata),
+    .dout0  (sram0_dout0[0]),
     .clk1   (clk),
-    .csb1   (1'b0),
-    .addr1  (r_addr_q),
-    .dout1  (sram0_dout1)
+    .csb1   (!(!wbs_adr_i[11] & !wbs_adr_i[10] & valid & !ready_q & !wbs_we_i)),
+    .addr1  (sram_address),
+    .dout1  (sram0_dout1[0])
+  );
+
+    sky130_sram_1kbyte_1rw1r_32x256_8 SRAM1 (
+    `ifdef USE_POWER_PINS
+      .vccd1(vccd1),
+      .vssd1(vssd1),
+    `endif
+    .clk0   (clk),
+    .csb0   (!(!wbs_adr_i[11] & wbs_adr_i[10] & valid & !ready_q & wbs_we_i)),
+    .web0   (1'b0),
+    .wmask0 (4'hF),
+    .addr0  (sram_address),
+    .din0   (wdata),
+    .dout0  (sram0_dout0[1]),
+    .clk1   (clk),
+    .csb1   (!(!wbs_adr_i[11] & wbs_adr_i[10] & valid & !ready_q & !wbs_we_i)),
+    .addr1  (sram_address),
+    .dout1  (sram0_dout1[1])
+  );
+
+    sky130_sram_1kbyte_1rw1r_32x256_8 SRAM2 (
+    `ifdef USE_POWER_PINS
+      .vccd1(vccd1),
+      .vssd1(vssd1),
+    `endif
+    .clk0   (clk),
+    .csb0   (!(wbs_adr_i[11] & !wbs_adr_i[10] & valid & !ready_q & wbs_we_i)),
+    .web0   (1'b0),
+    .wmask0 (4'hF),
+    .addr0  (sram_address),
+    .din0   (wdata),
+    .dout0  (sram0_dout0[2]),
+    .clk1   (clk),
+    .csb1   (!(wbs_adr_i[11] & !wbs_adr_i[10] & valid & !ready_q & !wbs_we_i)),
+    .addr1  (sram_address),
+    .dout1  (sram0_dout1[2])
+  );
+
+    sky130_sram_1kbyte_1rw1r_32x256_8 SRAM3 (
+    `ifdef USE_POWER_PINS
+      .vccd1(vccd1),
+      .vssd1(vssd1),
+    `endif
+    .clk0   (clk),
+    .csb0   (!(wbs_adr_i[11] & wbs_adr_i[10] & valid & !ready_q & wbs_we_i)),
+    .web0   (1'b0),
+    .wmask0 (4'hF),
+    .addr0  (sram_address),
+    .din0   (wdata),
+    .dout0  (sram0_dout0[3]),
+    .clk1   (clk),
+    .csb1   (!(wbs_adr_i[11] & wbs_adr_i[10] & valid & !ready_q & !wbs_we_i)),
+    .addr1  (sram_address),
+    .dout1  (sram0_dout1[3])
   );
   
   
-  // Register interface
-  reg  [31:0] rdata_q;
-  reg  [31:0] wdata_q;
-  reg         ready_q;
-  
-  assign rdata = rdata_q;
-  assign ready = ready_q;
 
-  // Register file
-  reg   [31:0] register_file      [NRegisters-1:0];
-  wire  [3:0]  addr_register_file;
-  assign addr_register_file = wbs_adr_i[5:0] >> 2;
 
-  integer k;
-  
+
   always @(posedge clk) begin
-    if (rst == 1) begin
-      for (k = 0; k < NRegisters; k = k + 1) register_file[k] <= 0;  
+    if (!rst == 0) begin
       ready_q <= 0;
-      rdata_q <= 0;
-      wdata_q <= 0;
     end else begin
       ready_q <= 1'b0;
-      register_file[0] <= 32'b0;
-      register_file[1] <= sram0_dout0;
-      register_file[2] <= sram0_dout1;
       if (valid && !ready_q) begin
         ready_q <= 1'b1;
-        if (wbs_we_i) begin
-          register_file[addr_register_file] <= wdata;
-          wdata_q <= wdata;
-          rdata_q = rdata_q;
-        end else begin
-          wdata_q <= 0;
-          rdata_q <= register_file[addr_register_file];
-        end
-      end
-      
-    end
-  end
-
-  always @(posedge clk) begin
-    if (rst == 1) begin
-      counter_q <= 0;
-      w_addr_q <= 0;
-      r_addr_q <= 0;
-    end else begin
-      w_addr_q <= counter_q / 10;
-      r_addr_q <= (counter_q / 10) ^ 4'hF;
-      if (counter_q < 159) begin
-        counter_q <=  counter_q + 1;
-      end else begin
-        counter_q <=  0;
       end
     end
   end

@@ -42,10 +42,11 @@ set ::env(VERILOG_FILES) "\
 set ::env(CLOCK_PORT) "wb_clk_i"
 set ::env(CLOCK_NET) "mprj.wb_clk_i"
 
-set ::env(CLOCK_PERIOD) "10"
+set ::env(CLOCK_PERIOD) "16"
 
 ## Internal Macros
 ### Macro PDN Connections
+# Harness area 2.92mm x 3.52mm
 set ::env(FP_PDN_MACRO_HOOKS) "\
 	mprj vccd1 vssd1"
 
@@ -89,7 +90,7 @@ set ::env(FP_PDN_ENABLE_RAILS) 0
 
 set ::env(DIODE_INSERTION_STRATEGY) 0
 set ::env(FILL_INSERTION) 0
-set ::env(TAP_DECAP_INSERTION) 0
+set ::env(TAP_DECAP_INSERTION) 1
 set ::env(CLOCK_TREE_SYNTH) 0
 
 ##################################################################
@@ -102,6 +103,12 @@ set ::env(LEC_ENABLE) 0
 set ::env(RUN_KLAYOUT_DRC) 0
 set ::env(RUN_MAGIC_DRC) 0
 set ::env(KLAYOUT_DRC_KLAYOUT_GDS) 0
+
+##################################################################
+# Placement
+##################################################################
+set ::env(PL_RESIZER_BUFFER_INPUT_PORTS) 1
+set ::env(PL_RESIZER_BUFFER_OUTPUT_PORTS) 1
 
 ##################################################################
 # Detailed Routing

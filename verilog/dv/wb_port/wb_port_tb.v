@@ -49,7 +49,7 @@ module wb_port_tb;
 
 		// Repeat cycles of 1000 clock edges as needed to complete testbench
 		repeat (70) begin
-			repeat (100) @(posedge clock);
+			repeat (1000) @(posedge clock);
 			// $display("+1000 cycles");
 		end
 		$display("%c[1;31m",27);
