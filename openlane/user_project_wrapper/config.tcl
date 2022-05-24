@@ -44,12 +44,6 @@ set ::env(CLOCK_NET) "mprj.wb_clk_i"
 
 set ::env(CLOCK_PERIOD) "16"
 
-## Internal Macros
-### Macro PDN Connections
-# Harness area 2.92mm x 3.52mm
-set ::env(FP_PDN_MACRO_HOOKS) "\
-	mprj vccd1 vssd1"
-
 ### Macro Placement
 set ::env(MACRO_PLACEMENT_CFG) $script_dir/macro.cfg
 
@@ -65,33 +59,14 @@ set ::env(EXTRA_GDS_FILES) "\
 	$script_dir/../../gds/openram_demo.gds"
 
 # set ::env(GLB_RT_MAXLAYER) 5
-set ::env(RT_MAX_LAYER) {met5}
+# met5 ile route edince DRC çıktı
+set ::env(RT_MAX_LAYER) {met4}
 
 # disable pdn check nodes becuase it hangs with multiple power domains.
 # any issue with pdn connections will be flagged with LVS so it is not a critical check.
-set ::env(FP_PDN_CHECK_NODES) 0
-
-set ::env(FP_PDN_ENABLE_MACROS_GRID) "1"
 
 set ::env(VDD_NETS) "vccd1 vccd2 vdda1 vdda2"
 set ::env(GND_NETS) "vssd1 vssd2 vssa1 vssa2"
-
-# The following is because there are no std cells in the example wrapper project.
-set ::env(SYNTH_TOP_LEVEL) 1
-set ::env(PL_RANDOM_GLB_PLACEMENT) 1
-
-set ::env(PL_RESIZER_DESIGN_OPTIMIZATIONS) 1
-set ::env(PL_RESIZER_TIMING_OPTIMIZATIONS) 0
-set ::env(PL_RESIZER_BUFFER_INPUT_PORTS) 0
-set ::env(PL_RESIZER_BUFFER_OUTPUT_PORTS) 0
-
-
-set ::env(FP_PDN_ENABLE_RAILS) 0
-
-set ::env(DIODE_INSERTION_STRATEGY) 0
-set ::env(FILL_INSERTION) 0
-set ::env(TAP_DECAP_INSERTION) 1
-set ::env(CLOCK_TREE_SYNTH) 0
 
 ##################################################################
 # Flow Control
@@ -99,16 +74,61 @@ set ::env(CLOCK_TREE_SYNTH) 0
 set ::env(RUN_ROUTING_DETAILED) 1
 # If you're going to use multiple power domains, then disable cvc run.
 set ::env(RUN_CVC) 1
+set ::env(TAP_DECAP_INSERTION) 1
 set ::env(LEC_ENABLE) 0
+set ::env(FILL_INSERTION) 1
 set ::env(RUN_KLAYOUT_DRC) 0
 set ::env(RUN_MAGIC_DRC) 0
 set ::env(KLAYOUT_DRC_KLAYOUT_GDS) 0
 
 ##################################################################
+# Synthesis
+##################################################################
+set ::env(SYNTH_STRATEGY) {AREA 1}
+set ::env(SYNTH_MAX_FANOUT) 5
+set ::env(SYNTH_TOP_LEVEL) 1
+
+##################################################################
+# Floorplan
+##################################################################
+set ::env(FP_PDN_ENABLE_RAILS) 1
+set ::env(FP_PDN_ENABLE_MACROS_GRID) 1
+set ::env(FP_PDN_CHECK_NODES) 1
+## Internal Macros
+### Macro PDN Connections
+# Harness area 2.92mm x 3.52mm
+set ::env(FP_PDN_MACRO_HOOKS) "\
+	mprj vccd1 vssd1"
+
+##################################################################
 # Placement
 ##################################################################
+set ::env(PL_BASIC_PLACEMENT) 0
+set ::env(PL_RANDOM_GLB_PLACEMENT) 0
 set ::env(PL_RESIZER_BUFFER_INPUT_PORTS) 1
 set ::env(PL_RESIZER_BUFFER_OUTPUT_PORTS) 1
+set ::env(PL_RESIZER_DESIGN_OPTIMIZATIONS) 1
+set ::env(PL_RESIZER_TIMING_OPTIMIZATIONS) 0
+
+##################################################################
+# CTS
+##################################################################
+set ::env(CLOCK_TREE_SYNTH) 1
+set ::env(CLOCK_BUFFER_FANOUT) 5
+set ::env(CTS_SINK_CLUSTERING_SIZE) 8
+
+##################################################################
+# Global Routing
+##################################################################
+set ::env(GLB_RT_ANT_ITERS) 20
+set ::env(GLB_RT_MAX_DIODE_INS_ITERS) 20
+set ::env(GLOBAL_ROUTER) fastroute
+
+##################################################################
+# Antenna Diodes Insertion
+##################################################################
+set ::env(DIODE_PADDING) 2
+set ::env(DIODE_INSERTION_STRATEGY) 3
 
 ##################################################################
 # Detailed Routing

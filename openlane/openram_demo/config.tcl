@@ -140,13 +140,9 @@ set ::env(PL_RESIZER_MAX_WIRE_LENGTH) 200
 set ::env(CTS_TARGET_SKEW) 150
 set ::env(CTS_TOLERANCE) 25
 set ::env(CTS_CLK_BUFFER_LIST) "sky130_fd_sc_hd__clkbuf_4 sky130_fd_sc_hd__clkbuf_8"
-set ::env(CTS_SINK_CLUSTERING_SIZE) "16"
-set ::env(CLOCK_BUFFER_FANOUT) "5"
+set ::env(CTS_SINK_CLUSTERING_SIZE) 8
+set ::env(CLOCK_BUFFER_FANOUT) 5
 set ::env(CTS_CLK_MAX_WIRE_LENGTH) 300
-
-##################################################################
-# Optimization
-##################################################################
 
 
 ##################################################################
