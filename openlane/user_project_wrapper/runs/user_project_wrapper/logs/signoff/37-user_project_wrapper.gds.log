@@ -1,0 +1,2669 @@
+Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__nfet_01v8         |Circuit 2: sky130_fd_pr__nfet_01v8         
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__nfet_01v8 and sky130_fd_pr__nfet_01v8 are equivalent.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8_hvt is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8_hvt is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__pfet_01v8_hvt     |Circuit 2: sky130_fd_pr__pfet_01v8_hvt     
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__pfet_01v8_hvt and sky130_fd_pr__pfet_01v8_hvt are equivalent.
+
+Subcircuit summary:
+Circuit 1: sky130_fd_sc_hd__decap_6        |Circuit 2: sky130_fd_sc_hd__decap_6        
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8_hvt (1)            |sky130_fd_pr__pfet_01v8_hvt (1)            
+sky130_fd_pr__nfet_01v8 (1)                |sky130_fd_pr__nfet_01v8 (1)                
+Number of devices: 2                       |Number of devices: 2                       
+Number of nets: 4                          |Number of nets: 4                          
+---------------------------------------------------------------------------------------
+Circuits match uniquely.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__decap_6        |Circuit 2: sky130_fd_sc_hd__decap_6        
+-------------------------------------------|-------------------------------------------
+VPB                                        |VPB                                        
+VNB                                        |VNB                                        
+VPWR                                       |VPWR                                       
+VGND                                       |VGND                                       
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__decap_6 and sky130_fd_sc_hd__decap_6 are equivalent.
+
+Subcircuit summary:
+Circuit 1: sky130_fd_sc_hd__decap_12       |Circuit 2: sky130_fd_sc_hd__decap_12       
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8_hvt (1)            |sky130_fd_pr__pfet_01v8_hvt (1)            
+sky130_fd_pr__nfet_01v8 (1)                |sky130_fd_pr__nfet_01v8 (1)                
+Number of devices: 2                       |Number of devices: 2                       
+Number of nets: 4                          |Number of nets: 4                          
+---------------------------------------------------------------------------------------
+Circuits match uniquely.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__decap_12       |Circuit 2: sky130_fd_sc_hd__decap_12       
+-------------------------------------------|-------------------------------------------
+VPB                                        |VPB                                        
+VNB                                        |VNB                                        
+VPWR                                       |VPWR                                       
+VGND                                       |VGND                                       
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__decap_12 and sky130_fd_sc_hd__decap_12 are equivalent.
+
+Subcircuit summary:
+Circuit 1: sky130_fd_sc_hd__decap_3        |Circuit 2: sky130_fd_sc_hd__decap_3        
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8_hvt (1)            |sky130_fd_pr__pfet_01v8_hvt (1)            
+sky130_fd_pr__nfet_01v8 (1)                |sky130_fd_pr__nfet_01v8 (1)                
+Number of devices: 2                       |Number of devices: 2                       
+Number of nets: 4                          |Number of nets: 4                          
+---------------------------------------------------------------------------------------
+Circuits match uniquely.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__decap_3        |Circuit 2: sky130_fd_sc_hd__decap_3        
+-------------------------------------------|-------------------------------------------
+VPB                                        |VPB                                        
+VNB                                        |VNB                                        
+VPWR                                       |VPWR                                       
+VGND                                       |VGND                                       
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__decap_3 and sky130_fd_sc_hd__decap_3 are equivalent.
+
+Subcircuit summary:
+Circuit 1: sky130_fd_sc_hd__decap_4        |Circuit 2: sky130_fd_sc_hd__decap_4        
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8_hvt (1)            |sky130_fd_pr__pfet_01v8_hvt (1)            
+sky130_fd_pr__nfet_01v8 (1)                |sky130_fd_pr__nfet_01v8 (1)                
+Number of devices: 2                       |Number of devices: 2                       
+Number of nets: 4                          |Number of nets: 4                          
+---------------------------------------------------------------------------------------
+Circuits match uniquely.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__decap_4        |Circuit 2: sky130_fd_sc_hd__decap_4        
+-------------------------------------------|-------------------------------------------
+VPB                                        |VPB                                        
+VNB                                        |VNB                                        
+VPWR                                       |VPWR                                       
+VGND                                       |VGND                                       
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__decap_4 and sky130_fd_sc_hd__decap_4 are equivalent.
+
+Subcircuit summary:
+Circuit 1: sky130_fd_sc_hd__decap_8        |Circuit 2: sky130_fd_sc_hd__decap_8        
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8_hvt (1)            |sky130_fd_pr__pfet_01v8_hvt (1)            
+sky130_fd_pr__nfet_01v8 (1)                |sky130_fd_pr__nfet_01v8 (1)                
+Number of devices: 2                       |Number of devices: 2                       
+Number of nets: 4                          |Number of nets: 4                          
+---------------------------------------------------------------------------------------
+Circuits match uniquely.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__decap_8        |Circuit 2: sky130_fd_sc_hd__decap_8        
+-------------------------------------------|-------------------------------------------
+VPB                                        |VPB                                        
+VNB                                        |VNB                                        
+VPWR                                       |VPWR                                       
+VGND                                       |VGND                                       
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__decap_8 and sky130_fd_sc_hd__decap_8 are equivalent.
+
+Cell sky130_fd_sc_hd__diode_2 (0) disconnected node: VGND
+Cell sky130_fd_sc_hd__diode_2 (0) disconnected node: VPWR
+Cell sky130_fd_sc_hd__diode_2 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__diode_2 (1) disconnected node: VGND
+Cell sky130_fd_sc_hd__diode_2 (1) disconnected node: VPB
+Cell sky130_fd_sc_hd__diode_2 (1) disconnected node: VPWR
+Subcircuit summary:
+Circuit 1: sky130_fd_sc_hd__diode_2        |Circuit 2: sky130_fd_sc_hd__diode_2        
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__diode_pw2nd_05v5 (1)         |sky130_fd_pr__diode_pw2nd_05v5 (1)         
+Number of devices: 1                       |Number of devices: 1                       
+Number of nets: 2                          |Number of nets: 2                          
+---------------------------------------------------------------------------------------
+Circuits match uniquely.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__diode_2        |Circuit 2: sky130_fd_sc_hd__diode_2        
+-------------------------------------------|-------------------------------------------
+VNB                                        |VNB                                        
+DIODE                                      |DIODE                                      
+VGND                                       |VGND                                       
+VPWR                                       |VPWR                                       
+VPB                                        |VPB                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__diode_2 and sky130_fd_sc_hd__diode_2 are equivalent.
+
+Class sky130_fd_sc_hd__buf_4 (0):  Merged 6 parallel devices.
+Class sky130_fd_sc_hd__buf_4 (1):  Merged 6 parallel devices.
+Subcircuit summary:
+Circuit 1: sky130_fd_sc_hd__buf_4          |Circuit 2: sky130_fd_sc_hd__buf_4          
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8_hvt (5->2)         |sky130_fd_pr__pfet_01v8_hvt (5->2)         
+sky130_fd_pr__nfet_01v8 (5->2)             |sky130_fd_pr__nfet_01v8 (5->2)             
+Number of devices: 4                       |Number of devices: 4                       
+Number of nets: 7                          |Number of nets: 7                          
+---------------------------------------------------------------------------------------
+Circuits match uniquely.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__buf_4          |Circuit 2: sky130_fd_sc_hd__buf_4          
+-------------------------------------------|-------------------------------------------
+X                                          |X                                          
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPWR                                       |VPWR                                       
+VPB                                        |VPB                                        
+A                                          |A                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__buf_4 and sky130_fd_sc_hd__buf_4 are equivalent.
+
+Subcircuit summary:
+Circuit 1: sky130_fd_sc_hd__dlymetal6s2s_1 |Circuit 2: sky130_fd_sc_hd__dlymetal6s2s_1 
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8_hvt (6)            |sky130_fd_pr__pfet_01v8_hvt (6)            
+sky130_fd_pr__nfet_01v8 (6)                |sky130_fd_pr__nfet_01v8 (6)                
+Number of devices: 12                      |Number of devices: 12                      
+Number of nets: 11                         |Number of nets: 11                         
+---------------------------------------------------------------------------------------
+Circuits match uniquely.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__dlymetal6s2s_1 |Circuit 2: sky130_fd_sc_hd__dlymetal6s2s_1 
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+VPWR                                       |VPWR                                       
+VPB                                        |VPB                                        
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+X                                          |X                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__dlymetal6s2s_1 and sky130_fd_sc_hd__dlymetal6s2s_1 are equivalent.
+
+Cell sky130_fd_sc_hd__conb_1 (0) disconnected node: VPB
+Cell sky130_fd_sc_hd__conb_1 (0) disconnected node: VNB
+Cell sky130_fd_sc_hd__conb_1 (1) disconnected node: VNB
+Cell sky130_fd_sc_hd__conb_1 (1) disconnected node: VPB
+Subcircuit summary:
+Circuit 1: sky130_fd_sc_hd__conb_1         |Circuit 2: sky130_fd_sc_hd__conb_1         
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__res_generic_po (2)           |sky130_fd_pr__res_generic_po (2)           
+Number of devices: 2                       |Number of devices: 2                       
+Number of nets: 4                          |Number of nets: 4                          
+---------------------------------------------------------------------------------------
+Resolving automorphisms by property value.
+Resolving automorphisms by pin name.
+Netlists match uniquely.
+Circuits match correctly.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__conb_1         |Circuit 2: sky130_fd_sc_hd__conb_1         
+-------------------------------------------|-------------------------------------------
+VGND                                       |VGND                                       
+LO                                         |LO                                         
+HI                                         |HI                                         
+VPWR                                       |VPWR                                       
+VPB                                        |VPB                                        
+VNB                                        |VNB                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__conb_1 and sky130_fd_sc_hd__conb_1 are equivalent.
+
+Subcircuit summary:
+Circuit 1: sky130_fd_sc_hd__a22o_1         |Circuit 2: sky130_fd_sc_hd__a22o_1         
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8_hvt (5)            |sky130_fd_pr__pfet_01v8_hvt (5)            
+sky130_fd_pr__nfet_01v8 (5)                |sky130_fd_pr__nfet_01v8 (5)                
+Number of devices: 10                      |Number of devices: 10                      
+Number of nets: 13                         |Number of nets: 13                         
+---------------------------------------------------------------------------------------
+Circuits match uniquely.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__a22o_1         |Circuit 2: sky130_fd_sc_hd__a22o_1         
+-------------------------------------------|-------------------------------------------
+VPB                                        |VPB                                        
+VNB                                        |VNB                                        
+A2                                         |A2                                         
+A1                                         |A1                                         
+B1                                         |B1                                         
+X                                          |X                                          
+B2                                         |B2                                         
+VPWR                                       |VPWR                                       
+VGND                                       |VGND                                       
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__a22o_1 and sky130_fd_sc_hd__a22o_1 are equivalent.
+
+Class sky130_fd_sc_hd__buf_6 (0):  Merged 12 parallel devices.
+Class sky130_fd_sc_hd__buf_6 (1):  Merged 12 parallel devices.
+Subcircuit summary:
+Circuit 1: sky130_fd_sc_hd__buf_6          |Circuit 2: sky130_fd_sc_hd__buf_6          
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8_hvt (8->2)         |sky130_fd_pr__pfet_01v8_hvt (8->2)         
+sky130_fd_pr__nfet_01v8 (8->2)             |sky130_fd_pr__nfet_01v8 (8->2)             
+Number of devices: 4                       |Number of devices: 4                       
+Number of nets: 7                          |Number of nets: 7                          
+---------------------------------------------------------------------------------------
+Circuits match uniquely.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__buf_6          |Circuit 2: sky130_fd_sc_hd__buf_6          
+-------------------------------------------|-------------------------------------------
+VGND                                       |VGND                                       
+X                                          |X                                          
+VNB                                        |VNB                                        
+A                                          |A                                          
+VPWR                                       |VPWR                                       
+VPB                                        |VPB                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__buf_6 and sky130_fd_sc_hd__buf_6 are equivalent.
+
+Class sky130_fd_sc_hd__clkdlybuf4s15_2 (0):  Merged 2 parallel devices.
+Class sky130_fd_sc_hd__clkdlybuf4s15_2 (1):  Merged 2 parallel devices.
+Subcircuit summary:
+Circuit 1: sky130_fd_sc_hd__clkdlybuf4s15_ |Circuit 2: sky130_fd_sc_hd__clkdlybuf4s15_ 
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8_hvt (5->4)         |sky130_fd_pr__pfet_01v8_hvt (5->4)         
+sky130_fd_pr__nfet_01v8 (5->4)             |sky130_fd_pr__nfet_01v8 (5->4)             
+Number of devices: 8                       |Number of devices: 8                       
+Number of nets: 9                          |Number of nets: 9                          
+---------------------------------------------------------------------------------------
+Circuits match uniquely.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__clkdlybuf4s15_ |Circuit 2: sky130_fd_sc_hd__clkdlybuf4s15_ 
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+X                                          |X                                          
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPWR                                       |VPWR                                       
+VPB                                        |VPB                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__clkdlybuf4s15_2 and sky130_fd_sc_hd__clkdlybuf4s15_2 are equivalent.
+
+Class sky130_fd_sc_hd__clkbuf_4 (0):  Merged 6 parallel devices.
+Class sky130_fd_sc_hd__clkbuf_4 (1):  Merged 6 parallel devices.
+Subcircuit summary:
+Circuit 1: sky130_fd_sc_hd__clkbuf_4       |Circuit 2: sky130_fd_sc_hd__clkbuf_4       
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8_hvt (5->2)         |sky130_fd_pr__pfet_01v8_hvt (5->2)         
+sky130_fd_pr__nfet_01v8 (5->2)             |sky130_fd_pr__nfet_01v8 (5->2)             
+Number of devices: 4                       |Number of devices: 4                       
+Number of nets: 7                          |Number of nets: 7                          
+---------------------------------------------------------------------------------------
+Circuits match uniquely.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__clkbuf_4       |Circuit 2: sky130_fd_sc_hd__clkbuf_4       
+-------------------------------------------|-------------------------------------------
+VPWR                                       |VPWR                                       
+X                                          |X                                          
+VPB                                        |VPB                                        
+A                                          |A                                          
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__clkbuf_4 and sky130_fd_sc_hd__clkbuf_4 are equivalent.
+
+Class sky130_fd_sc_hd__o22a_2 (0):  Merged 2 parallel devices.
+Class sky130_fd_sc_hd__o22a_2 (1):  Merged 2 parallel devices.
+Subcircuit summary:
+Circuit 1: sky130_fd_sc_hd__o22a_2         |Circuit 2: sky130_fd_sc_hd__o22a_2         
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (6->5)             |sky130_fd_pr__nfet_01v8 (6->5)             
+sky130_fd_pr__pfet_01v8_hvt (6->5)         |sky130_fd_pr__pfet_01v8_hvt (6->5)         
+Number of devices: 10                      |Number of devices: 10                      
+Number of nets: 13                         |Number of nets: 13                         
+---------------------------------------------------------------------------------------
+Circuits match uniquely.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__o22a_2         |Circuit 2: sky130_fd_sc_hd__o22a_2         
+-------------------------------------------|-------------------------------------------
+VPWR                                       |VPWR                                       
+VGND                                       |VGND                                       
+VPB                                        |VPB                                        
+VNB                                        |VNB                                        
+X                                          |X                                          
+B2                                         |B2                                         
+B1                                         |B1                                         
+A2                                         |A2                                         
+A1                                         |A1                                         
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__o22a_2 and sky130_fd_sc_hd__o22a_2 are equivalent.
+
+Subcircuit summary:
+Circuit 1: sky130_fd_sc_hd__o21a_1         |Circuit 2: sky130_fd_sc_hd__o21a_1         
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8_hvt (4)            |sky130_fd_pr__pfet_01v8_hvt (4)            
+sky130_fd_pr__nfet_01v8 (4)                |sky130_fd_pr__nfet_01v8 (4)                
+Number of devices: 8                       |Number of devices: 8                       
+Number of nets: 11                         |Number of nets: 11                         
+---------------------------------------------------------------------------------------
+Circuits match uniquely.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__o21a_1         |Circuit 2: sky130_fd_sc_hd__o21a_1         
+-------------------------------------------|-------------------------------------------
+VPB                                        |VPB                                        
+VNB                                        |VNB                                        
+A1                                         |A1                                         
+B1                                         |B1                                         
+X                                          |X                                          
+A2                                         |A2                                         
+VPWR                                       |VPWR                                       
+VGND                                       |VGND                                       
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__o21a_1 and sky130_fd_sc_hd__o21a_1 are equivalent.
+
+Subcircuit summary:
+Circuit 1: sky130_fd_sc_hd__o22a_1         |Circuit 2: sky130_fd_sc_hd__o22a_1         
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (5)                |sky130_fd_pr__nfet_01v8 (5)                
+sky130_fd_pr__pfet_01v8_hvt (5)            |sky130_fd_pr__pfet_01v8_hvt (5)            
+Number of devices: 10                      |Number of devices: 10                      
+Number of nets: 13                         |Number of nets: 13                         
+---------------------------------------------------------------------------------------
+Circuits match uniquely.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__o22a_1         |Circuit 2: sky130_fd_sc_hd__o22a_1         
+-------------------------------------------|-------------------------------------------
+VPWR                                       |VPWR                                       
+VGND                                       |VGND                                       
+VPB                                        |VPB                                        
+VNB                                        |VNB                                        
+B1                                         |B1                                         
+X                                          |X                                          
+B2                                         |B2                                         
+A1                                         |A1                                         
+A2                                         |A2                                         
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__o22a_1 and sky130_fd_sc_hd__o22a_1 are equivalent.
+
+Class sky130_fd_sc_hd__clkbuf_2 (0):  Merged 2 parallel devices.
+Class sky130_fd_sc_hd__clkbuf_2 (1):  Merged 2 parallel devices.
+Subcircuit summary:
+Circuit 1: sky130_fd_sc_hd__clkbuf_2       |Circuit 2: sky130_fd_sc_hd__clkbuf_2       
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8_hvt (3->2)         |sky130_fd_pr__pfet_01v8_hvt (3->2)         
+sky130_fd_pr__nfet_01v8 (3->2)             |sky130_fd_pr__nfet_01v8 (3->2)             
+Number of devices: 4                       |Number of devices: 4                       
+Number of nets: 7                          |Number of nets: 7                          
+---------------------------------------------------------------------------------------
+Circuits match uniquely.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__clkbuf_2       |Circuit 2: sky130_fd_sc_hd__clkbuf_2       
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+VPWR                                       |VPWR                                       
+VPB                                        |VPB                                        
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+X                                          |X                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__clkbuf_2 and sky130_fd_sc_hd__clkbuf_2 are equivalent.
+
+Class sky130_fd_sc_hd__buf_2 (0):  Merged 2 parallel devices.
+Class sky130_fd_sc_hd__buf_2 (1):  Merged 2 parallel devices.
+Subcircuit summary:
+Circuit 1: sky130_fd_sc_hd__buf_2          |Circuit 2: sky130_fd_sc_hd__buf_2          
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8_hvt (3->2)         |sky130_fd_pr__pfet_01v8_hvt (3->2)         
+sky130_fd_pr__nfet_01v8 (3->2)             |sky130_fd_pr__nfet_01v8 (3->2)             
+Number of devices: 4                       |Number of devices: 4                       
+Number of nets: 7                          |Number of nets: 7                          
+---------------------------------------------------------------------------------------
+Circuits match uniquely.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__buf_2          |Circuit 2: sky130_fd_sc_hd__buf_2          
+-------------------------------------------|-------------------------------------------
+X                                          |X                                          
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+A                                          |A                                          
+VPWR                                       |VPWR                                       
+VPB                                        |VPB                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__buf_2 and sky130_fd_sc_hd__buf_2 are equivalent.
+
+Subcircuit summary:
+Circuit 1: sky130_fd_sc_hd__or4_1          |Circuit 2: sky130_fd_sc_hd__or4_1          
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (5)                |sky130_fd_pr__nfet_01v8 (5)                
+sky130_fd_pr__pfet_01v8_hvt (5)            |sky130_fd_pr__pfet_01v8_hvt (5)            
+Number of devices: 10                      |Number of devices: 10                      
+Number of nets: 13                         |Number of nets: 13                         
+---------------------------------------------------------------------------------------
+Circuits match uniquely.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__or4_1          |Circuit 2: sky130_fd_sc_hd__or4_1          
+-------------------------------------------|-------------------------------------------
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+D                                          |D                                          
+X                                          |X                                          
+C                                          |C                                          
+A                                          |A                                          
+B                                          |B                                          
+VPWR                                       |VPWR                                       
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__or4_1 and sky130_fd_sc_hd__or4_1 are equivalent.
+Circuit 2 cell sky130_sram_2kbyte_1rw1r_32x512_8 is a black box; will not flatten Circuit 1
+Warning: Equate pins:  cell sky130_sram_2kbyte_1rw1r_32x512_8 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_sram_2kbyte_1rw1r_32x512 |Circuit 2: sky130_sram_2kbyte_1rw1r_32x512 
+-------------------------------------------|-------------------------------------------
+csb0                                       |csb0                                       
+web0                                       |web0                                       
+clk0                                       |clk0                                       
+addr0[2]                                   |addr0[2]                                   
+addr0[3]                                   |addr0[3]                                   
+addr0[4]                                   |addr0[4]                                   
+addr0[5]                                   |addr0[5]                                   
+addr0[6]                                   |addr0[6]                                   
+addr0[7]                                   |addr0[7]                                   
+addr0[8]                                   |addr0[8]                                   
+csb1                                       |csb1                                       
+addr1[2]                                   |addr1[2]                                   
+addr1[3]                                   |addr1[3]                                   
+addr1[4]                                   |addr1[4]                                   
+addr1[5]                                   |addr1[5]                                   
+addr1[6]                                   |addr1[6]                                   
+vccd1                                      |vccd1                                      
+clk1                                       |clk1                                       
+dout1[16]                                  |dout1[16]                                  
+dout1[17]                                  |dout1[17]                                  
+dout1[18]                                  |dout1[18]                                  
+dout1[19]                                  |dout1[19]                                  
+dout1[20]                                  |dout1[20]                                  
+dout1[21]                                  |dout1[21]                                  
+dout1[22]                                  |dout1[22]                                  
+dout1[23]                                  |dout1[23]                                  
+dout1[24]                                  |dout1[24]                                  
+dout1[25]                                  |dout1[25]                                  
+dout1[26]                                  |dout1[26]                                  
+dout1[27]                                  |dout1[27]                                  
+dout1[28]                                  |dout1[28]                                  
+dout1[29]                                  |dout1[29]                                  
+dout1[30]                                  |dout1[30]                                  
+dout1[31]                                  |dout1[31]                                  
+addr1[0]                                   |addr1[0]                                   
+addr1[1]                                   |addr1[1]                                   
+dout1[2]                                   |dout1[2]                                   
+dout1[3]                                   |dout1[3]                                   
+dout1[4]                                   |dout1[4]                                   
+dout1[5]                                   |dout1[5]                                   
+dout1[6]                                   |dout1[6]                                   
+dout1[7]                                   |dout1[7]                                   
+dout1[8]                                   |dout1[8]                                   
+dout1[9]                                   |dout1[9]                                   
+dout1[10]                                  |dout1[10]                                  
+dout1[11]                                  |dout1[11]                                  
+dout1[12]                                  |dout1[12]                                  
+dout1[13]                                  |dout1[13]                                  
+dout1[14]                                  |dout1[14]                                  
+dout1[15]                                  |dout1[15]                                  
+dout1[0]                                   |dout1[0]                                   
+dout1[1]                                   |dout1[1]                                   
+dout0[3]                                   |dout0[3]                                   
+dout0[4]                                   |dout0[4]                                   
+dout0[5]                                   |dout0[5]                                   
+dout0[6]                                   |dout0[6]                                   
+dout0[7]                                   |dout0[7]                                   
+dout0[8]                                   |dout0[8]                                   
+dout0[9]                                   |dout0[9]                                   
+dout0[10]                                  |dout0[10]                                  
+dout0[11]                                  |dout0[11]                                  
+dout0[12]                                  |dout0[12]                                  
+dout0[13]                                  |dout0[13]                                  
+dout0[14]                                  |dout0[14]                                  
+dout0[15]                                  |dout0[15]                                  
+dout0[16]                                  |dout0[16]                                  
+addr0[0]                                   |addr0[0]                                   
+addr0[1]                                   |addr0[1]                                   
+wmask0[0]                                  |wmask0[0]                                  
+wmask0[1]                                  |wmask0[1]                                  
+wmask0[2]                                  |wmask0[2]                                  
+wmask0[3]                                  |wmask0[3]                                  
+din0[0]                                    |din0[0]                                    
+din0[1]                                    |din0[1]                                    
+din0[2]                                    |din0[2]                                    
+din0[3]                                    |din0[3]                                    
+din0[4]                                    |din0[4]                                    
+din0[5]                                    |din0[5]                                    
+din0[6]                                    |din0[6]                                    
+din0[7]                                    |din0[7]                                    
+din0[8]                                    |din0[8]                                    
+din0[9]                                    |din0[9]                                    
+din0[10]                                   |din0[10]                                   
+din0[11]                                   |din0[11]                                   
+din0[12]                                   |din0[12]                                   
+din0[13]                                   |din0[13]                                   
+din0[14]                                   |din0[14]                                   
+din0[15]                                   |din0[15]                                   
+din0[16]                                   |din0[16]                                   
+din0[17]                                   |din0[17]                                   
+din0[18]                                   |din0[18]                                   
+din0[19]                                   |din0[19]                                   
+din0[20]                                   |din0[20]                                   
+din0[21]                                   |din0[21]                                   
+din0[22]                                   |din0[22]                                   
+din0[23]                                   |din0[23]                                   
+din0[24]                                   |din0[24]                                   
+din0[25]                                   |din0[25]                                   
+din0[26]                                   |din0[26]                                   
+din0[27]                                   |din0[27]                                   
+din0[28]                                   |din0[28]                                   
+din0[29]                                   |din0[29]                                   
+din0[30]                                   |din0[30]                                   
+din0[31]                                   |din0[31]                                   
+dout0[0]                                   |dout0[0]                                   
+dout0[1]                                   |dout0[1]                                   
+dout0[2]                                   |dout0[2]                                   
+dout0[30]                                  |dout0[30]                                  
+dout0[31]                                  |dout0[31]                                  
+dout0[17]                                  |dout0[17]                                  
+dout0[18]                                  |dout0[18]                                  
+dout0[19]                                  |dout0[19]                                  
+dout0[20]                                  |dout0[20]                                  
+dout0[21]                                  |dout0[21]                                  
+dout0[22]                                  |dout0[22]                                  
+dout0[23]                                  |dout0[23]                                  
+dout0[24]                                  |dout0[24]                                  
+dout0[25]                                  |dout0[25]                                  
+dout0[26]                                  |dout0[26]                                  
+dout0[27]                                  |dout0[27]                                  
+addr1[7]                                   |addr1[7]                                   
+addr1[8]                                   |addr1[8]                                   
+dout0[28]                                  |dout0[28]                                  
+dout0[29]                                  |dout0[29]                                  
+vssd1                                      |vssd1                                      
+sky130_sram_2kbyte_1rw1r_32x512_8_bank_0/g |(no matching pin)                          
+sky130_sram_2kbyte_1rw1r_32x512_8_bank_0/g |(no matching pin)                          
+sky130_sram_2kbyte_1rw1r_32x512_8_bank_0/g |(no matching pin)                          
+sky130_sram_2kbyte_1rw1r_32x512_8_bank_0/g |(no matching pin)                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_sram_2kbyte_1rw1r_32x512_8 and sky130_sram_2kbyte_1rw1r_32x512_8 are equivalent.
+
+Class sky130_fd_sc_hd__inv_2 (0):  Merged 2 parallel devices.
+Class sky130_fd_sc_hd__inv_2 (1):  Merged 2 parallel devices.
+Subcircuit summary:
+Circuit 1: sky130_fd_sc_hd__inv_2          |Circuit 2: sky130_fd_sc_hd__inv_2          
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8_hvt (2->1)         |sky130_fd_pr__pfet_01v8_hvt (2->1)         
+sky130_fd_pr__nfet_01v8 (2->1)             |sky130_fd_pr__nfet_01v8 (2->1)             
+Number of devices: 2                       |Number of devices: 2                       
+Number of nets: 6                          |Number of nets: 6                          
+---------------------------------------------------------------------------------------
+Circuits match uniquely.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__inv_2          |Circuit 2: sky130_fd_sc_hd__inv_2          
+-------------------------------------------|-------------------------------------------
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPWR                                       |VPWR                                       
+VPB                                        |VPB                                        
+Y                                          |Y                                          
+A                                          |A                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__inv_2 and sky130_fd_sc_hd__inv_2 are equivalent.
+
+Class sky130_fd_sc_hd__clkbuf_8 (0):  Merged 16 parallel devices.
+Class sky130_fd_sc_hd__clkbuf_8 (1):  Merged 16 parallel devices.
+Subcircuit summary:
+Circuit 1: sky130_fd_sc_hd__clkbuf_8       |Circuit 2: sky130_fd_sc_hd__clkbuf_8       
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8_hvt (10->2)        |sky130_fd_pr__pfet_01v8_hvt (10->2)        
+sky130_fd_pr__nfet_01v8 (10->2)            |sky130_fd_pr__nfet_01v8 (10->2)            
+Number of devices: 4                       |Number of devices: 4                       
+Number of nets: 7                          |Number of nets: 7                          
+---------------------------------------------------------------------------------------
+Circuits match uniquely.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__clkbuf_8       |Circuit 2: sky130_fd_sc_hd__clkbuf_8       
+-------------------------------------------|-------------------------------------------
+X                                          |X                                          
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+A                                          |A                                          
+VPWR                                       |VPWR                                       
+VPB                                        |VPB                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__clkbuf_8 and sky130_fd_sc_hd__clkbuf_8 are equivalent.
+
+Class sky130_fd_sc_hd__clkbuf_16 (0):  Merged 36 parallel devices.
+Class sky130_fd_sc_hd__clkbuf_16 (1):  Merged 36 parallel devices.
+Subcircuit summary:
+Circuit 1: sky130_fd_sc_hd__clkbuf_16      |Circuit 2: sky130_fd_sc_hd__clkbuf_16      
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8_hvt (20->2)        |sky130_fd_pr__pfet_01v8_hvt (20->2)        
+sky130_fd_pr__nfet_01v8 (20->2)            |sky130_fd_pr__nfet_01v8 (20->2)            
+Number of devices: 4                       |Number of devices: 4                       
+Number of nets: 7                          |Number of nets: 7                          
+---------------------------------------------------------------------------------------
+Circuits match uniquely.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__clkbuf_16      |Circuit 2: sky130_fd_sc_hd__clkbuf_16      
+-------------------------------------------|-------------------------------------------
+VPWR                                       |VPWR                                       
+X                                          |X                                          
+VPB                                        |VPB                                        
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+A                                          |A                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__clkbuf_16 and sky130_fd_sc_hd__clkbuf_16 are equivalent.
+
+Class sky130_fd_sc_hd__clkdlybuf4s18_2 (0):  Merged 2 parallel devices.
+Class sky130_fd_sc_hd__clkdlybuf4s18_2 (1):  Merged 2 parallel devices.
+Subcircuit summary:
+Circuit 1: sky130_fd_sc_hd__clkdlybuf4s18_ |Circuit 2: sky130_fd_sc_hd__clkdlybuf4s18_ 
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (5->4)             |sky130_fd_pr__nfet_01v8 (5->4)             
+sky130_fd_pr__pfet_01v8_hvt (5->4)         |sky130_fd_pr__pfet_01v8_hvt (5->4)         
+Number of devices: 8                       |Number of devices: 8                       
+Number of nets: 9                          |Number of nets: 9                          
+---------------------------------------------------------------------------------------
+Circuits match uniquely.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__clkdlybuf4s18_ |Circuit 2: sky130_fd_sc_hd__clkdlybuf4s18_ 
+-------------------------------------------|-------------------------------------------
+X                                          |X                                          
+A                                          |A                                          
+VPWR                                       |VPWR                                       
+VPB                                        |VPB                                        
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__clkdlybuf4s18_2 and sky130_fd_sc_hd__clkdlybuf4s18_2 are equivalent.
+
+Subcircuit summary:
+Circuit 1: sky130_fd_sc_hd__buf_1          |Circuit 2: sky130_fd_sc_hd__buf_1          
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8_hvt (2)            |sky130_fd_pr__pfet_01v8_hvt (2)            
+sky130_fd_pr__nfet_01v8 (2)                |sky130_fd_pr__nfet_01v8 (2)                
+Number of devices: 4                       |Number of devices: 4                       
+Number of nets: 7                          |Number of nets: 7                          
+---------------------------------------------------------------------------------------
+Circuits match uniquely.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__buf_1          |Circuit 2: sky130_fd_sc_hd__buf_1          
+-------------------------------------------|-------------------------------------------
+VGND                                       |VGND                                       
+X                                          |X                                          
+VNB                                        |VNB                                        
+A                                          |A                                          
+VPWR                                       |VPWR                                       
+VPB                                        |VPB                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__buf_1 and sky130_fd_sc_hd__buf_1 are equivalent.
+
+Subcircuit summary:
+Circuit 1: sky130_fd_sc_hd__clkdlybuf4s25_ |Circuit 2: sky130_fd_sc_hd__clkdlybuf4s25_ 
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8_hvt (4)            |sky130_fd_pr__pfet_01v8_hvt (4)            
+sky130_fd_pr__nfet_01v8 (4)                |sky130_fd_pr__nfet_01v8 (4)                
+Number of devices: 8                       |Number of devices: 8                       
+Number of nets: 9                          |Number of nets: 9                          
+---------------------------------------------------------------------------------------
+Circuits match uniquely.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__clkdlybuf4s25_ |Circuit 2: sky130_fd_sc_hd__clkdlybuf4s25_ 
+-------------------------------------------|-------------------------------------------
+X                                          |X                                          
+A                                          |A                                          
+VPWR                                       |VPWR                                       
+VPB                                        |VPB                                        
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__clkdlybuf4s25_1 and sky130_fd_sc_hd__clkdlybuf4s25_1 are equivalent.
+
+Class sky130_fd_sc_hd__mux2_2 (0):  Merged 2 parallel devices.
+Class sky130_fd_sc_hd__mux2_2 (1):  Merged 2 parallel devices.
+Subcircuit summary:
+Circuit 1: sky130_fd_sc_hd__mux2_2         |Circuit 2: sky130_fd_sc_hd__mux2_2         
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8_hvt (7->6)         |sky130_fd_pr__pfet_01v8_hvt (7->6)         
+sky130_fd_pr__nfet_01v8 (7->6)             |sky130_fd_pr__nfet_01v8 (7->6)             
+Number of devices: 12                      |Number of devices: 12                      
+Number of nets: 14                         |Number of nets: 14                         
+---------------------------------------------------------------------------------------
+Circuits match uniquely.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__mux2_2         |Circuit 2: sky130_fd_sc_hd__mux2_2         
+-------------------------------------------|-------------------------------------------
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+A1                                         |A1                                         
+A0                                         |A0                                         
+X                                          |X                                          
+VGND                                       |VGND                                       
+VPWR                                       |VPWR                                       
+S                                          |S                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__mux2_2 and sky130_fd_sc_hd__mux2_2 are equivalent.
+
+Subcircuit summary:
+Circuit 1: sky130_fd_sc_hd__or3b_1         |Circuit 2: sky130_fd_sc_hd__or3b_1         
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (5)                |sky130_fd_pr__nfet_01v8 (5)                
+sky130_fd_pr__pfet_01v8_hvt (5)            |sky130_fd_pr__pfet_01v8_hvt (5)            
+Number of devices: 10                      |Number of devices: 10                      
+Number of nets: 12                         |Number of nets: 12                         
+---------------------------------------------------------------------------------------
+Circuits match uniquely.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__or3b_1         |Circuit 2: sky130_fd_sc_hd__or3b_1         
+-------------------------------------------|-------------------------------------------
+VPWR                                       |VPWR                                       
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+X                                          |X                                          
+B                                          |B                                          
+A                                          |A                                          
+C_N                                        |C_N                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__or3b_1 and sky130_fd_sc_hd__or3b_1 are equivalent.
+
+Class sky130_fd_sc_hd__buf_12 (0):  Merged 28 parallel devices.
+Class sky130_fd_sc_hd__buf_12 (1):  Merged 28 parallel devices.
+Subcircuit summary:
+Circuit 1: sky130_fd_sc_hd__buf_12         |Circuit 2: sky130_fd_sc_hd__buf_12         
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (16->2)            |sky130_fd_pr__nfet_01v8 (16->2)            
+sky130_fd_pr__pfet_01v8_hvt (16->2)        |sky130_fd_pr__pfet_01v8_hvt (16->2)        
+Number of devices: 4                       |Number of devices: 4                       
+Number of nets: 7                          |Number of nets: 7                          
+---------------------------------------------------------------------------------------
+Circuits match uniquely.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__buf_12         |Circuit 2: sky130_fd_sc_hd__buf_12         
+-------------------------------------------|-------------------------------------------
+X                                          |X                                          
+VPWR                                       |VPWR                                       
+VPB                                        |VPB                                        
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+A                                          |A                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__buf_12 and sky130_fd_sc_hd__buf_12 are equivalent.
+
+Subcircuit summary:
+Circuit 1: sky130_fd_sc_hd__dfxtp_1        |Circuit 2: sky130_fd_sc_hd__dfxtp_1        
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (12)               |sky130_fd_pr__nfet_01v8 (12)               
+sky130_fd_pr__pfet_01v8_hvt (12)           |sky130_fd_pr__pfet_01v8_hvt (12)           
+Number of devices: 24                      |Number of devices: 24                      
+Number of nets: 18                         |Number of nets: 18                         
+---------------------------------------------------------------------------------------
+Circuits match uniquely.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__dfxtp_1        |Circuit 2: sky130_fd_sc_hd__dfxtp_1        
+-------------------------------------------|-------------------------------------------
+VPB                                        |VPB                                        
+VNB                                        |VNB                                        
+VGND                                       |VGND                                       
+VPWR                                       |VPWR                                       
+D                                          |D                                          
+Q                                          |Q                                          
+CLK                                        |CLK                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__dfxtp_1 and sky130_fd_sc_hd__dfxtp_1 are equivalent.
+
+Subcircuit summary:
+Circuit 1: sky130_fd_sc_hd__nor2_1         |Circuit 2: sky130_fd_sc_hd__nor2_1         
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8_hvt (2)            |sky130_fd_pr__pfet_01v8_hvt (2)            
+sky130_fd_pr__nfet_01v8 (2)                |sky130_fd_pr__nfet_01v8 (2)                
+Number of devices: 4                       |Number of devices: 4                       
+Number of nets: 8                          |Number of nets: 8                          
+---------------------------------------------------------------------------------------
+Circuits match uniquely.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__nor2_1         |Circuit 2: sky130_fd_sc_hd__nor2_1         
+-------------------------------------------|-------------------------------------------
+Y                                          |Y                                          
+A                                          |A                                          
+VPB                                        |VPB                                        
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+B                                          |B                                          
+VPWR                                       |VPWR                                       
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__nor2_1 and sky130_fd_sc_hd__nor2_1 are equivalent.
+
+Subcircuit summary:
+Circuit 1: sky130_fd_sc_hd__or3_1          |Circuit 2: sky130_fd_sc_hd__or3_1          
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8_hvt (4)            |sky130_fd_pr__pfet_01v8_hvt (4)            
+sky130_fd_pr__nfet_01v8 (4)                |sky130_fd_pr__nfet_01v8 (4)                
+Number of devices: 8                       |Number of devices: 8                       
+Number of nets: 11                         |Number of nets: 11                         
+---------------------------------------------------------------------------------------
+Circuits match uniquely.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__or3_1          |Circuit 2: sky130_fd_sc_hd__or3_1          
+-------------------------------------------|-------------------------------------------
+VPB                                        |VPB                                        
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPWR                                       |VPWR                                       
+X                                          |X                                          
+C                                          |C                                          
+A                                          |A                                          
+B                                          |B                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__or3_1 and sky130_fd_sc_hd__or3_1 are equivalent.
+
+Class sky130_fd_sc_hd__buf_8 (0):  Merged 18 parallel devices.
+Class sky130_fd_sc_hd__buf_8 (1):  Merged 18 parallel devices.
+Subcircuit summary:
+Circuit 1: sky130_fd_sc_hd__buf_8          |Circuit 2: sky130_fd_sc_hd__buf_8          
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (11->2)            |sky130_fd_pr__nfet_01v8 (11->2)            
+sky130_fd_pr__pfet_01v8_hvt (11->2)        |sky130_fd_pr__pfet_01v8_hvt (11->2)        
+Number of devices: 4                       |Number of devices: 4                       
+Number of nets: 7                          |Number of nets: 7                          
+---------------------------------------------------------------------------------------
+Circuits match uniquely.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__buf_8          |Circuit 2: sky130_fd_sc_hd__buf_8          
+-------------------------------------------|-------------------------------------------
+X                                          |X                                          
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPWR                                       |VPWR                                       
+VPB                                        |VPB                                        
+A                                          |A                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__buf_8 and sky130_fd_sc_hd__buf_8 are equivalent.
+
+Subcircuit summary:
+Circuit 1: sky130_fd_sc_hd__and2_1         |Circuit 2: sky130_fd_sc_hd__and2_1         
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8_hvt (3)            |sky130_fd_pr__pfet_01v8_hvt (3)            
+sky130_fd_pr__nfet_01v8 (3)                |sky130_fd_pr__nfet_01v8 (3)                
+Number of devices: 6                       |Number of devices: 6                       
+Number of nets: 9                          |Number of nets: 9                          
+---------------------------------------------------------------------------------------
+Circuits match uniquely.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__and2_1         |Circuit 2: sky130_fd_sc_hd__and2_1         
+-------------------------------------------|-------------------------------------------
+VGND                                       |VGND                                       
+X                                          |X                                          
+A                                          |A                                          
+B                                          |B                                          
+VNB                                        |VNB                                        
+VPWR                                       |VPWR                                       
+VPB                                        |VPB                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__and2_1 and sky130_fd_sc_hd__and2_1 are equivalent.
+
+Class sky130_fd_sc_hd__or4_2 (0):  Merged 2 parallel devices.
+Class sky130_fd_sc_hd__or4_2 (1):  Merged 2 parallel devices.
+Subcircuit summary:
+Circuit 1: sky130_fd_sc_hd__or4_2          |Circuit 2: sky130_fd_sc_hd__or4_2          
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (6->5)             |sky130_fd_pr__nfet_01v8 (6->5)             
+sky130_fd_pr__pfet_01v8_hvt (6->5)         |sky130_fd_pr__pfet_01v8_hvt (6->5)         
+Number of devices: 10                      |Number of devices: 10                      
+Number of nets: 13                         |Number of nets: 13                         
+---------------------------------------------------------------------------------------
+Circuits match uniquely.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__or4_2          |Circuit 2: sky130_fd_sc_hd__or4_2          
+-------------------------------------------|-------------------------------------------
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+VPB                                        |VPB                                        
+D                                          |D                                          
+X                                          |X                                          
+C                                          |C                                          
+A                                          |A                                          
+B                                          |B                                          
+VPWR                                       |VPWR                                       
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__or4_2 and sky130_fd_sc_hd__or4_2 are equivalent.
+
+Subcircuit summary:
+Circuit 1: sky130_fd_sc_hd__or2_1          |Circuit 2: sky130_fd_sc_hd__or2_1          
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (3)                |sky130_fd_pr__nfet_01v8 (3)                
+sky130_fd_pr__pfet_01v8_hvt (3)            |sky130_fd_pr__pfet_01v8_hvt (3)            
+Number of devices: 6                       |Number of devices: 6                       
+Number of nets: 9                          |Number of nets: 9                          
+---------------------------------------------------------------------------------------
+Circuits match uniquely.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__or2_1          |Circuit 2: sky130_fd_sc_hd__or2_1          
+-------------------------------------------|-------------------------------------------
+A                                          |A                                          
+VPWR                                       |VPWR                                       
+X                                          |X                                          
+B                                          |B                                          
+VPB                                        |VPB                                        
+VGND                                       |VGND                                       
+VNB                                        |VNB                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__or2_1 and sky130_fd_sc_hd__or2_1 are equivalent.
+
+Subcircuit summary:
+Circuit 1: sky130_fd_sc_hd__nand3b_1       |Circuit 2: sky130_fd_sc_hd__nand3b_1       
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8_hvt (4)            |sky130_fd_pr__pfet_01v8_hvt (4)            
+sky130_fd_pr__nfet_01v8 (4)                |sky130_fd_pr__nfet_01v8 (4)                
+Number of devices: 8                       |Number of devices: 8                       
+Number of nets: 11                         |Number of nets: 11                         
+---------------------------------------------------------------------------------------
+Circuits match uniquely.
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__nand3b_1       |Circuit 2: sky130_fd_sc_hd__nand3b_1       
+-------------------------------------------|-------------------------------------------
+A_N                                        |A_N                                        
+VGND                                       |VGND                                       
+B                                          |B                                          
+C                                          |C                                          
+VNB                                        |VNB                                        
+VPWR                                       |VPWR                                       
+VPB                                        |VPB                                        
+Y                                          |Y                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__nand3b_1 and sky130_fd_sc_hd__nand3b_1 are equivalent.
+
+Cell user_project_wrapper (0) disconnected node: analog_io[0]
+Cell user_project_wrapper (0) disconnected node: analog_io[10]
+Cell user_project_wrapper (0) disconnected node: analog_io[11]
+Cell user_project_wrapper (0) disconnected node: analog_io[12]
+Cell user_project_wrapper (0) disconnected node: analog_io[13]
+Cell user_project_wrapper (0) disconnected node: analog_io[14]
+Cell user_project_wrapper (0) disconnected node: analog_io[15]
+Cell user_project_wrapper (0) disconnected node: analog_io[16]
+Cell user_project_wrapper (0) disconnected node: analog_io[17]
+Cell user_project_wrapper (0) disconnected node: analog_io[18]
+Cell user_project_wrapper (0) disconnected node: analog_io[19]
+Cell user_project_wrapper (0) disconnected node: analog_io[1]
+Cell user_project_wrapper (0) disconnected node: analog_io[20]
+Cell user_project_wrapper (0) disconnected node: analog_io[21]
+Cell user_project_wrapper (0) disconnected node: analog_io[22]
+Cell user_project_wrapper (0) disconnected node: analog_io[23]
+Cell user_project_wrapper (0) disconnected node: analog_io[24]
+Cell user_project_wrapper (0) disconnected node: analog_io[25]
+Cell user_project_wrapper (0) disconnected node: analog_io[26]
+Cell user_project_wrapper (0) disconnected node: analog_io[27]
+Cell user_project_wrapper (0) disconnected node: analog_io[28]
+Cell user_project_wrapper (0) disconnected node: analog_io[2]
+Cell user_project_wrapper (0) disconnected node: analog_io[3]
+Cell user_project_wrapper (0) disconnected node: analog_io[4]
+Cell user_project_wrapper (0) disconnected node: analog_io[5]
+Cell user_project_wrapper (0) disconnected node: analog_io[6]
+Cell user_project_wrapper (0) disconnected node: analog_io[7]
+Cell user_project_wrapper (0) disconnected node: analog_io[8]
+Cell user_project_wrapper (0) disconnected node: analog_io[9]
+Cell user_project_wrapper (0) disconnected node: io_in[0]
+Cell user_project_wrapper (0) disconnected node: io_in[10]
+Cell user_project_wrapper (0) disconnected node: io_in[11]
+Cell user_project_wrapper (0) disconnected node: io_in[12]
+Cell user_project_wrapper (0) disconnected node: io_in[13]
+Cell user_project_wrapper (0) disconnected node: io_in[14]
+Cell user_project_wrapper (0) disconnected node: io_in[15]
+Cell user_project_wrapper (0) disconnected node: io_in[16]
+Cell user_project_wrapper (0) disconnected node: io_in[17]
+Cell user_project_wrapper (0) disconnected node: io_in[18]
+Cell user_project_wrapper (0) disconnected node: io_in[19]
+Cell user_project_wrapper (0) disconnected node: io_in[1]
+Cell user_project_wrapper (0) disconnected node: io_in[20]
+Cell user_project_wrapper (0) disconnected node: io_in[21]
+Cell user_project_wrapper (0) disconnected node: io_in[22]
+Cell user_project_wrapper (0) disconnected node: io_in[23]
+Cell user_project_wrapper (0) disconnected node: io_in[24]
+Cell user_project_wrapper (0) disconnected node: io_in[25]
+Cell user_project_wrapper (0) disconnected node: io_in[26]
+Cell user_project_wrapper (0) disconnected node: io_in[27]
+Cell user_project_wrapper (0) disconnected node: io_in[28]
+Cell user_project_wrapper (0) disconnected node: io_in[29]
+Cell user_project_wrapper (0) disconnected node: io_in[2]
+Cell user_project_wrapper (0) disconnected node: io_in[30]
+Cell user_project_wrapper (0) disconnected node: io_in[31]
+Cell user_project_wrapper (0) disconnected node: io_in[32]
+Cell user_project_wrapper (0) disconnected node: io_in[33]
+Cell user_project_wrapper (0) disconnected node: io_in[34]
+Cell user_project_wrapper (0) disconnected node: io_in[35]
+Cell user_project_wrapper (0) disconnected node: io_in[36]
+Cell user_project_wrapper (0) disconnected node: io_in[37]
+Cell user_project_wrapper (0) disconnected node: io_in[3]
+Cell user_project_wrapper (0) disconnected node: io_in[4]
+Cell user_project_wrapper (0) disconnected node: io_in[5]
+Cell user_project_wrapper (0) disconnected node: io_in[6]
+Cell user_project_wrapper (0) disconnected node: io_in[7]
+Cell user_project_wrapper (0) disconnected node: io_in[8]
+Cell user_project_wrapper (0) disconnected node: io_in[9]
+Cell user_project_wrapper (0) disconnected node: la_data_in[0]
+Cell user_project_wrapper (0) disconnected node: la_data_in[100]
+Cell user_project_wrapper (0) disconnected node: la_data_in[101]
+Cell user_project_wrapper (0) disconnected node: la_data_in[102]
+Cell user_project_wrapper (0) disconnected node: la_data_in[103]
+Cell user_project_wrapper (0) disconnected node: la_data_in[104]
+Cell user_project_wrapper (0) disconnected node: la_data_in[105]
+Cell user_project_wrapper (0) disconnected node: la_data_in[106]
+Cell user_project_wrapper (0) disconnected node: la_data_in[107]
+Cell user_project_wrapper (0) disconnected node: la_data_in[108]
+Cell user_project_wrapper (0) disconnected node: la_data_in[109]
+Cell user_project_wrapper (0) disconnected node: la_data_in[10]
+Cell user_project_wrapper (0) disconnected node: la_data_in[110]
+Cell user_project_wrapper (0) disconnected node: la_data_in[111]
+Cell user_project_wrapper (0) disconnected node: la_data_in[112]
+Cell user_project_wrapper (0) disconnected node: la_data_in[113]
+Cell user_project_wrapper (0) disconnected node: la_data_in[114]
+Cell user_project_wrapper (0) disconnected node: la_data_in[115]
+Cell user_project_wrapper (0) disconnected node: la_data_in[116]
+Cell user_project_wrapper (0) disconnected node: la_data_in[117]
+Cell user_project_wrapper (0) disconnected node: la_data_in[118]
+Cell user_project_wrapper (0) disconnected node: la_data_in[119]
+Cell user_project_wrapper (0) disconnected node: la_data_in[11]
+Cell user_project_wrapper (0) disconnected node: la_data_in[120]
+Cell user_project_wrapper (0) disconnected node: la_data_in[121]
+Cell user_project_wrapper (0) disconnected node: la_data_in[122]
+Cell user_project_wrapper (0) disconnected node: la_data_in[123]
+Cell user_project_wrapper (0) disconnected node: la_data_in[124]
+Cell user_project_wrapper (0) disconnected node: la_data_in[125]
+Cell user_project_wrapper (0) disconnected node: la_data_in[126]
+Cell user_project_wrapper (0) disconnected node: la_data_in[127]
+Cell user_project_wrapper (0) disconnected node: la_data_in[12]
+Cell user_project_wrapper (0) disconnected node: la_data_in[13]
+Cell user_project_wrapper (0) disconnected node: la_data_in[14]
+Cell user_project_wrapper (0) disconnected node: la_data_in[15]
+Cell user_project_wrapper (0) disconnected node: la_data_in[16]
+Cell user_project_wrapper (0) disconnected node: la_data_in[17]
+Cell user_project_wrapper (0) disconnected node: la_data_in[18]
+Cell user_project_wrapper (0) disconnected node: la_data_in[19]
+Cell user_project_wrapper (0) disconnected node: la_data_in[1]
+Cell user_project_wrapper (0) disconnected node: la_data_in[20]
+Cell user_project_wrapper (0) disconnected node: la_data_in[21]
+Cell user_project_wrapper (0) disconnected node: la_data_in[22]
+Cell user_project_wrapper (0) disconnected node: la_data_in[23]
+Cell user_project_wrapper (0) disconnected node: la_data_in[24]
+Cell user_project_wrapper (0) disconnected node: la_data_in[25]
+Cell user_project_wrapper (0) disconnected node: la_data_in[26]
+Cell user_project_wrapper (0) disconnected node: la_data_in[27]
+Cell user_project_wrapper (0) disconnected node: la_data_in[28]
+Cell user_project_wrapper (0) disconnected node: la_data_in[29]
+Cell user_project_wrapper (0) disconnected node: la_data_in[2]
+Cell user_project_wrapper (0) disconnected node: la_data_in[30]
+Cell user_project_wrapper (0) disconnected node: la_data_in[31]
+Cell user_project_wrapper (0) disconnected node: la_data_in[32]
+Cell user_project_wrapper (0) disconnected node: la_data_in[33]
+Cell user_project_wrapper (0) disconnected node: la_data_in[34]
+Cell user_project_wrapper (0) disconnected node: la_data_in[35]
+Cell user_project_wrapper (0) disconnected node: la_data_in[36]
+Cell user_project_wrapper (0) disconnected node: la_data_in[37]
+Cell user_project_wrapper (0) disconnected node: la_data_in[38]
+Cell user_project_wrapper (0) disconnected node: la_data_in[39]
+Cell user_project_wrapper (0) disconnected node: la_data_in[3]
+Cell user_project_wrapper (0) disconnected node: la_data_in[40]
+Cell user_project_wrapper (0) disconnected node: la_data_in[41]
+Cell user_project_wrapper (0) disconnected node: la_data_in[42]
+Cell user_project_wrapper (0) disconnected node: la_data_in[43]
+Cell user_project_wrapper (0) disconnected node: la_data_in[44]
+Cell user_project_wrapper (0) disconnected node: la_data_in[45]
+Cell user_project_wrapper (0) disconnected node: la_data_in[46]
+Cell user_project_wrapper (0) disconnected node: la_data_in[47]
+Cell user_project_wrapper (0) disconnected node: la_data_in[48]
+Cell user_project_wrapper (0) disconnected node: la_data_in[49]
+Cell user_project_wrapper (0) disconnected node: la_data_in[4]
+Cell user_project_wrapper (0) disconnected node: la_data_in[50]
+Cell user_project_wrapper (0) disconnected node: la_data_in[51]
+Cell user_project_wrapper (0) disconnected node: la_data_in[52]
+Cell user_project_wrapper (0) disconnected node: la_data_in[53]
+Cell user_project_wrapper (0) disconnected node: la_data_in[54]
+Cell user_project_wrapper (0) disconnected node: la_data_in[55]
+Cell user_project_wrapper (0) disconnected node: la_data_in[56]
+Cell user_project_wrapper (0) disconnected node: la_data_in[57]
+Cell user_project_wrapper (0) disconnected node: la_data_in[58]
+Cell user_project_wrapper (0) disconnected node: la_data_in[59]
+Cell user_project_wrapper (0) disconnected node: la_data_in[5]
+Cell user_project_wrapper (0) disconnected node: la_data_in[60]
+Cell user_project_wrapper (0) disconnected node: la_data_in[61]
+Cell user_project_wrapper (0) disconnected node: la_data_in[62]
+Cell user_project_wrapper (0) disconnected node: la_data_in[63]
+Cell user_project_wrapper (0) disconnected node: la_data_in[66]
+Cell user_project_wrapper (0) disconnected node: la_data_in[67]
+Cell user_project_wrapper (0) disconnected node: la_data_in[68]
+Cell user_project_wrapper (0) disconnected node: la_data_in[69]
+Cell user_project_wrapper (0) disconnected node: la_data_in[6]
+Cell user_project_wrapper (0) disconnected node: la_data_in[70]
+Cell user_project_wrapper (0) disconnected node: la_data_in[71]
+Cell user_project_wrapper (0) disconnected node: la_data_in[72]
+Cell user_project_wrapper (0) disconnected node: la_data_in[73]
+Cell user_project_wrapper (0) disconnected node: la_data_in[74]
+Cell user_project_wrapper (0) disconnected node: la_data_in[75]
+Cell user_project_wrapper (0) disconnected node: la_data_in[76]
+Cell user_project_wrapper (0) disconnected node: la_data_in[77]
+Cell user_project_wrapper (0) disconnected node: la_data_in[78]
+Cell user_project_wrapper (0) disconnected node: la_data_in[79]
+Cell user_project_wrapper (0) disconnected node: la_data_in[7]
+Cell user_project_wrapper (0) disconnected node: la_data_in[80]
+Cell user_project_wrapper (0) disconnected node: la_data_in[81]
+Cell user_project_wrapper (0) disconnected node: la_data_in[82]
+Cell user_project_wrapper (0) disconnected node: la_data_in[83]
+Cell user_project_wrapper (0) disconnected node: la_data_in[84]
+Cell user_project_wrapper (0) disconnected node: la_data_in[85]
+Cell user_project_wrapper (0) disconnected node: la_data_in[86]
+Cell user_project_wrapper (0) disconnected node: la_data_in[87]
+Cell user_project_wrapper (0) disconnected node: la_data_in[88]
+Cell user_project_wrapper (0) disconnected node: la_data_in[89]
+Cell user_project_wrapper (0) disconnected node: la_data_in[8]
+Cell user_project_wrapper (0) disconnected node: la_data_in[90]
+Cell user_project_wrapper (0) disconnected node: la_data_in[91]
+Cell user_project_wrapper (0) disconnected node: la_data_in[92]
+Cell user_project_wrapper (0) disconnected node: la_data_in[93]
+Cell user_project_wrapper (0) disconnected node: la_data_in[94]
+Cell user_project_wrapper (0) disconnected node: la_data_in[95]
+Cell user_project_wrapper (0) disconnected node: la_data_in[96]
+Cell user_project_wrapper (0) disconnected node: la_data_in[97]
+Cell user_project_wrapper (0) disconnected node: la_data_in[98]
+Cell user_project_wrapper (0) disconnected node: la_data_in[99]
+Cell user_project_wrapper (0) disconnected node: la_data_in[9]
+Cell user_project_wrapper (0) disconnected node: la_oenb[0]
+Cell user_project_wrapper (0) disconnected node: la_oenb[100]
+Cell user_project_wrapper (0) disconnected node: la_oenb[101]
+Cell user_project_wrapper (0) disconnected node: la_oenb[102]
+Cell user_project_wrapper (0) disconnected node: la_oenb[103]
+Cell user_project_wrapper (0) disconnected node: la_oenb[104]
+Cell user_project_wrapper (0) disconnected node: la_oenb[105]
+Cell user_project_wrapper (0) disconnected node: la_oenb[106]
+Cell user_project_wrapper (0) disconnected node: la_oenb[107]
+Cell user_project_wrapper (0) disconnected node: la_oenb[108]
+Cell user_project_wrapper (0) disconnected node: la_oenb[109]
+Cell user_project_wrapper (0) disconnected node: la_oenb[10]
+Cell user_project_wrapper (0) disconnected node: la_oenb[110]
+Cell user_project_wrapper (0) disconnected node: la_oenb[111]
+Cell user_project_wrapper (0) disconnected node: la_oenb[112]
+Cell user_project_wrapper (0) disconnected node: la_oenb[113]
+Cell user_project_wrapper (0) disconnected node: la_oenb[114]
+Cell user_project_wrapper (0) disconnected node: la_oenb[115]
+Cell user_project_wrapper (0) disconnected node: la_oenb[116]
+Cell user_project_wrapper (0) disconnected node: la_oenb[117]
+Cell user_project_wrapper (0) disconnected node: la_oenb[118]
+Cell user_project_wrapper (0) disconnected node: la_oenb[119]
+Cell user_project_wrapper (0) disconnected node: la_oenb[11]
+Cell user_project_wrapper (0) disconnected node: la_oenb[120]
+Cell user_project_wrapper (0) disconnected node: la_oenb[121]
+Cell user_project_wrapper (0) disconnected node: la_oenb[122]
+Cell user_project_wrapper (0) disconnected node: la_oenb[123]
+Cell user_project_wrapper (0) disconnected node: la_oenb[124]
+Cell user_project_wrapper (0) disconnected node: la_oenb[125]
+Cell user_project_wrapper (0) disconnected node: la_oenb[126]
+Cell user_project_wrapper (0) disconnected node: la_oenb[127]
+Cell user_project_wrapper (0) disconnected node: la_oenb[12]
+Cell user_project_wrapper (0) disconnected node: la_oenb[13]
+Cell user_project_wrapper (0) disconnected node: la_oenb[14]
+Cell user_project_wrapper (0) disconnected node: la_oenb[15]
+Cell user_project_wrapper (0) disconnected node: la_oenb[16]
+Cell user_project_wrapper (0) disconnected node: la_oenb[17]
+Cell user_project_wrapper (0) disconnected node: la_oenb[18]
+Cell user_project_wrapper (0) disconnected node: la_oenb[19]
+Cell user_project_wrapper (0) disconnected node: la_oenb[1]
+Cell user_project_wrapper (0) disconnected node: la_oenb[20]
+Cell user_project_wrapper (0) disconnected node: la_oenb[21]
+Cell user_project_wrapper (0) disconnected node: la_oenb[22]
+Cell user_project_wrapper (0) disconnected node: la_oenb[23]
+Cell user_project_wrapper (0) disconnected node: la_oenb[24]
+Cell user_project_wrapper (0) disconnected node: la_oenb[25]
+Cell user_project_wrapper (0) disconnected node: la_oenb[26]
+Cell user_project_wrapper (0) disconnected node: la_oenb[27]
+Cell user_project_wrapper (0) disconnected node: la_oenb[28]
+Cell user_project_wrapper (0) disconnected node: la_oenb[29]
+Cell user_project_wrapper (0) disconnected node: la_oenb[2]
+Cell user_project_wrapper (0) disconnected node: la_oenb[30]
+Cell user_project_wrapper (0) disconnected node: la_oenb[31]
+Cell user_project_wrapper (0) disconnected node: la_oenb[32]
+Cell user_project_wrapper (0) disconnected node: la_oenb[33]
+Cell user_project_wrapper (0) disconnected node: la_oenb[34]
+Cell user_project_wrapper (0) disconnected node: la_oenb[35]
+Cell user_project_wrapper (0) disconnected node: la_oenb[36]
+Cell user_project_wrapper (0) disconnected node: la_oenb[37]
+Cell user_project_wrapper (0) disconnected node: la_oenb[38]
+Cell user_project_wrapper (0) disconnected node: la_oenb[39]
+Cell user_project_wrapper (0) disconnected node: la_oenb[3]
+Cell user_project_wrapper (0) disconnected node: la_oenb[40]
+Cell user_project_wrapper (0) disconnected node: la_oenb[41]
+Cell user_project_wrapper (0) disconnected node: la_oenb[42]
+Cell user_project_wrapper (0) disconnected node: la_oenb[43]
+Cell user_project_wrapper (0) disconnected node: la_oenb[44]
+Cell user_project_wrapper (0) disconnected node: la_oenb[45]
+Cell user_project_wrapper (0) disconnected node: la_oenb[46]
+Cell user_project_wrapper (0) disconnected node: la_oenb[47]
+Cell user_project_wrapper (0) disconnected node: la_oenb[48]
+Cell user_project_wrapper (0) disconnected node: la_oenb[49]
+Cell user_project_wrapper (0) disconnected node: la_oenb[4]
+Cell user_project_wrapper (0) disconnected node: la_oenb[50]
+Cell user_project_wrapper (0) disconnected node: la_oenb[51]
+Cell user_project_wrapper (0) disconnected node: la_oenb[52]
+Cell user_project_wrapper (0) disconnected node: la_oenb[53]
+Cell user_project_wrapper (0) disconnected node: la_oenb[54]
+Cell user_project_wrapper (0) disconnected node: la_oenb[55]
+Cell user_project_wrapper (0) disconnected node: la_oenb[56]
+Cell user_project_wrapper (0) disconnected node: la_oenb[57]
+Cell user_project_wrapper (0) disconnected node: la_oenb[58]
+Cell user_project_wrapper (0) disconnected node: la_oenb[59]
+Cell user_project_wrapper (0) disconnected node: la_oenb[5]
+Cell user_project_wrapper (0) disconnected node: la_oenb[60]
+Cell user_project_wrapper (0) disconnected node: la_oenb[61]
+Cell user_project_wrapper (0) disconnected node: la_oenb[62]
+Cell user_project_wrapper (0) disconnected node: la_oenb[63]
+Cell user_project_wrapper (0) disconnected node: la_oenb[66]
+Cell user_project_wrapper (0) disconnected node: la_oenb[67]
+Cell user_project_wrapper (0) disconnected node: la_oenb[68]
+Cell user_project_wrapper (0) disconnected node: la_oenb[69]
+Cell user_project_wrapper (0) disconnected node: la_oenb[6]
+Cell user_project_wrapper (0) disconnected node: la_oenb[70]
+Cell user_project_wrapper (0) disconnected node: la_oenb[71]
+Cell user_project_wrapper (0) disconnected node: la_oenb[72]
+Cell user_project_wrapper (0) disconnected node: la_oenb[73]
+Cell user_project_wrapper (0) disconnected node: la_oenb[74]
+Cell user_project_wrapper (0) disconnected node: la_oenb[75]
+Cell user_project_wrapper (0) disconnected node: la_oenb[76]
+Cell user_project_wrapper (0) disconnected node: la_oenb[77]
+Cell user_project_wrapper (0) disconnected node: la_oenb[78]
+Cell user_project_wrapper (0) disconnected node: la_oenb[79]
+Cell user_project_wrapper (0) disconnected node: la_oenb[7]
+Cell user_project_wrapper (0) disconnected node: la_oenb[80]
+Cell user_project_wrapper (0) disconnected node: la_oenb[81]
+Cell user_project_wrapper (0) disconnected node: la_oenb[82]
+Cell user_project_wrapper (0) disconnected node: la_oenb[83]
+Cell user_project_wrapper (0) disconnected node: la_oenb[84]
+Cell user_project_wrapper (0) disconnected node: la_oenb[85]
+Cell user_project_wrapper (0) disconnected node: la_oenb[86]
+Cell user_project_wrapper (0) disconnected node: la_oenb[87]
+Cell user_project_wrapper (0) disconnected node: la_oenb[88]
+Cell user_project_wrapper (0) disconnected node: la_oenb[89]
+Cell user_project_wrapper (0) disconnected node: la_oenb[8]
+Cell user_project_wrapper (0) disconnected node: la_oenb[90]
+Cell user_project_wrapper (0) disconnected node: la_oenb[91]
+Cell user_project_wrapper (0) disconnected node: la_oenb[92]
+Cell user_project_wrapper (0) disconnected node: la_oenb[93]
+Cell user_project_wrapper (0) disconnected node: la_oenb[94]
+Cell user_project_wrapper (0) disconnected node: la_oenb[95]
+Cell user_project_wrapper (0) disconnected node: la_oenb[96]
+Cell user_project_wrapper (0) disconnected node: la_oenb[97]
+Cell user_project_wrapper (0) disconnected node: la_oenb[98]
+Cell user_project_wrapper (0) disconnected node: la_oenb[99]
+Cell user_project_wrapper (0) disconnected node: la_oenb[9]
+Cell user_project_wrapper (0) disconnected node: user_clock2
+Cell user_project_wrapper (0) disconnected node: vccd2
+Cell user_project_wrapper (0) disconnected node: vdda1
+Cell user_project_wrapper (0) disconnected node: vdda2
+Cell user_project_wrapper (0) disconnected node: vssa1
+Cell user_project_wrapper (0) disconnected node: vssa2
+Cell user_project_wrapper (0) disconnected node: vssd2
+Cell user_project_wrapper (0) disconnected node: wbs_adr_i[0]
+Cell user_project_wrapper (0) disconnected node: wbs_adr_i[13]
+Cell user_project_wrapper (0) disconnected node: wbs_adr_i[14]
+Cell user_project_wrapper (0) disconnected node: wbs_adr_i[15]
+Cell user_project_wrapper (0) disconnected node: wbs_adr_i[16]
+Cell user_project_wrapper (0) disconnected node: wbs_adr_i[17]
+Cell user_project_wrapper (0) disconnected node: wbs_adr_i[18]
+Cell user_project_wrapper (0) disconnected node: wbs_adr_i[19]
+Cell user_project_wrapper (0) disconnected node: wbs_adr_i[1]
+Cell user_project_wrapper (0) disconnected node: wbs_adr_i[20]
+Cell user_project_wrapper (0) disconnected node: wbs_adr_i[21]
+Cell user_project_wrapper (0) disconnected node: wbs_adr_i[22]
+Cell user_project_wrapper (0) disconnected node: wbs_adr_i[23]
+Cell user_project_wrapper (0) disconnected node: wbs_adr_i[24]
+Cell user_project_wrapper (0) disconnected node: wbs_adr_i[25]
+Cell user_project_wrapper (0) disconnected node: wbs_adr_i[26]
+Cell user_project_wrapper (0) disconnected node: wbs_adr_i[27]
+Cell user_project_wrapper (0) disconnected node: wbs_adr_i[28]
+Cell user_project_wrapper (0) disconnected node: wbs_adr_i[29]
+Cell user_project_wrapper (0) disconnected node: wbs_adr_i[30]
+Cell user_project_wrapper (0) disconnected node: wbs_adr_i[31]
+Cell user_project_wrapper (0) disconnected node: wbs_sel_i[0]
+Cell user_project_wrapper (0) disconnected node: wbs_sel_i[1]
+Cell user_project_wrapper (0) disconnected node: wbs_sel_i[2]
+Cell user_project_wrapper (0) disconnected node: wbs_sel_i[3]
+Cell user_project_wrapper (1) disconnected node: user_clock2
+Cell user_project_wrapper (1) disconnected node: vccd2
+Cell user_project_wrapper (1) disconnected node: vdda1
+Cell user_project_wrapper (1) disconnected node: vdda2
+Cell user_project_wrapper (1) disconnected node: vssa1
+Cell user_project_wrapper (1) disconnected node: vssa2
+Cell user_project_wrapper (1) disconnected node: vssd2
+Cell user_project_wrapper (1) disconnected node: analog_io[28]
+Cell user_project_wrapper (1) disconnected node: analog_io[27]
+Cell user_project_wrapper (1) disconnected node: analog_io[26]
+Cell user_project_wrapper (1) disconnected node: analog_io[25]
+Cell user_project_wrapper (1) disconnected node: analog_io[24]
+Cell user_project_wrapper (1) disconnected node: analog_io[23]
+Cell user_project_wrapper (1) disconnected node: analog_io[22]
+Cell user_project_wrapper (1) disconnected node: analog_io[21]
+Cell user_project_wrapper (1) disconnected node: analog_io[20]
+Cell user_project_wrapper (1) disconnected node: analog_io[19]
+Cell user_project_wrapper (1) disconnected node: analog_io[18]
+Cell user_project_wrapper (1) disconnected node: analog_io[17]
+Cell user_project_wrapper (1) disconnected node: analog_io[16]
+Cell user_project_wrapper (1) disconnected node: analog_io[15]
+Cell user_project_wrapper (1) disconnected node: analog_io[14]
+Cell user_project_wrapper (1) disconnected node: analog_io[13]
+Cell user_project_wrapper (1) disconnected node: analog_io[12]
+Cell user_project_wrapper (1) disconnected node: analog_io[11]
+Cell user_project_wrapper (1) disconnected node: analog_io[10]
+Cell user_project_wrapper (1) disconnected node: analog_io[9]
+Cell user_project_wrapper (1) disconnected node: analog_io[8]
+Cell user_project_wrapper (1) disconnected node: analog_io[7]
+Cell user_project_wrapper (1) disconnected node: analog_io[6]
+Cell user_project_wrapper (1) disconnected node: analog_io[5]
+Cell user_project_wrapper (1) disconnected node: analog_io[4]
+Cell user_project_wrapper (1) disconnected node: analog_io[3]
+Cell user_project_wrapper (1) disconnected node: analog_io[2]
+Cell user_project_wrapper (1) disconnected node: analog_io[1]
+Cell user_project_wrapper (1) disconnected node: analog_io[0]
+Cell user_project_wrapper (1) disconnected node: io_in[37]
+Cell user_project_wrapper (1) disconnected node: io_in[36]
+Cell user_project_wrapper (1) disconnected node: io_in[35]
+Cell user_project_wrapper (1) disconnected node: io_in[34]
+Cell user_project_wrapper (1) disconnected node: io_in[33]
+Cell user_project_wrapper (1) disconnected node: io_in[32]
+Cell user_project_wrapper (1) disconnected node: io_in[31]
+Cell user_project_wrapper (1) disconnected node: io_in[30]
+Cell user_project_wrapper (1) disconnected node: io_in[29]
+Cell user_project_wrapper (1) disconnected node: io_in[28]
+Cell user_project_wrapper (1) disconnected node: io_in[27]
+Cell user_project_wrapper (1) disconnected node: io_in[26]
+Cell user_project_wrapper (1) disconnected node: io_in[25]
+Cell user_project_wrapper (1) disconnected node: io_in[24]
+Cell user_project_wrapper (1) disconnected node: io_in[23]
+Cell user_project_wrapper (1) disconnected node: io_in[22]
+Cell user_project_wrapper (1) disconnected node: io_in[21]
+Cell user_project_wrapper (1) disconnected node: io_in[20]
+Cell user_project_wrapper (1) disconnected node: io_in[19]
+Cell user_project_wrapper (1) disconnected node: io_in[18]
+Cell user_project_wrapper (1) disconnected node: io_in[17]
+Cell user_project_wrapper (1) disconnected node: io_in[16]
+Cell user_project_wrapper (1) disconnected node: io_in[15]
+Cell user_project_wrapper (1) disconnected node: io_in[14]
+Cell user_project_wrapper (1) disconnected node: io_in[13]
+Cell user_project_wrapper (1) disconnected node: io_in[12]
+Cell user_project_wrapper (1) disconnected node: io_in[11]
+Cell user_project_wrapper (1) disconnected node: io_in[10]
+Cell user_project_wrapper (1) disconnected node: io_in[9]
+Cell user_project_wrapper (1) disconnected node: io_in[8]
+Cell user_project_wrapper (1) disconnected node: io_in[7]
+Cell user_project_wrapper (1) disconnected node: io_in[6]
+Cell user_project_wrapper (1) disconnected node: io_in[5]
+Cell user_project_wrapper (1) disconnected node: io_in[4]
+Cell user_project_wrapper (1) disconnected node: io_in[3]
+Cell user_project_wrapper (1) disconnected node: io_in[2]
+Cell user_project_wrapper (1) disconnected node: io_in[1]
+Cell user_project_wrapper (1) disconnected node: io_in[0]
+Cell user_project_wrapper (1) disconnected node: la_data_in[127]
+Cell user_project_wrapper (1) disconnected node: la_data_in[126]
+Cell user_project_wrapper (1) disconnected node: la_data_in[125]
+Cell user_project_wrapper (1) disconnected node: la_data_in[124]
+Cell user_project_wrapper (1) disconnected node: la_data_in[123]
+Cell user_project_wrapper (1) disconnected node: la_data_in[122]
+Cell user_project_wrapper (1) disconnected node: la_data_in[121]
+Cell user_project_wrapper (1) disconnected node: la_data_in[120]
+Cell user_project_wrapper (1) disconnected node: la_data_in[119]
+Cell user_project_wrapper (1) disconnected node: la_data_in[118]
+Cell user_project_wrapper (1) disconnected node: la_data_in[117]
+Cell user_project_wrapper (1) disconnected node: la_data_in[116]
+Cell user_project_wrapper (1) disconnected node: la_data_in[115]
+Cell user_project_wrapper (1) disconnected node: la_data_in[114]
+Cell user_project_wrapper (1) disconnected node: la_data_in[113]
+Cell user_project_wrapper (1) disconnected node: la_data_in[112]
+Cell user_project_wrapper (1) disconnected node: la_data_in[111]
+Cell user_project_wrapper (1) disconnected node: la_data_in[110]
+Cell user_project_wrapper (1) disconnected node: la_data_in[109]
+Cell user_project_wrapper (1) disconnected node: la_data_in[108]
+Cell user_project_wrapper (1) disconnected node: la_data_in[107]
+Cell user_project_wrapper (1) disconnected node: la_data_in[106]
+Cell user_project_wrapper (1) disconnected node: la_data_in[105]
+Cell user_project_wrapper (1) disconnected node: la_data_in[104]
+Cell user_project_wrapper (1) disconnected node: la_data_in[103]
+Cell user_project_wrapper (1) disconnected node: la_data_in[102]
+Cell user_project_wrapper (1) disconnected node: la_data_in[101]
+Cell user_project_wrapper (1) disconnected node: la_data_in[100]
+Cell user_project_wrapper (1) disconnected node: la_data_in[99]
+Cell user_project_wrapper (1) disconnected node: la_data_in[98]
+Cell user_project_wrapper (1) disconnected node: la_data_in[97]
+Cell user_project_wrapper (1) disconnected node: la_data_in[96]
+Cell user_project_wrapper (1) disconnected node: la_data_in[95]
+Cell user_project_wrapper (1) disconnected node: la_data_in[94]
+Cell user_project_wrapper (1) disconnected node: la_data_in[93]
+Cell user_project_wrapper (1) disconnected node: la_data_in[92]
+Cell user_project_wrapper (1) disconnected node: la_data_in[91]
+Cell user_project_wrapper (1) disconnected node: la_data_in[90]
+Cell user_project_wrapper (1) disconnected node: la_data_in[89]
+Cell user_project_wrapper (1) disconnected node: la_data_in[88]
+Cell user_project_wrapper (1) disconnected node: la_data_in[87]
+Cell user_project_wrapper (1) disconnected node: la_data_in[86]
+Cell user_project_wrapper (1) disconnected node: la_data_in[85]
+Cell user_project_wrapper (1) disconnected node: la_data_in[84]
+Cell user_project_wrapper (1) disconnected node: la_data_in[83]
+Cell user_project_wrapper (1) disconnected node: la_data_in[82]
+Cell user_project_wrapper (1) disconnected node: la_data_in[81]
+Cell user_project_wrapper (1) disconnected node: la_data_in[80]
+Cell user_project_wrapper (1) disconnected node: la_data_in[79]
+Cell user_project_wrapper (1) disconnected node: la_data_in[78]
+Cell user_project_wrapper (1) disconnected node: la_data_in[77]
+Cell user_project_wrapper (1) disconnected node: la_data_in[76]
+Cell user_project_wrapper (1) disconnected node: la_data_in[75]
+Cell user_project_wrapper (1) disconnected node: la_data_in[74]
+Cell user_project_wrapper (1) disconnected node: la_data_in[73]
+Cell user_project_wrapper (1) disconnected node: la_data_in[72]
+Cell user_project_wrapper (1) disconnected node: la_data_in[71]
+Cell user_project_wrapper (1) disconnected node: la_data_in[70]
+Cell user_project_wrapper (1) disconnected node: la_data_in[69]
+Cell user_project_wrapper (1) disconnected node: la_data_in[68]
+Cell user_project_wrapper (1) disconnected node: la_data_in[67]
+Cell user_project_wrapper (1) disconnected node: la_data_in[66]
+Cell user_project_wrapper (1) disconnected node: la_data_in[63]
+Cell user_project_wrapper (1) disconnected node: la_data_in[62]
+Cell user_project_wrapper (1) disconnected node: la_data_in[61]
+Cell user_project_wrapper (1) disconnected node: la_data_in[60]
+Cell user_project_wrapper (1) disconnected node: la_data_in[59]
+Cell user_project_wrapper (1) disconnected node: la_data_in[58]
+Cell user_project_wrapper (1) disconnected node: la_data_in[57]
+Cell user_project_wrapper (1) disconnected node: la_data_in[56]
+Cell user_project_wrapper (1) disconnected node: la_data_in[55]
+Cell user_project_wrapper (1) disconnected node: la_data_in[54]
+Cell user_project_wrapper (1) disconnected node: la_data_in[53]
+Cell user_project_wrapper (1) disconnected node: la_data_in[52]
+Cell user_project_wrapper (1) disconnected node: la_data_in[51]
+Cell user_project_wrapper (1) disconnected node: la_data_in[50]
+Cell user_project_wrapper (1) disconnected node: la_data_in[49]
+Cell user_project_wrapper (1) disconnected node: la_data_in[48]
+Cell user_project_wrapper (1) disconnected node: la_data_in[47]
+Cell user_project_wrapper (1) disconnected node: la_data_in[46]
+Cell user_project_wrapper (1) disconnected node: la_data_in[45]
+Cell user_project_wrapper (1) disconnected node: la_data_in[44]
+Cell user_project_wrapper (1) disconnected node: la_data_in[43]
+Cell user_project_wrapper (1) disconnected node: la_data_in[42]
+Cell user_project_wrapper (1) disconnected node: la_data_in[41]
+Cell user_project_wrapper (1) disconnected node: la_data_in[40]
+Cell user_project_wrapper (1) disconnected node: la_data_in[39]
+Cell user_project_wrapper (1) disconnected node: la_data_in[38]
+Cell user_project_wrapper (1) disconnected node: la_data_in[37]
+Cell user_project_wrapper (1) disconnected node: la_data_in[36]
+Cell user_project_wrapper (1) disconnected node: la_data_in[35]
+Cell user_project_wrapper (1) disconnected node: la_data_in[34]
+Cell user_project_wrapper (1) disconnected node: la_data_in[33]
+Cell user_project_wrapper (1) disconnected node: la_data_in[32]
+Cell user_project_wrapper (1) disconnected node: la_data_in[31]
+Cell user_project_wrapper (1) disconnected node: la_data_in[30]
+Cell user_project_wrapper (1) disconnected node: la_data_in[29]
+Cell user_project_wrapper (1) disconnected node: la_data_in[28]
+Cell user_project_wrapper (1) disconnected node: la_data_in[27]
+Cell user_project_wrapper (1) disconnected node: la_data_in[26]
+Cell user_project_wrapper (1) disconnected node: la_data_in[25]
+Cell user_project_wrapper (1) disconnected node: la_data_in[24]
+Cell user_project_wrapper (1) disconnected node: la_data_in[23]
+Cell user_project_wrapper (1) disconnected node: la_data_in[22]
+Cell user_project_wrapper (1) disconnected node: la_data_in[21]
+Cell user_project_wrapper (1) disconnected node: la_data_in[20]
+Cell user_project_wrapper (1) disconnected node: la_data_in[19]
+Cell user_project_wrapper (1) disconnected node: la_data_in[18]
+Cell user_project_wrapper (1) disconnected node: la_data_in[17]
+Cell user_project_wrapper (1) disconnected node: la_data_in[16]
+Cell user_project_wrapper (1) disconnected node: la_data_in[15]
+Cell user_project_wrapper (1) disconnected node: la_data_in[14]
+Cell user_project_wrapper (1) disconnected node: la_data_in[13]
+Cell user_project_wrapper (1) disconnected node: la_data_in[12]
+Cell user_project_wrapper (1) disconnected node: la_data_in[11]
+Cell user_project_wrapper (1) disconnected node: la_data_in[10]
+Cell user_project_wrapper (1) disconnected node: la_data_in[9]
+Cell user_project_wrapper (1) disconnected node: la_data_in[8]
+Cell user_project_wrapper (1) disconnected node: la_data_in[7]
+Cell user_project_wrapper (1) disconnected node: la_data_in[6]
+Cell user_project_wrapper (1) disconnected node: la_data_in[5]
+Cell user_project_wrapper (1) disconnected node: la_data_in[4]
+Cell user_project_wrapper (1) disconnected node: la_data_in[3]
+Cell user_project_wrapper (1) disconnected node: la_data_in[2]
+Cell user_project_wrapper (1) disconnected node: la_data_in[1]
+Cell user_project_wrapper (1) disconnected node: la_data_in[0]
+Cell user_project_wrapper (1) disconnected node: la_oenb[127]
+Cell user_project_wrapper (1) disconnected node: la_oenb[126]
+Cell user_project_wrapper (1) disconnected node: la_oenb[125]
+Cell user_project_wrapper (1) disconnected node: la_oenb[124]
+Cell user_project_wrapper (1) disconnected node: la_oenb[123]
+Cell user_project_wrapper (1) disconnected node: la_oenb[122]
+Cell user_project_wrapper (1) disconnected node: la_oenb[121]
+Cell user_project_wrapper (1) disconnected node: la_oenb[120]
+Cell user_project_wrapper (1) disconnected node: la_oenb[119]
+Cell user_project_wrapper (1) disconnected node: la_oenb[118]
+Cell user_project_wrapper (1) disconnected node: la_oenb[117]
+Cell user_project_wrapper (1) disconnected node: la_oenb[116]
+Cell user_project_wrapper (1) disconnected node: la_oenb[115]
+Cell user_project_wrapper (1) disconnected node: la_oenb[114]
+Cell user_project_wrapper (1) disconnected node: la_oenb[113]
+Cell user_project_wrapper (1) disconnected node: la_oenb[112]
+Cell user_project_wrapper (1) disconnected node: la_oenb[111]
+Cell user_project_wrapper (1) disconnected node: la_oenb[110]
+Cell user_project_wrapper (1) disconnected node: la_oenb[109]
+Cell user_project_wrapper (1) disconnected node: la_oenb[108]
+Cell user_project_wrapper (1) disconnected node: la_oenb[107]
+Cell user_project_wrapper (1) disconnected node: la_oenb[106]
+Cell user_project_wrapper (1) disconnected node: la_oenb[105]
+Cell user_project_wrapper (1) disconnected node: la_oenb[104]
+Cell user_project_wrapper (1) disconnected node: la_oenb[103]
+Cell user_project_wrapper (1) disconnected node: la_oenb[102]
+Cell user_project_wrapper (1) disconnected node: la_oenb[101]
+Cell user_project_wrapper (1) disconnected node: la_oenb[100]
+Cell user_project_wrapper (1) disconnected node: la_oenb[99]
+Cell user_project_wrapper (1) disconnected node: la_oenb[98]
+Cell user_project_wrapper (1) disconnected node: la_oenb[97]
+Cell user_project_wrapper (1) disconnected node: la_oenb[96]
+Cell user_project_wrapper (1) disconnected node: la_oenb[95]
+Cell user_project_wrapper (1) disconnected node: la_oenb[94]
+Cell user_project_wrapper (1) disconnected node: la_oenb[93]
+Cell user_project_wrapper (1) disconnected node: la_oenb[92]
+Cell user_project_wrapper (1) disconnected node: la_oenb[91]
+Cell user_project_wrapper (1) disconnected node: la_oenb[90]
+Cell user_project_wrapper (1) disconnected node: la_oenb[89]
+Cell user_project_wrapper (1) disconnected node: la_oenb[88]
+Cell user_project_wrapper (1) disconnected node: la_oenb[87]
+Cell user_project_wrapper (1) disconnected node: la_oenb[86]
+Cell user_project_wrapper (1) disconnected node: la_oenb[85]
+Cell user_project_wrapper (1) disconnected node: la_oenb[84]
+Cell user_project_wrapper (1) disconnected node: la_oenb[83]
+Cell user_project_wrapper (1) disconnected node: la_oenb[82]
+Cell user_project_wrapper (1) disconnected node: la_oenb[81]
+Cell user_project_wrapper (1) disconnected node: la_oenb[80]
+Cell user_project_wrapper (1) disconnected node: la_oenb[79]
+Cell user_project_wrapper (1) disconnected node: la_oenb[78]
+Cell user_project_wrapper (1) disconnected node: la_oenb[77]
+Cell user_project_wrapper (1) disconnected node: la_oenb[76]
+Cell user_project_wrapper (1) disconnected node: la_oenb[75]
+Cell user_project_wrapper (1) disconnected node: la_oenb[74]
+Cell user_project_wrapper (1) disconnected node: la_oenb[73]
+Cell user_project_wrapper (1) disconnected node: la_oenb[72]
+Cell user_project_wrapper (1) disconnected node: la_oenb[71]
+Cell user_project_wrapper (1) disconnected node: la_oenb[70]
+Cell user_project_wrapper (1) disconnected node: la_oenb[69]
+Cell user_project_wrapper (1) disconnected node: la_oenb[68]
+Cell user_project_wrapper (1) disconnected node: la_oenb[67]
+Cell user_project_wrapper (1) disconnected node: la_oenb[66]
+Cell user_project_wrapper (1) disconnected node: la_oenb[63]
+Cell user_project_wrapper (1) disconnected node: la_oenb[62]
+Cell user_project_wrapper (1) disconnected node: la_oenb[61]
+Cell user_project_wrapper (1) disconnected node: la_oenb[60]
+Cell user_project_wrapper (1) disconnected node: la_oenb[59]
+Cell user_project_wrapper (1) disconnected node: la_oenb[58]
+Cell user_project_wrapper (1) disconnected node: la_oenb[57]
+Cell user_project_wrapper (1) disconnected node: la_oenb[56]
+Cell user_project_wrapper (1) disconnected node: la_oenb[55]
+Cell user_project_wrapper (1) disconnected node: la_oenb[54]
+Cell user_project_wrapper (1) disconnected node: la_oenb[53]
+Cell user_project_wrapper (1) disconnected node: la_oenb[52]
+Cell user_project_wrapper (1) disconnected node: la_oenb[51]
+Cell user_project_wrapper (1) disconnected node: la_oenb[50]
+Cell user_project_wrapper (1) disconnected node: la_oenb[49]
+Cell user_project_wrapper (1) disconnected node: la_oenb[48]
+Cell user_project_wrapper (1) disconnected node: la_oenb[47]
+Cell user_project_wrapper (1) disconnected node: la_oenb[46]
+Cell user_project_wrapper (1) disconnected node: la_oenb[45]
+Cell user_project_wrapper (1) disconnected node: la_oenb[44]
+Cell user_project_wrapper (1) disconnected node: la_oenb[43]
+Cell user_project_wrapper (1) disconnected node: la_oenb[42]
+Cell user_project_wrapper (1) disconnected node: la_oenb[41]
+Cell user_project_wrapper (1) disconnected node: la_oenb[40]
+Cell user_project_wrapper (1) disconnected node: la_oenb[39]
+Cell user_project_wrapper (1) disconnected node: la_oenb[38]
+Cell user_project_wrapper (1) disconnected node: la_oenb[37]
+Cell user_project_wrapper (1) disconnected node: la_oenb[36]
+Cell user_project_wrapper (1) disconnected node: la_oenb[35]
+Cell user_project_wrapper (1) disconnected node: la_oenb[34]
+Cell user_project_wrapper (1) disconnected node: la_oenb[33]
+Cell user_project_wrapper (1) disconnected node: la_oenb[32]
+Cell user_project_wrapper (1) disconnected node: la_oenb[31]
+Cell user_project_wrapper (1) disconnected node: la_oenb[30]
+Cell user_project_wrapper (1) disconnected node: la_oenb[29]
+Cell user_project_wrapper (1) disconnected node: la_oenb[28]
+Cell user_project_wrapper (1) disconnected node: la_oenb[27]
+Cell user_project_wrapper (1) disconnected node: la_oenb[26]
+Cell user_project_wrapper (1) disconnected node: la_oenb[25]
+Cell user_project_wrapper (1) disconnected node: la_oenb[24]
+Cell user_project_wrapper (1) disconnected node: la_oenb[23]
+Cell user_project_wrapper (1) disconnected node: la_oenb[22]
+Cell user_project_wrapper (1) disconnected node: la_oenb[21]
+Cell user_project_wrapper (1) disconnected node: la_oenb[20]
+Cell user_project_wrapper (1) disconnected node: la_oenb[19]
+Cell user_project_wrapper (1) disconnected node: la_oenb[18]
+Cell user_project_wrapper (1) disconnected node: la_oenb[17]
+Cell user_project_wrapper (1) disconnected node: la_oenb[16]
+Cell user_project_wrapper (1) disconnected node: la_oenb[15]
+Cell user_project_wrapper (1) disconnected node: la_oenb[14]
+Cell user_project_wrapper (1) disconnected node: la_oenb[13]
+Cell user_project_wrapper (1) disconnected node: la_oenb[12]
+Cell user_project_wrapper (1) disconnected node: la_oenb[11]
+Cell user_project_wrapper (1) disconnected node: la_oenb[10]
+Cell user_project_wrapper (1) disconnected node: la_oenb[9]
+Cell user_project_wrapper (1) disconnected node: la_oenb[8]
+Cell user_project_wrapper (1) disconnected node: la_oenb[7]
+Cell user_project_wrapper (1) disconnected node: la_oenb[6]
+Cell user_project_wrapper (1) disconnected node: la_oenb[5]
+Cell user_project_wrapper (1) disconnected node: la_oenb[4]
+Cell user_project_wrapper (1) disconnected node: la_oenb[3]
+Cell user_project_wrapper (1) disconnected node: la_oenb[2]
+Cell user_project_wrapper (1) disconnected node: la_oenb[1]
+Cell user_project_wrapper (1) disconnected node: la_oenb[0]
+Cell user_project_wrapper (1) disconnected node: wbs_adr_i[31]
+Cell user_project_wrapper (1) disconnected node: wbs_adr_i[30]
+Cell user_project_wrapper (1) disconnected node: wbs_adr_i[29]
+Cell user_project_wrapper (1) disconnected node: wbs_adr_i[28]
+Cell user_project_wrapper (1) disconnected node: wbs_adr_i[27]
+Cell user_project_wrapper (1) disconnected node: wbs_adr_i[26]
+Cell user_project_wrapper (1) disconnected node: wbs_adr_i[25]
+Cell user_project_wrapper (1) disconnected node: wbs_adr_i[24]
+Cell user_project_wrapper (1) disconnected node: wbs_adr_i[23]
+Cell user_project_wrapper (1) disconnected node: wbs_adr_i[22]
+Cell user_project_wrapper (1) disconnected node: wbs_adr_i[21]
+Cell user_project_wrapper (1) disconnected node: wbs_adr_i[20]
+Cell user_project_wrapper (1) disconnected node: wbs_adr_i[19]
+Cell user_project_wrapper (1) disconnected node: wbs_adr_i[18]
+Cell user_project_wrapper (1) disconnected node: wbs_adr_i[17]
+Cell user_project_wrapper (1) disconnected node: wbs_adr_i[16]
+Cell user_project_wrapper (1) disconnected node: wbs_adr_i[15]
+Cell user_project_wrapper (1) disconnected node: wbs_adr_i[14]
+Cell user_project_wrapper (1) disconnected node: wbs_adr_i[13]
+Cell user_project_wrapper (1) disconnected node: wbs_adr_i[1]
+Cell user_project_wrapper (1) disconnected node: wbs_adr_i[0]
+Cell user_project_wrapper (1) disconnected node: wbs_sel_i[3]
+Cell user_project_wrapper (1) disconnected node: wbs_sel_i[2]
+Cell user_project_wrapper (1) disconnected node: wbs_sel_i[1]
+Cell user_project_wrapper (1) disconnected node: wbs_sel_i[0]
+Class user_project_wrapper (0):  Merged 640728 parallel devices.
+Class user_project_wrapper (1):  Merged 640728 parallel devices.
+Cell user_project_wrapper (0) disconnected node: analog_io[0]
+Cell user_project_wrapper (0) disconnected node: analog_io[10]
+Cell user_project_wrapper (0) disconnected node: analog_io[11]
+Cell user_project_wrapper (0) disconnected node: analog_io[12]
+Cell user_project_wrapper (0) disconnected node: analog_io[13]
+Cell user_project_wrapper (0) disconnected node: analog_io[14]
+Cell user_project_wrapper (0) disconnected node: analog_io[15]
+Cell user_project_wrapper (0) disconnected node: analog_io[16]
+Cell user_project_wrapper (0) disconnected node: analog_io[17]
+Cell user_project_wrapper (0) disconnected node: analog_io[18]
+Cell user_project_wrapper (0) disconnected node: analog_io[19]
+Cell user_project_wrapper (0) disconnected node: analog_io[1]
+Cell user_project_wrapper (0) disconnected node: analog_io[20]
+Cell user_project_wrapper (0) disconnected node: analog_io[21]
+Cell user_project_wrapper (0) disconnected node: analog_io[22]
+Cell user_project_wrapper (0) disconnected node: analog_io[23]
+Cell user_project_wrapper (0) disconnected node: analog_io[24]
+Cell user_project_wrapper (0) disconnected node: analog_io[25]
+Cell user_project_wrapper (0) disconnected node: analog_io[26]
+Cell user_project_wrapper (0) disconnected node: analog_io[27]
+Cell user_project_wrapper (0) disconnected node: analog_io[28]
+Cell user_project_wrapper (0) disconnected node: analog_io[2]
+Cell user_project_wrapper (0) disconnected node: analog_io[3]
+Cell user_project_wrapper (0) disconnected node: analog_io[4]
+Cell user_project_wrapper (0) disconnected node: analog_io[5]
+Cell user_project_wrapper (0) disconnected node: analog_io[6]
+Cell user_project_wrapper (0) disconnected node: analog_io[7]
+Cell user_project_wrapper (0) disconnected node: analog_io[8]
+Cell user_project_wrapper (0) disconnected node: analog_io[9]
+Cell user_project_wrapper (0) disconnected node: io_in[0]
+Cell user_project_wrapper (0) disconnected node: io_in[10]
+Cell user_project_wrapper (0) disconnected node: io_in[11]
+Cell user_project_wrapper (0) disconnected node: io_in[12]
+Cell user_project_wrapper (0) disconnected node: io_in[13]
+Cell user_project_wrapper (0) disconnected node: io_in[14]
+Cell user_project_wrapper (0) disconnected node: io_in[15]
+Cell user_project_wrapper (0) disconnected node: io_in[16]
+Cell user_project_wrapper (0) disconnected node: io_in[17]
+Cell user_project_wrapper (0) disconnected node: io_in[18]
+Cell user_project_wrapper (0) disconnected node: io_in[19]
+Cell user_project_wrapper (0) disconnected node: io_in[1]
+Cell user_project_wrapper (0) disconnected node: io_in[20]
+Cell user_project_wrapper (0) disconnected node: io_in[21]
+Cell user_project_wrapper (0) disconnected node: io_in[22]
+Cell user_project_wrapper (0) disconnected node: io_in[23]
+Cell user_project_wrapper (0) disconnected node: io_in[24]
+Cell user_project_wrapper (0) disconnected node: io_in[25]
+Cell user_project_wrapper (0) disconnected node: io_in[26]
+Cell user_project_wrapper (0) disconnected node: io_in[27]
+Cell user_project_wrapper (0) disconnected node: io_in[28]
+Cell user_project_wrapper (0) disconnected node: io_in[29]
+Cell user_project_wrapper (0) disconnected node: io_in[2]
+Cell user_project_wrapper (0) disconnected node: io_in[30]
+Cell user_project_wrapper (0) disconnected node: io_in[31]
+Cell user_project_wrapper (0) disconnected node: io_in[32]
+Cell user_project_wrapper (0) disconnected node: io_in[33]
+Cell user_project_wrapper (0) disconnected node: io_in[34]
+Cell user_project_wrapper (0) disconnected node: io_in[35]
+Cell user_project_wrapper (0) disconnected node: io_in[36]
+Cell user_project_wrapper (0) disconnected node: io_in[37]
+Cell user_project_wrapper (0) disconnected node: io_in[3]
+Cell user_project_wrapper (0) disconnected node: io_in[4]
+Cell user_project_wrapper (0) disconnected node: io_in[5]
+Cell user_project_wrapper (0) disconnected node: io_in[6]
+Cell user_project_wrapper (0) disconnected node: io_in[7]
+Cell user_project_wrapper (0) disconnected node: io_in[8]
+Cell user_project_wrapper (0) disconnected node: io_in[9]
+Cell user_project_wrapper (0) disconnected node: la_data_in[0]
+Cell user_project_wrapper (0) disconnected node: la_data_in[100]
+Cell user_project_wrapper (0) disconnected node: la_data_in[101]
+Cell user_project_wrapper (0) disconnected node: la_data_in[102]
+Cell user_project_wrapper (0) disconnected node: la_data_in[103]
+Cell user_project_wrapper (0) disconnected node: la_data_in[104]
+Cell user_project_wrapper (0) disconnected node: la_data_in[105]
+Cell user_project_wrapper (0) disconnected node: la_data_in[106]
+Cell user_project_wrapper (0) disconnected node: la_data_in[107]
+Cell user_project_wrapper (0) disconnected node: la_data_in[108]
+Cell user_project_wrapper (0) disconnected node: la_data_in[109]
+Cell user_project_wrapper (0) disconnected node: la_data_in[10]
+Cell user_project_wrapper (0) disconnected node: la_data_in[110]
+Cell user_project_wrapper (0) disconnected node: la_data_in[111]
+Cell user_project_wrapper (0) disconnected node: la_data_in[112]
+Cell user_project_wrapper (0) disconnected node: la_data_in[113]
+Cell user_project_wrapper (0) disconnected node: la_data_in[114]
+Cell user_project_wrapper (0) disconnected node: la_data_in[115]
+Cell user_project_wrapper (0) disconnected node: la_data_in[116]
+Cell user_project_wrapper (0) disconnected node: la_data_in[117]
+Cell user_project_wrapper (0) disconnected node: la_data_in[118]
+Cell user_project_wrapper (0) disconnected node: la_data_in[119]
+Cell user_project_wrapper (0) disconnected node: la_data_in[11]
+Cell user_project_wrapper (0) disconnected node: la_data_in[120]
+Cell user_project_wrapper (0) disconnected node: la_data_in[121]
+Cell user_project_wrapper (0) disconnected node: la_data_in[122]
+Cell user_project_wrapper (0) disconnected node: la_data_in[123]
+Cell user_project_wrapper (0) disconnected node: la_data_in[124]
+Cell user_project_wrapper (0) disconnected node: la_data_in[125]
+Cell user_project_wrapper (0) disconnected node: la_data_in[126]
+Cell user_project_wrapper (0) disconnected node: la_data_in[127]
+Cell user_project_wrapper (0) disconnected node: la_data_in[12]
+Cell user_project_wrapper (0) disconnected node: la_data_in[13]
+Cell user_project_wrapper (0) disconnected node: la_data_in[14]
+Cell user_project_wrapper (0) disconnected node: la_data_in[15]
+Cell user_project_wrapper (0) disconnected node: la_data_in[16]
+Cell user_project_wrapper (0) disconnected node: la_data_in[17]
+Cell user_project_wrapper (0) disconnected node: la_data_in[18]
+Cell user_project_wrapper (0) disconnected node: la_data_in[19]
+Cell user_project_wrapper (0) disconnected node: la_data_in[1]
+Cell user_project_wrapper (0) disconnected node: la_data_in[20]
+Cell user_project_wrapper (0) disconnected node: la_data_in[21]
+Cell user_project_wrapper (0) disconnected node: la_data_in[22]
+Cell user_project_wrapper (0) disconnected node: la_data_in[23]
+Cell user_project_wrapper (0) disconnected node: la_data_in[24]
+Cell user_project_wrapper (0) disconnected node: la_data_in[25]
+Cell user_project_wrapper (0) disconnected node: la_data_in[26]
+Cell user_project_wrapper (0) disconnected node: la_data_in[27]
+Cell user_project_wrapper (0) disconnected node: la_data_in[28]
+Cell user_project_wrapper (0) disconnected node: la_data_in[29]
+Cell user_project_wrapper (0) disconnected node: la_data_in[2]
+Cell user_project_wrapper (0) disconnected node: la_data_in[30]
+Cell user_project_wrapper (0) disconnected node: la_data_in[31]
+Cell user_project_wrapper (0) disconnected node: la_data_in[32]
+Cell user_project_wrapper (0) disconnected node: la_data_in[33]
+Cell user_project_wrapper (0) disconnected node: la_data_in[34]
+Cell user_project_wrapper (0) disconnected node: la_data_in[35]
+Cell user_project_wrapper (0) disconnected node: la_data_in[36]
+Cell user_project_wrapper (0) disconnected node: la_data_in[37]
+Cell user_project_wrapper (0) disconnected node: la_data_in[38]
+Cell user_project_wrapper (0) disconnected node: la_data_in[39]
+Cell user_project_wrapper (0) disconnected node: la_data_in[3]
+Cell user_project_wrapper (0) disconnected node: la_data_in[40]
+Cell user_project_wrapper (0) disconnected node: la_data_in[41]
+Cell user_project_wrapper (0) disconnected node: la_data_in[42]
+Cell user_project_wrapper (0) disconnected node: la_data_in[43]
+Cell user_project_wrapper (0) disconnected node: la_data_in[44]
+Cell user_project_wrapper (0) disconnected node: la_data_in[45]
+Cell user_project_wrapper (0) disconnected node: la_data_in[46]
+Cell user_project_wrapper (0) disconnected node: la_data_in[47]
+Cell user_project_wrapper (0) disconnected node: la_data_in[48]
+Cell user_project_wrapper (0) disconnected node: la_data_in[49]
+Cell user_project_wrapper (0) disconnected node: la_data_in[4]
+Cell user_project_wrapper (0) disconnected node: la_data_in[50]
+Cell user_project_wrapper (0) disconnected node: la_data_in[51]
+Cell user_project_wrapper (0) disconnected node: la_data_in[52]
+Cell user_project_wrapper (0) disconnected node: la_data_in[53]
+Cell user_project_wrapper (0) disconnected node: la_data_in[54]
+Cell user_project_wrapper (0) disconnected node: la_data_in[55]
+Cell user_project_wrapper (0) disconnected node: la_data_in[56]
+Cell user_project_wrapper (0) disconnected node: la_data_in[57]
+Cell user_project_wrapper (0) disconnected node: la_data_in[58]
+Cell user_project_wrapper (0) disconnected node: la_data_in[59]
+Cell user_project_wrapper (0) disconnected node: la_data_in[5]
+Cell user_project_wrapper (0) disconnected node: la_data_in[60]
+Cell user_project_wrapper (0) disconnected node: la_data_in[61]
+Cell user_project_wrapper (0) disconnected node: la_data_in[62]
+Cell user_project_wrapper (0) disconnected node: la_data_in[63]
+Cell user_project_wrapper (0) disconnected node: la_data_in[66]
+Cell user_project_wrapper (0) disconnected node: la_data_in[67]
+Cell user_project_wrapper (0) disconnected node: la_data_in[68]
+Cell user_project_wrapper (0) disconnected node: la_data_in[69]
+Cell user_project_wrapper (0) disconnected node: la_data_in[6]
+Cell user_project_wrapper (0) disconnected node: la_data_in[70]
+Cell user_project_wrapper (0) disconnected node: la_data_in[71]
+Cell user_project_wrapper (0) disconnected node: la_data_in[72]
+Cell user_project_wrapper (0) disconnected node: la_data_in[73]
+Cell user_project_wrapper (0) disconnected node: la_data_in[74]
+Cell user_project_wrapper (0) disconnected node: la_data_in[75]
+Cell user_project_wrapper (0) disconnected node: la_data_in[76]
+Cell user_project_wrapper (0) disconnected node: la_data_in[77]
+Cell user_project_wrapper (0) disconnected node: la_data_in[78]
+Cell user_project_wrapper (0) disconnected node: la_data_in[79]
+Cell user_project_wrapper (0) disconnected node: la_data_in[7]
+Cell user_project_wrapper (0) disconnected node: la_data_in[80]
+Cell user_project_wrapper (0) disconnected node: la_data_in[81]
+Cell user_project_wrapper (0) disconnected node: la_data_in[82]
+Cell user_project_wrapper (0) disconnected node: la_data_in[83]
+Cell user_project_wrapper (0) disconnected node: la_data_in[84]
+Cell user_project_wrapper (0) disconnected node: la_data_in[85]
+Cell user_project_wrapper (0) disconnected node: la_data_in[86]
+Cell user_project_wrapper (0) disconnected node: la_data_in[87]
+Cell user_project_wrapper (0) disconnected node: la_data_in[88]
+Cell user_project_wrapper (0) disconnected node: la_data_in[89]
+Cell user_project_wrapper (0) disconnected node: la_data_in[8]
+Cell user_project_wrapper (0) disconnected node: la_data_in[90]
+Cell user_project_wrapper (0) disconnected node: la_data_in[91]
+Cell user_project_wrapper (0) disconnected node: la_data_in[92]
+Cell user_project_wrapper (0) disconnected node: la_data_in[93]
+Cell user_project_wrapper (0) disconnected node: la_data_in[94]
+Cell user_project_wrapper (0) disconnected node: la_data_in[95]
+Cell user_project_wrapper (0) disconnected node: la_data_in[96]
+Cell user_project_wrapper (0) disconnected node: la_data_in[97]
+Cell user_project_wrapper (0) disconnected node: la_data_in[98]
+Cell user_project_wrapper (0) disconnected node: la_data_in[99]
+Cell user_project_wrapper (0) disconnected node: la_data_in[9]
+Cell user_project_wrapper (0) disconnected node: la_oenb[0]
+Cell user_project_wrapper (0) disconnected node: la_oenb[100]
+Cell user_project_wrapper (0) disconnected node: la_oenb[101]
+Cell user_project_wrapper (0) disconnected node: la_oenb[102]
+Cell user_project_wrapper (0) disconnected node: la_oenb[103]
+Cell user_project_wrapper (0) disconnected node: la_oenb[104]
+Cell user_project_wrapper (0) disconnected node: la_oenb[105]
+Cell user_project_wrapper (0) disconnected node: la_oenb[106]
+Cell user_project_wrapper (0) disconnected node: la_oenb[107]
+Cell user_project_wrapper (0) disconnected node: la_oenb[108]
+Cell user_project_wrapper (0) disconnected node: la_oenb[109]
+Cell user_project_wrapper (0) disconnected node: la_oenb[10]
+Cell user_project_wrapper (0) disconnected node: la_oenb[110]
+Cell user_project_wrapper (0) disconnected node: la_oenb[111]
+Cell user_project_wrapper (0) disconnected node: la_oenb[112]
+Cell user_project_wrapper (0) disconnected node: la_oenb[113]
+Cell user_project_wrapper (0) disconnected node: la_oenb[114]
+Cell user_project_wrapper (0) disconnected node: la_oenb[115]
+Cell user_project_wrapper (0) disconnected node: la_oenb[116]
+Cell user_project_wrapper (0) disconnected node: la_oenb[117]
+Cell user_project_wrapper (0) disconnected node: la_oenb[118]
+Cell user_project_wrapper (0) disconnected node: la_oenb[119]
+Cell user_project_wrapper (0) disconnected node: la_oenb[11]
+Cell user_project_wrapper (0) disconnected node: la_oenb[120]
+Cell user_project_wrapper (0) disconnected node: la_oenb[121]
+Cell user_project_wrapper (0) disconnected node: la_oenb[122]
+Cell user_project_wrapper (0) disconnected node: la_oenb[123]
+Cell user_project_wrapper (0) disconnected node: la_oenb[124]
+Cell user_project_wrapper (0) disconnected node: la_oenb[125]
+Cell user_project_wrapper (0) disconnected node: la_oenb[126]
+Cell user_project_wrapper (0) disconnected node: la_oenb[127]
+Cell user_project_wrapper (0) disconnected node: la_oenb[12]
+Cell user_project_wrapper (0) disconnected node: la_oenb[13]
+Cell user_project_wrapper (0) disconnected node: la_oenb[14]
+Cell user_project_wrapper (0) disconnected node: la_oenb[15]
+Cell user_project_wrapper (0) disconnected node: la_oenb[16]
+Cell user_project_wrapper (0) disconnected node: la_oenb[17]
+Cell user_project_wrapper (0) disconnected node: la_oenb[18]
+Cell user_project_wrapper (0) disconnected node: la_oenb[19]
+Cell user_project_wrapper (0) disconnected node: la_oenb[1]
+Cell user_project_wrapper (0) disconnected node: la_oenb[20]
+Cell user_project_wrapper (0) disconnected node: la_oenb[21]
+Cell user_project_wrapper (0) disconnected node: la_oenb[22]
+Cell user_project_wrapper (0) disconnected node: la_oenb[23]
+Cell user_project_wrapper (0) disconnected node: la_oenb[24]
+Cell user_project_wrapper (0) disconnected node: la_oenb[25]
+Cell user_project_wrapper (0) disconnected node: la_oenb[26]
+Cell user_project_wrapper (0) disconnected node: la_oenb[27]
+Cell user_project_wrapper (0) disconnected node: la_oenb[28]
+Cell user_project_wrapper (0) disconnected node: la_oenb[29]
+Cell user_project_wrapper (0) disconnected node: la_oenb[2]
+Cell user_project_wrapper (0) disconnected node: la_oenb[30]
+Cell user_project_wrapper (0) disconnected node: la_oenb[31]
+Cell user_project_wrapper (0) disconnected node: la_oenb[32]
+Cell user_project_wrapper (0) disconnected node: la_oenb[33]
+Cell user_project_wrapper (0) disconnected node: la_oenb[34]
+Cell user_project_wrapper (0) disconnected node: la_oenb[35]
+Cell user_project_wrapper (0) disconnected node: la_oenb[36]
+Cell user_project_wrapper (0) disconnected node: la_oenb[37]
+Cell user_project_wrapper (0) disconnected node: la_oenb[38]
+Cell user_project_wrapper (0) disconnected node: la_oenb[39]
+Cell user_project_wrapper (0) disconnected node: la_oenb[3]
+Cell user_project_wrapper (0) disconnected node: la_oenb[40]
+Cell user_project_wrapper (0) disconnected node: la_oenb[41]
+Cell user_project_wrapper (0) disconnected node: la_oenb[42]
+Cell user_project_wrapper (0) disconnected node: la_oenb[43]
+Cell user_project_wrapper (0) disconnected node: la_oenb[44]
+Cell user_project_wrapper (0) disconnected node: la_oenb[45]
+Cell user_project_wrapper (0) disconnected node: la_oenb[46]
+Cell user_project_wrapper (0) disconnected node: la_oenb[47]
+Cell user_project_wrapper (0) disconnected node: la_oenb[48]
+Cell user_project_wrapper (0) disconnected node: la_oenb[49]
+Cell user_project_wrapper (0) disconnected node: la_oenb[4]
+Cell user_project_wrapper (0) disconnected node: la_oenb[50]
+Cell user_project_wrapper (0) disconnected node: la_oenb[51]
+Cell user_project_wrapper (0) disconnected node: la_oenb[52]
+Cell user_project_wrapper (0) disconnected node: la_oenb[53]
+Cell user_project_wrapper (0) disconnected node: la_oenb[54]
+Cell user_project_wrapper (0) disconnected node: la_oenb[55]
+Cell user_project_wrapper (0) disconnected node: la_oenb[56]
+Cell user_project_wrapper (0) disconnected node: la_oenb[57]
+Cell user_project_wrapper (0) disconnected node: la_oenb[58]
+Cell user_project_wrapper (0) disconnected node: la_oenb[59]
+Cell user_project_wrapper (0) disconnected node: la_oenb[5]
+Cell user_project_wrapper (0) disconnected node: la_oenb[60]
+Cell user_project_wrapper (0) disconnected node: la_oenb[61]
+Cell user_project_wrapper (0) disconnected node: la_oenb[62]
+Cell user_project_wrapper (0) disconnected node: la_oenb[63]
+Cell user_project_wrapper (0) disconnected node: la_oenb[66]
+Cell user_project_wrapper (0) disconnected node: la_oenb[67]
+Cell user_project_wrapper (0) disconnected node: la_oenb[68]
+Cell user_project_wrapper (0) disconnected node: la_oenb[69]
+Cell user_project_wrapper (0) disconnected node: la_oenb[6]
+Cell user_project_wrapper (0) disconnected node: la_oenb[70]
+Cell user_project_wrapper (0) disconnected node: la_oenb[71]
+Cell user_project_wrapper (0) disconnected node: la_oenb[72]
+Cell user_project_wrapper (0) disconnected node: la_oenb[73]
+Cell user_project_wrapper (0) disconnected node: la_oenb[74]
+Cell user_project_wrapper (0) disconnected node: la_oenb[75]
+Cell user_project_wrapper (0) disconnected node: la_oenb[76]
+Cell user_project_wrapper (0) disconnected node: la_oenb[77]
+Cell user_project_wrapper (0) disconnected node: la_oenb[78]
+Cell user_project_wrapper (0) disconnected node: la_oenb[79]
+Cell user_project_wrapper (0) disconnected node: la_oenb[7]
+Cell user_project_wrapper (0) disconnected node: la_oenb[80]
+Cell user_project_wrapper (0) disconnected node: la_oenb[81]
+Cell user_project_wrapper (0) disconnected node: la_oenb[82]
+Cell user_project_wrapper (0) disconnected node: la_oenb[83]
+Cell user_project_wrapper (0) disconnected node: la_oenb[84]
+Cell user_project_wrapper (0) disconnected node: la_oenb[85]
+Cell user_project_wrapper (0) disconnected node: la_oenb[86]
+Cell user_project_wrapper (0) disconnected node: la_oenb[87]
+Cell user_project_wrapper (0) disconnected node: la_oenb[88]
+Cell user_project_wrapper (0) disconnected node: la_oenb[89]
+Cell user_project_wrapper (0) disconnected node: la_oenb[8]
+Cell user_project_wrapper (0) disconnected node: la_oenb[90]
+Cell user_project_wrapper (0) disconnected node: la_oenb[91]
+Cell user_project_wrapper (0) disconnected node: la_oenb[92]
+Cell user_project_wrapper (0) disconnected node: la_oenb[93]
+Cell user_project_wrapper (0) disconnected node: la_oenb[94]
+Cell user_project_wrapper (0) disconnected node: la_oenb[95]
+Cell user_project_wrapper (0) disconnected node: la_oenb[96]
+Cell user_project_wrapper (0) disconnected node: la_oenb[97]
+Cell user_project_wrapper (0) disconnected node: la_oenb[98]
+Cell user_project_wrapper (0) disconnected node: la_oenb[99]
+Cell user_project_wrapper (0) disconnected node: la_oenb[9]
+Cell user_project_wrapper (0) disconnected node: user_clock2
+Cell user_project_wrapper (0) disconnected node: vccd2
+Cell user_project_wrapper (0) disconnected node: vdda1
+Cell user_project_wrapper (0) disconnected node: vdda2
+Cell user_project_wrapper (0) disconnected node: vssa1
+Cell user_project_wrapper (0) disconnected node: vssa2
+Cell user_project_wrapper (0) disconnected node: vssd2
+Cell user_project_wrapper (0) disconnected node: wbs_adr_i[0]
+Cell user_project_wrapper (0) disconnected node: wbs_adr_i[13]
+Cell user_project_wrapper (0) disconnected node: wbs_adr_i[14]
+Cell user_project_wrapper (0) disconnected node: wbs_adr_i[15]
+Cell user_project_wrapper (0) disconnected node: wbs_adr_i[16]
+Cell user_project_wrapper (0) disconnected node: wbs_adr_i[17]
+Cell user_project_wrapper (0) disconnected node: wbs_adr_i[18]
+Cell user_project_wrapper (0) disconnected node: wbs_adr_i[19]
+Cell user_project_wrapper (0) disconnected node: wbs_adr_i[1]
+Cell user_project_wrapper (0) disconnected node: wbs_adr_i[20]
+Cell user_project_wrapper (0) disconnected node: wbs_adr_i[21]
+Cell user_project_wrapper (0) disconnected node: wbs_adr_i[22]
+Cell user_project_wrapper (0) disconnected node: wbs_adr_i[23]
+Cell user_project_wrapper (0) disconnected node: wbs_adr_i[24]
+Cell user_project_wrapper (0) disconnected node: wbs_adr_i[25]
+Cell user_project_wrapper (0) disconnected node: wbs_adr_i[26]
+Cell user_project_wrapper (0) disconnected node: wbs_adr_i[27]
+Cell user_project_wrapper (0) disconnected node: wbs_adr_i[28]
+Cell user_project_wrapper (0) disconnected node: wbs_adr_i[29]
+Cell user_project_wrapper (0) disconnected node: wbs_adr_i[30]
+Cell user_project_wrapper (0) disconnected node: wbs_adr_i[31]
+Cell user_project_wrapper (0) disconnected node: wbs_sel_i[0]
+Cell user_project_wrapper (0) disconnected node: wbs_sel_i[1]
+Cell user_project_wrapper (0) disconnected node: wbs_sel_i[2]
+Cell user_project_wrapper (0) disconnected node: wbs_sel_i[3]
+Cell user_project_wrapper (1) disconnected node: user_clock2
+Cell user_project_wrapper (1) disconnected node: vccd2
+Cell user_project_wrapper (1) disconnected node: vdda1
+Cell user_project_wrapper (1) disconnected node: vdda2
+Cell user_project_wrapper (1) disconnected node: vssa1
+Cell user_project_wrapper (1) disconnected node: vssa2
+Cell user_project_wrapper (1) disconnected node: vssd2
+Cell user_project_wrapper (1) disconnected node: analog_io[28]
+Cell user_project_wrapper (1) disconnected node: analog_io[27]
+Cell user_project_wrapper (1) disconnected node: analog_io[26]
+Cell user_project_wrapper (1) disconnected node: analog_io[25]
+Cell user_project_wrapper (1) disconnected node: analog_io[24]
+Cell user_project_wrapper (1) disconnected node: analog_io[23]
+Cell user_project_wrapper (1) disconnected node: analog_io[22]
+Cell user_project_wrapper (1) disconnected node: analog_io[21]
+Cell user_project_wrapper (1) disconnected node: analog_io[20]
+Cell user_project_wrapper (1) disconnected node: analog_io[19]
+Cell user_project_wrapper (1) disconnected node: analog_io[18]
+Cell user_project_wrapper (1) disconnected node: analog_io[17]
+Cell user_project_wrapper (1) disconnected node: analog_io[16]
+Cell user_project_wrapper (1) disconnected node: analog_io[15]
+Cell user_project_wrapper (1) disconnected node: analog_io[14]
+Cell user_project_wrapper (1) disconnected node: analog_io[13]
+Cell user_project_wrapper (1) disconnected node: analog_io[12]
+Cell user_project_wrapper (1) disconnected node: analog_io[11]
+Cell user_project_wrapper (1) disconnected node: analog_io[10]
+Cell user_project_wrapper (1) disconnected node: analog_io[9]
+Cell user_project_wrapper (1) disconnected node: analog_io[8]
+Cell user_project_wrapper (1) disconnected node: analog_io[7]
+Cell user_project_wrapper (1) disconnected node: analog_io[6]
+Cell user_project_wrapper (1) disconnected node: analog_io[5]
+Cell user_project_wrapper (1) disconnected node: analog_io[4]
+Cell user_project_wrapper (1) disconnected node: analog_io[3]
+Cell user_project_wrapper (1) disconnected node: analog_io[2]
+Cell user_project_wrapper (1) disconnected node: analog_io[1]
+Cell user_project_wrapper (1) disconnected node: analog_io[0]
+Cell user_project_wrapper (1) disconnected node: io_in[37]
+Cell user_project_wrapper (1) disconnected node: io_in[36]
+Cell user_project_wrapper (1) disconnected node: io_in[35]
+Cell user_project_wrapper (1) disconnected node: io_in[34]
+Cell user_project_wrapper (1) disconnected node: io_in[33]
+Cell user_project_wrapper (1) disconnected node: io_in[32]
+Cell user_project_wrapper (1) disconnected node: io_in[31]
+Cell user_project_wrapper (1) disconnected node: io_in[30]
+Cell user_project_wrapper (1) disconnected node: io_in[29]
+Cell user_project_wrapper (1) disconnected node: io_in[28]
+Cell user_project_wrapper (1) disconnected node: io_in[27]
+Cell user_project_wrapper (1) disconnected node: io_in[26]
+Cell user_project_wrapper (1) disconnected node: io_in[25]
+Cell user_project_wrapper (1) disconnected node: io_in[24]
+Cell user_project_wrapper (1) disconnected node: io_in[23]
+Cell user_project_wrapper (1) disconnected node: io_in[22]
+Cell user_project_wrapper (1) disconnected node: io_in[21]
+Cell user_project_wrapper (1) disconnected node: io_in[20]
+Cell user_project_wrapper (1) disconnected node: io_in[19]
+Cell user_project_wrapper (1) disconnected node: io_in[18]
+Cell user_project_wrapper (1) disconnected node: io_in[17]
+Cell user_project_wrapper (1) disconnected node: io_in[16]
+Cell user_project_wrapper (1) disconnected node: io_in[15]
+Cell user_project_wrapper (1) disconnected node: io_in[14]
+Cell user_project_wrapper (1) disconnected node: io_in[13]
+Cell user_project_wrapper (1) disconnected node: io_in[12]
+Cell user_project_wrapper (1) disconnected node: io_in[11]
+Cell user_project_wrapper (1) disconnected node: io_in[10]
+Cell user_project_wrapper (1) disconnected node: io_in[9]
+Cell user_project_wrapper (1) disconnected node: io_in[8]
+Cell user_project_wrapper (1) disconnected node: io_in[7]
+Cell user_project_wrapper (1) disconnected node: io_in[6]
+Cell user_project_wrapper (1) disconnected node: io_in[5]
+Cell user_project_wrapper (1) disconnected node: io_in[4]
+Cell user_project_wrapper (1) disconnected node: io_in[3]
+Cell user_project_wrapper (1) disconnected node: io_in[2]
+Cell user_project_wrapper (1) disconnected node: io_in[1]
+Cell user_project_wrapper (1) disconnected node: io_in[0]
+Cell user_project_wrapper (1) disconnected node: la_data_in[127]
+Cell user_project_wrapper (1) disconnected node: la_data_in[126]
+Cell user_project_wrapper (1) disconnected node: la_data_in[125]
+Cell user_project_wrapper (1) disconnected node: la_data_in[124]
+Cell user_project_wrapper (1) disconnected node: la_data_in[123]
+Cell user_project_wrapper (1) disconnected node: la_data_in[122]
+Cell user_project_wrapper (1) disconnected node: la_data_in[121]
+Cell user_project_wrapper (1) disconnected node: la_data_in[120]
+Cell user_project_wrapper (1) disconnected node: la_data_in[119]
+Cell user_project_wrapper (1) disconnected node: la_data_in[118]
+Cell user_project_wrapper (1) disconnected node: la_data_in[117]
+Cell user_project_wrapper (1) disconnected node: la_data_in[116]
+Cell user_project_wrapper (1) disconnected node: la_data_in[115]
+Cell user_project_wrapper (1) disconnected node: la_data_in[114]
+Cell user_project_wrapper (1) disconnected node: la_data_in[113]
+Cell user_project_wrapper (1) disconnected node: la_data_in[112]
+Cell user_project_wrapper (1) disconnected node: la_data_in[111]
+Cell user_project_wrapper (1) disconnected node: la_data_in[110]
+Cell user_project_wrapper (1) disconnected node: la_data_in[109]
+Cell user_project_wrapper (1) disconnected node: la_data_in[108]
+Cell user_project_wrapper (1) disconnected node: la_data_in[107]
+Cell user_project_wrapper (1) disconnected node: la_data_in[106]
+Cell user_project_wrapper (1) disconnected node: la_data_in[105]
+Cell user_project_wrapper (1) disconnected node: la_data_in[104]
+Cell user_project_wrapper (1) disconnected node: la_data_in[103]
+Cell user_project_wrapper (1) disconnected node: la_data_in[102]
+Cell user_project_wrapper (1) disconnected node: la_data_in[101]
+Cell user_project_wrapper (1) disconnected node: la_data_in[100]
+Cell user_project_wrapper (1) disconnected node: la_data_in[99]
+Cell user_project_wrapper (1) disconnected node: la_data_in[98]
+Cell user_project_wrapper (1) disconnected node: la_data_in[97]
+Cell user_project_wrapper (1) disconnected node: la_data_in[96]
+Cell user_project_wrapper (1) disconnected node: la_data_in[95]
+Cell user_project_wrapper (1) disconnected node: la_data_in[94]
+Cell user_project_wrapper (1) disconnected node: la_data_in[93]
+Cell user_project_wrapper (1) disconnected node: la_data_in[92]
+Cell user_project_wrapper (1) disconnected node: la_data_in[91]
+Cell user_project_wrapper (1) disconnected node: la_data_in[90]
+Cell user_project_wrapper (1) disconnected node: la_data_in[89]
+Cell user_project_wrapper (1) disconnected node: la_data_in[88]
+Cell user_project_wrapper (1) disconnected node: la_data_in[87]
+Cell user_project_wrapper (1) disconnected node: la_data_in[86]
+Cell user_project_wrapper (1) disconnected node: la_data_in[85]
+Cell user_project_wrapper (1) disconnected node: la_data_in[84]
+Cell user_project_wrapper (1) disconnected node: la_data_in[83]
+Cell user_project_wrapper (1) disconnected node: la_data_in[82]
+Cell user_project_wrapper (1) disconnected node: la_data_in[81]
+Cell user_project_wrapper (1) disconnected node: la_data_in[80]
+Cell user_project_wrapper (1) disconnected node: la_data_in[79]
+Cell user_project_wrapper (1) disconnected node: la_data_in[78]
+Cell user_project_wrapper (1) disconnected node: la_data_in[77]
+Cell user_project_wrapper (1) disconnected node: la_data_in[76]
+Cell user_project_wrapper (1) disconnected node: la_data_in[75]
+Cell user_project_wrapper (1) disconnected node: la_data_in[74]
+Cell user_project_wrapper (1) disconnected node: la_data_in[73]
+Cell user_project_wrapper (1) disconnected node: la_data_in[72]
+Cell user_project_wrapper (1) disconnected node: la_data_in[71]
+Cell user_project_wrapper (1) disconnected node: la_data_in[70]
+Cell user_project_wrapper (1) disconnected node: la_data_in[69]
+Cell user_project_wrapper (1) disconnected node: la_data_in[68]
+Cell user_project_wrapper (1) disconnected node: la_data_in[67]
+Cell user_project_wrapper (1) disconnected node: la_data_in[66]
+Cell user_project_wrapper (1) disconnected node: la_data_in[63]
+Cell user_project_wrapper (1) disconnected node: la_data_in[62]
+Cell user_project_wrapper (1) disconnected node: la_data_in[61]
+Cell user_project_wrapper (1) disconnected node: la_data_in[60]
+Cell user_project_wrapper (1) disconnected node: la_data_in[59]
+Cell user_project_wrapper (1) disconnected node: la_data_in[58]
+Cell user_project_wrapper (1) disconnected node: la_data_in[57]
+Cell user_project_wrapper (1) disconnected node: la_data_in[56]
+Cell user_project_wrapper (1) disconnected node: la_data_in[55]
+Cell user_project_wrapper (1) disconnected node: la_data_in[54]
+Cell user_project_wrapper (1) disconnected node: la_data_in[53]
+Cell user_project_wrapper (1) disconnected node: la_data_in[52]
+Cell user_project_wrapper (1) disconnected node: la_data_in[51]
+Cell user_project_wrapper (1) disconnected node: la_data_in[50]
+Cell user_project_wrapper (1) disconnected node: la_data_in[49]
+Cell user_project_wrapper (1) disconnected node: la_data_in[48]
+Cell user_project_wrapper (1) disconnected node: la_data_in[47]
+Cell user_project_wrapper (1) disconnected node: la_data_in[46]
+Cell user_project_wrapper (1) disconnected node: la_data_in[45]
+Cell user_project_wrapper (1) disconnected node: la_data_in[44]
+Cell user_project_wrapper (1) disconnected node: la_data_in[43]
+Cell user_project_wrapper (1) disconnected node: la_data_in[42]
+Cell user_project_wrapper (1) disconnected node: la_data_in[41]
+Cell user_project_wrapper (1) disconnected node: la_data_in[40]
+Cell user_project_wrapper (1) disconnected node: la_data_in[39]
+Cell user_project_wrapper (1) disconnected node: la_data_in[38]
+Cell user_project_wrapper (1) disconnected node: la_data_in[37]
+Cell user_project_wrapper (1) disconnected node: la_data_in[36]
+Cell user_project_wrapper (1) disconnected node: la_data_in[35]
+Cell user_project_wrapper (1) disconnected node: la_data_in[34]
+Cell user_project_wrapper (1) disconnected node: la_data_in[33]
+Cell user_project_wrapper (1) disconnected node: la_data_in[32]
+Cell user_project_wrapper (1) disconnected node: la_data_in[31]
+Cell user_project_wrapper (1) disconnected node: la_data_in[30]
+Cell user_project_wrapper (1) disconnected node: la_data_in[29]
+Cell user_project_wrapper (1) disconnected node: la_data_in[28]
+Cell user_project_wrapper (1) disconnected node: la_data_in[27]
+Cell user_project_wrapper (1) disconnected node: la_data_in[26]
+Cell user_project_wrapper (1) disconnected node: la_data_in[25]
+Cell user_project_wrapper (1) disconnected node: la_data_in[24]
+Cell user_project_wrapper (1) disconnected node: la_data_in[23]
+Cell user_project_wrapper (1) disconnected node: la_data_in[22]
+Cell user_project_wrapper (1) disconnected node: la_data_in[21]
+Cell user_project_wrapper (1) disconnected node: la_data_in[20]
+Cell user_project_wrapper (1) disconnected node: la_data_in[19]
+Cell user_project_wrapper (1) disconnected node: la_data_in[18]
+Cell user_project_wrapper (1) disconnected node: la_data_in[17]
+Cell user_project_wrapper (1) disconnected node: la_data_in[16]
+Cell user_project_wrapper (1) disconnected node: la_data_in[15]
+Cell user_project_wrapper (1) disconnected node: la_data_in[14]
+Cell user_project_wrapper (1) disconnected node: la_data_in[13]
+Cell user_project_wrapper (1) disconnected node: la_data_in[12]
+Cell user_project_wrapper (1) disconnected node: la_data_in[11]
+Cell user_project_wrapper (1) disconnected node: la_data_in[10]
+Cell user_project_wrapper (1) disconnected node: la_data_in[9]
+Cell user_project_wrapper (1) disconnected node: la_data_in[8]
+Cell user_project_wrapper (1) disconnected node: la_data_in[7]
+Cell user_project_wrapper (1) disconnected node: la_data_in[6]
+Cell user_project_wrapper (1) disconnected node: la_data_in[5]
+Cell user_project_wrapper (1) disconnected node: la_data_in[4]
+Cell user_project_wrapper (1) disconnected node: la_data_in[3]
+Cell user_project_wrapper (1) disconnected node: la_data_in[2]
+Cell user_project_wrapper (1) disconnected node: la_data_in[1]
+Cell user_project_wrapper (1) disconnected node: la_data_in[0]
+Cell user_project_wrapper (1) disconnected node: la_oenb[127]
+Cell user_project_wrapper (1) disconnected node: la_oenb[126]
+Cell user_project_wrapper (1) disconnected node: la_oenb[125]
+Cell user_project_wrapper (1) disconnected node: la_oenb[124]
+Cell user_project_wrapper (1) disconnected node: la_oenb[123]
+Cell user_project_wrapper (1) disconnected node: la_oenb[122]
+Cell user_project_wrapper (1) disconnected node: la_oenb[121]
+Cell user_project_wrapper (1) disconnected node: la_oenb[120]
+Cell user_project_wrapper (1) disconnected node: la_oenb[119]
+Cell user_project_wrapper (1) disconnected node: la_oenb[118]
+Cell user_project_wrapper (1) disconnected node: la_oenb[117]
+Cell user_project_wrapper (1) disconnected node: la_oenb[116]
+Cell user_project_wrapper (1) disconnected node: la_oenb[115]
+Cell user_project_wrapper (1) disconnected node: la_oenb[114]
+Cell user_project_wrapper (1) disconnected node: la_oenb[113]
+Cell user_project_wrapper (1) disconnected node: la_oenb[112]
+Cell user_project_wrapper (1) disconnected node: la_oenb[111]
+Cell user_project_wrapper (1) disconnected node: la_oenb[110]
+Cell user_project_wrapper (1) disconnected node: la_oenb[109]
+Cell user_project_wrapper (1) disconnected node: la_oenb[108]
+Cell user_project_wrapper (1) disconnected node: la_oenb[107]
+Cell user_project_wrapper (1) disconnected node: la_oenb[106]
+Cell user_project_wrapper (1) disconnected node: la_oenb[105]
+Cell user_project_wrapper (1) disconnected node: la_oenb[104]
+Cell user_project_wrapper (1) disconnected node: la_oenb[103]
+Cell user_project_wrapper (1) disconnected node: la_oenb[102]
+Cell user_project_wrapper (1) disconnected node: la_oenb[101]
+Cell user_project_wrapper (1) disconnected node: la_oenb[100]
+Cell user_project_wrapper (1) disconnected node: la_oenb[99]
+Cell user_project_wrapper (1) disconnected node: la_oenb[98]
+Cell user_project_wrapper (1) disconnected node: la_oenb[97]
+Cell user_project_wrapper (1) disconnected node: la_oenb[96]
+Cell user_project_wrapper (1) disconnected node: la_oenb[95]
+Cell user_project_wrapper (1) disconnected node: la_oenb[94]
+Cell user_project_wrapper (1) disconnected node: la_oenb[93]
+Cell user_project_wrapper (1) disconnected node: la_oenb[92]
+Cell user_project_wrapper (1) disconnected node: la_oenb[91]
+Cell user_project_wrapper (1) disconnected node: la_oenb[90]
+Cell user_project_wrapper (1) disconnected node: la_oenb[89]
+Cell user_project_wrapper (1) disconnected node: la_oenb[88]
+Cell user_project_wrapper (1) disconnected node: la_oenb[87]
+Cell user_project_wrapper (1) disconnected node: la_oenb[86]
+Cell user_project_wrapper (1) disconnected node: la_oenb[85]
+Cell user_project_wrapper (1) disconnected node: la_oenb[84]
+Cell user_project_wrapper (1) disconnected node: la_oenb[83]
+Cell user_project_wrapper (1) disconnected node: la_oenb[82]
+Cell user_project_wrapper (1) disconnected node: la_oenb[81]
+Cell user_project_wrapper (1) disconnected node: la_oenb[80]
+Cell user_project_wrapper (1) disconnected node: la_oenb[79]
+Cell user_project_wrapper (1) disconnected node: la_oenb[78]
+Cell user_project_wrapper (1) disconnected node: la_oenb[77]
+Cell user_project_wrapper (1) disconnected node: la_oenb[76]
+Cell user_project_wrapper (1) disconnected node: la_oenb[75]
+Cell user_project_wrapper (1) disconnected node: la_oenb[74]
+Cell user_project_wrapper (1) disconnected node: la_oenb[73]
+Cell user_project_wrapper (1) disconnected node: la_oenb[72]
+Cell user_project_wrapper (1) disconnected node: la_oenb[71]
+Cell user_project_wrapper (1) disconnected node: la_oenb[70]
+Cell user_project_wrapper (1) disconnected node: la_oenb[69]
+Cell user_project_wrapper (1) disconnected node: la_oenb[68]
+Cell user_project_wrapper (1) disconnected node: la_oenb[67]
+Cell user_project_wrapper (1) disconnected node: la_oenb[66]
+Cell user_project_wrapper (1) disconnected node: la_oenb[63]
+Cell user_project_wrapper (1) disconnected node: la_oenb[62]
+Cell user_project_wrapper (1) disconnected node: la_oenb[61]
+Cell user_project_wrapper (1) disconnected node: la_oenb[60]
+Cell user_project_wrapper (1) disconnected node: la_oenb[59]
+Cell user_project_wrapper (1) disconnected node: la_oenb[58]
+Cell user_project_wrapper (1) disconnected node: la_oenb[57]
+Cell user_project_wrapper (1) disconnected node: la_oenb[56]
+Cell user_project_wrapper (1) disconnected node: la_oenb[55]
+Cell user_project_wrapper (1) disconnected node: la_oenb[54]
+Cell user_project_wrapper (1) disconnected node: la_oenb[53]
+Cell user_project_wrapper (1) disconnected node: la_oenb[52]
+Cell user_project_wrapper (1) disconnected node: la_oenb[51]
+Cell user_project_wrapper (1) disconnected node: la_oenb[50]
+Cell user_project_wrapper (1) disconnected node: la_oenb[49]
+Cell user_project_wrapper (1) disconnected node: la_oenb[48]
+Cell user_project_wrapper (1) disconnected node: la_oenb[47]
+Cell user_project_wrapper (1) disconnected node: la_oenb[46]
+Cell user_project_wrapper (1) disconnected node: la_oenb[45]
+Cell user_project_wrapper (1) disconnected node: la_oenb[44]
+Cell user_project_wrapper (1) disconnected node: la_oenb[43]
+Cell user_project_wrapper (1) disconnected node: la_oenb[42]
+Cell user_project_wrapper (1) disconnected node: la_oenb[41]
+Cell user_project_wrapper (1) disconnected node: la_oenb[40]
+Cell user_project_wrapper (1) disconnected node: la_oenb[39]
+Cell user_project_wrapper (1) disconnected node: la_oenb[38]
+Cell user_project_wrapper (1) disconnected node: la_oenb[37]
+Cell user_project_wrapper (1) disconnected node: la_oenb[36]
+Cell user_project_wrapper (1) disconnected node: la_oenb[35]
+Cell user_project_wrapper (1) disconnected node: la_oenb[34]
+Cell user_project_wrapper (1) disconnected node: la_oenb[33]
+Cell user_project_wrapper (1) disconnected node: la_oenb[32]
+Cell user_project_wrapper (1) disconnected node: la_oenb[31]
+Cell user_project_wrapper (1) disconnected node: la_oenb[30]
+Cell user_project_wrapper (1) disconnected node: la_oenb[29]
+Cell user_project_wrapper (1) disconnected node: la_oenb[28]
+Cell user_project_wrapper (1) disconnected node: la_oenb[27]
+Cell user_project_wrapper (1) disconnected node: la_oenb[26]
+Cell user_project_wrapper (1) disconnected node: la_oenb[25]
+Cell user_project_wrapper (1) disconnected node: la_oenb[24]
+Cell user_project_wrapper (1) disconnected node: la_oenb[23]
+Cell user_project_wrapper (1) disconnected node: la_oenb[22]
+Cell user_project_wrapper (1) disconnected node: la_oenb[21]
+Cell user_project_wrapper (1) disconnected node: la_oenb[20]
+Cell user_project_wrapper (1) disconnected node: la_oenb[19]
+Cell user_project_wrapper (1) disconnected node: la_oenb[18]
+Cell user_project_wrapper (1) disconnected node: la_oenb[17]
+Cell user_project_wrapper (1) disconnected node: la_oenb[16]
+Cell user_project_wrapper (1) disconnected node: la_oenb[15]
+Cell user_project_wrapper (1) disconnected node: la_oenb[14]
+Cell user_project_wrapper (1) disconnected node: la_oenb[13]
+Cell user_project_wrapper (1) disconnected node: la_oenb[12]
+Cell user_project_wrapper (1) disconnected node: la_oenb[11]
+Cell user_project_wrapper (1) disconnected node: la_oenb[10]
+Cell user_project_wrapper (1) disconnected node: la_oenb[9]
+Cell user_project_wrapper (1) disconnected node: la_oenb[8]
+Cell user_project_wrapper (1) disconnected node: la_oenb[7]
+Cell user_project_wrapper (1) disconnected node: la_oenb[6]
+Cell user_project_wrapper (1) disconnected node: la_oenb[5]
+Cell user_project_wrapper (1) disconnected node: la_oenb[4]
+Cell user_project_wrapper (1) disconnected node: la_oenb[3]
+Cell user_project_wrapper (1) disconnected node: la_oenb[2]
+Cell user_project_wrapper (1) disconnected node: la_oenb[1]
+Cell user_project_wrapper (1) disconnected node: la_oenb[0]
+Cell user_project_wrapper (1) disconnected node: wbs_adr_i[31]
+Cell user_project_wrapper (1) disconnected node: wbs_adr_i[30]
+Cell user_project_wrapper (1) disconnected node: wbs_adr_i[29]
+Cell user_project_wrapper (1) disconnected node: wbs_adr_i[28]
+Cell user_project_wrapper (1) disconnected node: wbs_adr_i[27]
+Cell user_project_wrapper (1) disconnected node: wbs_adr_i[26]
+Cell user_project_wrapper (1) disconnected node: wbs_adr_i[25]
+Cell user_project_wrapper (1) disconnected node: wbs_adr_i[24]
+Cell user_project_wrapper (1) disconnected node: wbs_adr_i[23]
+Cell user_project_wrapper (1) disconnected node: wbs_adr_i[22]
+Cell user_project_wrapper (1) disconnected node: wbs_adr_i[21]
+Cell user_project_wrapper (1) disconnected node: wbs_adr_i[20]
+Cell user_project_wrapper (1) disconnected node: wbs_adr_i[19]
+Cell user_project_wrapper (1) disconnected node: wbs_adr_i[18]
+Cell user_project_wrapper (1) disconnected node: wbs_adr_i[17]
+Cell user_project_wrapper (1) disconnected node: wbs_adr_i[16]
+Cell user_project_wrapper (1) disconnected node: wbs_adr_i[15]
+Cell user_project_wrapper (1) disconnected node: wbs_adr_i[14]
+Cell user_project_wrapper (1) disconnected node: wbs_adr_i[13]
+Cell user_project_wrapper (1) disconnected node: wbs_adr_i[1]
+Cell user_project_wrapper (1) disconnected node: wbs_adr_i[0]
+Cell user_project_wrapper (1) disconnected node: wbs_sel_i[3]
+Cell user_project_wrapper (1) disconnected node: wbs_sel_i[2]
+Cell user_project_wrapper (1) disconnected node: wbs_sel_i[1]
+Cell user_project_wrapper (1) disconnected node: wbs_sel_i[0]
+Subcircuit summary:
+Circuit 1: user_project_wrapper            |Circuit 2: user_project_wrapper            
+-------------------------------------------|-------------------------------------------
+sky130_fd_sc_hd__decap_6 (125081->1)       |sky130_fd_sc_hd__decap_6 (125081->1)       
+sky130_fd_sc_hd__decap_12 (506589->1)      |sky130_fd_sc_hd__decap_12 (506589->1)      
+sky130_fd_sc_hd__decap_3 (5681->1)         |sky130_fd_sc_hd__decap_3 (5681->1)         
+sky130_fd_sc_hd__decap_4 (1423->1)         |sky130_fd_sc_hd__decap_4 (1423->1)         
+sky130_fd_sc_hd__decap_8 (1798->1)         |sky130_fd_sc_hd__decap_8 (1798->1)         
+sky130_fd_sc_hd__diode_2 (400->239)        |sky130_fd_sc_hd__diode_2 (400->239)        
+sky130_fd_sc_hd__buf_4 (686)               |sky130_fd_sc_hd__buf_4 (686)               
+sky130_fd_sc_hd__dlymetal6s2s_1 (239)      |sky130_fd_sc_hd__dlymetal6s2s_1 (239)      
+sky130_fd_sc_hd__conb_1 (163)              |sky130_fd_sc_hd__conb_1 (163)              
+sky130_fd_sc_hd__a22o_1 (32)               |sky130_fd_sc_hd__a22o_1 (32)               
+sky130_fd_sc_hd__buf_6 (593)               |sky130_fd_sc_hd__buf_6 (593)               
+sky130_fd_sc_hd__clkdlybuf4s15_2 (194)     |sky130_fd_sc_hd__clkdlybuf4s15_2 (194)     
+sky130_fd_sc_hd__clkbuf_4 (616)            |sky130_fd_sc_hd__clkbuf_4 (616)            
+sky130_fd_sc_hd__o22a_2 (3)                |sky130_fd_sc_hd__o22a_2 (3)                
+sky130_fd_sc_hd__o21a_1 (32)               |sky130_fd_sc_hd__o21a_1 (32)               
+sky130_fd_sc_hd__o22a_1 (29)               |sky130_fd_sc_hd__o22a_1 (29)               
+sky130_fd_sc_hd__clkbuf_2 (3)              |sky130_fd_sc_hd__clkbuf_2 (3)              
+sky130_fd_sc_hd__buf_2 (8)                 |sky130_fd_sc_hd__buf_2 (8)                 
+sky130_fd_sc_hd__or4_1 (3)                 |sky130_fd_sc_hd__or4_1 (3)                 
+sky130_sram_2kbyte_1rw1r_32x512_8 (4)      |sky130_sram_2kbyte_1rw1r_32x512_8 (4)      
+sky130_fd_sc_hd__inv_2 (3)                 |sky130_fd_sc_hd__inv_2 (3)                 
+sky130_fd_sc_hd__clkbuf_8 (8)              |sky130_fd_sc_hd__clkbuf_8 (8)              
+sky130_fd_sc_hd__clkbuf_16 (1)             |sky130_fd_sc_hd__clkbuf_16 (1)             
+sky130_fd_sc_hd__clkdlybuf4s18_2 (2)       |sky130_fd_sc_hd__clkdlybuf4s18_2 (2)       
+sky130_fd_sc_hd__buf_1 (1)                 |sky130_fd_sc_hd__buf_1 (1)                 
+sky130_fd_sc_hd__clkdlybuf4s25_1 (2)       |sky130_fd_sc_hd__clkdlybuf4s25_1 (2)       
+sky130_fd_sc_hd__mux2_2 (2)                |sky130_fd_sc_hd__mux2_2 (2)                
+sky130_fd_sc_hd__or3b_1 (2)                |sky130_fd_sc_hd__or3b_1 (2)                
+sky130_fd_sc_hd__buf_12 (1)                |sky130_fd_sc_hd__buf_12 (1)                
+sky130_fd_sc_hd__dfxtp_1 (1)               |sky130_fd_sc_hd__dfxtp_1 (1)               
+sky130_fd_sc_hd__nor2_1 (1)                |sky130_fd_sc_hd__nor2_1 (1)                
+sky130_fd_sc_hd__or3_1 (2)                 |sky130_fd_sc_hd__or3_1 (2)                 
+sky130_fd_sc_hd__buf_8 (1)                 |sky130_fd_sc_hd__buf_8 (1)                 
+sky130_fd_sc_hd__and2_1 (1)                |sky130_fd_sc_hd__and2_1 (1)                
+sky130_fd_sc_hd__or4_2 (1)                 |sky130_fd_sc_hd__or4_2 (1)                 
+sky130_fd_sc_hd__or2_1 (1)                 |sky130_fd_sc_hd__or2_1 (1)                 
+sky130_fd_sc_hd__nand3b_1 (1)              |sky130_fd_sc_hd__nand3b_1 (1)              
+Number of devices: 2880                    |Number of devices: 2880                    
+Number of nets: 3105 **Mismatch**          |Number of nets: 3121 **Mismatch**          
+---------------------------------------------------------------------------------------
+NET mismatches: Class fragments follow (with fanout counts):
+Circuit 1: user_project_wrapper            |Circuit 2: user_project_wrapper            
+
+---------------------------------------------------------------------------------------
+Net: vssd1                                 |Net: vssd1                                 
+  sky130_fd_sc_hd__decap_6/VGND = 1        |  sky130_fd_sc_hd__decap_6/VGND = 1        
+  sky130_fd_sc_hd__decap_6/VNB = 1         |  sky130_fd_sc_hd__decap_6/VNB = 1         
+  sky130_fd_sc_hd__decap_3/VGND = 1        |  sky130_fd_sc_hd__decap_3/VGND = 1        
+  sky130_fd_sc_hd__decap_3/VNB = 1         |  sky130_fd_sc_hd__decap_3/VNB = 1         
+  sky130_fd_sc_hd__decap_8/VGND = 1        |  sky130_fd_sc_hd__decap_8/VGND = 1        
+  sky130_fd_sc_hd__decap_8/VNB = 1         |  sky130_fd_sc_hd__decap_8/VNB = 1         
+  sky130_fd_sc_hd__decap_4/VGND = 1        |  sky130_fd_sc_hd__decap_4/VGND = 1        
+  sky130_fd_sc_hd__decap_4/VNB = 1         |  sky130_fd_sc_hd__decap_4/VNB = 1         
+  sky130_fd_sc_hd__decap_12/VGND = 1       |  sky130_fd_sc_hd__decap_12/VGND = 1       
+  sky130_fd_sc_hd__decap_12/VNB = 1        |  sky130_fd_sc_hd__decap_12/VNB = 1        
+  sky130_fd_sc_hd__diode_2/VGND = 239      |  sky130_fd_sc_hd__diode_2/VGND = 239      
+  sky130_fd_sc_hd__diode_2/VNB = 239       |  sky130_fd_sc_hd__diode_2/VNB = 239       
+  sky130_sram_2kbyte_1rw1r_32x512_8/vssd1  |  sky130_sram_2kbyte_1rw1r_32x512_8/vssd1  
+  sky130_fd_sc_hd__conb_1/VNB = 163        |  sky130_fd_sc_hd__conb_1/VNB = 163        
+  sky130_fd_sc_hd__conb_1/VGND = 163       |  sky130_fd_sc_hd__conb_1/VGND = 163       
+  sky130_fd_sc_hd__inv_2/VGND = 3          |  sky130_fd_sc_hd__inv_2/VGND = 3          
+  sky130_fd_sc_hd__inv_2/VNB = 3           |  sky130_fd_sc_hd__inv_2/VNB = 3           
+  sky130_fd_sc_hd__nand3b_1/VGND = 1       |  sky130_fd_sc_hd__nand3b_1/VGND = 1       
+  sky130_fd_sc_hd__nand3b_1/VNB = 1        |  sky130_fd_sc_hd__nand3b_1/VNB = 1        
+  sky130_fd_sc_hd__dlymetal6s2s_1/VGND = 2 |  sky130_fd_sc_hd__dlymetal6s2s_1/VGND = 2 
+  sky130_fd_sc_hd__dlymetal6s2s_1/VNB = 23 |  sky130_fd_sc_hd__dlymetal6s2s_1/VNB = 23 
+  sky130_fd_sc_hd__or2_1/VGND = 1          |  sky130_fd_sc_hd__or2_1/VGND = 1          
+  sky130_fd_sc_hd__or2_1/VNB = 1           |  sky130_fd_sc_hd__or2_1/VNB = 1           
+  sky130_fd_sc_hd__or3_1/VGND = 2          |  sky130_fd_sc_hd__or3_1/VGND = 2          
+  sky130_fd_sc_hd__or3_1/VNB = 2           |  sky130_fd_sc_hd__or3_1/VNB = 2           
+  sky130_fd_sc_hd__buf_6/VGND = 593        |  sky130_fd_sc_hd__buf_6/VGND = 593        
+  sky130_fd_sc_hd__buf_6/VNB = 593         |  sky130_fd_sc_hd__buf_6/VNB = 593         
+  sky130_fd_sc_hd__or4_1/VGND = 3          |  sky130_fd_sc_hd__or4_1/VGND = 3          
+  sky130_fd_sc_hd__or4_1/VNB = 3           |  sky130_fd_sc_hd__or4_1/VNB = 3           
+  sky130_fd_sc_hd__clkbuf_4/VGND = 616     |  sky130_fd_sc_hd__clkbuf_4/VGND = 616     
+  sky130_fd_sc_hd__clkbuf_4/VNB = 616      |  sky130_fd_sc_hd__clkbuf_4/VNB = 616      
+  sky130_fd_sc_hd__or4_2/VGND = 1          |  sky130_fd_sc_hd__or4_2/VGND = 1          
+  sky130_fd_sc_hd__or4_2/VNB = 1           |  sky130_fd_sc_hd__or4_2/VNB = 1           
+  sky130_fd_sc_hd__and2_1/VGND = 1         |  sky130_fd_sc_hd__and2_1/VGND = 1         
+  sky130_fd_sc_hd__and2_1/VNB = 1          |  sky130_fd_sc_hd__and2_1/VNB = 1          
+  sky130_fd_sc_hd__or3b_1/VGND = 2         |  sky130_fd_sc_hd__or3b_1/VGND = 2         
+  sky130_fd_sc_hd__or3b_1/VNB = 2          |  sky130_fd_sc_hd__or3b_1/VNB = 2          
+  sky130_fd_sc_hd__buf_4/VGND = 686        |  sky130_fd_sc_hd__buf_4/VGND = 686        
+  sky130_fd_sc_hd__buf_4/VNB = 686         |  sky130_fd_sc_hd__buf_4/VNB = 686         
+  sky130_fd_sc_hd__mux2_2/VGND = 2         |  sky130_fd_sc_hd__mux2_2/VGND = 2         
+  sky130_fd_sc_hd__mux2_2/VNB = 2          |  sky130_fd_sc_hd__mux2_2/VNB = 2          
+  sky130_fd_sc_hd__buf_1/VGND = 1          |  sky130_fd_sc_hd__buf_1/VGND = 1          
+  sky130_fd_sc_hd__buf_1/VNB = 1           |  sky130_fd_sc_hd__buf_1/VNB = 1           
+  sky130_fd_sc_hd__o21a_1/VGND = 32        |  sky130_fd_sc_hd__o21a_1/VGND = 32        
+  sky130_fd_sc_hd__o21a_1/VNB = 32         |  sky130_fd_sc_hd__o21a_1/VNB = 32         
+  sky130_fd_sc_hd__a22o_1/VGND = 32        |  sky130_fd_sc_hd__a22o_1/VGND = 32        
+  sky130_fd_sc_hd__a22o_1/VNB = 32         |  sky130_fd_sc_hd__a22o_1/VNB = 32         
+  sky130_fd_sc_hd__o22a_1/VGND = 29        |  sky130_fd_sc_hd__o22a_1/VGND = 29        
+  sky130_fd_sc_hd__o22a_1/VNB = 29         |  sky130_fd_sc_hd__o22a_1/VNB = 29         
+  sky130_fd_sc_hd__o22a_2/VGND = 3         |  sky130_fd_sc_hd__o22a_2/VGND = 3         
+  sky130_fd_sc_hd__o22a_2/VNB = 3          |  sky130_fd_sc_hd__o22a_2/VNB = 3          
+  sky130_fd_sc_hd__nor2_1/VGND = 1         |  sky130_fd_sc_hd__nor2_1/VGND = 1         
+  sky130_fd_sc_hd__nor2_1/VNB = 1          |  sky130_fd_sc_hd__nor2_1/VNB = 1          
+  sky130_fd_sc_hd__dfxtp_1/VGND = 1        |  sky130_fd_sc_hd__dfxtp_1/VGND = 1        
+  sky130_fd_sc_hd__dfxtp_1/VNB = 1         |  sky130_fd_sc_hd__dfxtp_1/VNB = 1         
+  sky130_fd_sc_hd__clkbuf_16/VGND = 1      |  sky130_fd_sc_hd__clkbuf_16/VGND = 1      
+  sky130_fd_sc_hd__clkbuf_16/VNB = 1       |  sky130_fd_sc_hd__clkbuf_16/VNB = 1       
+  sky130_fd_sc_hd__clkbuf_8/VGND = 8       |  sky130_fd_sc_hd__clkbuf_8/VGND = 8       
+  sky130_fd_sc_hd__clkbuf_8/VNB = 8        |  sky130_fd_sc_hd__clkbuf_8/VNB = 8        
+  sky130_fd_sc_hd__clkdlybuf4s25_1/VGND =  |  sky130_fd_sc_hd__clkdlybuf4s25_1/VGND =  
+  sky130_fd_sc_hd__clkdlybuf4s25_1/VNB = 2 |  sky130_fd_sc_hd__clkdlybuf4s25_1/VNB = 2 
+  sky130_fd_sc_hd__buf_2/VGND = 8          |  sky130_fd_sc_hd__buf_2/VGND = 8          
+  sky130_fd_sc_hd__buf_2/VNB = 8           |  sky130_fd_sc_hd__buf_2/VNB = 8           
+  sky130_fd_sc_hd__clkdlybuf4s15_2/VGND =  |  sky130_fd_sc_hd__clkdlybuf4s15_2/VGND =  
+  sky130_fd_sc_hd__clkdlybuf4s15_2/VNB = 1 |  sky130_fd_sc_hd__clkdlybuf4s15_2/VNB = 1 
+  sky130_fd_sc_hd__clkbuf_2/VGND = 3       |  sky130_fd_sc_hd__clkbuf_2/VGND = 3       
+  sky130_fd_sc_hd__clkbuf_2/VNB = 3        |  sky130_fd_sc_hd__clkbuf_2/VNB = 3        
+  sky130_fd_sc_hd__buf_12/VGND = 1         |  sky130_fd_sc_hd__buf_12/VGND = 1         
+  sky130_fd_sc_hd__buf_12/VNB = 1          |  sky130_fd_sc_hd__buf_12/VNB = 1          
+  sky130_fd_sc_hd__clkdlybuf4s18_2/VGND =  |  sky130_fd_sc_hd__clkdlybuf4s18_2/VGND =  
+  sky130_fd_sc_hd__clkdlybuf4s18_2/VNB = 2 |  sky130_fd_sc_hd__clkdlybuf4s18_2/VNB = 2 
+  sky130_fd_sc_hd__buf_8/VGND = 1          |  sky130_fd_sc_hd__buf_8/VGND = 1          
+  sky130_fd_sc_hd__buf_8/VNB = 1           |  sky130_fd_sc_hd__buf_8/VNB = 1           
+  sky130_sram_2kbyte_1rw1r_32x512_8/sky130 |                                           
+  sky130_sram_2kbyte_1rw1r_32x512_8/sky130 |                                           
+  sky130_sram_2kbyte_1rw1r_32x512_8/sky130 |                                           
+  sky130_sram_2kbyte_1rw1r_32x512_8/sky130 |                                           
+                                           |                                           
+(no matching net)                          |Net: dummy_3106                            
+                                           |  sky130_sram_2kbyte_1rw1r_32x512_8/proxys 
+                                           |                                           
+(no matching net)                          |Net: dummy_3107                            
+                                           |  sky130_sram_2kbyte_1rw1r_32x512_8/proxys 
+                                           |                                           
+(no matching net)                          |Net: dummy_3108                            
+                                           |  sky130_sram_2kbyte_1rw1r_32x512_8/proxys 
+                                           |                                           
+(no matching net)                          |Net: dummy_3109                            
+                                           |  sky130_sram_2kbyte_1rw1r_32x512_8/proxys 
+                                           |                                           
+(no matching net)                          |Net: dummy_3110                            
+                                           |  sky130_sram_2kbyte_1rw1r_32x512_8/proxys 
+                                           |                                           
+(no matching net)                          |Net: dummy_3111                            
+                                           |  sky130_sram_2kbyte_1rw1r_32x512_8/proxys 
+                                           |                                           
+(no matching net)                          |Net: dummy_3112                            
+                                           |  sky130_sram_2kbyte_1rw1r_32x512_8/proxys 
+                                           |                                           
+(no matching net)                          |Net: dummy_3113                            
+                                           |  sky130_sram_2kbyte_1rw1r_32x512_8/proxys 
+                                           |                                           
+(no matching net)                          |Net: dummy_3114                            
+                                           |  sky130_sram_2kbyte_1rw1r_32x512_8/proxys 
+                                           |                                           
+(no matching net)                          |Net: dummy_3115                            
+                                           |  sky130_sram_2kbyte_1rw1r_32x512_8/proxys 
+                                           |                                           
+(no matching net)                          |Net: dummy_3116                            
+                                           |  sky130_sram_2kbyte_1rw1r_32x512_8/proxys 
+                                           |                                           
+(no matching net)                          |Net: dummy_3117                            
+                                           |  sky130_sram_2kbyte_1rw1r_32x512_8/proxys 
+                                           |                                           
+(no matching net)                          |Net: dummy_3118                            
+                                           |  sky130_sram_2kbyte_1rw1r_32x512_8/proxys 
+                                           |                                           
+(no matching net)                          |Net: dummy_3119                            
+                                           |  sky130_sram_2kbyte_1rw1r_32x512_8/proxys 
+                                           |                                           
+(no matching net)                          |Net: dummy_3120                            
+                                           |  sky130_sram_2kbyte_1rw1r_32x512_8/proxys 
+                                           |                                           
+(no matching net)                          |Net: dummy_3121                            
+                                           |  sky130_sram_2kbyte_1rw1r_32x512_8/proxys 
+---------------------------------------------------------------------------------------
+Netlists do not match.
+Netlists do not match.

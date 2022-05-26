@@ -1,0 +1,24 @@
+
+===========================================================================
+ report_check_types -max_slew -max_cap -max_fanout -violators
+============================================================================
+max fanout
+
+Pin                                   Limit Fanout  Slack
+---------------------------------------------------------
+wbs_adr_i[10]                             5      8     -3 (VIOLATED)
+wbs_adr_i[2]                              5      8     -3 (VIOLATED)
+wbs_adr_i[3]                              5      8     -3 (VIOLATED)
+wbs_adr_i[4]                              5      8     -3 (VIOLATED)
+wbs_adr_i[5]                              5      8     -3 (VIOLATED)
+wbs_adr_i[6]                              5      8     -3 (VIOLATED)
+wbs_adr_i[7]                              5      8     -3 (VIOLATED)
+wbs_adr_i[8]                              5      8     -3 (VIOLATED)
+wbs_adr_i[9]                              5      8     -3 (VIOLATED)
+
+
+===========================================================================
+max slew violation count 0
+max fanout violation count 9
+max cap violation count 0
+============================================================================

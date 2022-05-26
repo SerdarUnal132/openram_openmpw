@@ -1,0 +1,35 @@
+
+27. Printing statistics.
+
+=== user_project_wrapper ===
+
+   Number of wires:                426
+   Number of wire bits:           1044
+   Number of public wires:         276
+   Number of public wire bits:     894
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                395
+     sky130_fd_sc_hd__a22o_2        32
+     sky130_fd_sc_hd__and2_2         1
+     sky130_fd_sc_hd__buf_1         50
+     sky130_fd_sc_hd__buf_4         64
+     sky130_fd_sc_hd__conb_1       163
+     sky130_fd_sc_hd__dfxtp_2        1
+     sky130_fd_sc_hd__inv_2          3
+     sky130_fd_sc_hd__mux2_2         2
+     sky130_fd_sc_hd__nand3b_2       1
+     sky130_fd_sc_hd__nor2_2         1
+     sky130_fd_sc_hd__o21a_2        32
+     sky130_fd_sc_hd__o22a_2        32
+     sky130_fd_sc_hd__or2_2          1
+     sky130_fd_sc_hd__or3_2          2
+     sky130_fd_sc_hd__or3b_2         2
+     sky130_fd_sc_hd__or4_2          4
+     sky130_sram_2kbyte_1rw1r_32x512_8      4
+
+   Area for cell type \sky130_sram_2kbyte_1rw1r_32x512_8 is unknown!
+
+   Chip area for module '\user_project_wrapper': 2354.758400
+

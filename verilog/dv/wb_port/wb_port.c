@@ -100,6 +100,7 @@ void main()
 
 	// reg_la2_oenb = reg_la2_iena = 0x00000000;    // [95:64]
 
+    reg_la3_data = 0x00000000;
     reg_la2_data = 0x00000002;
     reg_la2_data = 0x00000000;
     

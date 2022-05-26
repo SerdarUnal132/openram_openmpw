@@ -1,0 +1,29 @@
+OpenROAD 79a46b62da64bbebc18f06b20c42211046de719a 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ODB-0222] Reading LEF file: /home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/merged.unpadded.nom.lef
+[INFO ODB-0223]     Created 13 technology layers
+[INFO ODB-0224]     Created 25 technology vias
+[INFO ODB-0225]     Created 442 library cells
+[INFO ODB-0226] Finished LEF file:  /home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/merged.unpadded.nom.lef
+[INFO ODB-0127] Reading DEF file: /home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/routing/16-resizer_timing.def
+[INFO ODB-0128] Design: user_project_wrapper
+[INFO ODB-0094] 		Created 100000 Insts
+[INFO ODB-0130]     Created 645 pins.
+[INFO ODB-0131]     Created 134084 components and 287202 component-terminals.
+[INFO ODB-0132]     Created 8 special nets and 281160 connections.
+[INFO ODB-0133]     Created 3285 nets and 5879 connections.
+[INFO ODB-0134] Finished DEF file: /home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/routing/16-resizer_timing.def
+Placement Analysis
+---------------------------------
+total displacement          0.0 u
+average displacement        0.0 u
+max displacement            0.0 u
+original HPWL          445908.3 u
+legalized HPWL         448475.2 u
+delta HPWL                    1 %
+
+[INFO DPL-0020] Mirrored 1116 instances
+[INFO DPL-0021] HPWL before          448475.2 u
+[INFO DPL-0022] HPWL after           445908.3 u
+[INFO DPL-0023] HPWL delta               -0.6 %

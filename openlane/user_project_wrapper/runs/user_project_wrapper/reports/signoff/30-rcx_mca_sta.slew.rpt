@@ -1,0 +1,106 @@
+
+===========================================================================
+ report_check_types -max_slew -max_cap -max_fanout -violators
+============================================================================
+
+======================= Slowest Corner ===================================
+
+max fanout
+
+Pin                                   Limit Fanout  Slack
+---------------------------------------------------------
+repeater568/X                             5     13     -8 (VIOLATED)
+repeater245/X                             5     11     -6 (VIOLATED)
+repeater253/X                             5     11     -6 (VIOLATED)
+repeater487/X                             5     11     -6 (VIOLATED)
+repeater577/X                             5      9     -4 (VIOLATED)
+repeater1440/X                            5      8     -3 (VIOLATED)
+repeater1548/X                            5      8     -3 (VIOLATED)
+repeater917/X                             5      8     -3 (VIOLATED)
+repeater1413/X                            5      7     -2 (VIOLATED)
+repeater293/X                             5      7     -2 (VIOLATED)
+repeater463/X                             5      7     -2 (VIOLATED)
+repeater471/X                             5      7     -2 (VIOLATED)
+repeater479/X                             5      7     -2 (VIOLATED)
+repeater556/X                             5      7     -2 (VIOLATED)
+repeater1027/X                            5      6        (VIOLATED)
+repeater1292/X                            5      6        (VIOLATED)
+repeater1383/X                            5      6        (VIOLATED)
+repeater1410/X                            5      6        (VIOLATED)
+repeater673/X                             5      6        (VIOLATED)
+repeater836/X                             5      6        (VIOLATED)
+repeater839/X                             5      6        (VIOLATED)
+repeater866/X                             5      6        (VIOLATED)
+repeater890/X                             5      6        (VIOLATED)
+repeater945/X                             5      6        (VIOLATED)
+
+
+======================= Typical Corner ===================================
+
+max fanout
+
+Pin                                   Limit Fanout  Slack
+---------------------------------------------------------
+repeater568/X                             5     13     -8 (VIOLATED)
+repeater245/X                             5     11     -6 (VIOLATED)
+repeater253/X                             5     11     -6 (VIOLATED)
+repeater487/X                             5     11     -6 (VIOLATED)
+repeater577/X                             5      9     -4 (VIOLATED)
+repeater1440/X                            5      8     -3 (VIOLATED)
+repeater1548/X                            5      8     -3 (VIOLATED)
+repeater917/X                             5      8     -3 (VIOLATED)
+repeater1413/X                            5      7     -2 (VIOLATED)
+repeater293/X                             5      7     -2 (VIOLATED)
+repeater463/X                             5      7     -2 (VIOLATED)
+repeater471/X                             5      7     -2 (VIOLATED)
+repeater479/X                             5      7     -2 (VIOLATED)
+repeater556/X                             5      7     -2 (VIOLATED)
+repeater1027/X                            5      6        (VIOLATED)
+repeater1292/X                            5      6        (VIOLATED)
+repeater1383/X                            5      6        (VIOLATED)
+repeater1410/X                            5      6        (VIOLATED)
+repeater673/X                             5      6        (VIOLATED)
+repeater836/X                             5      6        (VIOLATED)
+repeater839/X                             5      6        (VIOLATED)
+repeater866/X                             5      6        (VIOLATED)
+repeater890/X                             5      6        (VIOLATED)
+repeater945/X                             5      6        (VIOLATED)
+
+
+======================= Fastest Corner ===================================
+
+max fanout
+
+Pin                                   Limit Fanout  Slack
+---------------------------------------------------------
+repeater568/X                             5     13     -8 (VIOLATED)
+repeater245/X                             5     11     -6 (VIOLATED)
+repeater253/X                             5     11     -6 (VIOLATED)
+repeater487/X                             5     11     -6 (VIOLATED)
+repeater577/X                             5      9     -4 (VIOLATED)
+repeater1440/X                            5      8     -3 (VIOLATED)
+repeater1548/X                            5      8     -3 (VIOLATED)
+repeater917/X                             5      8     -3 (VIOLATED)
+repeater1413/X                            5      7     -2 (VIOLATED)
+repeater293/X                             5      7     -2 (VIOLATED)
+repeater463/X                             5      7     -2 (VIOLATED)
+repeater471/X                             5      7     -2 (VIOLATED)
+repeater479/X                             5      7     -2 (VIOLATED)
+repeater556/X                             5      7     -2 (VIOLATED)
+repeater1027/X                            5      6        (VIOLATED)
+repeater1292/X                            5      6        (VIOLATED)
+repeater1383/X                            5      6        (VIOLATED)
+repeater1410/X                            5      6        (VIOLATED)
+repeater673/X                             5      6        (VIOLATED)
+repeater836/X                             5      6        (VIOLATED)
+repeater839/X                             5      6        (VIOLATED)
+repeater866/X                             5      6        (VIOLATED)
+repeater890/X                             5      6        (VIOLATED)
+repeater945/X                             5      6        (VIOLATED)
+
+
+===========================================================================
+max slew violation count 0
+max fanout violation count 24
+max cap violation count 0
+============================================================================

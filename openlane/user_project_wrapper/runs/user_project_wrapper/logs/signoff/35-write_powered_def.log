@@ -1,0 +1,100 @@
+OpenROAD 79a46b62da64bbebc18f06b20c42211046de719a 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[INFO ODB-0222] Reading LEF file: /home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/merged.nom.lef
+[INFO ODB-0223]     Created 13 technology layers
+[INFO ODB-0224]     Created 25 technology vias
+[INFO ODB-0225]     Created 442 library cells
+[INFO ODB-0226] Finished LEF file:  /home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/merged.nom.lef
+[INFO ODB-0127] Reading DEF file: /home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper/results/routing/user_project_wrapper.def
+[INFO ODB-0128] Design: user_project_wrapper
+[INFO ODB-0094] 		Created 100000 Insts
+[INFO ODB-0094] 		Created 200000 Insts
+[INFO ODB-0094] 		Created 300000 Insts
+[INFO ODB-0094] 		Created 400000 Insts
+[INFO ODB-0094] 		Created 500000 Insts
+[INFO ODB-0094] 		Created 600000 Insts
+[INFO ODB-0094] 		Created 700000 Insts
+[INFO ODB-0094] 		Created 800000 Insts
+[INFO ODB-0130]     Created 645 pins.
+[INFO ODB-0131]     Created 899530 components and 3349386 component-terminals.
+[INFO ODB-0132]     Created 8 special nets and 3342944 connections.
+[INFO ODB-0133]     Created 3285 nets and 6279 connections.
+[INFO ODB-0134] Finished DEF file: /home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper/results/routing/user_project_wrapper.def
+[INFO ODB-0222] Reading LEF file: /home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/merged.nom.lef
+[INFO ODB-0223]     Created 13 technology layers
+[INFO ODB-0224]     Created 25 technology vias
+[INFO ODB-0225]     Created 442 library cells
+[INFO ODB-0226] Finished LEF file:  /home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/merged.nom.lef
+[INFO ODB-0127] Reading DEF file: /home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/synthesis/pg_define.def
+[INFO ODB-0128] Design: user_project_wrapper
+[INFO ODB-0130]     Created 645 pins.
+[INFO ODB-0131]     Created 395 components and 3132 component-terminals.
+[INFO ODB-0133]     Created 1052 nets and 1405 connections.
+[INFO ODB-0134] Finished DEF file: /home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/synthesis/pg_define.def
+Top-level design name: user_project_wrapper
+Default power net:  vccd1
+Default ground net: vssd1
+Found a total of 4 power ports.
+Found a total of 4 ground ports.
+Modified power connections of 899530 cells (Remaining: 0 ).
+STDOUT:
+OpenROAD 79a46b62da64bbebc18f06b20c42211046de719a 
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+warning: `//.tclsh-history' is not writable.
+openroad> read_lef /home/serdar/Desktop/openram_demo/openram_openmpw/openlane
+<rdar/Desktop/openram_demo/openram_openmpw/openlane/                         user_project_wrapper/runs
+
+<openram_openmpw/openlane/user_project_wrapper/runs/                         user_project_wrapper/tmp/
+
+<ser_project_wrapper/runs/user_project_wrapper/tmp/m                         erged.nom.lef
+[INFO ODB-0222] Reading LEF file: /home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/merged.nom.lef
+[INFO ODB-0223]     Created 13 technology layers
+[INFO ODB-0224]     Created 25 technology vias
+[INFO ODB-0225]     Created 442 library cells
+[INFO ODB-0226] Finished LEF file:  /home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/merged.nom.lef
+openroad> read_verilog /home/serdar/Desktop/openram_demo/openram_openmpw/open
+<e/serdar/Desktop/openram_demo/openram_openmpw/openl                         ane/user_project_wrapper/
+
+<emo/openram_openmpw/openlane/user_project_wrapper/r                         uns/user_project_wrapper/
+
+<ne/user_project_wrapper/runs/user_project_wrapper/t                         mp/synthesis/pg_define.v
+openroad> link_design user_project_wrapper
+[WARNING ORD-1011] LEF master sky130_sram_2kbyte_1rw1r_32x512_8 has no liberty cell.
+[WARNING ORD-1011] LEF master sky130_fd_sc_hd__inv_2 has no liberty cell.
+[WARNING ORD-1011] LEF master sky130_fd_sc_hd__nand3b_2 has no liberty cell.
+[WARNING ORD-1011] LEF master sky130_fd_sc_hd__buf_1 has no liberty cell.
+[WARNING ORD-1011] LEF master sky130_fd_sc_hd__or2_2 has no liberty cell.
+[WARNING ORD-1011] LEF master sky130_fd_sc_hd__or3_2 has no liberty cell.
+[WARNING ORD-1011] LEF master sky130_fd_sc_hd__or4_2 has no liberty cell.
+[WARNING ORD-1011] LEF master sky130_fd_sc_hd__and2_2 has no liberty cell.
+[WARNING ORD-1011] LEF master sky130_fd_sc_hd__or3b_2 has no liberty cell.
+[WARNING ORD-1011] LEF master sky130_fd_sc_hd__mux2_2 has no liberty cell.
+[WARNING ORD-1011] LEF master sky130_fd_sc_hd__o21a_2 has no liberty cell.
+[WARNING ORD-1011] LEF master sky130_fd_sc_hd__a22o_2 has no liberty cell.
+[WARNING ORD-1011] LEF master sky130_fd_sc_hd__o22a_2 has no liberty cell.
+[WARNING ORD-1011] LEF master sky130_fd_sc_hd__nor2_2 has no liberty cell.
+[WARNING ORD-1011] LEF master sky130_fd_sc_hd__dfxtp_2 has no liberty cell.
+[WARNING ORD-1011] LEF master sky130_fd_sc_hd__conb_1 has no liberty cell.
+[WARNING ORD-1011] LEF master sky130_fd_sc_hd__buf_4 has no liberty cell.
+openroad> write_def /home/serdar/Desktop/openram_demo/openram_openmpw/openlan
+<erdar/Desktop/openram_demo/openram_openmpw/openlane                         /user_project_wrapper/run
+
+</openram_openmpw/openlane/user_project_wrapper/runs                         /user_project_wrapper/tmp
+
+<user_project_wrapper/runs/user_project_wrapper/tmp/                         synthesis/pg_define.def
+openroad> exit
+unable to write history to `//.tclsh-history'
+STDERR:
+
+openroad exit code: 0
+Successfully created a new database
+Modified connections between vccd1 and SRAM3
+Modified connections between vccd1 and SRAM2
+Modified connections between vccd1 and SRAM1
+Modified connections between vccd1 and SRAM0
+Modified connections between vssd1 and SRAM3
+Modified connections between vssd1 and SRAM2
+Modified connections between vssd1 and SRAM1
+Modified connections between vssd1 and SRAM0

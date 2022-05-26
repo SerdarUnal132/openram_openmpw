@@ -1,0 +1,163 @@
+
+===========================================================================
+report_checks -path_delay min (Hold)
+============================================================================
+Startpoint: _313_ (rising edge-triggered flip-flop clocked by wb_clk_i)
+Endpoint: _313_ (rising edge-triggered flip-flop clocked by wb_clk_i)
+Path Group: wb_clk_i
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.15    0.00    0.00   clock wb_clk_i (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                  0.15    0.00    0.00 ^ _313_/CLK (sky130_fd_sc_hd__dfxtp_2)
+                  0.18    0.41    0.41 ^ _313_/Q (sky130_fd_sc_hd__dfxtp_2)
+     2    0.03                           wbs_ack_o (net)
+                  0.18    0.00    0.41 ^ _151_/A_N (sky130_fd_sc_hd__nand3b_2)
+                  0.07    0.16    0.57 ^ _151_/Y (sky130_fd_sc_hd__nand3b_2)
+     5    0.01                           _010_ (net)
+                  0.07    0.00    0.58 ^ _152_/A (sky130_fd_sc_hd__buf_1)
+                  0.15    0.15    0.73 ^ _152_/X (sky130_fd_sc_hd__buf_1)
+     5    0.01                           _011_ (net)
+                  0.15    0.01    0.74 ^ _312_/A (sky130_fd_sc_hd__nor2_2)
+                  0.02    0.05    0.78 v _312_/Y (sky130_fd_sc_hd__nor2_2)
+     1    0.00                           _008_ (net)
+                  0.02    0.00    0.79 v _313_/D (sky130_fd_sc_hd__dfxtp_2)
+                                  0.79   data arrival time
+
+                  0.15    0.00    0.00   clock wb_clk_i (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          0.25    0.25   clock uncertainty
+                          0.00    0.25   clock reconvergence pessimism
+                                  0.25 ^ _313_/CLK (sky130_fd_sc_hd__dfxtp_2)
+                         -0.01    0.24   library hold time
+                                  0.24   data required time
+-----------------------------------------------------------------------------
+                                  0.24   data required time
+                                 -0.79   data arrival time
+-----------------------------------------------------------------------------
+                                  0.55   slack (MET)
+
+
+Startpoint: _313_ (rising edge-triggered flip-flop clocked by wb_clk_i)
+Endpoint: wbs_ack_o (output port clocked by wb_clk_i)
+Path Group: wb_clk_i
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.15    0.00    0.00   clock wb_clk_i (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                  0.15    0.00    0.00 ^ _313_/CLK (sky130_fd_sc_hd__dfxtp_2)
+                  0.09    0.36    0.36 v _313_/Q (sky130_fd_sc_hd__dfxtp_2)
+     2    0.03                           wbs_ack_o (net)
+                  0.09    0.00    0.36 v wbs_ack_o (out)
+                                  0.36   data arrival time
+
+                  0.15    0.00    0.00   clock wb_clk_i (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          0.25    0.25   clock uncertainty
+                          0.00    0.25   clock reconvergence pessimism
+                         -3.20   -2.95   output external delay
+                                 -2.95   data required time
+-----------------------------------------------------------------------------
+                                 -2.95   data required time
+                                 -0.36   data arrival time
+-----------------------------------------------------------------------------
+                                  3.31   slack (MET)
+
+
+Startpoint: wbs_dat_i[0] (input port clocked by wb_clk_i)
+Endpoint: la_data_out[32] (output port clocked by wb_clk_i)
+Path Group: wb_clk_i
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.15    0.00    0.00   clock wb_clk_i (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          3.20    3.20 v input external delay
+                  0.01    0.01    3.21 v wbs_dat_i[0] (in)
+     5    0.00                           wbs_dat_i[0] (net)
+                  0.01    0.00    3.21 v _477_/A (sky130_fd_sc_hd__buf_4)
+                  0.06    0.14    3.34 v _477_/X (sky130_fd_sc_hd__buf_4)
+     1    0.03                           la_data_out[32] (net)
+                  0.06    0.00    3.34 v la_data_out[32] (out)
+                                  3.34   data arrival time
+
+                  0.15    0.00    0.00   clock wb_clk_i (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          0.25    0.25   clock uncertainty
+                          0.00    0.25   clock reconvergence pessimism
+                         -3.20   -2.95   output external delay
+                                 -2.95   data required time
+-----------------------------------------------------------------------------
+                                 -2.95   data required time
+                                 -3.34   data arrival time
+-----------------------------------------------------------------------------
+                                  6.29   slack (MET)
+
+
+Startpoint: wbs_dat_i[1] (input port clocked by wb_clk_i)
+Endpoint: la_data_out[33] (output port clocked by wb_clk_i)
+Path Group: wb_clk_i
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.15    0.00    0.00   clock wb_clk_i (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          3.20    3.20 v input external delay
+                  0.01    0.01    3.21 v wbs_dat_i[1] (in)
+     5    0.00                           wbs_dat_i[1] (net)
+                  0.01    0.00    3.21 v _478_/A (sky130_fd_sc_hd__buf_4)
+                  0.06    0.14    3.34 v _478_/X (sky130_fd_sc_hd__buf_4)
+     1    0.03                           la_data_out[33] (net)
+                  0.06    0.00    3.34 v la_data_out[33] (out)
+                                  3.34   data arrival time
+
+                  0.15    0.00    0.00   clock wb_clk_i (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          0.25    0.25   clock uncertainty
+                          0.00    0.25   clock reconvergence pessimism
+                         -3.20   -2.95   output external delay
+                                 -2.95   data required time
+-----------------------------------------------------------------------------
+                                 -2.95   data required time
+                                 -3.34   data arrival time
+-----------------------------------------------------------------------------
+                                  6.29   slack (MET)
+
+
+Startpoint: wbs_dat_i[2] (input port clocked by wb_clk_i)
+Endpoint: la_data_out[34] (output port clocked by wb_clk_i)
+Path Group: wb_clk_i
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.15    0.00    0.00   clock wb_clk_i (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          3.20    3.20 v input external delay
+                  0.01    0.01    3.21 v wbs_dat_i[2] (in)
+     5    0.00                           wbs_dat_i[2] (net)
+                  0.01    0.00    3.21 v _479_/A (sky130_fd_sc_hd__buf_4)
+                  0.06    0.14    3.34 v _479_/X (sky130_fd_sc_hd__buf_4)
+     1    0.03                           la_data_out[34] (net)
+                  0.06    0.00    3.34 v la_data_out[34] (out)
+                                  3.34   data arrival time
+
+                  0.15    0.00    0.00   clock wb_clk_i (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          0.25    0.25   clock uncertainty
+                          0.00    0.25   clock reconvergence pessimism
+                         -3.20   -2.95   output external delay
+                                 -2.95   data required time
+-----------------------------------------------------------------------------
+                                 -2.95   data required time
+                                 -3.34   data arrival time
+-----------------------------------------------------------------------------
+                                  6.29   slack (MET)
+
+

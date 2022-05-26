@@ -81,43 +81,132 @@ module user_project_wrapper #(
 /*--------------------------------------*/
 /* User project is instantiated  here   */
 /*--------------------------------------*/
+  localparam  NRegisters = 3;
 
-openram_demo mprj (
-`ifdef USE_POWER_PINS
-	.vccd1(vccd1),	// User area 1 1.8V power
-	.vssd1(vssd1),	// User area 1 digital ground
-`endif
+  wire [31:0] rdata; 
+  wire [31:0] wdata;
+  wire        ready;
+  wire        valid;
+  wire [31:0] la_write;
 
-    .wb_clk_i(wb_clk_i),
-    .wb_rst_i(wb_rst_i),
+  wire clk;
+  wire rst;
 
-    // MGMT SoC Wishbone Slave
+  assign valid = wbs_cyc_i && wbs_stb_i; 
+  assign wbs_dat_o = rdata;
+  assign wdata = wbs_dat_i;
 
-    .wbs_cyc_i(wbs_cyc_i),
-    .wbs_stb_i(wbs_stb_i),
-    .wbs_we_i(wbs_we_i),
-    .wbs_sel_i(wbs_sel_i),
-    .wbs_adr_i(wbs_adr_i),
-    .wbs_dat_i(wbs_dat_i),
-    .wbs_ack_o(wbs_ack_o),
-    .wbs_dat_o(wbs_dat_o),
+  assign io_out = 0;
+  assign io_oeb = {(`MPRJ_IO_PADS-1){1'b1}};
 
-    // Logic Analyzer
+  // IRQ
+  assign user_irq = 3'b000;	// Unused
 
-    .la_data_in(la_data_in),
-    .la_data_out(la_data_out),
-    .la_oenb (la_oenb),
+  // LA
+  assign la_data_out = {{64{1'b0}}, wdata, rdata};
+  // Assuming LA probes [65:64] are for controlling the count clk & reset  
+  assign clk = (~la_oenb[64]) ? la_data_in[64]: wb_clk_i;
+  assign rst = (~la_oenb[65]) ? la_data_in[65]: wb_rst_i;
+    
+  assign wbs_ack_o = ready;
 
-    // IO Pads
+  // Register interface
+  reg         ready_q;
+  
+  assign rdata = sram0_dout1[sram_select];
+  assign ready = ready_q;
 
-    .io_in (io_in),
-    .io_out(io_out),
-    .io_oeb(io_oeb),
+  wire [31:0] sram0_dout0 [3:0];
+  wire [31:0] sram0_dout1 [3:0];
 
-    // IRQ
-    .irq(user_irq)
-);
+  wire [1:0] sram_select;
+  assign sram_select =  wbs_adr_i[12:11];
+  wire [8:0] sram_address;
+  assign sram_address = wbs_adr_i[10:0] >> 2;
 
+  // SRAM's were added to the top in order them to be powered
+  sky130_sram_2kbyte_1rw1r_32x512_8 SRAM0 (
+    `ifdef USE_POWER_PINS
+      .vccd1(vccd1),
+      .vssd1(vssd1),
+    `endif
+    .clk0   (clk),
+    .csb0   (!(!wbs_adr_i[12] & !wbs_adr_i[11] & valid & !ready_q & wbs_we_i)),
+    .web0   (1'b0),
+    .wmask0 (4'hF),
+    .addr0  (sram_address),
+    .din0   (wdata),
+    .dout0  (sram0_dout0[0]),
+    .clk1   (clk),
+    .csb1   (!(!wbs_adr_i[12] & !wbs_adr_i[11] & valid & !ready_q & !wbs_we_i)),
+    .addr1  (sram_address),
+    .dout1  (sram0_dout1[0])
+  );
+
+    sky130_sram_2kbyte_1rw1r_32x512_8 SRAM1 (
+    `ifdef USE_POWER_PINS
+      .vccd1(vccd1),
+      .vssd1(vssd1),
+    `endif
+    .clk0   (clk),
+    .csb0   (!(!wbs_adr_i[12] & wbs_adr_i[11] & valid & !ready_q & wbs_we_i)),
+    .web0   (1'b0),
+    .wmask0 (4'hF),
+    .addr0  (sram_address),
+    .din0   (wdata),
+    .dout0  (sram0_dout0[1]),
+    .clk1   (clk),
+    .csb1   (!(!wbs_adr_i[12] & wbs_adr_i[11] & valid & !ready_q & !wbs_we_i)),
+    .addr1  (sram_address),
+    .dout1  (sram0_dout1[1])
+  );
+
+    sky130_sram_2kbyte_1rw1r_32x512_8 SRAM2 (
+    `ifdef USE_POWER_PINS
+      .vccd1(vccd1),
+      .vssd1(vssd1),
+    `endif
+    .clk0   (clk),
+    .csb0   (!(wbs_adr_i[12] & !wbs_adr_i[11] & valid & !ready_q & wbs_we_i)),
+    .web0   (1'b0),
+    .wmask0 (4'hF),
+    .addr0  (sram_address),
+    .din0   (wdata),
+    .dout0  (sram0_dout0[2]),
+    .clk1   (clk),
+    .csb1   (!(wbs_adr_i[12] & !wbs_adr_i[11] & valid & !ready_q & !wbs_we_i)),
+    .addr1  (sram_address),
+    .dout1  (sram0_dout1[2])
+  );
+
+    sky130_sram_2kbyte_1rw1r_32x512_8 SRAM3 (
+    `ifdef USE_POWER_PINS
+      .vccd1(vccd1),
+      .vssd1(vssd1),
+    `endif
+    .clk0   (clk),
+    .csb0   (!(wbs_adr_i[12] & wbs_adr_i[11] & valid & !ready_q & wbs_we_i)),
+    .web0   (1'b0),
+    .wmask0 (4'hF),
+    .addr0  (sram_address),
+    .din0   (wdata),
+    .dout0  (sram0_dout0[3]),
+    .clk1   (clk),
+    .csb1   (!(wbs_adr_i[12] & wbs_adr_i[11] & valid & !ready_q & !wbs_we_i)),
+    .addr1  (sram_address),
+    .dout1  (sram0_dout1[3])
+  );
+
+  always @(posedge clk) begin
+    if (!rst == 0) begin
+      ready_q <= 0;
+    end else begin
+      ready_q <= 1'b0;
+      if (valid && !ready_q) begin
+        ready_q <= 1'b1;
+      end
+    end
+  end
 endmodule	// user_project_wrapper
 
 `default_nettype wire

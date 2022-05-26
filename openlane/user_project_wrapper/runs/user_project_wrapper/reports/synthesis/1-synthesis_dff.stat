@@ -1,0 +1,23 @@
+
+19. Printing statistics.
+
+=== user_project_wrapper ===
+
+   Number of wires:                214
+   Number of wire bits:           1080
+   Number of public wires:          29
+   Number of public wire bits:     895
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                224
+     $_ANDNOT_                      96
+     $_MUX_                         35
+     $_NAND_                         2
+     $_NOR_                          2
+     $_NOT_                          1
+     $_ORNOT_                        2
+     $_OR_                          81
+     sky130_fd_sc_hd__dfxtp_2        1
+     sky130_sram_2kbyte_1rw1r_32x512_8      4
+

@@ -1,0 +1,974 @@
+
+Magic 8.3 revision 278 - Compiled on Fri May 13 13:23:04 UTC 2022.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(vendor): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Loading "/home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/signoff/gds.spice.tcl" from command line.
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 3.0
+Library name: user_project_wrapper
+Reading "sky130_fd_sc_hd__buf_6".
+Reading "sky130_fd_sc_hd__decap_3".
+Reading "sky130_fd_sc_hd__decap_12".
+Reading "sky130_fd_sc_hd__decap_4".
+Reading "sky130_fd_sc_hd__clkbuf_4".
+Reading "sky130_fd_sc_hd__clkdlybuf4s25_1".
+Reading "sky130_fd_sc_hd__tapvpwrvgnd_1".
+Reading "sky130_fd_sc_hd__decap_6".
+Reading "sky130_fd_sc_hd__fill_1".
+Reading "sky130_fd_sc_hd__decap_8".
+Reading "sky130_fd_sc_hd__diode_2".
+Reading "sky130_fd_sc_hd__fill_2".
+Reading "sky130_fd_sc_hd__dlymetal6s2s_1".
+Reading "sky130_fd_sc_hd__clkdlybuf4s15_2".
+Reading "sky130_fd_sc_hd__buf_4".
+Reading "sky130_fd_sc_hd__mux2_2".
+Reading "sky130_fd_sc_hd__nand3b_1".
+Reading "sky130_fd_sc_hd__conb_1".
+Reading "sky130_fd_sc_hd__buf_2".
+Reading "sky130_fd_sc_hd__nor2_1".
+Reading "sky130_fd_sc_hd__buf_1".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_contact_39".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_contact_19".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_contact_14".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_contact_13".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_contact_7".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_contact_38".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_contact_33".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_contact_32".
+Reading "sky130_fd_bd_sram__openram_dff".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_row_addr_dff".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_wmask_dff".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_cr_3".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_col_addr_dff".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_data_dff".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_contact_16".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_contact_29".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_contact_28".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_contact_11".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m1_w0_360_sli_dli_da_p".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_contact_12".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m1_w1_120_sli_dli_da_p".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_pinv_1".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m1_w0_740_sactive_dli".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m1_w0_740_sli_dactive".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m1_w1_120_sli_dli".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_pnand2_1".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m3_w1_680_sli_dli_da_p".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m3_w1_680_sli_dli_da_p".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_pinv_3".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m2_w0_740_sli_dli_da_p".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m2_w1_260_sli_dli_da_p".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_pinv_2".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_dff_buf_0".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_dff_buf_array".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m7_w1_680_sli_dli_da_p".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m7_w2_000_sli_dli_da_p".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_pinv_4".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_pdriver_1".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_pnand2_0".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_pand2_1".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m24_w2_000_sli_dli_da_p".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m24_w2_000_sli_dli_da_p".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_pinv_14".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m8_w2_000_sli_dli_da_p".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m8_w2_000_sli_dli_da_p".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_pinv_13".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m3_w2_000_sli_dli_da_p".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m3_w2_000_sli_dli_da_p".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_pinv_12".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_pinv_11".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_pinv_0".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_pdriver_3".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_pinv_17".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_delay_chain".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m18_w2_000_sli_dli_da_p".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m18_w2_000_sli_dli_da_p".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_pinv_16".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_pdriver_5".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m1_w0_740_sactive_dactive".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_pnand3".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_pand3_0".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m22_w2_000_sli_dli_da_p".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m22_w2_000_sli_dli_da_p".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_pinv_15".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_pdriver_4".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_pand3".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m42_w2_000_sli_dli_da_p".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m42_w2_000_sli_dli_da_p".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_pinv_10".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m15_w2_000_sli_dli_da_p".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m15_w2_000_sli_dli_da_p".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_pinv_9".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m5_w2_000_sli_dli_da_p".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m5_w2_000_sli_dli_da_p".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_pinv_8".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m2_w1_260_sli_dli_da_p".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m2_w2_000_sli_dli_da_p".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_pinv_7".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_pdriver_2".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_control_logic_rw".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_cr_5".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_dff_buf_array_0".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m41_w2_000_sli_dli_da_p".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m41_w2_000_sli_dli_da_p".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_pinv_20".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m14_w2_000_sli_dli_da_p".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m14_w2_000_sli_dli_da_p".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_pinv_19".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m5_w1_680_sli_dli_da_p".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_pinv_18".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_pdriver_6".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_control_logic_r".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_cr_4".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_contact_20".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_contact_17".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_pdriver_0".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_pand2_0".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_hierarchical_predecode2x4_0".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_contact_15".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m1_w7_000_sli_dli_da_p".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m1_w7_000_sli_dli_da_p".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_pinv_dec_0".
+CIF file read warning: CIF style sky130(vendor): units rescaled by factor of 5 / 1
+Reading "sky130_fd_bd_sram__openram_dp_nand2_dec".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_and2_dec_0".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_wordline_driver".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_wordline_driver_array".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_pinv_dec".
+Reading "sky130_fd_bd_sram__openram_dp_nand3_dec".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_and3_dec".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_hierarchical_predecode3x8".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_and2_dec".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_hierarchical_predecode2x4".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_hierarchical_decoder".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_port_address_0".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_port_address".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_contact_27".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_contact_26".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_contact_25".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_contact_24".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m1_w2_880_sli_dli".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_column_mux_0".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_column_mux_array_0".
+Reading "sky130_fd_bd_sram__openram_sense_amp".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_sense_amp_array".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_contact_23".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_contact_21".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_contact_22".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m1_w0_550_sli_dli".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_precharge_1".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_precharge_array_0".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_port_data_0".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_column_mux".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_column_mux_array".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_pinv".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_pdriver".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_pnand2".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_pand2".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_write_mask_and_array".
+Reading "sky130_fd_bd_sram__openram_write_driver".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_write_driver_array".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_precharge_0".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_precharge_array".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_port_data".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_contact_9".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_contact_8".
+Reading "sky130_fd_bd_sram__openram_dp_cell_cap_row".
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_cap_row" (byte position 2710802): Unknown layer/datatype in boundary, layer=33 type=42
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_cap_row" (byte position 2711506): Unknown layer/datatype in boundary, layer=33 type=43
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_cap_row" (byte position 2712466): Unknown layer/datatype in boundary, layer=22 type=21
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_row_cap_array_0".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_row_cap_array".
+Reading "sky130_fd_bd_sram__openram_dp_cell_cap_col".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_col_cap_array".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_col_cap_array_0".
+Reading "sky130_fd_bd_sram__openram_dp_cell_dummy".
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_dummy" (byte position 3204712): Unknown layer/datatype in boundary, layer=33 type=42
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_dummy" (byte position 3208488): Unknown layer/datatype in boundary, layer=33 type=43
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_dummy" (byte position 3212680): Unknown layer/datatype in boundary, layer=22 type=21
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_dummy" (byte position 3217480): Unknown layer/datatype in boundary, layer=22 type=22
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_dummy" (byte position 3219528): Unknown layer/datatype in boundary, layer=235 type=0
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_dummy_array".
+Reading "sky130_fd_bd_sram__openram_dp_cell_replica".
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_replica" (byte position 3398970): Unknown layer/datatype in boundary, layer=33 type=42
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_replica" (byte position 3402746): Unknown layer/datatype in boundary, layer=33 type=43
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_replica" (byte position 3406938): Unknown layer/datatype in boundary, layer=22 type=21
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_replica" (byte position 3413402): Unknown layer/datatype in boundary, layer=22 type=22
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_replica" (byte position 3415578): Unknown layer/datatype in boundary, layer=235 type=0
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_replica_column_0".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_replica_column".
+Reading "sky130_fd_bd_sram__openram_dp_cell".
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell" (byte position 3656028): Unknown layer/datatype in boundary, layer=33 type=42
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell" (byte position 3659804): Unknown layer/datatype in boundary, layer=33 type=43
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell" (byte position 3663996): Unknown layer/datatype in boundary, layer=22 type=21
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell" (byte position 3670460): Unknown layer/datatype in boundary, layer=22 type=22
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell" (byte position 3672636): Unknown layer/datatype in boundary, layer=235 type=0
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_bitcell_array".
+    5000 uses
+    10000 uses
+    15000 uses
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_replica_bitcell_array".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8_bank".
+Reading "sky130_sram_2kbyte_1rw1r_32x512_8".
+    5000 uses
+Reading "sky130_fd_sc_hd__dfxtp_1".
+Reading "sky130_fd_sc_hd__buf_8".
+Reading "sky130_fd_sc_hd__buf_12".
+Reading "sky130_fd_sc_hd__o22a_1".
+Reading "sky130_fd_sc_hd__o22a_2".
+Reading "sky130_fd_sc_hd__o21a_1".
+Reading "sky130_fd_sc_hd__or2_1".
+Reading "sky130_fd_sc_hd__or4_1".
+Reading "sky130_fd_sc_hd__inv_2".
+Reading "sky130_fd_sc_hd__or3_1".
+Reading "sky130_fd_sc_hd__and2_1".
+Reading "sky130_fd_sc_hd__or4_2".
+Reading "sky130_fd_sc_hd__clkbuf_2".
+Reading "sky130_fd_sc_hd__clkbuf_8".
+Reading "sky130_fd_sc_hd__clkbuf_16".
+Reading "sky130_fd_sc_hd__clkdlybuf4s18_2".
+Reading "sky130_fd_sc_hd__or3b_1".
+Reading "sky130_fd_sc_hd__a22o_1".
+Reading "user_project_wrapper".
+    5000 uses
+    10000 uses
+    15000 uses
+    20000 uses
+    25000 uses
+    30000 uses
+    35000 uses
+    40000 uses
+    45000 uses
+    50000 uses
+    55000 uses
+    60000 uses
+    65000 uses
+    70000 uses
+    75000 uses
+    80000 uses
+    85000 uses
+    90000 uses
+    95000 uses
+    100000 uses
+    105000 uses
+    110000 uses
+    115000 uses
+    120000 uses
+    125000 uses
+    130000 uses
+    135000 uses
+    140000 uses
+    145000 uses
+    150000 uses
+    155000 uses
+    160000 uses
+    165000 uses
+    170000 uses
+    175000 uses
+    180000 uses
+    185000 uses
+    190000 uses
+    195000 uses
+    200000 uses
+    205000 uses
+    210000 uses
+    215000 uses
+    220000 uses
+    225000 uses
+    230000 uses
+    235000 uses
+    240000 uses
+    245000 uses
+    250000 uses
+    255000 uses
+    260000 uses
+    265000 uses
+    270000 uses
+    275000 uses
+    280000 uses
+    285000 uses
+    290000 uses
+    295000 uses
+    300000 uses
+    305000 uses
+    310000 uses
+    315000 uses
+    320000 uses
+    325000 uses
+    330000 uses
+    335000 uses
+    340000 uses
+    345000 uses
+    350000 uses
+    355000 uses
+    360000 uses
+    365000 uses
+    370000 uses
+    375000 uses
+    380000 uses
+    385000 uses
+    390000 uses
+    395000 uses
+    400000 uses
+    405000 uses
+    410000 uses
+    415000 uses
+    420000 uses
+    425000 uses
+    430000 uses
+    435000 uses
+    440000 uses
+    445000 uses
+    450000 uses
+    455000 uses
+    460000 uses
+    465000 uses
+    470000 uses
+    475000 uses
+    480000 uses
+    485000 uses
+    490000 uses
+    495000 uses
+    500000 uses
+    505000 uses
+    510000 uses
+    515000 uses
+    520000 uses
+    525000 uses
+    530000 uses
+    535000 uses
+    540000 uses
+    545000 uses
+    550000 uses
+    555000 uses
+    560000 uses
+    565000 uses
+    570000 uses
+    575000 uses
+    580000 uses
+    585000 uses
+    590000 uses
+    595000 uses
+    600000 uses
+    605000 uses
+    610000 uses
+    615000 uses
+    620000 uses
+    625000 uses
+    630000 uses
+    635000 uses
+    640000 uses
+    645000 uses
+    650000 uses
+    655000 uses
+    660000 uses
+    665000 uses
+    670000 uses
+    675000 uses
+    680000 uses
+    685000 uses
+    690000 uses
+    695000 uses
+    700000 uses
+    705000 uses
+    710000 uses
+    715000 uses
+    720000 uses
+    725000 uses
+    730000 uses
+    735000 uses
+    740000 uses
+    745000 uses
+    750000 uses
+    755000 uses
+    760000 uses
+    765000 uses
+    770000 uses
+    775000 uses
+    780000 uses
+    785000 uses
+    790000 uses
+    795000 uses
+    800000 uses
+    805000 uses
+    810000 uses
+    815000 uses
+    820000 uses
+    825000 uses
+    830000 uses
+    835000 uses
+    840000 uses
+    845000 uses
+    850000 uses
+    855000 uses
+    860000 uses
+    865000 uses
+    870000 uses
+    875000 uses
+    880000 uses
+    885000 uses
+    890000 uses
+    895000 uses
+Processing sky130_fd_sc_hd__clkdlybuf4s25_1
+Processing sky130_fd_sc_hd__nand3b_1
+Processing sky130_fd_sc_hd__mux2_2
+Processing sky130_fd_sc_hd__nor2_1
+Processing sky130_fd_sc_hd__buf_1
+Processing sky130_fd_sc_hd__dfxtp_1
+Processing sky130_fd_sc_hd__buf_8
+Processing sky130_fd_sc_hd__buf_12
+Processing sky130_fd_sc_hd__o22a_2
+Processing sky130_fd_sc_hd__or2_1
+Processing sky130_fd_sc_hd__o22a_1
+Processing sky130_fd_sc_hd__o21a_1
+Processing sky130_fd_sc_hd__and2_1
+Processing sky130_fd_sc_hd__or4_2
+Processing sky130_fd_sc_hd__or4_1
+Processing sky130_fd_sc_hd__or3_1
+Processing sky130_fd_sc_hd__clkbuf_16
+Processing sky130_fd_sc_hd__clkbuf_8
+Processing sky130_fd_sc_hd__clkdlybuf4s18_2
+Processing sky130_fd_sc_hd__inv_2
+Processing sky130_fd_sc_hd__or3b_1
+Processing sky130_fd_sc_hd__clkbuf_2
+Processing sky130_fd_bd_sram__openram_dp_cell
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_bitcell_array
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_replica_column
+Processing sky130_fd_bd_sram__openram_dp_cell_replica
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_replica_column_0
+Processing sky130_fd_bd_sram__openram_dp_cell_dummy
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_dummy_array
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_col_cap_array_0
+Processing sky130_fd_bd_sram__openram_dp_cell_cap_col
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_col_cap_array
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_row_cap_array
+Processing sky130_fd_bd_sram__openram_dp_cell_cap_row
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_row_cap_array_0
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_contact_8
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_contact_9
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_replica_bitcell_array
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_precharge_0
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_precharge_array
+Processing sky130_fd_bd_sram__openram_write_driver
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_write_driver_array
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_pnand2
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_pinv
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_pdriver
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_pand2
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_write_mask_and_array
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_column_mux
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_column_mux_array
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_port_data
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m1_w0_550_sli_dli
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_contact_22
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_contact_21
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_contact_23
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_precharge_1
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_precharge_array_0
+Processing sky130_fd_bd_sram__openram_sense_amp
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_sense_amp_array
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m1_w2_880_sli_dli
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_column_mux_0
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_contact_24
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_contact_25
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_contact_26
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_contact_27
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_column_mux_array_0
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_port_data_0
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_port_address
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_and2_dec
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_hierarchical_predecode2x4
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_hierarchical_predecode3x8
+Processing sky130_fd_bd_sram__openram_dp_nand3_dec
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_pinv_dec
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_and3_dec
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_hierarchical_decoder
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_wordline_driver
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_wordline_driver_array
+Processing sky130_fd_bd_sram__openram_dp_nand2_dec
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m1_w7_000_sli_dli_da_p
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m1_w7_000_sli_dli_da_p
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_contact_15
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_pinv_dec_0
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_and2_dec_0
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_port_address_0
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_pdriver_0
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_pand2_0
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_contact_17
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_contact_20
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_hierarchical_predecode2x4_0
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_bank
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_cr_4
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m5_w1_680_sli_dli_da_p
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_pinv_18
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m14_w2_000_sli_dli_da_p
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m14_w2_000_sli_dli_da_p
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_pinv_19
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m41_w2_000_sli_dli_da_p
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m41_w2_000_sli_dli_da_p
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_pinv_20
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_pdriver_6
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_dff_buf_array_0
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_control_logic_r
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_cr_5
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m2_w2_000_sli_dli_da_p
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m2_w1_260_sli_dli_da_p
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_pinv_7
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m5_w2_000_sli_dli_da_p
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m5_w2_000_sli_dli_da_p
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_pinv_8
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m15_w2_000_sli_dli_da_p
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m15_w2_000_sli_dli_da_p
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_pinv_9
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m42_w2_000_sli_dli_da_p
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m42_w2_000_sli_dli_da_p
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_pinv_10
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_pdriver_2
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m22_w2_000_sli_dli_da_p
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m22_w2_000_sli_dli_da_p
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_pinv_15
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_pdriver_4
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_pand3
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m1_w0_740_sactive_dactive
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_pnand3
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m18_w2_000_sli_dli_da_p
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m18_w2_000_sli_dli_da_p
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_pinv_16
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_pdriver_5
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_pand3_0
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_pinv_17
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_delay_chain
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_pinv_0
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_pinv_11
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m3_w2_000_sli_dli_da_p
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m3_w2_000_sli_dli_da_p
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_pinv_12
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m8_w2_000_sli_dli_da_p
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m8_w2_000_sli_dli_da_p
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_pinv_13
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m24_w2_000_sli_dli_da_p
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m24_w2_000_sli_dli_da_p
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_pinv_14
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_pdriver_3
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_pnand2_0
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m7_w2_000_sli_dli_da_p
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m7_w1_680_sli_dli_da_p
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_pinv_4
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_pdriver_1
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_pand2_1
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m2_w1_260_sli_dli_da_p
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m2_w0_740_sli_dli_da_p
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_pinv_2
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m3_w1_680_sli_dli_da_p
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m3_w1_680_sli_dli_da_p
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_pinv_3
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_dff_buf_0
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_dff_buf_array
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m1_w1_120_sli_dli
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m1_w0_740_sli_dactive
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m1_w0_740_sactive_dli
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_pnand2_1
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_contact_12
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m1_w1_120_sli_dli_da_p
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_contact_11
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m1_w0_360_sli_dli_da_p
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_contact_28
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_contact_29
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_contact_16
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_pinv_1
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_control_logic_rw
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_data_dff
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_col_addr_dff
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_cr_3
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_wmask_dff
+Processing sky130_fd_bd_sram__openram_dff
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_row_addr_dff
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_contact_32
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_contact_33
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_contact_38
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_contact_7
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_contact_13
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_contact_14
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_contact_19
+Processing sky130_sram_2kbyte_1rw1r_32x512_8_contact_39
+Processing sky130_sram_2kbyte_1rw1r_32x512_8
+Processing sky130_fd_sc_hd__buf_2
+Processing sky130_fd_sc_hd__clkdlybuf4s15_2
+Processing sky130_fd_sc_hd__a22o_1
+Processing sky130_fd_sc_hd__buf_6
+Processing sky130_fd_sc_hd__diode_2
+Processing sky130_fd_sc_hd__clkbuf_4
+Processing sky130_fd_sc_hd__buf_4
+Processing sky130_fd_sc_hd__dlymetal6s2s_1
+Processing sky130_fd_sc_hd__decap_4
+Processing sky130_fd_sc_hd__fill_2
+Processing sky130_fd_sc_hd__conb_1
+Processing sky130_fd_sc_hd__decap_8
+Processing sky130_fd_sc_hd__tapvpwrvgnd_1
+Processing sky130_fd_sc_hd__decap_12
+Processing sky130_fd_sc_hd__decap_3
+Processing sky130_fd_sc_hd__fill_1
+Processing sky130_fd_sc_hd__decap_6
+Processing user_project_wrapper
+Extracting sky130_fd_sc_hd__clkdlybuf4s25_1 into sky130_fd_sc_hd__clkdlybuf4s25_1.ext:
+Extracting sky130_fd_sc_hd__nand3b_1 into sky130_fd_sc_hd__nand3b_1.ext:
+Extracting sky130_fd_sc_hd__mux2_2 into sky130_fd_sc_hd__mux2_2.ext:
+Extracting sky130_fd_sc_hd__nor2_1 into sky130_fd_sc_hd__nor2_1.ext:
+Extracting sky130_fd_sc_hd__buf_1 into sky130_fd_sc_hd__buf_1.ext:
+Extracting sky130_fd_sc_hd__dfxtp_1 into sky130_fd_sc_hd__dfxtp_1.ext:
+Extracting sky130_fd_sc_hd__buf_8 into sky130_fd_sc_hd__buf_8.ext:
+Extracting sky130_fd_sc_hd__buf_12 into sky130_fd_sc_hd__buf_12.ext:
+Extracting sky130_fd_sc_hd__o22a_2 into sky130_fd_sc_hd__o22a_2.ext:
+Extracting sky130_fd_sc_hd__or2_1 into sky130_fd_sc_hd__or2_1.ext:
+Extracting sky130_fd_sc_hd__o22a_1 into sky130_fd_sc_hd__o22a_1.ext:
+Extracting sky130_fd_sc_hd__o21a_1 into sky130_fd_sc_hd__o21a_1.ext:
+Extracting sky130_fd_sc_hd__and2_1 into sky130_fd_sc_hd__and2_1.ext:
+Extracting sky130_fd_sc_hd__or4_2 into sky130_fd_sc_hd__or4_2.ext:
+Extracting sky130_fd_sc_hd__or4_1 into sky130_fd_sc_hd__or4_1.ext:
+Extracting sky130_fd_sc_hd__or3_1 into sky130_fd_sc_hd__or3_1.ext:
+Extracting sky130_fd_sc_hd__clkbuf_16 into sky130_fd_sc_hd__clkbuf_16.ext:
+Extracting sky130_fd_sc_hd__clkbuf_8 into sky130_fd_sc_hd__clkbuf_8.ext:
+Extracting sky130_fd_sc_hd__clkdlybuf4s18_2 into sky130_fd_sc_hd__clkdlybuf4s18_2.ext:
+Extracting sky130_fd_sc_hd__inv_2 into sky130_fd_sc_hd__inv_2.ext:
+Extracting sky130_fd_sc_hd__or3b_1 into sky130_fd_sc_hd__or3b_1.ext:
+Extracting sky130_fd_sc_hd__clkbuf_2 into sky130_fd_sc_hd__clkbuf_2.ext:
+Extracting sky130_fd_bd_sram__openram_dp_cell into sky130_fd_bd_sram__openram_dp_cell.ext:
+Warning:  Ports "BR1" and "br1" are electrically shorted.
+Warning:  Ports "BL1" and "bl1" are electrically shorted.
+Warning:  Ports "WL1" and "wl1" are electrically shorted.
+Warning:  Ports "WL0" and "wl0" are electrically shorted.
+Warning:  Ports "BR0" and "br0" are electrically shorted.
+Warning:  Ports "BL0" and "bl0" are electrically shorted.
+Warning:  Ports "VDD" and "vdd" are electrically shorted.
+Warning:  Ports "GND" and "gnd" are electrically shorted.
+Warning:  Ports "GND" and "gnd" are electrically shorted.
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+sky130_fd_bd_sram__openram_dp_cell: 2 warnings
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_bitcell_array into sky130_sram_2kbyte_1rw1r_32x512_8_bitcell_array.ext:
+Created database crash recovery file /tmp//MAG930.4PKBT2
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_replica_column into sky130_sram_2kbyte_1rw1r_32x512_8_replica_column.ext:
+Extracting sky130_fd_bd_sram__openram_dp_cell_replica into sky130_fd_bd_sram__openram_dp_cell_replica.ext:
+Warning:  Ports "BR1" and "br1" are electrically shorted.
+Warning:  Ports "BL1" and "bl1" are electrically shorted.
+Warning:  Ports "WL1" and "wl1" are electrically shorted.
+Warning:  Ports "WL0" and "wl0" are electrically shorted.
+Warning:  Ports "BR0" and "br0" are electrically shorted.
+Warning:  Ports "BL0" and "bl0" are electrically shorted.
+Warning:  Ports "VDD" and "vdd" are electrically shorted.
+Warning:  Ports "GND" and "gnd" are electrically shorted.
+Warning:  Ports "GND" and "gnd" are electrically shorted.
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+sky130_fd_bd_sram__openram_dp_cell_replica: 3 warnings
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_replica_column_0 into sky130_sram_2kbyte_1rw1r_32x512_8_replica_column_0.ext:
+Extracting sky130_fd_bd_sram__openram_dp_cell_dummy into sky130_fd_bd_sram__openram_dp_cell_dummy.ext:
+Warning:  Ports "VDD" and "vdd" are electrically shorted.
+Warning:  Ports "BR1" and "br1" are electrically shorted.
+Warning:  Ports "BL1" and "bl1" are electrically shorted.
+Warning:  Ports "WL1" and "wl1" are electrically shorted.
+Warning:  Ports "WL0" and "wl0" are electrically shorted.
+Warning:  Ports "BR0" and "br0" are electrically shorted.
+Warning:  Ports "BL0" and "bl0" are electrically shorted.
+Warning:  Ports "GND" and "gnd" are electrically shorted.
+Warning:  Ports "GND" and "gnd" are electrically shorted.
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Error:  Asymmetric device with multiple terminals!
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_dummy_array into sky130_sram_2kbyte_1rw1r_32x512_8_dummy_array.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_col_cap_array_0 into sky130_sram_2kbyte_1rw1r_32x512_8_col_cap_array_0.ext:
+Extracting sky130_fd_bd_sram__openram_dp_cell_cap_col into sky130_fd_bd_sram__openram_dp_cell_cap_col.ext:
+Warning:  Ports "BR1" and "br1" are electrically shorted.
+Warning:  Ports "BL1" and "bl1" are electrically shorted.
+Warning:  Ports "VDD" and "vdd" are electrically shorted.
+Warning:  Ports "BR0" and "br0" are electrically shorted.
+Warning:  Ports "BL0" and "bl0" are electrically shorted.
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_col_cap_array into sky130_sram_2kbyte_1rw1r_32x512_8_col_cap_array.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_row_cap_array into sky130_sram_2kbyte_1rw1r_32x512_8_row_cap_array.ext:
+Extracting sky130_fd_bd_sram__openram_dp_cell_cap_row into sky130_fd_bd_sram__openram_dp_cell_cap_row.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_row_cap_array_0 into sky130_sram_2kbyte_1rw1r_32x512_8_row_cap_array_0.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_contact_8 into sky130_sram_2kbyte_1rw1r_32x512_8_contact_8.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_contact_9 into sky130_sram_2kbyte_1rw1r_32x512_8_contact_9.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_replica_bitcell_array into sky130_sram_2kbyte_1rw1r_32x512_8_replica_bitcell_array.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_precharge_0 into sky130_sram_2kbyte_1rw1r_32x512_8_precharge_0.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_precharge_array into sky130_sram_2kbyte_1rw1r_32x512_8_precharge_array.ext:
+Extracting sky130_fd_bd_sram__openram_write_driver into sky130_fd_bd_sram__openram_write_driver.ext:
+Warning:  Ports "GND_uq0" and "gnd_uq0" are electrically shorted.
+Warning:  Ports "din" and "DIN" are electrically shorted.
+Warning:  Ports "en" and "EN" are electrically shorted.
+Warning:  Ports "br" and "BR" are electrically shorted.
+Warning:  Ports "bl" and "BL" are electrically shorted.
+Warning:  Ports "VDD_uq0" and "vdd_uq0" are electrically shorted.
+Warning:  Ports "vdd" and "VDD" are electrically shorted.
+Warning:  Ports "GND_uq1" and "gnd_uq1" are electrically shorted.
+Warning:  Ports "GND_uq1" and "gnd" are electrically shorted.
+Warning:  Ports "GND_uq1" and "GND" are electrically shorted.
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_write_driver_array into sky130_sram_2kbyte_1rw1r_32x512_8_write_driver_array.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_pnand2 into sky130_sram_2kbyte_1rw1r_32x512_8_pnand2.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_pinv into sky130_sram_2kbyte_1rw1r_32x512_8_pinv.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_pdriver into sky130_sram_2kbyte_1rw1r_32x512_8_pdriver.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_pand2 into sky130_sram_2kbyte_1rw1r_32x512_8_pand2.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_write_mask_and_array into sky130_sram_2kbyte_1rw1r_32x512_8_write_mask_and_array.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_column_mux into sky130_sram_2kbyte_1rw1r_32x512_8_column_mux.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_column_mux_array into sky130_sram_2kbyte_1rw1r_32x512_8_column_mux_array.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_port_data into sky130_sram_2kbyte_1rw1r_32x512_8_port_data.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m1_w0_550_sli_dli into sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m1_w0_550_sli_dli.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_contact_22 into sky130_sram_2kbyte_1rw1r_32x512_8_contact_22.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_contact_21 into sky130_sram_2kbyte_1rw1r_32x512_8_contact_21.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_contact_23 into sky130_sram_2kbyte_1rw1r_32x512_8_contact_23.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_precharge_1 into sky130_sram_2kbyte_1rw1r_32x512_8_precharge_1.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_precharge_array_0 into sky130_sram_2kbyte_1rw1r_32x512_8_precharge_array_0.ext:
+Extracting sky130_fd_bd_sram__openram_sense_amp into sky130_fd_bd_sram__openram_sense_amp.ext:
+Warning:  Ports "VDD_uq0" and "vdd_uq0" are electrically shorted.
+Warning:  Ports "dout" and "DOUT" are electrically shorted.
+Warning:  Ports "br" and "BR" are electrically shorted.
+Warning:  Ports "bl" and "BL" are electrically shorted.
+Warning:  Ports "en" and "EN" are electrically shorted.
+Warning:  Ports "vdd" and "VDD" are electrically shorted.
+Warning:  Ports "GND_uq0" and "gnd_uq0" are electrically shorted.
+Warning:  Ports "GND_uq0" and "gnd" are electrically shorted.
+Warning:  Ports "GND_uq0" and "GND" are electrically shorted.
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_sense_amp_array into sky130_sram_2kbyte_1rw1r_32x512_8_sense_amp_array.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m1_w2_880_sli_dli into sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m1_w2_880_sli_dli.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_column_mux_0 into sky130_sram_2kbyte_1rw1r_32x512_8_column_mux_0.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_contact_24 into sky130_sram_2kbyte_1rw1r_32x512_8_contact_24.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_contact_25 into sky130_sram_2kbyte_1rw1r_32x512_8_contact_25.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_contact_26 into sky130_sram_2kbyte_1rw1r_32x512_8_contact_26.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_contact_27 into sky130_sram_2kbyte_1rw1r_32x512_8_contact_27.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_column_mux_array_0 into sky130_sram_2kbyte_1rw1r_32x512_8_column_mux_array_0.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_port_data_0 into sky130_sram_2kbyte_1rw1r_32x512_8_port_data_0.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_port_address into sky130_sram_2kbyte_1rw1r_32x512_8_port_address.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_and2_dec into sky130_sram_2kbyte_1rw1r_32x512_8_and2_dec.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_hierarchical_predecode2x4 into sky130_sram_2kbyte_1rw1r_32x512_8_hierarchical_predecode2x4.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_hierarchical_predecode3x8 into sky130_sram_2kbyte_1rw1r_32x512_8_hierarchical_predecode3x8.ext:
+Extracting sky130_fd_bd_sram__openram_dp_nand3_dec into sky130_fd_bd_sram__openram_dp_nand3_dec.ext:
+Warning:  Ports "VDD" and "vdd" are electrically shorted.
+Warning:  Ports "VDD" and "vdd" are electrically shorted.
+Warning:  Ports "GND" and "gnd" are electrically shorted.
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_pinv_dec into sky130_sram_2kbyte_1rw1r_32x512_8_pinv_dec.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_and3_dec into sky130_sram_2kbyte_1rw1r_32x512_8_and3_dec.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_hierarchical_decoder into sky130_sram_2kbyte_1rw1r_32x512_8_hierarchical_decoder.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_wordline_driver into sky130_sram_2kbyte_1rw1r_32x512_8_wordline_driver.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_wordline_driver_array into sky130_sram_2kbyte_1rw1r_32x512_8_wordline_driver_array.ext:
+Extracting sky130_fd_bd_sram__openram_dp_nand2_dec into sky130_fd_bd_sram__openram_dp_nand2_dec.ext:
+Warning:  Ports "VDD" and "vdd" are electrically shorted.
+Warning:  Ports "GND" and "gnd" are electrically shorted.
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m1_w7_000_sli_dli_da_p into sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m1_w7_000_sli_dli_da_p.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m1_w7_000_sli_dli_da_p into sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m1_w7_000_sli_dli_da_p.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_contact_15 into sky130_sram_2kbyte_1rw1r_32x512_8_contact_15.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_pinv_dec_0 into sky130_sram_2kbyte_1rw1r_32x512_8_pinv_dec_0.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_and2_dec_0 into sky130_sram_2kbyte_1rw1r_32x512_8_and2_dec_0.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_port_address_0 into sky130_sram_2kbyte_1rw1r_32x512_8_port_address_0.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_pdriver_0 into sky130_sram_2kbyte_1rw1r_32x512_8_pdriver_0.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_pand2_0 into sky130_sram_2kbyte_1rw1r_32x512_8_pand2_0.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_contact_17 into sky130_sram_2kbyte_1rw1r_32x512_8_contact_17.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_contact_20 into sky130_sram_2kbyte_1rw1r_32x512_8_contact_20.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_hierarchical_predecode2x4_0 into sky130_sram_2kbyte_1rw1r_32x512_8_hierarchical_predecode2x4_0.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_bank into sky130_sram_2kbyte_1rw1r_32x512_8_bank.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_cr_4 into sky130_sram_2kbyte_1rw1r_32x512_8_cr_4.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m5_w1_680_sli_dli_da_p into sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m5_w1_680_sli_dli_da_p.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_pinv_18 into sky130_sram_2kbyte_1rw1r_32x512_8_pinv_18.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m14_w2_000_sli_dli_da_p into sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m14_w2_000_sli_dli_da_p.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m14_w2_000_sli_dli_da_p into sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m14_w2_000_sli_dli_da_p.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_pinv_19 into sky130_sram_2kbyte_1rw1r_32x512_8_pinv_19.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m41_w2_000_sli_dli_da_p into sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m41_w2_000_sli_dli_da_p.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m41_w2_000_sli_dli_da_p into sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m41_w2_000_sli_dli_da_p.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_pinv_20 into sky130_sram_2kbyte_1rw1r_32x512_8_pinv_20.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_pdriver_6 into sky130_sram_2kbyte_1rw1r_32x512_8_pdriver_6.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_dff_buf_array_0 into sky130_sram_2kbyte_1rw1r_32x512_8_dff_buf_array_0.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_control_logic_r into sky130_sram_2kbyte_1rw1r_32x512_8_control_logic_r.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_cr_5 into sky130_sram_2kbyte_1rw1r_32x512_8_cr_5.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m2_w2_000_sli_dli_da_p into sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m2_w2_000_sli_dli_da_p.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m2_w1_260_sli_dli_da_p into sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m2_w1_260_sli_dli_da_p.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_pinv_7 into sky130_sram_2kbyte_1rw1r_32x512_8_pinv_7.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m5_w2_000_sli_dli_da_p into sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m5_w2_000_sli_dli_da_p.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m5_w2_000_sli_dli_da_p into sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m5_w2_000_sli_dli_da_p.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_pinv_8 into sky130_sram_2kbyte_1rw1r_32x512_8_pinv_8.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m15_w2_000_sli_dli_da_p into sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m15_w2_000_sli_dli_da_p.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m15_w2_000_sli_dli_da_p into sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m15_w2_000_sli_dli_da_p.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_pinv_9 into sky130_sram_2kbyte_1rw1r_32x512_8_pinv_9.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m42_w2_000_sli_dli_da_p into sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m42_w2_000_sli_dli_da_p.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m42_w2_000_sli_dli_da_p into sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m42_w2_000_sli_dli_da_p.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_pinv_10 into sky130_sram_2kbyte_1rw1r_32x512_8_pinv_10.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_pdriver_2 into sky130_sram_2kbyte_1rw1r_32x512_8_pdriver_2.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m22_w2_000_sli_dli_da_p into sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m22_w2_000_sli_dli_da_p.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m22_w2_000_sli_dli_da_p into sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m22_w2_000_sli_dli_da_p.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_pinv_15 into sky130_sram_2kbyte_1rw1r_32x512_8_pinv_15.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_pdriver_4 into sky130_sram_2kbyte_1rw1r_32x512_8_pdriver_4.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_pand3 into sky130_sram_2kbyte_1rw1r_32x512_8_pand3.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m1_w0_740_sactive_dactive into sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m1_w0_740_sactive_dactive.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_pnand3 into sky130_sram_2kbyte_1rw1r_32x512_8_pnand3.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m18_w2_000_sli_dli_da_p into sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m18_w2_000_sli_dli_da_p.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m18_w2_000_sli_dli_da_p into sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m18_w2_000_sli_dli_da_p.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_pinv_16 into sky130_sram_2kbyte_1rw1r_32x512_8_pinv_16.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_pdriver_5 into sky130_sram_2kbyte_1rw1r_32x512_8_pdriver_5.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_pand3_0 into sky130_sram_2kbyte_1rw1r_32x512_8_pand3_0.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_pinv_17 into sky130_sram_2kbyte_1rw1r_32x512_8_pinv_17.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_delay_chain into sky130_sram_2kbyte_1rw1r_32x512_8_delay_chain.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_pinv_0 into sky130_sram_2kbyte_1rw1r_32x512_8_pinv_0.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_pinv_11 into sky130_sram_2kbyte_1rw1r_32x512_8_pinv_11.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m3_w2_000_sli_dli_da_p into sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m3_w2_000_sli_dli_da_p.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m3_w2_000_sli_dli_da_p into sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m3_w2_000_sli_dli_da_p.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_pinv_12 into sky130_sram_2kbyte_1rw1r_32x512_8_pinv_12.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m8_w2_000_sli_dli_da_p into sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m8_w2_000_sli_dli_da_p.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m8_w2_000_sli_dli_da_p into sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m8_w2_000_sli_dli_da_p.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_pinv_13 into sky130_sram_2kbyte_1rw1r_32x512_8_pinv_13.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m24_w2_000_sli_dli_da_p into sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m24_w2_000_sli_dli_da_p.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m24_w2_000_sli_dli_da_p into sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m24_w2_000_sli_dli_da_p.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_pinv_14 into sky130_sram_2kbyte_1rw1r_32x512_8_pinv_14.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_pdriver_3 into sky130_sram_2kbyte_1rw1r_32x512_8_pdriver_3.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_pnand2_0 into sky130_sram_2kbyte_1rw1r_32x512_8_pnand2_0.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m7_w2_000_sli_dli_da_p into sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m7_w2_000_sli_dli_da_p.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m7_w1_680_sli_dli_da_p into sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m7_w1_680_sli_dli_da_p.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_pinv_4 into sky130_sram_2kbyte_1rw1r_32x512_8_pinv_4.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_pdriver_1 into sky130_sram_2kbyte_1rw1r_32x512_8_pdriver_1.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_pand2_1 into sky130_sram_2kbyte_1rw1r_32x512_8_pand2_1.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m2_w1_260_sli_dli_da_p into sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m2_w1_260_sli_dli_da_p.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m2_w0_740_sli_dli_da_p into sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m2_w0_740_sli_dli_da_p.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_pinv_2 into sky130_sram_2kbyte_1rw1r_32x512_8_pinv_2.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m3_w1_680_sli_dli_da_p into sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m3_w1_680_sli_dli_da_p.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m3_w1_680_sli_dli_da_p into sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m3_w1_680_sli_dli_da_p.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_pinv_3 into sky130_sram_2kbyte_1rw1r_32x512_8_pinv_3.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_dff_buf_0 into sky130_sram_2kbyte_1rw1r_32x512_8_dff_buf_0.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_dff_buf_array into sky130_sram_2kbyte_1rw1r_32x512_8_dff_buf_array.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m1_w1_120_sli_dli into sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m1_w1_120_sli_dli.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m1_w0_740_sli_dactive into sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m1_w0_740_sli_dactive.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m1_w0_740_sactive_dli into sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m1_w0_740_sactive_dli.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_pnand2_1 into sky130_sram_2kbyte_1rw1r_32x512_8_pnand2_1.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_contact_12 into sky130_sram_2kbyte_1rw1r_32x512_8_contact_12.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m1_w1_120_sli_dli_da_p into sky130_sram_2kbyte_1rw1r_32x512_8_pmos_m1_w1_120_sli_dli_da_p.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_contact_11 into sky130_sram_2kbyte_1rw1r_32x512_8_contact_11.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m1_w0_360_sli_dli_da_p into sky130_sram_2kbyte_1rw1r_32x512_8_nmos_m1_w0_360_sli_dli_da_p.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_contact_28 into sky130_sram_2kbyte_1rw1r_32x512_8_contact_28.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_contact_29 into sky130_sram_2kbyte_1rw1r_32x512_8_contact_29.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_contact_16 into sky130_sram_2kbyte_1rw1r_32x512_8_contact_16.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_pinv_1 into sky130_sram_2kbyte_1rw1r_32x512_8_pinv_1.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_control_logic_rw into sky130_sram_2kbyte_1rw1r_32x512_8_control_logic_rw.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_data_dff into sky130_sram_2kbyte_1rw1r_32x512_8_data_dff.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_col_addr_dff into sky130_sram_2kbyte_1rw1r_32x512_8_col_addr_dff.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_cr_3 into sky130_sram_2kbyte_1rw1r_32x512_8_cr_3.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_wmask_dff into sky130_sram_2kbyte_1rw1r_32x512_8_wmask_dff.ext:
+Extracting sky130_fd_bd_sram__openram_dff into sky130_fd_bd_sram__openram_dff.ext:
+Warning:  Ports "clk" and "CLK" are electrically shorted.
+Warning:  Ports "vdd" and "VDD" are electrically shorted.
+Warning:  Ports "gnd" and "GND" are electrically shorted.
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_row_addr_dff into sky130_sram_2kbyte_1rw1r_32x512_8_row_addr_dff.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_contact_32 into sky130_sram_2kbyte_1rw1r_32x512_8_contact_32.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_contact_33 into sky130_sram_2kbyte_1rw1r_32x512_8_contact_33.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_contact_38 into sky130_sram_2kbyte_1rw1r_32x512_8_contact_38.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_contact_7 into sky130_sram_2kbyte_1rw1r_32x512_8_contact_7.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_contact_13 into sky130_sram_2kbyte_1rw1r_32x512_8_contact_13.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_contact_14 into sky130_sram_2kbyte_1rw1r_32x512_8_contact_14.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_contact_19 into sky130_sram_2kbyte_1rw1r_32x512_8_contact_19.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8_contact_39 into sky130_sram_2kbyte_1rw1r_32x512_8_contact_39.ext:
+Extracting sky130_sram_2kbyte_1rw1r_32x512_8 into sky130_sram_2kbyte_1rw1r_32x512_8.ext:
+Extracting sky130_fd_sc_hd__buf_2 into sky130_fd_sc_hd__buf_2.ext:
+Extracting sky130_fd_sc_hd__clkdlybuf4s15_2 into sky130_fd_sc_hd__clkdlybuf4s15_2.ext:
+Extracting sky130_fd_sc_hd__a22o_1 into sky130_fd_sc_hd__a22o_1.ext:
+Extracting sky130_fd_sc_hd__buf_6 into sky130_fd_sc_hd__buf_6.ext:
+Extracting sky130_fd_sc_hd__diode_2 into sky130_fd_sc_hd__diode_2.ext:
+Extracting sky130_fd_sc_hd__clkbuf_4 into sky130_fd_sc_hd__clkbuf_4.ext:
+Extracting sky130_fd_sc_hd__buf_4 into sky130_fd_sc_hd__buf_4.ext:
+Extracting sky130_fd_sc_hd__dlymetal6s2s_1 into sky130_fd_sc_hd__dlymetal6s2s_1.ext:
+Extracting sky130_fd_sc_hd__decap_4 into sky130_fd_sc_hd__decap_4.ext:
+sky130_fd_sc_hd__decap_4: 2 warnings
+Extracting sky130_fd_sc_hd__fill_2 into sky130_fd_sc_hd__fill_2.ext:
+Extracting sky130_fd_sc_hd__conb_1 into sky130_fd_sc_hd__conb_1.ext:
+Extracting sky130_fd_sc_hd__decap_8 into sky130_fd_sc_hd__decap_8.ext:
+sky130_fd_sc_hd__decap_8: 2 warnings
+Extracting sky130_fd_sc_hd__tapvpwrvgnd_1 into sky130_fd_sc_hd__tapvpwrvgnd_1.ext:
+Extracting sky130_fd_sc_hd__decap_12 into sky130_fd_sc_hd__decap_12.ext:
+Extract error:  Duplicate tile position, ignoring
+sky130_fd_sc_hd__decap_12: 2 warnings
+Extracting sky130_fd_sc_hd__decap_3 into sky130_fd_sc_hd__decap_3.ext:
+Extract error:  Duplicate tile position, ignoring
+sky130_fd_sc_hd__decap_3: 2 warnings
+Extracting sky130_fd_sc_hd__fill_1 into sky130_fd_sc_hd__fill_1.ext:
+Extracting sky130_fd_sc_hd__decap_6 into sky130_fd_sc_hd__decap_6.ext:
+Extract error:  Duplicate tile position, ignoring
+sky130_fd_sc_hd__decap_6: 2 warnings
+Extracting user_project_wrapper into user_project_wrapper.ext:
+Total of 15 warnings.
+Warning:  Ports "clk" and "CLK" are electrically shorted.
+Warning:  Ports "vdd" and "VDD" are electrically shorted.
+Warning:  Ports "gnd" and "GND" are electrically shorted.
+Warning:  Ports "GND_uq0" and "gnd_uq0" are electrically shorted.
+Warning:  Ports "din" and "DIN" are electrically shorted.
+Warning:  Ports "en" and "EN" are electrically shorted.
+Warning:  Ports "br" and "BR" are electrically shorted.
+Warning:  Ports "bl" and "BL" are electrically shorted.
+Warning:  Ports "VDD_uq0" and "vdd_uq0" are electrically shorted.
+Warning:  Ports "vdd" and "VDD" are electrically shorted.
+Warning:  Ports "GND_uq1" and "gnd_uq1" are electrically shorted.
+Warning:  Ports "GND_uq1" and "gnd" are electrically shorted.
+Warning:  Ports "GND_uq1" and "GND" are electrically shorted.
+Warning:  Ports "VDD_uq0" and "vdd_uq0" are electrically shorted.
+Warning:  Ports "dout" and "DOUT" are electrically shorted.
+Warning:  Ports "br" and "BR" are electrically shorted.
+Warning:  Ports "bl" and "BL" are electrically shorted.
+Warning:  Ports "en" and "EN" are electrically shorted.
+Warning:  Ports "vdd" and "VDD" are electrically shorted.
+Warning:  Ports "GND_uq0" and "gnd_uq0" are electrically shorted.
+Warning:  Ports "GND_uq0" and "gnd" are electrically shorted.
+Warning:  Ports "GND_uq0" and "GND" are electrically shorted.
+Warning:  Ports "VDD" and "vdd" are electrically shorted.
+Warning:  Ports "GND" and "gnd" are electrically shorted.
+Warning:  Ports "VDD" and "vdd" are electrically shorted.
+Warning:  Ports "GND" and "gnd" are electrically shorted.
+Warning:  Ports "VDD" and "vdd" are electrically shorted.
+Warning:  Ports "BR1" and "br1" are electrically shorted.
+Warning:  Ports "BL1" and "bl1" are electrically shorted.
+Warning:  Ports "WL1" and "wl1" are electrically shorted.
+Warning:  Ports "WL0" and "wl0" are electrically shorted.
+Warning:  Ports "BR0" and "br0" are electrically shorted.
+Warning:  Ports "BL0" and "bl0" are electrically shorted.
+Warning:  Ports "GND" and "gnd" are electrically shorted.
+Warning:  Ports "BR1" and "br1" are electrically shorted.
+Warning:  Ports "BL1" and "bl1" are electrically shorted.
+Warning:  Ports "VDD" and "vdd" are electrically shorted.
+Warning:  Ports "BR0" and "br0" are electrically shorted.
+Warning:  Ports "BL0" and "bl0" are electrically shorted.
+Warning:  Ports "BR1" and "br1" are electrically shorted.
+Warning:  Ports "BL1" and "bl1" are electrically shorted.
+Warning:  Ports "WL1" and "wl1" are electrically shorted.
+Warning:  Ports "WL0" and "wl0" are electrically shorted.
+Warning:  Ports "BR0" and "br0" are electrically shorted.
+Warning:  Ports "BL0" and "bl0" are electrically shorted.
+Warning:  Ports "VDD" and "vdd" are electrically shorted.
+Warning:  Ports "GND" and "gnd" are electrically shorted.
+Warning:  Ports "BR1" and "br1" are electrically shorted.
+Warning:  Ports "BL1" and "bl1" are electrically shorted.
+Warning:  Ports "WL1" and "wl1" are electrically shorted.
+Warning:  Ports "WL0" and "wl0" are electrically shorted.
+Warning:  Ports "BR0" and "br0" are electrically shorted.
+Warning:  Ports "BL0" and "bl0" are electrically shorted.
+Warning:  Ports "VDD" and "vdd" are electrically shorted.
+Warning:  Ports "GND" and "gnd" are electrically shorted.
+exttospice finished.
+Using technology "sky130A", version 1.0.291-36-g41c0908
