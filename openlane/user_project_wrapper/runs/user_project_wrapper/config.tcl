@@ -200,7 +200,7 @@ set ::env(PL_RESIZER_DESIGN_OPTIMIZATIONS) {1}
 set ::env(PL_RESIZER_HOLD_MAX_BUFFER_PERCENT) {70}
 set ::env(PL_RESIZER_HOLD_SLACK_MARGIN) {0.1}
 set ::env(PL_RESIZER_MAX_CAP_MARGIN) {20}
-set ::env(PL_RESIZER_MAX_SLEW_MARGIN) {30}
+set ::env(PL_RESIZER_MAX_SLEW_MARGIN) {35}
 set ::env(PL_RESIZER_MAX_WIRE_LENGTH) {200}
 set ::env(PL_RESIZER_REPAIR_TIE_FANOUT) {1}
 set ::env(PL_RESIZER_SETUP_MAX_BUFFER_PERCENT) {30}
@@ -234,7 +234,7 @@ set ::env(ROOT_CLK_BUFFER) {sky130_fd_sc_hd__clkbuf_16}
 set ::env(ROUTING_CORES) {8}
 set ::env(RT_MAX_LAYER) {met4}
 set ::env(RT_MIN_LAYER) {met1}
-set ::env(RUN_CVC) {1}
+set ::env(RUN_CVC) {0}
 set ::env(RUN_DIR) {/home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper}
 set ::env(RUN_KLAYOUT) {1}
 set ::env(RUN_KLAYOUT_DRC) {0}
@@ -250,7 +250,7 @@ set ::env(SAVE_FINAL_VIEWS) {1}
 set ::env(SPEF_EDGE_CAP_FACTOR) {1}
 set ::env(SPEF_EXTRACTOR) {openrcx}
 set ::env(SPEF_WIRE_MODEL) {L}
-set ::env(START_TIME) {2022.05.27_08.35.06}
+set ::env(START_TIME) {2022.05.27_13.55.51}
 set ::env(STA_REPORT_POWER) {1}
 set ::env(STD_CELL_GROUND_PINS) {VGND VNB}
 set ::env(STD_CELL_LIBRARY) {sky130_fd_sc_hd}
@@ -504,7 +504,7 @@ set ::env(GPIO_PADS_LEF) { /home/serdar/pdks/sky130A/libs.ref/sky130_fd_io/lef/s
 set ::env(GPIO_PADS_LEF_CORE_SIDE) { /home/serdar/pdks/sky130A/libs.tech/openlane/custom_cells/lef/sky130_fd_io_core.lef /home/serdar/pdks/sky130A/libs.tech/openlane/custom_cells/lef/sky130_ef_io_core.lef }
 set ::env(GPIO_PADS_VERILOG) { /home/serdar/pdks/sky130A/libs.ref/sky130_fd_io/verilog/sky130_ef_io.v /home/serdar/pdks/sky130A/libs.ref/sky130_fd_io/verilog/sky130_ef_io__gpiov2_pad_wrapped.v }
 set ::env(HOME) {/}
-set ::env(HOSTNAME) {468f9f2d72d1}
+set ::env(HOSTNAME) {fe824ed0108e}
 set ::env(INPUT_DEF) {/home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/signoff/34-powered_def.def}
 set ::env(IO_PCT) {0.2}
 set ::env(KLAYOUT_DRC_KLAYOUT_GDS) {0}
@@ -603,7 +603,7 @@ set ::env(PL_RESIZER_DESIGN_OPTIMIZATIONS) {1}
 set ::env(PL_RESIZER_HOLD_MAX_BUFFER_PERCENT) {70}
 set ::env(PL_RESIZER_HOLD_SLACK_MARGIN) {0.1}
 set ::env(PL_RESIZER_MAX_CAP_MARGIN) {20}
-set ::env(PL_RESIZER_MAX_SLEW_MARGIN) {30}
+set ::env(PL_RESIZER_MAX_SLEW_MARGIN) {35}
 set ::env(PL_RESIZER_MAX_WIRE_LENGTH) {200}
 set ::env(PL_RESIZER_REPAIR_TIE_FANOUT) {1}
 set ::env(PL_RESIZER_SETUP_MAX_BUFFER_PERCENT) {30}
@@ -643,7 +643,7 @@ set ::env(ROUTING_CORES) {8}
 set ::env(ROUTING_CURRENT_DEF) {/home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/cts/14-resizer_timing.def}
 set ::env(RT_MAX_LAYER) {met4}
 set ::env(RT_MIN_LAYER) {met1}
-set ::env(RUN_CVC) {1}
+set ::env(RUN_CVC) {0}
 set ::env(RUN_DIR) {/home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper}
 set ::env(RUN_KLAYOUT) {1}
 set ::env(RUN_KLAYOUT_DRC) {0}
@@ -669,7 +669,7 @@ set ::env(SPEF_EDGE_CAP_FACTOR) {1}
 set ::env(SPEF_EXTRACTOR) {openrcx}
 set ::env(SPEF_PREFIX) {/home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper/results/routing/user_project_wrapper}
 set ::env(SPEF_WIRE_MODEL) {L}
-set ::env(START_TIME) {2022.05.27_08.35.06}
+set ::env(START_TIME) {2022.05.27_13.55.51}
 set ::env(STA_LEF) {/home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/merged.nom.lef}
 set ::env(STA_PRE_CTS) {0}
 set ::env(STA_REPORT_POWER) {1}
@@ -767,6 +767,6 @@ set ::env(synthesis_logs) {/home/serdar/Desktop/openram_demo/openram_openmpw/ope
 set ::env(synthesis_reports) {/home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper/reports/synthesis}
 set ::env(synthesis_results) {/home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper/results/synthesis}
 set ::env(synthesis_tmpfiles) {/home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/synthesis}
-set ::env(timer_end) {1653646141}
-set ::env(timer_routed) {1653641406}
-set ::env(timer_start) {1653640506}
+set ::env(timer_end) {1653664948}
+set ::env(timer_routed) {1653660517}
+set ::env(timer_start) {1653659751}

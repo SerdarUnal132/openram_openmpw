@@ -16,7 +16,7 @@ Components of this program may be licensed under more restrictive licenses which
 [INFO ODB-0134] Finished DEF file: /home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/placement/8-global.def
 ###############################################################################
 # Created by write_sdc
-# Fri May 27 08:35:13 2022
+# Fri May 27 13:55:58 2022
 ###############################################################################
 current_design user_project_wrapper
 ###############################################################################

@@ -16,7 +16,7 @@ Components of this program may be licensed under more restrictive licenses which
 [INFO ODB-0134] Finished DEF file: /home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/cts/14-resizer_timing.def
 ###############################################################################
 # Created by write_sdc
-# Fri May 27 08:38:07 2022
+# Fri May 27 13:58:44 2022
 ###############################################################################
 current_design user_project_wrapper
 ###############################################################################
@@ -2123,7 +2123,7 @@ set_max_fanout 5.0000 [current_design]
 [WARNING GRT-0040] Net vdda2 has wires outside die area.
 [WARNING GRT-0040] Net vdda2 has wires outside die area.
 [WARNING GRT-0040] Net vdda2 has wires outside die area.
-[WARNING GRT-0040] Net vdda2 has wires outside die area.
+[WARNING GRT-0040] Net vssa1 has wires outside die area.
 [WARNING GRT-0040] Net vssa1 has wires outside die area.
 [WARNING GRT-0040] Net vssa1 has wires outside die area.
 [WARNING GRT-0040] Net vssa1 has wires outside die area.

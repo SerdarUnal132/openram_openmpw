@@ -74,8 +74,8 @@ set ::env(RT_MAX_LAYER) {met4}
 # disable pdn check nodes becuase it hangs with multiple power domains.
 # any issue with pdn connections will be flagged with LVS so it is not a critical check.
 
-set ::env(VDD_NETS) "vccd1 vccd2 vdda1 vdda2"
-set ::env(GND_NETS) "vssd1 vssd2 vssa1 vssa2"
+# set ::env(VDD_NETS) "vccd1 vccd2 vdda1 vdda2"
+# set ::env(GND_NETS) "vssd1 vssd2 vssa1 vssa2"
 
 set ::env(VDD_PIN) "VPWR VPB vccd1"                                                                                                                                                                                                                                                                                                                                                                
 set ::env(GND_PIN) "VGND VNB vssd1"  
@@ -85,7 +85,7 @@ set ::env(GND_PIN) "VGND VNB vssd1"
 ##################################################################
 set ::env(RUN_ROUTING_DETAILED) 1
 # If you're going to use multiple power domains, then disable cvc run.
-set ::env(RUN_CVC) 1
+set ::env(RUN_CVC) 0
 set ::env(RUN_LVS) 1
 set ::env(TAP_DECAP_INSERTION) 1
 set ::env(LEC_ENABLE) 0
@@ -153,7 +153,7 @@ set ::env(PL_RESIZER_SETUP_MAX_BUFFER_PERCENT) 30
 set ::env(PL_RESIZER_HOLD_MAX_BUFFER_PERCENT) 70
 set ::env(PL_RESIZER_ALLOW_SETUP_VIOS) 1
 set ::env(PL_RESIZER_HOLD_SLACK_MARGIN) 0.1
-set ::env(PL_RESIZER_MAX_SLEW_MARGIN) 30
+set ::env(PL_RESIZER_MAX_SLEW_MARGIN) 35
 set ::env(PL_RESIZER_MAX_WIRE_LENGTH) 200
 
 ##################################################################

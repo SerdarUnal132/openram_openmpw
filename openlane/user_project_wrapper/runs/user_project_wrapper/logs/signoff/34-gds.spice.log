@@ -667,7 +667,7 @@ Error:  Asymmetric device with multiple terminals!
 Error:  Asymmetric device with multiple terminals!
 sky130_fd_bd_sram__openram_dp_cell: 2 warnings
 Extracting sky130_sram_2kbyte_1rw1r_32x512_8_bitcell_array into sky130_sram_2kbyte_1rw1r_32x512_8_bitcell_array.ext:
-Created database crash recovery file /tmp//MAG931.bKYYK1
+Created database crash recovery file /tmp//MAG931.vtn1PX
 Extracting sky130_sram_2kbyte_1rw1r_32x512_8_replica_column into sky130_sram_2kbyte_1rw1r_32x512_8_replica_column.ext:
 Extracting sky130_fd_bd_sram__openram_dp_cell_replica into sky130_fd_bd_sram__openram_dp_cell_replica.ext:
 Warning:  Ports "BR1" and "br1" are electrically shorted.

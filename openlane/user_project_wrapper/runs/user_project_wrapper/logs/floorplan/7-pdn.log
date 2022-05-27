@@ -18,14 +18,14 @@ Components of this program may be licensed under more restrictive licenses which
 [INFO PDN-0001] Inserting grid: macro - SRAM1
 [INFO PDN-0001] Inserting grid: macro - SRAM2
 [INFO PDN-0001] Inserting grid: macro - SRAM3
-[WARNING PDN-0110] No via inserted between met4 and met5 at (638.9700, 826.5400) - (642.0700, 827.4300) on vdda2
-[WARNING PDN-0110] No via inserted between met4 and met5 at (818.9700, 826.5400) - (822.0700, 827.4300) on vdda2
-[WARNING PDN-0110] No via inserted between met4 and met5 at (998.9700, 826.5400) - (1002.0700, 827.4300) on vdda2
-[WARNING PDN-0110] No via inserted between met4 and met5 at (1178.9700, 826.5400) - (1182.0700, 827.4300) on vdda2
-[WARNING PDN-0110] No via inserted between met4 and met5 at (1718.9700, 826.5400) - (1722.0700, 827.4300) on vdda2
-[WARNING PDN-0110] No via inserted between met4 and met5 at (1898.9700, 826.5400) - (1902.0700, 827.4300) on vdda2
-[WARNING PDN-0110] No via inserted between met4 and met5 at (2078.9700, 826.5400) - (2082.0700, 827.4300) on vdda2
-[WARNING PDN-0110] No via inserted between met4 and met5 at (2258.9700, 826.5400) - (2262.0700, 827.4300) on vdda2
+[WARNING PDN-0110] No via inserted between met4 and met5 at (638.9700, 826.5400) - (642.0700, 827.4300) on vdda1
+[WARNING PDN-0110] No via inserted between met4 and met5 at (818.9700, 826.5400) - (822.0700, 827.4300) on vdda1
+[WARNING PDN-0110] No via inserted between met4 and met5 at (998.9700, 826.5400) - (1002.0700, 827.4300) on vdda1
+[WARNING PDN-0110] No via inserted between met4 and met5 at (1178.9700, 826.5400) - (1182.0700, 827.4300) on vdda1
+[WARNING PDN-0110] No via inserted between met4 and met5 at (1718.9700, 826.5400) - (1722.0700, 827.4300) on vdda1
+[WARNING PDN-0110] No via inserted between met4 and met5 at (1898.9700, 826.5400) - (1902.0700, 827.4300) on vdda1
+[WARNING PDN-0110] No via inserted between met4 and met5 at (2078.9700, 826.5400) - (2082.0700, 827.4300) on vdda1
+[WARNING PDN-0110] No via inserted between met4 and met5 at (2258.9700, 826.5400) - (2262.0700, 827.4300) on vdda1
 [WARNING PSM-0016] Voltage pad location (VSRC) file not specified, defaulting pad location to checkerboard pattern on core area.
 [WARNING PSM-0017] X direction bump pitch is not specified, defaulting to 140um.
 [WARNING PSM-0018] Y direction bump pitch is not specified, defaulting to 140um.

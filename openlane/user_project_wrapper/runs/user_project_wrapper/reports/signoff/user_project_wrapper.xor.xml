@@ -7372,7 +7372,7 @@
    <multiplicity>1</multiplicity>
    <image/>
    <values>
-    <value>label: ('vdda1',r0 1459.81,-19.07)</value>
+    <value>label: ('vdda1',r0 1459.81,-23.87)</value>
    </values>
   </item>
   <item>
@@ -7383,7 +7383,7 @@
    <multiplicity>1</multiplicity>
    <image/>
    <values>
-    <value>label: ('vdda2',r0 1459.81,-23.87)</value>
+    <value>label: ('vdda2',r0 1459.81,-33.47)</value>
    </values>
   </item>
   <item>
@@ -7394,7 +7394,7 @@
    <multiplicity>1</multiplicity>
    <image/>
    <values>
-    <value>label: ('vssa1',r0 1459.81,-33.47)</value>
+    <value>label: ('vssa1',r0 1459.81,-28.67)</value>
    </values>
   </item>
   <item>
@@ -7427,7 +7427,7 @@
    <multiplicity>1</multiplicity>
    <image/>
    <values>
-    <value>label: ('vssd2',r0 1459.81,-28.67)</value>
+    <value>label: ('vssd2',r0 1459.81,-19.07)</value>
    </values>
   </item>
   <item>

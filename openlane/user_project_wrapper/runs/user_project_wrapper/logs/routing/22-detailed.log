@@ -141,7 +141,7 @@ Number of nets:           2927
 #macroValidViaAp       = 0
 #macroNoAp             = 0
 [INFO DRT-0166] Complete pin access.
-[INFO DRT-0267] cpu time = 00:00:03, elapsed time = 00:00:01, memory = 3029.29 (MB), peak = 3455.97 (MB)
+[INFO DRT-0267] cpu time = 00:00:03, elapsed time = 00:00:01, memory = 3030.55 (MB), peak = 3457.94 (MB)
 [INFO DRT-0151] Reading guide.
 
 Number of guides:     13750
@@ -196,33 +196,33 @@ Number of guides:     13750
 [INFO DRT-0184] Done with 7790 vertical wires in 9 frboxes and 5240 horizontal wires in 11 frboxes.
 [INFO DRT-0186] Done with 548 vertical wires in 9 frboxes and 1911 horizontal wires in 11 frboxes.
 [INFO DRT-0182] Complete track assignment.
-[INFO DRT-0267] cpu time = 00:01:25, elapsed time = 00:00:16, memory = 3309.45 (MB), peak = 5589.45 (MB)
+[INFO DRT-0267] cpu time = 00:01:22, elapsed time = 00:00:16, memory = 3309.82 (MB), peak = 5590.90 (MB)
 [INFO DRT-0187] Start routing data preparation.
-[INFO DRT-0267] cpu time = 00:00:00, elapsed time = 00:00:00, memory = 3309.65 (MB), peak = 5589.45 (MB)
+[INFO DRT-0267] cpu time = 00:00:00, elapsed time = 00:00:00, memory = 3309.93 (MB), peak = 5590.90 (MB)
 [INFO DRT-0194] Start detail routing.
 [INFO DRT-0195] Start 0th optimization iteration.
     Completing 10% with 0 violations.
-    elapsed time = 00:00:20, memory = 12734.55 (MB).
+    elapsed time = 00:00:19, memory = 12709.98 (MB).
     Completing 20% with 0 violations.
-    elapsed time = 00:00:45, memory = 21605.88 (MB).
+    elapsed time = 00:00:39, memory = 21615.95 (MB).
     Completing 30% with 1814 violations.
-    elapsed time = 00:01:42, memory = 11087.17 (MB).
+    elapsed time = 00:01:03, memory = 11444.50 (MB).
     Completing 40% with 1814 violations.
-    elapsed time = 00:01:54, memory = 18026.91 (MB).
+    elapsed time = 00:01:14, memory = 17723.48 (MB).
     Completing 50% with 3671 violations.
-    elapsed time = 00:02:50, memory = 11883.17 (MB).
+    elapsed time = 00:01:49, memory = 11260.85 (MB).
     Completing 60% with 3671 violations.
-    elapsed time = 00:03:01, memory = 14708.20 (MB).
+    elapsed time = 00:01:59, memory = 14753.77 (MB).
     Completing 70% with 3671 violations.
-    elapsed time = 00:03:10, memory = 21700.44 (MB).
+    elapsed time = 00:02:07, memory = 21699.63 (MB).
     Completing 80% with 5245 violations.
-    elapsed time = 00:03:45, memory = 16449.47 (MB).
+    elapsed time = 00:02:25, memory = 17313.14 (MB).
     Completing 90% with 5245 violations.
-    elapsed time = 00:03:54, memory = 18552.79 (MB).
+    elapsed time = 00:02:33, memory = 19388.76 (MB).
     Completing 100% with 6599 violations.
-    elapsed time = 00:04:24, memory = 17376.21 (MB).
+    elapsed time = 00:02:51, memory = 18869.26 (MB).
 [INFO DRT-0199]   Number of violations = 6787.
-[INFO DRT-0267] cpu time = 00:15:50, elapsed time = 00:04:24, memory = 17376.27 (MB), peak = 25471.87 (MB)
+[INFO DRT-0267] cpu time = 00:13:14, elapsed time = 00:02:52, memory = 18869.26 (MB), peak = 25474.23 (MB)
 Total wire length = 447057 um.
 Total wire length on LAYER li1 = 0 um.
 Total wire length on LAYER met1 = 239551 um.
@@ -246,32 +246,32 @@ Up-via summary (total 14959):.
 
 [INFO DRT-0195] Start 1st optimization iteration.
     Completing 10% with 6787 violations.
-    elapsed time = 00:00:09, memory = 17552.88 (MB).
+    elapsed time = 00:00:08, memory = 18963.38 (MB).
     Completing 20% with 6787 violations.
-    elapsed time = 00:00:17, memory = 22759.95 (MB).
+    elapsed time = 00:00:16, memory = 22923.98 (MB).
     Completing 30% with 5306 violations.
-    elapsed time = 00:00:35, memory = 17376.71 (MB).
+    elapsed time = 00:00:33, memory = 18869.82 (MB).
     Completing 40% with 5306 violations.
-    elapsed time = 00:00:42, memory = 19248.15 (MB).
+    elapsed time = 00:00:41, memory = 19575.01 (MB).
     Completing 50% with 4251 violations.
-    elapsed time = 00:01:01, memory = 17376.63 (MB).
+    elapsed time = 00:00:58, memory = 18869.94 (MB).
     Completing 60% with 4251 violations.
-    elapsed time = 00:01:11, memory = 18018.28 (MB).
+    elapsed time = 00:01:08, memory = 18870.07 (MB).
     Completing 70% with 4251 violations.
-    elapsed time = 00:01:20, memory = 22000.66 (MB).
+    elapsed time = 00:01:16, memory = 21884.66 (MB).
     Completing 80% with 2528 violations.
-    elapsed time = 00:01:41, memory = 17550.72 (MB).
+    elapsed time = 00:01:33, memory = 19061.98 (MB).
     Completing 90% with 2528 violations.
-    elapsed time = 00:01:49, memory = 19832.60 (MB).
+    elapsed time = 00:01:41, memory = 19743.05 (MB).
     Completing 100% with 1084 violations.
-    elapsed time = 00:02:10, memory = 17519.30 (MB).
+    elapsed time = 00:01:59, memory = 19061.82 (MB).
 [INFO DRT-0199]   Number of violations = 1084.
-[INFO DRT-0267] cpu time = 00:11:15, elapsed time = 00:02:10, memory = 17519.30 (MB), peak = 25471.87 (MB)
+[INFO DRT-0267] cpu time = 00:10:32, elapsed time = 00:01:59, memory = 19061.82 (MB), peak = 25474.23 (MB)
 Total wire length = 447338 um.
 Total wire length on LAYER li1 = 0 um.
-Total wire length on LAYER met1 = 237239 um.
+Total wire length on LAYER met1 = 237237 um.
 Total wire length on LAYER met2 = 177244 um.
-Total wire length on LAYER met3 = 24647 um.
+Total wire length on LAYER met3 = 24648 um.
 Total wire length on LAYER met4 = 8207 um.
 Total wire length on LAYER met5 = 0 um.
 Total number of vias = 15987.
@@ -290,27 +290,27 @@ Up-via summary (total 15987):.
 
 [INFO DRT-0195] Start 2nd optimization iteration.
     Completing 10% with 1084 violations.
-    elapsed time = 00:00:00, memory = 17519.30 (MB).
+    elapsed time = 00:00:00, memory = 19061.82 (MB).
     Completing 20% with 1084 violations.
-    elapsed time = 00:00:01, memory = 17519.39 (MB).
+    elapsed time = 00:00:01, memory = 19061.88 (MB).
     Completing 30% with 1039 violations.
-    elapsed time = 00:00:02, memory = 17519.39 (MB).
+    elapsed time = 00:00:02, memory = 19062.04 (MB).
     Completing 40% with 1039 violations.
-    elapsed time = 00:00:03, memory = 17519.42 (MB).
+    elapsed time = 00:00:03, memory = 19062.04 (MB).
     Completing 50% with 946 violations.
-    elapsed time = 00:00:04, memory = 17519.42 (MB).
+    elapsed time = 00:00:04, memory = 19062.07 (MB).
     Completing 60% with 946 violations.
-    elapsed time = 00:00:06, memory = 17519.42 (MB).
+    elapsed time = 00:00:05, memory = 19062.07 (MB).
     Completing 70% with 946 violations.
-    elapsed time = 00:00:06, memory = 17519.48 (MB).
+    elapsed time = 00:00:06, memory = 19062.07 (MB).
     Completing 80% with 897 violations.
-    elapsed time = 00:00:08, memory = 17519.66 (MB).
+    elapsed time = 00:00:08, memory = 19062.07 (MB).
     Completing 90% with 897 violations.
-    elapsed time = 00:00:10, memory = 17519.66 (MB).
+    elapsed time = 00:00:10, memory = 19062.07 (MB).
     Completing 100% with 775 violations.
-    elapsed time = 00:00:13, memory = 17519.66 (MB).
+    elapsed time = 00:00:12, memory = 19062.12 (MB).
 [INFO DRT-0199]   Number of violations = 775.
-[INFO DRT-0267] cpu time = 00:01:19, elapsed time = 00:00:13, memory = 17519.66 (MB), peak = 25471.87 (MB)
+[INFO DRT-0267] cpu time = 00:01:16, elapsed time = 00:00:12, memory = 19062.12 (MB), peak = 25474.23 (MB)
 Total wire length = 447763 um.
 Total wire length on LAYER li1 = 0 um.
 Total wire length on LAYER met1 = 237107 um.
@@ -334,27 +334,27 @@ Up-via summary (total 16133):.
 
 [INFO DRT-0195] Start 3rd optimization iteration.
     Completing 10% with 775 violations.
-    elapsed time = 00:00:00, memory = 17519.66 (MB).
+    elapsed time = 00:00:00, memory = 19062.12 (MB).
     Completing 20% with 775 violations.
-    elapsed time = 00:00:00, memory = 17519.66 (MB).
+    elapsed time = 00:00:00, memory = 19062.12 (MB).
     Completing 30% with 566 violations.
-    elapsed time = 00:00:00, memory = 17519.66 (MB).
+    elapsed time = 00:00:00, memory = 19062.12 (MB).
     Completing 40% with 566 violations.
-    elapsed time = 00:00:01, memory = 17519.66 (MB).
+    elapsed time = 00:00:01, memory = 19062.25 (MB).
     Completing 50% with 351 violations.
-    elapsed time = 00:00:02, memory = 17519.66 (MB).
+    elapsed time = 00:00:02, memory = 19062.25 (MB).
     Completing 60% with 351 violations.
-    elapsed time = 00:00:02, memory = 17519.77 (MB).
+    elapsed time = 00:00:02, memory = 19062.25 (MB).
     Completing 70% with 351 violations.
-    elapsed time = 00:00:02, memory = 17519.77 (MB).
+    elapsed time = 00:00:02, memory = 19062.47 (MB).
     Completing 80% with 222 violations.
-    elapsed time = 00:00:05, memory = 17519.77 (MB).
+    elapsed time = 00:00:05, memory = 19062.47 (MB).
     Completing 90% with 222 violations.
-    elapsed time = 00:00:06, memory = 17519.77 (MB).
+    elapsed time = 00:00:05, memory = 19062.47 (MB).
     Completing 100% with 22 violations.
-    elapsed time = 00:00:08, memory = 17519.88 (MB).
+    elapsed time = 00:00:08, memory = 19062.47 (MB).
 [INFO DRT-0199]   Number of violations = 22.
-[INFO DRT-0267] cpu time = 00:00:27, elapsed time = 00:00:08, memory = 17519.88 (MB), peak = 25471.87 (MB)
+[INFO DRT-0267] cpu time = 00:00:26, elapsed time = 00:00:08, memory = 19062.47 (MB), peak = 25474.23 (MB)
 Total wire length = 447890 um.
 Total wire length on LAYER li1 = 0 um.
 Total wire length on LAYER met1 = 233389 um.
@@ -378,27 +378,27 @@ Up-via summary (total 16516):.
 
 [INFO DRT-0195] Start 4th optimization iteration.
     Completing 10% with 22 violations.
-    elapsed time = 00:00:00, memory = 17519.88 (MB).
+    elapsed time = 00:00:00, memory = 19062.47 (MB).
     Completing 20% with 22 violations.
-    elapsed time = 00:00:00, memory = 17520.00 (MB).
+    elapsed time = 00:00:00, memory = 19062.47 (MB).
     Completing 30% with 16 violations.
-    elapsed time = 00:00:00, memory = 17520.00 (MB).
+    elapsed time = 00:00:00, memory = 19062.47 (MB).
     Completing 40% with 16 violations.
-    elapsed time = 00:00:00, memory = 17520.00 (MB).
+    elapsed time = 00:00:00, memory = 19062.71 (MB).
     Completing 50% with 14 violations.
-    elapsed time = 00:00:00, memory = 17520.00 (MB).
+    elapsed time = 00:00:00, memory = 19062.71 (MB).
     Completing 60% with 14 violations.
-    elapsed time = 00:00:00, memory = 17520.00 (MB).
+    elapsed time = 00:00:00, memory = 19062.71 (MB).
     Completing 70% with 14 violations.
-    elapsed time = 00:00:00, memory = 17520.00 (MB).
+    elapsed time = 00:00:00, memory = 19062.71 (MB).
     Completing 80% with 7 violations.
-    elapsed time = 00:00:00, memory = 17520.00 (MB).
+    elapsed time = 00:00:00, memory = 19062.71 (MB).
     Completing 90% with 7 violations.
-    elapsed time = 00:00:00, memory = 17520.00 (MB).
+    elapsed time = 00:00:00, memory = 19062.71 (MB).
     Completing 100% with 0 violations.
-    elapsed time = 00:00:00, memory = 17520.00 (MB).
+    elapsed time = 00:00:00, memory = 19062.71 (MB).
 [INFO DRT-0199]   Number of violations = 0.
-[INFO DRT-0267] cpu time = 00:00:01, elapsed time = 00:00:00, memory = 17520.00 (MB), peak = 25471.87 (MB)
+[INFO DRT-0267] cpu time = 00:00:01, elapsed time = 00:00:00, memory = 19062.71 (MB), peak = 25474.23 (MB)
 Total wire length = 447910 um.
 Total wire length on LAYER li1 = 0 um.
 Total wire length on LAYER met1 = 233287 um.
@@ -422,27 +422,27 @@ Up-via summary (total 16525):.
 
 [INFO DRT-0195] Start 17th optimization iteration.
     Completing 10% with 0 violations.
-    elapsed time = 00:00:00, memory = 17520.00 (MB).
+    elapsed time = 00:00:00, memory = 19062.71 (MB).
     Completing 20% with 0 violations.
-    elapsed time = 00:00:00, memory = 17520.00 (MB).
+    elapsed time = 00:00:00, memory = 19062.71 (MB).
     Completing 30% with 0 violations.
-    elapsed time = 00:00:00, memory = 17520.00 (MB).
+    elapsed time = 00:00:00, memory = 19062.71 (MB).
     Completing 40% with 0 violations.
-    elapsed time = 00:00:00, memory = 17520.00 (MB).
+    elapsed time = 00:00:00, memory = 19062.71 (MB).
     Completing 50% with 0 violations.
-    elapsed time = 00:00:00, memory = 17520.00 (MB).
+    elapsed time = 00:00:00, memory = 19062.71 (MB).
     Completing 60% with 0 violations.
-    elapsed time = 00:00:00, memory = 17520.00 (MB).
+    elapsed time = 00:00:00, memory = 19062.71 (MB).
     Completing 70% with 0 violations.
-    elapsed time = 00:00:00, memory = 17520.00 (MB).
+    elapsed time = 00:00:00, memory = 19062.71 (MB).
     Completing 80% with 0 violations.
-    elapsed time = 00:00:00, memory = 17520.00 (MB).
+    elapsed time = 00:00:00, memory = 19062.71 (MB).
     Completing 90% with 0 violations.
-    elapsed time = 00:00:00, memory = 17520.00 (MB).
+    elapsed time = 00:00:00, memory = 19062.71 (MB).
     Completing 100% with 0 violations.
-    elapsed time = 00:00:00, memory = 17520.00 (MB).
+    elapsed time = 00:00:00, memory = 19062.71 (MB).
 [INFO DRT-0199]   Number of violations = 0.
-[INFO DRT-0267] cpu time = 00:00:00, elapsed time = 00:00:00, memory = 17520.00 (MB), peak = 25471.87 (MB)
+[INFO DRT-0267] cpu time = 00:00:00, elapsed time = 00:00:00, memory = 19062.71 (MB), peak = 25474.23 (MB)
 Total wire length = 447910 um.
 Total wire length on LAYER li1 = 0 um.
 Total wire length on LAYER met1 = 233287 um.
@@ -466,27 +466,27 @@ Up-via summary (total 16525):.
 
 [INFO DRT-0195] Start 25th optimization iteration.
     Completing 10% with 0 violations.
-    elapsed time = 00:00:00, memory = 17520.00 (MB).
+    elapsed time = 00:00:00, memory = 19062.71 (MB).
     Completing 20% with 0 violations.
-    elapsed time = 00:00:00, memory = 17520.00 (MB).
+    elapsed time = 00:00:00, memory = 19062.71 (MB).
     Completing 30% with 0 violations.
-    elapsed time = 00:00:00, memory = 17520.00 (MB).
+    elapsed time = 00:00:00, memory = 19062.71 (MB).
     Completing 40% with 0 violations.
-    elapsed time = 00:00:00, memory = 17520.00 (MB).
+    elapsed time = 00:00:00, memory = 19062.71 (MB).
     Completing 50% with 0 violations.
-    elapsed time = 00:00:00, memory = 17520.00 (MB).
+    elapsed time = 00:00:00, memory = 19062.71 (MB).
     Completing 60% with 0 violations.
-    elapsed time = 00:00:00, memory = 17520.00 (MB).
+    elapsed time = 00:00:00, memory = 19062.71 (MB).
     Completing 70% with 0 violations.
-    elapsed time = 00:00:00, memory = 17520.00 (MB).
+    elapsed time = 00:00:00, memory = 19062.71 (MB).
     Completing 80% with 0 violations.
-    elapsed time = 00:00:00, memory = 17520.00 (MB).
+    elapsed time = 00:00:00, memory = 19062.71 (MB).
     Completing 90% with 0 violations.
-    elapsed time = 00:00:00, memory = 17520.00 (MB).
+    elapsed time = 00:00:00, memory = 19062.71 (MB).
     Completing 100% with 0 violations.
-    elapsed time = 00:00:00, memory = 17520.00 (MB).
+    elapsed time = 00:00:00, memory = 19062.71 (MB).
 [INFO DRT-0199]   Number of violations = 0.
-[INFO DRT-0267] cpu time = 00:00:00, elapsed time = 00:00:00, memory = 17520.00 (MB), peak = 25471.87 (MB)
+[INFO DRT-0267] cpu time = 00:00:00, elapsed time = 00:00:00, memory = 19062.71 (MB), peak = 25474.23 (MB)
 Total wire length = 447910 um.
 Total wire length on LAYER li1 = 0 um.
 Total wire length on LAYER met1 = 233287 um.
@@ -510,27 +510,27 @@ Up-via summary (total 16525):.
 
 [INFO DRT-0195] Start 33rd optimization iteration.
     Completing 10% with 0 violations.
-    elapsed time = 00:00:00, memory = 17520.00 (MB).
+    elapsed time = 00:00:00, memory = 19062.71 (MB).
     Completing 20% with 0 violations.
-    elapsed time = 00:00:00, memory = 17520.00 (MB).
+    elapsed time = 00:00:00, memory = 19062.71 (MB).
     Completing 30% with 0 violations.
-    elapsed time = 00:00:00, memory = 17520.00 (MB).
+    elapsed time = 00:00:00, memory = 19062.71 (MB).
     Completing 40% with 0 violations.
-    elapsed time = 00:00:00, memory = 17520.00 (MB).
+    elapsed time = 00:00:00, memory = 19062.71 (MB).
     Completing 50% with 0 violations.
-    elapsed time = 00:00:00, memory = 17520.00 (MB).
+    elapsed time = 00:00:00, memory = 19062.71 (MB).
     Completing 60% with 0 violations.
-    elapsed time = 00:00:00, memory = 17520.00 (MB).
+    elapsed time = 00:00:00, memory = 19062.71 (MB).
     Completing 70% with 0 violations.
-    elapsed time = 00:00:00, memory = 17520.00 (MB).
+    elapsed time = 00:00:00, memory = 19062.71 (MB).
     Completing 80% with 0 violations.
-    elapsed time = 00:00:00, memory = 17520.00 (MB).
+    elapsed time = 00:00:00, memory = 19062.71 (MB).
     Completing 90% with 0 violations.
-    elapsed time = 00:00:00, memory = 17520.00 (MB).
+    elapsed time = 00:00:00, memory = 19062.71 (MB).
     Completing 100% with 0 violations.
-    elapsed time = 00:00:00, memory = 17520.00 (MB).
+    elapsed time = 00:00:00, memory = 19062.71 (MB).
 [INFO DRT-0199]   Number of violations = 0.
-[INFO DRT-0267] cpu time = 00:00:00, elapsed time = 00:00:00, memory = 17520.00 (MB), peak = 25471.87 (MB)
+[INFO DRT-0267] cpu time = 00:00:00, elapsed time = 00:00:00, memory = 19062.71 (MB), peak = 25474.23 (MB)
 Total wire length = 447910 um.
 Total wire length on LAYER li1 = 0 um.
 Total wire length on LAYER met1 = 233287 um.
@@ -554,27 +554,27 @@ Up-via summary (total 16525):.
 
 [INFO DRT-0195] Start 41st optimization iteration.
     Completing 10% with 0 violations.
-    elapsed time = 00:00:00, memory = 17520.00 (MB).
+    elapsed time = 00:00:00, memory = 19062.71 (MB).
     Completing 20% with 0 violations.
-    elapsed time = 00:00:00, memory = 17520.00 (MB).
+    elapsed time = 00:00:00, memory = 19062.71 (MB).
     Completing 30% with 0 violations.
-    elapsed time = 00:00:00, memory = 17520.00 (MB).
+    elapsed time = 00:00:00, memory = 19062.71 (MB).
     Completing 40% with 0 violations.
-    elapsed time = 00:00:00, memory = 17520.00 (MB).
+    elapsed time = 00:00:00, memory = 19062.71 (MB).
     Completing 50% with 0 violations.
-    elapsed time = 00:00:00, memory = 17520.00 (MB).
+    elapsed time = 00:00:00, memory = 19062.71 (MB).
     Completing 60% with 0 violations.
-    elapsed time = 00:00:00, memory = 17520.00 (MB).
+    elapsed time = 00:00:00, memory = 19062.71 (MB).
     Completing 70% with 0 violations.
-    elapsed time = 00:00:00, memory = 17520.00 (MB).
+    elapsed time = 00:00:00, memory = 19062.71 (MB).
     Completing 80% with 0 violations.
-    elapsed time = 00:00:00, memory = 17520.00 (MB).
+    elapsed time = 00:00:00, memory = 19062.71 (MB).
     Completing 90% with 0 violations.
-    elapsed time = 00:00:00, memory = 17520.00 (MB).
+    elapsed time = 00:00:00, memory = 19062.71 (MB).
     Completing 100% with 0 violations.
-    elapsed time = 00:00:00, memory = 17520.00 (MB).
+    elapsed time = 00:00:00, memory = 19062.71 (MB).
 [INFO DRT-0199]   Number of violations = 0.
-[INFO DRT-0267] cpu time = 00:00:00, elapsed time = 00:00:00, memory = 17520.00 (MB), peak = 25471.87 (MB)
+[INFO DRT-0267] cpu time = 00:00:00, elapsed time = 00:00:00, memory = 19062.71 (MB), peak = 25474.23 (MB)
 Total wire length = 447910 um.
 Total wire length on LAYER li1 = 0 um.
 Total wire length on LAYER met1 = 233287 um.
@@ -618,7 +618,7 @@ Up-via summary (total 16525):.
                    16525
 
 
-[INFO DRT-0267] cpu time = 00:28:55, elapsed time = 00:06:57, memory = 17520.00 (MB), peak = 25471.87 (MB)
+[INFO DRT-0267] cpu time = 00:25:33, elapsed time = 00:05:13, memory = 19062.71 (MB), peak = 25474.23 (MB)
 
 [INFO DRT-0180] Post processing.
 Saving to /home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper/results/routing/user_project_wrapper.def
