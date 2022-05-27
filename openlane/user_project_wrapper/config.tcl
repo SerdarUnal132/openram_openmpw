@@ -49,9 +49,10 @@ set ::env(VERILOG_FILES) "\
 set ::env(CLOCK_PORT) "wb_clk_i"
 set ::env(CLOCK_NET) "clk"
 
-set ::env(CLOCK_PERIOD) "16"
+set ::env(CLOCK_PERIOD) "20"
 
 ### Macro Placement
+# makroları management area'dan uzak koyunca max slew & setup violation çıkıyor
 set ::env(MACRO_PLACEMENT_CFG) $script_dir/macro.cfg
 
 ### Black-box verilog and views
@@ -151,7 +152,7 @@ set ::env(CELL_PAD) 6
 set ::env(PL_RESIZER_SETUP_MAX_BUFFER_PERCENT) 30
 set ::env(PL_RESIZER_HOLD_MAX_BUFFER_PERCENT) 70
 set ::env(PL_RESIZER_ALLOW_SETUP_VIOS) 1
-set ::env(PL_RESIZER_HOLD_SLACK_MARGIN) 0.2
+set ::env(PL_RESIZER_HOLD_SLACK_MARGIN) 0.1
 set ::env(PL_RESIZER_MAX_SLEW_MARGIN) 30
 set ::env(PL_RESIZER_MAX_WIRE_LENGTH) 200
 
@@ -172,9 +173,9 @@ set ::env(GLB_RT_ANT_ITERS) 20
 set ::env(GLB_RT_MAX_DIODE_INS_ITERS) 20
 set ::env(GLOBAL_ROUTER) fastroute
 set ::env(GLB_RESIZER_TIMING_OPTIMIZATIONS) 1
-set ::env(GLB_RESIZER_ALLOW_SETUP_VIOS) 1
-set ::env(GLB_RESIZER_HOLD_SLACK_MARGIN) 1.0
-set ::env(GLB_RESIZER_HOLD_MAX_BUFFER_PERCENT) 75
+set ::env(GLB_RESIZER_ALLOW_SETUP_VIOS) 0
+set ::env(GLB_RESIZER_HOLD_SLACK_MARGIN) 0.8
+set ::env(GLB_RESIZER_HOLD_MAX_BUFFER_PERCENT) 70
 # set ::env(GLB_RT_OBS)  " 
 #        met1 210 110 670 488,
 # 	   met1 910 110 1370 488,

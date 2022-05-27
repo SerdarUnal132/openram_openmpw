@@ -17,7 +17,7 @@ Components of this program may be licensed under more restrictive licenses which
 [INFO ODB-0094] 		Created 700000 Insts
 [INFO ODB-0094] 		Created 800000 Insts
 [INFO ODB-0130]     Created 645 pins.
-[INFO ODB-0131]     Created 899530 components and 3349386 component-terminals.
-[INFO ODB-0132]     Created 8 special nets and 3342944 connections.
-[INFO ODB-0133]     Created 3285 nets and 6279 connections.
+[INFO ODB-0131]     Created 899260 components and 3347606 component-terminals.
+[INFO ODB-0132]     Created 8 special nets and 3341864 connections.
+[INFO ODB-0133]     Created 2927 nets and 5579 connections.
 [INFO ODB-0134] Finished DEF file: /home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper/results/routing/user_project_wrapper.def

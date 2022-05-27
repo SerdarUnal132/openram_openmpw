@@ -306,7 +306,6 @@ user_project_wrapper: 2590000 rects
 user_project_wrapper: 2600000 rects
 user_project_wrapper: 2610000 rects
 user_project_wrapper: 2620000 rects
-user_project_wrapper: 2630000 rects
 Processing timestamp mismatches: sky130_sram_2kbyte_1rw1r_32x512_8.
 [INFO]: Writing abstract LEF
 Generating LEF output /home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper/results/signoff/user_project_wrapper.lef for cell user_project_wrapper:
@@ -333,20 +332,17 @@ The discovered version will be used.
 Warning:  Parent cell lists instance of "sky130_fd_sc_hd__clkdlybuf4s18_2" at bad file path /home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper/results/signoff/sky130_fd_sc_hd__clkdlybuf4s18_2.mag.
 The cell exists in the search paths at /home/serdar/pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__clkdlybuf4s18_2.mag.
 The discovered version will be used.
-Warning:  Parent cell lists instance of "sky130_fd_sc_hd__buf_2" at bad file path /home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper/results/signoff/sky130_fd_sc_hd__buf_2.mag.
-The cell exists in the search paths at /home/serdar/pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__buf_2.mag.
+Warning:  Parent cell lists instance of "sky130_fd_sc_hd__clkdlybuf4s25_1" at bad file path /home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper/results/signoff/sky130_fd_sc_hd__clkdlybuf4s25_1.mag.
+The cell exists in the search paths at /home/serdar/pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__clkdlybuf4s25_1.mag.
 The discovered version will be used.
 Warning:  Parent cell lists instance of "sky130_fd_sc_hd__clkbuf_2" at bad file path /home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper/results/signoff/sky130_fd_sc_hd__clkbuf_2.mag.
 The cell exists in the search paths at /home/serdar/pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__clkbuf_2.mag.
 The discovered version will be used.
-Warning:  Parent cell lists instance of "sky130_fd_sc_hd__buf_8" at bad file path /home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper/results/signoff/sky130_fd_sc_hd__buf_8.mag.
-The cell exists in the search paths at /home/serdar/pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__buf_8.mag.
+Warning:  Parent cell lists instance of "sky130_fd_sc_hd__buf_2" at bad file path /home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper/results/signoff/sky130_fd_sc_hd__buf_2.mag.
+The cell exists in the search paths at /home/serdar/pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__buf_2.mag.
 The discovered version will be used.
 Warning:  Parent cell lists instance of "sky130_fd_sc_hd__buf_12" at bad file path /home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper/results/signoff/sky130_fd_sc_hd__buf_12.mag.
 The cell exists in the search paths at /home/serdar/pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__buf_12.mag.
-The discovered version will be used.
-Warning:  Parent cell lists instance of "sky130_fd_sc_hd__clkdlybuf4s25_1" at bad file path /home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper/results/signoff/sky130_fd_sc_hd__clkdlybuf4s25_1.mag.
-The cell exists in the search paths at /home/serdar/pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__clkdlybuf4s25_1.mag.
 The discovered version will be used.
 Warning:  Parent cell lists instance of "sky130_fd_sc_hd__clkbuf_8" at bad file path /home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper/results/signoff/sky130_fd_sc_hd__clkbuf_8.mag.
 The cell exists in the search paths at /home/serdar/pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__clkbuf_8.mag.
@@ -360,8 +356,8 @@ The discovered version will be used.
 Warning:  Parent cell lists instance of "sky130_fd_sc_hd__nor2_1" at bad file path /home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper/results/signoff/sky130_fd_sc_hd__nor2_1.mag.
 The cell exists in the search paths at /home/serdar/pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__nor2_1.mag.
 The discovered version will be used.
-Warning:  Parent cell lists instance of "sky130_fd_sc_hd__mux2_2" at bad file path /home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper/results/signoff/sky130_fd_sc_hd__mux2_2.mag.
-The cell exists in the search paths at /home/serdar/pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__mux2_2.mag.
+Warning:  Parent cell lists instance of "sky130_fd_sc_hd__mux2_1" at bad file path /home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper/results/signoff/sky130_fd_sc_hd__mux2_1.mag.
+The cell exists in the search paths at /home/serdar/pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__mux2_1.mag.
 The discovered version will be used.
 Warning:  Parent cell lists instance of "sky130_fd_sc_hd__o22a_1" at bad file path /home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper/results/signoff/sky130_fd_sc_hd__o22a_1.mag.
 The cell exists in the search paths at /home/serdar/pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__o22a_1.mag.
@@ -375,8 +371,14 @@ The discovered version will be used.
 Warning:  Parent cell lists instance of "sky130_fd_sc_hd__o22a_2" at bad file path /home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper/results/signoff/sky130_fd_sc_hd__o22a_2.mag.
 The cell exists in the search paths at /home/serdar/pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__o22a_2.mag.
 The discovered version will be used.
+Warning:  Parent cell lists instance of "sky130_fd_sc_hd__a22o_2" at bad file path /home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper/results/signoff/sky130_fd_sc_hd__a22o_2.mag.
+The cell exists in the search paths at /home/serdar/pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__a22o_2.mag.
+The discovered version will be used.
 Warning:  Parent cell lists instance of "sky130_fd_sc_hd__buf_1" at bad file path /home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper/results/signoff/sky130_fd_sc_hd__buf_1.mag.
 The cell exists in the search paths at /home/serdar/pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__buf_1.mag.
+The discovered version will be used.
+Warning:  Parent cell lists instance of "sky130_fd_sc_hd__mux2_2" at bad file path /home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper/results/signoff/sky130_fd_sc_hd__mux2_2.mag.
+The cell exists in the search paths at /home/serdar/pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__mux2_2.mag.
 The discovered version will be used.
 Warning:  Parent cell lists instance of "sky130_fd_sc_hd__or3b_1" at bad file path /home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper/results/signoff/sky130_fd_sc_hd__or3b_1.mag.
 The cell exists in the search paths at /home/serdar/pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__or3b_1.mag.
@@ -396,11 +398,14 @@ The discovered version will be used.
 Warning:  Parent cell lists instance of "sky130_fd_sc_hd__or3_1" at bad file path /home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper/results/signoff/sky130_fd_sc_hd__or3_1.mag.
 The cell exists in the search paths at /home/serdar/pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__or3_1.mag.
 The discovered version will be used.
+Warning:  Parent cell lists instance of "sky130_fd_sc_hd__or3_2" at bad file path /home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper/results/signoff/sky130_fd_sc_hd__or3_2.mag.
+The cell exists in the search paths at /home/serdar/pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__or3_2.mag.
+The discovered version will be used.
 Warning:  Parent cell lists instance of "sky130_fd_sc_hd__or2_1" at bad file path /home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper/results/signoff/sky130_fd_sc_hd__or2_1.mag.
 The cell exists in the search paths at /home/serdar/pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__or2_1.mag.
 The discovered version will be used.
-Warning:  Parent cell lists instance of "sky130_fd_sc_hd__nand3b_1" at bad file path /home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper/results/signoff/sky130_fd_sc_hd__nand3b_1.mag.
-The cell exists in the search paths at /home/serdar/pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__nand3b_1.mag.
+Warning:  Parent cell lists instance of "sky130_fd_sc_hd__nand3b_2" at bad file path /home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper/results/signoff/sky130_fd_sc_hd__nand3b_2.mag.
+The cell exists in the search paths at /home/serdar/pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__nand3b_2.mag.
 The discovered version will be used.
 Warning:  Parent cell lists instance of "sky130_fd_sc_hd__tapvpwrvgnd_1" at bad file path /home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper/results/signoff/sky130_fd_sc_hd__tapvpwrvgnd_1.mag.
 The cell exists in the search paths at /home/serdar/pdks/sky130A/libs.ref/sky130_fd_sc_hd/maglef/sky130_fd_sc_hd__tapvpwrvgnd_1.mag.

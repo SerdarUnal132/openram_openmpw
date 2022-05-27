@@ -10,5 +10,5 @@ Source not found.
 
 Antenna Summary:
 Source: /home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper/reports/signoff/antenna.rpt
-Number of pins violated: 30
-Number of nets violated: 30
+Number of pins violated: 38
+Number of nets violated: 38
