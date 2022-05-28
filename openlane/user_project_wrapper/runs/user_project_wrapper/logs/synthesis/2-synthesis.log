@@ -724,14 +724,14 @@ Mapping DFF cells in module `\user_project_wrapper':
 
 20. Executing ABC pass (technology mapping using ABC).
 
-20.1. Extracting gate netlist of module `\user_project_wrapper' to `/tmp/yosys-abc-ORP8En/input.blif'..
+20.1. Extracting gate netlist of module `\user_project_wrapper' to `/tmp/yosys-abc-ReQftu/input.blif'..
 Extracted 219 gates and 360 wires to a netlist network with 140 inputs and 42 outputs.
 
 20.1.1. Executing ABC.
-Running ABC command: /build/bin/yosys-abc -s -f /tmp/yosys-abc-ORP8En/abc.script 2>&1
-ABC: ABC command line: "source /tmp/yosys-abc-ORP8En/abc.script".
+Running ABC command: /build/bin/yosys-abc -s -f /tmp/yosys-abc-ReQftu/abc.script 2>&1
+ABC: ABC command line: "source /tmp/yosys-abc-ReQftu/abc.script".
 ABC: 
-ABC: + read_blif /tmp/yosys-abc-ORP8En/input.blif 
+ABC: + read_blif /tmp/yosys-abc-ReQftu/input.blif 
 ABC: + read_lib -w /home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/synthesis/trimmed.lib 
 ABC: Parsing finished successfully.  Parsing time =     0.08 sec
 ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfbbn_2".
@@ -872,7 +872,7 @@ ABC: Path  5 --     196 : 1    1 sky130_fd_sc_hd__buf_1 A =   3.75  Df =1184.9 -
 ABC: Start-point = pi1 (\wbs_adr_i [11]).  End-point = po2 ($abc$563$indirect$\csb0$/home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/../../verilog/rtl/user_project_wrapper.v:146$11).
 ABC: + print_stats -m 
 ABC: netlist                       : i/o =  140/   42  lat =    0  nd =   163  edge =    448  area =1241.10  delay = 6.00  lev = 6
-ABC: + write_blif /tmp/yosys-abc-ORP8En/output.blif 
+ABC: + write_blif /tmp/yosys-abc-ReQftu/output.blif 
 
 20.1.2. Re-integrating ABC results.
 ABC RESULTS:   sky130_fd_sc_hd__a22o_2 cells:       32
@@ -1281,6 +1281,6 @@ Found and reported 269 problems.
 Dumping module `\user_project_wrapper'.
 
 Warnings: 270 unique messages, 273 total
-End of script. Logfile hash: 8ea8f86205, CPU: user 0.74s system 0.02s, MEM: 47.35 MB peak
+End of script. Logfile hash: 813f1768e6, CPU: user 0.73s system 0.00s, MEM: 47.32 MB peak
 Yosys 0.12+45 (git sha1 UNKNOWN, gcc 8.3.1 -fPIC -Os)
-Time spent: 36% 2x abc (0 sec), 24% 4x stat (0 sec), ...
+Time spent: 36% 2x abc (0 sec), 25% 4x stat (0 sec), ...

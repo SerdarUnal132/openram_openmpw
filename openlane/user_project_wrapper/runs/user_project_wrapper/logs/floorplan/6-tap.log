@@ -13,6 +13,6 @@ Components of this program may be licensed under more restrictive licenses which
 [INFO ODB-0133]     Created 1044 nets and 1397 connections.
 [INFO ODB-0134] Finished DEF file: /home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/floorplan/4-io.macro_placement.def
 [WARNING TAP-0014] endcap_cpp option is deprecated.
-[INFO ODB-0303] The initial 1286 rows (8131378 sites) were cut with 4 shapes for a total of 1932 rows (7143644 sites).
+[INFO ODB-0303] The initial 1286 rows (8131378 sites) were cut with 4 shapes for a total of 1932 rows (7142998 sites).
 [INFO TAP-0004] Inserted 3864 endcaps.
-[INFO TAP-0005] Inserted 127584 tapcells.
+[INFO TAP-0005] Inserted 127425 tapcells.

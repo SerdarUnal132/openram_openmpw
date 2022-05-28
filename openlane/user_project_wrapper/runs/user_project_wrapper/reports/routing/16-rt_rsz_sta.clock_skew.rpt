@@ -5,7 +5,7 @@
 Clock wb_clk_i
 Latency      CRPR       Skew
 _313_/CLK ^
-   8.28
+   8.34
 _313_/CLK ^
-   2.33      0.00       5.95
+   2.40      0.00       5.94
 

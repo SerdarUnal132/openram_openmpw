@@ -46,12 +46,12 @@ This action cannot be undone.
 LEF read: Processed 1116 lines.
 Reading DEF data from file /home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper/results/routing/user_project_wrapper.def.
 This action cannot be undone.
-  Processed 8 vias total.
-  Processed 899260 subcell instances total.
+  Processed 6 vias total.
+  Processed 898267 subcell instances total.
   Processed 645 pins total.
   Processed 8 special nets total.
-  Processed 2927 nets total.
-DEF read: Processed 1045957 lines.
+  Processed 2926 nets total.
+DEF read: Processed 1044852 lines.
 Root cell box:
            width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
 
@@ -244,7 +244,7 @@ Warning:  cell sky130_sram_2kbyte_1rw1r_32x512_8 already existed before reading 
    Generating output for cell sky130_fd_sc_hd__diode_2
    Generating output for cell sky130_fd_sc_hd__dlymetal6s2s_1
    Generating output for cell sky130_fd_sc_hd__clkdlybuf4s15_2
-   Generating output for cell sky130_fd_sc_hd__nand3b_2
+   Generating output for cell sky130_fd_sc_hd__nand3b_1
    Generating output for cell sky130_fd_sc_hd__conb_1
    Generating output for cell sky130_fd_sc_hd__buf_1
    Generating output for cell sky130_fd_sc_hd__buf_2
@@ -409,26 +409,24 @@ Warning:  cell sky130_sram_2kbyte_1rw1r_32x512_8 already existed before reading 
    Generating output for cell sky130_sram_2kbyte_1rw1r_32x512_8_replica_bitcell_array
    Generating output for cell sky130_sram_2kbyte_1rw1r_32x512_8_bank
    Generating output for cell sky130_sram_2kbyte_1rw1r_32x512_8
-   Generating output for cell sky130_fd_sc_hd__mux2_1
-   Generating output for cell sky130_fd_sc_hd__o22a_1
+   Generating output for cell sky130_fd_sc_hd__clkbuf_16
+   Generating output for cell sky130_fd_sc_hd__dfxtp_1
    Generating output for cell sky130_fd_sc_hd__buf_12
    Generating output for cell sky130_fd_sc_hd__o21a_1
+   Generating output for cell sky130_fd_sc_hd__o22a_1
    Generating output for cell sky130_fd_sc_hd__o22a_2
-   Generating output for cell sky130_fd_sc_hd__dfxtp_1
    Generating output for cell sky130_fd_sc_hd__inv_2
-   Generating output for cell sky130_fd_sc_hd__or2_1
-   Generating output for cell sky130_fd_sc_hd__nor2_1
    Generating output for cell sky130_fd_sc_hd__or4_1
-   Generating output for cell sky130_fd_sc_hd__or3_2
+   Generating output for cell sky130_fd_sc_hd__clkdlybuf4s18_2
+   Generating output for cell sky130_fd_sc_hd__or2_1
    Generating output for cell sky130_fd_sc_hd__or3_1
    Generating output for cell sky130_fd_sc_hd__and2_1
-   Generating output for cell sky130_fd_sc_hd__or4_2
-   Generating output for cell sky130_fd_sc_hd__or3b_1
    Generating output for cell sky130_fd_sc_hd__clkbuf_2
    Generating output for cell sky130_fd_sc_hd__clkbuf_8
+   Generating output for cell sky130_fd_sc_hd__nor2_1
+   Generating output for cell sky130_fd_sc_hd__clkinv_2
+   Generating output for cell sky130_fd_sc_hd__or3b_1
    Generating output for cell sky130_fd_sc_hd__a22o_1
    Generating output for cell sky130_fd_sc_hd__a22o_2
-   Generating output for cell sky130_fd_sc_hd__clkdlybuf4s18_2
-   Generating output for cell sky130_fd_sc_hd__clkbuf_16
    Generating output for cell user_project_wrapper
 [INFO]: GDS Write Complete

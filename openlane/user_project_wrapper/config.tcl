@@ -53,6 +53,7 @@ set ::env(CLOCK_PERIOD) "20"
 
 ### Macro Placement
 # makroları management area'dan uzak koyunca max slew & setup violation çıkıyor
+# aralarını açmak da iyi oldu, üstünden geçemeyince setup violation çıkıyordu
 set ::env(MACRO_PLACEMENT_CFG) $script_dir/macro.cfg
 
 ### Black-box verilog and views
@@ -111,6 +112,9 @@ set ::env(DESIGN_IS_CORE) 1
 set ::env(FP_PDN_ENABLE_RAILS) 1
 set ::env(FP_PDN_ENABLE_MACROS_GRID) 1
 set ::env(FP_PDN_CHECK_NODES) 1
+# shift in ring gives xor violation
+set ::env(FP_PDN_CORE_RING_VOFFSET) 12.45
+set ::env(FP_PDN_CORE_RING_HOFFSET) $::env(FP_PDN_CORE_RING_VOFFSET)
 # set ::env(FP_PDN_VPITCH) 100
 # decrease li density, increase li clear area density, by using ef decap cell
 set ::env(DECAP_CELL) "\

@@ -10,8 +10,8 @@ Components of this program may be licensed under more restrictive licenses which
 [INFO ODB-0128] Design: user_project_wrapper
 [INFO ODB-0094] 		Created 100000 Insts
 [INFO ODB-0130]     Created 645 pins.
-[INFO ODB-0131]     Created 131843 components and 273756 component-terminals.
-[INFO ODB-0132]     Created 8 special nets and 272196 connections.
+[INFO ODB-0131]     Created 131684 components and 273438 component-terminals.
+[INFO ODB-0132]     Created 8 special nets and 271878 connections.
 [INFO ODB-0133]     Created 1044 nets and 1397 connections.
 [INFO ODB-0134] Finished DEF file: /home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/floorplan/7-pdn.def
 [INFO]: Setting RC values...
@@ -21,9 +21,9 @@ Components of this program may be licensed under more restrictive licenses which
 [INFO GPL-0003] SiteSize: 460 2720
 [INFO GPL-0004] CoreAreaLxLy: 5520 10880
 [INFO GPL-0005] CoreAreaUxUy: 2914100 3508800
-[INFO GPL-0006] NumInstances: 133105
+[INFO GPL-0006] NumInstances: 132946
 [INFO GPL-0007] NumPlaceInstances: 391
-[INFO GPL-0008] NumFixedInstances: 131452
+[INFO GPL-0008] NumFixedInstances: 131293
 [INFO GPL-0009] NumDummyInstances: 1262
 [INFO GPL-0010] NumNets: 1044
 [INFO GPL-0011] NumPins: 2034
@@ -32,17 +32,17 @@ Components of this program may be licensed under more restrictive licenses which
 [INFO GPL-0014] CoreAreaLxLy: 5520 10880
 [INFO GPL-0015] CoreAreaUxUy: 2914100 3508800
 [INFO GPL-0016] CoreArea: 10173980153600
-[INFO GPL-0017] NonPlaceInstsArea: 1402825236800
+[INFO GPL-0017] NonPlaceInstsArea: 1403434571200
 [INFO GPL-0018] PlaceInstsArea: 2354758400
 [INFO GPL-0019] Util(%): 0.03
 [INFO GPL-0020] StdInstsArea: 2354758400
 [INFO GPL-0021] MacroInstsArea: 0
-[InitialPlace]  Iter: 1 CG residual: 0.00652198 HPWL: 1291446050
-[InitialPlace]  Iter: 2 CG residual: 0.00001124 HPWL: 687606656
-[InitialPlace]  Iter: 3 CG residual: 0.00000009 HPWL: 639626839
-[InitialPlace]  Iter: 4 CG residual: 0.00000006 HPWL: 624988707
-[InitialPlace]  Iter: 5 CG residual: 0.00000012 HPWL: 616011892
-[INFO GPL-0031] FillerInit: NumGCells: 268714
+[InitialPlace]  Iter: 1 CG residual: 0.00342552 HPWL: 1286766050
+[InitialPlace]  Iter: 2 CG residual: 0.00002096 HPWL: 679672174
+[InitialPlace]  Iter: 3 CG residual: 0.00000007 HPWL: 637906790
+[InitialPlace]  Iter: 4 CG residual: 0.00000009 HPWL: 623821507
+[InitialPlace]  Iter: 5 CG residual: 0.00000011 HPWL: 616017493
+[INFO GPL-0031] FillerInit: NumGCells: 268695
 [INFO GPL-0032] FillerInit: NumGNets: 1044
 [INFO GPL-0033] FillerInit: NumGPins: 2034
 [INFO GPL-0023] TargetDensity: 0.18
@@ -53,61 +53,57 @@ Components of this program may be licensed under more restrictive licenses which
 [INFO GPL-0028] BinCnt: 512 512
 [INFO GPL-0029] BinSize: 5681 6832
 [INFO GPL-0030] NumBins: 262144
-[NesterovSolve] Iter: 1 overflow: 0.512662 HPWL: 322173530
-[INFO GPL-0100] worst slack 9.29e-09
+[NesterovSolve] Iter: 1 overflow: 0.51408 HPWL: 323310518
+[INFO GPL-0100] worst slack 9.35e-09
 [INFO GPL-0103] Weighted 252 nets.
 [NesterovSolve] Snapshot saved at iter = 0
-[NesterovSolve] Iter: 10 overflow: 0.497101 HPWL: 321753147
-[INFO GPL-0100] worst slack 9.34e-09
-[INFO GPL-0103] Weighted 252 nets.
-[NesterovSolve] Iter: 20 overflow: 0.471164 HPWL: 318312048
-[NesterovSolve] Iter: 30 overflow: 0.389185 HPWL: 311772058
-[NesterovSolve] Iter: 40 overflow: 0.355507 HPWL: 300683330
-[NesterovSolve] Iter: 50 overflow: 0.321948 HPWL: 297222520
-[NesterovSolve] Iter: 60 overflow: 0.327141 HPWL: 296228046
-[NesterovSolve] Iter: 70 overflow: 0.338178 HPWL: 294201481
-[NesterovSolve] Iter: 80 overflow: 0.337717 HPWL: 293386480
-[NesterovSolve] Iter: 90 overflow: 0.399065 HPWL: 292457836
-[NesterovSolve] Iter: 100 overflow: 0.397572 HPWL: 291837208
-[NesterovSolve] Iter: 110 overflow: 0.396585 HPWL: 291336316
-[NesterovSolve] Iter: 120 overflow: 0.39742 HPWL: 290763306
-[NesterovSolve] Iter: 130 overflow: 0.398016 HPWL: 290329594
-[NesterovSolve] Iter: 140 overflow: 0.384223 HPWL: 290284234
-[NesterovSolve] Iter: 150 overflow: 0.396258 HPWL: 289717296
-[NesterovSolve] Iter: 160 overflow: 0.399575 HPWL: 289435569
-[NesterovSolve] Iter: 170 overflow: 0.396052 HPWL: 289196781
-[NesterovSolve] Iter: 180 overflow: 0.394981 HPWL: 288958188
-[NesterovSolve] Iter: 190 overflow: 0.396508 HPWL: 288707570
-[NesterovSolve] Iter: 200 overflow: 0.398214 HPWL: 288484868
-[NesterovSolve] Iter: 210 overflow: 0.400282 HPWL: 288272432
-[NesterovSolve] Iter: 220 overflow: 0.401717 HPWL: 288139480
-[NesterovSolve] Iter: 230 overflow: 0.398817 HPWL: 287990061
-[NesterovSolve] Iter: 240 overflow: 0.398937 HPWL: 287820498
-[NesterovSolve] Iter: 250 overflow: 0.396139 HPWL: 287675691
-[NesterovSolve] Iter: 260 overflow: 0.39763 HPWL: 287521032
-[NesterovSolve] Iter: 270 overflow: 0.398185 HPWL: 287354678
-[NesterovSolve] Iter: 280 overflow: 0.392727 HPWL: 287185148
-[NesterovSolve] Iter: 290 overflow: 0.395786 HPWL: 287025252
-[NesterovSolve] Iter: 300 overflow: 0.392884 HPWL: 286900074
-[NesterovSolve] Iter: 310 overflow: 0.398743 HPWL: 286855091
-[NesterovSolve] Iter: 320 overflow: 0.398065 HPWL: 286869528
-[NesterovSolve] Iter: 330 overflow: 0.396792 HPWL: 286958093
-[NesterovSolve] Iter: 340 overflow: 0.39467 HPWL: 287157801
-[NesterovSolve] Iter: 350 overflow: 0.394362 HPWL: 287558107
-[NesterovSolve] Iter: 360 overflow: 0.389177 HPWL: 288150487
-[NesterovSolve] Iter: 370 overflow: 0.379664 HPWL: 289110348
-[NesterovSolve] Iter: 380 overflow: 0.354836 HPWL: 291245507
-[NesterovSolve] Iter: 390 overflow: 0.316341 HPWL: 310156610
-[INFO GPL-0100] worst slack 9.29e-09
-[INFO GPL-0103] Weighted 251 nets.
-[NesterovSolve] Iter: 400 overflow: 0.255913 HPWL: 330807996
-[NesterovSolve] Iter: 410 overflow: 0.331725 HPWL: 340015354
-[NesterovSolve] Iter: 420 overflow: 0.381075 HPWL: 325275984
-[NesterovSolve] Iter: 430 overflow: 0.371783 HPWL: 337053245
-[NesterovSolve] Iter: 440 overflow: 0.347322 HPWL: 336349931
-[NesterovSolve] Iter: 450 overflow: 0.1964 HPWL: 333962226
-[INFO GPL-0100] worst slack 9.23e-09
-[INFO GPL-0103] Weighted 251 nets.
+[NesterovSolve] Iter: 10 overflow: 0.504986 HPWL: 323000178
+[NesterovSolve] Iter: 20 overflow: 0.50136 HPWL: 322615904
+[NesterovSolve] Iter: 30 overflow: 0.497147 HPWL: 322119805
+[NesterovSolve] Iter: 40 overflow: 0.492073 HPWL: 321562619
+[NesterovSolve] Iter: 50 overflow: 0.487461 HPWL: 320770158
+[INFO GPL-0100] worst slack 9.4e-09
+[INFO GPL-0103] Weighted 253 nets.
+[NesterovSolve] Iter: 60 overflow: 0.482839 HPWL: 319701287
+[NesterovSolve] Iter: 70 overflow: 0.482493 HPWL: 318431903
+[NesterovSolve] Iter: 80 overflow: 0.472823 HPWL: 316992158
+[NesterovSolve] Iter: 90 overflow: 0.444845 HPWL: 315491447
+[NesterovSolve] Iter: 100 overflow: 0.414995 HPWL: 313841282
+[NesterovSolve] Iter: 110 overflow: 0.386956 HPWL: 312160949
+[NesterovSolve] Iter: 120 overflow: 0.384628 HPWL: 310451866
+[NesterovSolve] Iter: 130 overflow: 0.364769 HPWL: 308747449
+[NesterovSolve] Iter: 140 overflow: 0.36361 HPWL: 307039624
+[NesterovSolve] Iter: 150 overflow: 0.361666 HPWL: 305316064
+[NesterovSolve] Iter: 160 overflow: 0.357125 HPWL: 303879646
+[NesterovSolve] Iter: 170 overflow: 0.356126 HPWL: 302872225
+[NesterovSolve] Iter: 180 overflow: 0.355326 HPWL: 302309054
+[NesterovSolve] Iter: 190 overflow: 0.353004 HPWL: 301893451
+[NesterovSolve] Iter: 200 overflow: 0.348116 HPWL: 301533359
+[NesterovSolve] Iter: 210 overflow: 0.345492 HPWL: 301159370
+[NesterovSolve] Iter: 220 overflow: 0.343439 HPWL: 300794970
+[NesterovSolve] Iter: 230 overflow: 0.345191 HPWL: 300437739
+[NesterovSolve] Iter: 240 overflow: 0.345818 HPWL: 300302221
+[NesterovSolve] Iter: 250 overflow: 0.343731 HPWL: 300173812
+[NesterovSolve] Iter: 260 overflow: 0.339929 HPWL: 300043694
+[NesterovSolve] Iter: 270 overflow: 0.334424 HPWL: 299954242
+[NesterovSolve] Iter: 280 overflow: 0.324225 HPWL: 299906440
+[NesterovSolve] Iter: 290 overflow: 0.325832 HPWL: 299911041
+[NesterovSolve] Iter: 300 overflow: 0.328922 HPWL: 299978219
+[NesterovSolve] Iter: 310 overflow: 0.32918 HPWL: 300167158
+[NesterovSolve] Iter: 320 overflow: 0.320968 HPWL: 300435518
+[NesterovSolve] Iter: 330 overflow: 0.321279 HPWL: 300912341
+[NesterovSolve] Iter: 340 overflow: 0.317762 HPWL: 301773175
+[NesterovSolve] Iter: 350 overflow: 0.30542 HPWL: 304379209
+[INFO GPL-0100] worst slack 9.44e-09
+[INFO GPL-0103] Weighted 253 nets.
+[NesterovSolve] Iter: 360 overflow: 0.280483 HPWL: 314605468
+[NesterovSolve] Iter: 370 overflow: 0.259731 HPWL: 332210015
+[NesterovSolve] Iter: 380 overflow: 0.21239 HPWL: 352268389
+[NesterovSolve] Iter: 390 overflow: 0.243116 HPWL: 334178888
+[NesterovSolve] Iter: 400 overflow: 0.254478 HPWL: 331718809
+[NesterovSolve] Iter: 410 overflow: 0.282835 HPWL: 341762720
+[INFO GPL-0100] worst slack 9.31e-09
+[INFO GPL-0103] Weighted 253 nets.
 [INFO GPL-0075] Routability numCall: 1 inflationIterCnt: 1 bloatIterCnt: 0
 [INFO GPL-0036] TileLxLy: 0 0
 [INFO GPL-0037] TileSize: 6900 6900
@@ -117,33 +113,23 @@ Components of this program may be licensed under more restrictive licenses which
 [INFO GPL-0063] TotalRouteOverflowH2: 0.0
 [INFO GPL-0064] TotalRouteOverflowV2: 0.0
 [INFO GPL-0065] OverflowTileCnt2: 0
-[INFO GPL-0066] 0.5%RC: 0.8044456061147247
-[INFO GPL-0067] 1.0%RC: 0.7179435702123468
-[INFO GPL-0068] 2.0%RC: 0.7161148895574839
-[INFO GPL-0069] 5.0%RC: 0.7150174519347756
+[INFO GPL-0066] 0.5%RC: 0.8002353571822952
+[INFO GPL-0067] 1.0%RC: 0.7215329721601124
+[INFO GPL-0068] 2.0%RC: 0.7179093517378626
+[INFO GPL-0069] 5.0%RC: 0.715735330799699
 [INFO GPL-0070] 0.5rcK: 1.0
 [INFO GPL-0071] 1.0rcK: 1.0
 [INFO GPL-0072] 2.0rcK: 0.0
 [INFO GPL-0073] 5.0rcK: 0.0
-[INFO GPL-0074] FinalRC: 0.7611946
-[NesterovSolve] Iter: 460 overflow: 0.149033 HPWL: 333708048
-[NesterovSolve] Iter: 470 overflow: 0.1773 HPWL: 332638618
-[NesterovSolve] Iter: 480 overflow: 0.192314 HPWL: 325041470
-[NesterovSolve] Iter: 490 overflow: 0.243017 HPWL: 321319942
-[NesterovSolve] Iter: 500 overflow: 0.16519 HPWL: 313843482
-[NesterovSolve] Iter: 510 overflow: 0.155928 HPWL: 310910317
-[NesterovSolve] Iter: 520 overflow: 0.160034 HPWL: 305569763
-[INFO GPL-0100] worst slack 9.35e-09
-[INFO GPL-0103] Weighted 251 nets.
-[NesterovSolve] Iter: 530 overflow: 0.138557 HPWL: 302090263
-[NesterovSolve] Iter: 540 overflow: 0.143123 HPWL: 298623260
-[NesterovSolve] Iter: 550 overflow: 0.118805 HPWL: 297635839
-[NesterovSolve] Iter: 560 overflow: 0.117546 HPWL: 296666285
-[NesterovSolve] Iter: 570 overflow: 0.104817 HPWL: 294842065
-[NesterovSolve] Finished with Overflow: 0.098672
+[INFO GPL-0074] FinalRC: 0.76088417
+[INFO GPL-0100] worst slack 9.31e-09
+[INFO GPL-0103] Weighted 253 nets.
+[NesterovSolve] Iter: 420 overflow: 0.167139 HPWL: 351581016
+[NesterovSolve] Iter: 430 overflow: 0.116235 HPWL: 341263834
+[NesterovSolve] Finished with Overflow: 0.098862
 ###############################################################################
 # Created by write_sdc
-# Fri May 27 13:55:58 2022
+# Sat May 28 12:17:32 2022
 ###############################################################################
 current_design user_project_wrapper
 ###############################################################################
@@ -1508,32 +1494,32 @@ Fanout     Cap    Slew   Delay    Time   Description
                   0.15    0.00    0.00   clock wb_clk_i (rise edge)
                           0.00    0.00   clock network delay (ideal)
                   0.15    0.00    0.00 ^ _313_/CLK (sky130_fd_sc_hd__dfxtp_2)
-                  0.92    0.85    0.85 ^ _313_/Q (sky130_fd_sc_hd__dfxtp_2)
+                  0.91    0.84    0.84 ^ _313_/Q (sky130_fd_sc_hd__dfxtp_2)
      2    0.03                           wbs_ack_o (net)
-                  0.97    0.16    1.01 ^ _151_/A_N (sky130_fd_sc_hd__nand3b_2)
-                  0.84    0.73    1.74 ^ _151_/Y (sky130_fd_sc_hd__nand3b_2)
+                  0.96    0.16    1.00 ^ _151_/A_N (sky130_fd_sc_hd__nand3b_2)
+                  0.85    0.74    1.74 ^ _151_/Y (sky130_fd_sc_hd__nand3b_2)
      5    0.17                           _010_ (net)
-                  0.88    0.13    1.87 ^ _152_/A (sky130_fd_sc_hd__buf_1)
-                  0.22    0.26    2.14 ^ _152_/X (sky130_fd_sc_hd__buf_1)
-     5    0.02                           _011_ (net)
-                  0.22    0.00    2.14 ^ _312_/A (sky130_fd_sc_hd__nor2_2)
-                  0.06    0.08    2.21 v _312_/Y (sky130_fd_sc_hd__nor2_2)
-     1    0.01                           _008_ (net)
-                  0.06    0.00    2.21 v _313_/D (sky130_fd_sc_hd__dfxtp_2)
-                                  2.21   data arrival time
+                  0.89    0.14    1.87 ^ _152_/A (sky130_fd_sc_hd__buf_1)
+                  0.35    0.35    2.22 ^ _152_/X (sky130_fd_sc_hd__buf_1)
+     5    0.03                           _011_ (net)
+                  0.35    0.00    2.22 ^ _312_/A (sky130_fd_sc_hd__nor2_2)
+                  0.11    0.13    2.35 v _312_/Y (sky130_fd_sc_hd__nor2_2)
+     1    0.02                           _008_ (net)
+                  0.11    0.00    2.35 v _313_/D (sky130_fd_sc_hd__dfxtp_2)
+                                  2.35   data arrival time
 
                   0.15    0.00    0.00   clock wb_clk_i (rise edge)
                           0.00    0.00   clock network delay (ideal)
                           0.25    0.25   clock uncertainty
                           0.00    0.25   clock reconvergence pessimism
                                   0.25 ^ _313_/CLK (sky130_fd_sc_hd__dfxtp_2)
-                         -0.03    0.22   library hold time
-                                  0.22   data required time
+                         -0.05    0.20   library hold time
+                                  0.20   data required time
 -----------------------------------------------------------------------------
-                                  0.22   data required time
-                                 -2.21   data arrival time
+                                  0.20   data required time
+                                 -2.35   data arrival time
 -----------------------------------------------------------------------------
-                                  1.99   slack (MET)
+                                  2.15   slack (MET)
 
 
 Startpoint: _313_ (rising edge-triggered flip-flop clocked by wb_clk_i)
@@ -1548,7 +1534,7 @@ Fanout     Cap    Slew   Delay    Time   Description
                   0.15    0.00    0.00 ^ _313_/CLK (sky130_fd_sc_hd__dfxtp_2)
                   0.40    0.54    0.54 v _313_/Q (sky130_fd_sc_hd__dfxtp_2)
      2    0.03                           wbs_ack_o (net)
-                  0.52    0.15    0.70 v wbs_ack_o (out)
+                  0.51    0.15    0.70 v wbs_ack_o (out)
                                   0.70   data arrival time
 
                   0.15    0.00    0.00   clock wb_clk_i (rise edge)
@@ -1574,13 +1560,13 @@ Fanout     Cap    Slew   Delay    Time   Description
                   0.15    0.00    0.00   clock wb_clk_i (rise edge)
                           0.00    0.00   clock network delay (ideal)
                           4.00    4.00 v input external delay
-                  0.71    0.55    4.55 v wbs_dat_i[31] (in)
+                  0.70    0.55    4.55 v wbs_dat_i[31] (in)
      5    0.32                           wbs_dat_i[31] (net)
-                  0.77    0.00    4.55 v _508_/A (sky130_fd_sc_hd__buf_4)
-                  0.08    0.41    4.97 v _508_/X (sky130_fd_sc_hd__buf_4)
+                  0.76    0.00    4.55 v _508_/A (sky130_fd_sc_hd__buf_4)
+                  0.08    0.41    4.96 v _508_/X (sky130_fd_sc_hd__buf_4)
      1    0.03                           la_data_out[63] (net)
-                  0.08    0.00    4.97 v la_data_out[63] (out)
-                                  4.97   data arrival time
+                  0.08    0.00    4.96 v la_data_out[63] (out)
+                                  4.96   data arrival time
 
                   0.15    0.00    0.00   clock wb_clk_i (rise edge)
                           0.00    0.00   clock network delay (ideal)
@@ -1590,9 +1576,9 @@ Fanout     Cap    Slew   Delay    Time   Description
                                  -3.75   data required time
 -----------------------------------------------------------------------------
                                  -3.75   data required time
-                                 -4.97   data arrival time
+                                 -4.96   data arrival time
 -----------------------------------------------------------------------------
-                                  8.72   slack (MET)
+                                  8.71   slack (MET)
 
 
 Startpoint: wbs_dat_i[30] (input port clocked by wb_clk_i)
@@ -1605,12 +1591,43 @@ Fanout     Cap    Slew   Delay    Time   Description
                   0.15    0.00    0.00   clock wb_clk_i (rise edge)
                           0.00    0.00   clock network delay (ideal)
                           4.00    4.00 v input external delay
-                  0.72    0.56    4.56 v wbs_dat_i[30] (in)
+                  0.70    0.55    4.55 v wbs_dat_i[30] (in)
      5    0.32                           wbs_dat_i[30] (net)
-                  0.77    0.00    4.56 v _507_/A (sky130_fd_sc_hd__buf_4)
-                  0.08    0.42    4.97 v _507_/X (sky130_fd_sc_hd__buf_4)
+                  0.76    0.00    4.55 v _507_/A (sky130_fd_sc_hd__buf_4)
+                  0.08    0.41    4.96 v _507_/X (sky130_fd_sc_hd__buf_4)
      1    0.03                           la_data_out[62] (net)
-                  0.08    0.00    4.97 v la_data_out[62] (out)
+                  0.08    0.00    4.96 v la_data_out[62] (out)
+                                  4.96   data arrival time
+
+                  0.15    0.00    0.00   clock wb_clk_i (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          0.25    0.25   clock uncertainty
+                          0.00    0.25   clock reconvergence pessimism
+                         -4.00   -3.75   output external delay
+                                 -3.75   data required time
+-----------------------------------------------------------------------------
+                                 -3.75   data required time
+                                 -4.96   data arrival time
+-----------------------------------------------------------------------------
+                                  8.71   slack (MET)
+
+
+Startpoint: wbs_dat_i[29] (input port clocked by wb_clk_i)
+Endpoint: la_data_out[61] (output port clocked by wb_clk_i)
+Path Group: wb_clk_i
+Path Type: min
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.15    0.00    0.00   clock wb_clk_i (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          4.00    4.00 v input external delay
+                  0.71    0.55    4.55 v wbs_dat_i[29] (in)
+     5    0.32                           wbs_dat_i[29] (net)
+                  0.77    0.00    4.55 v _506_/A (sky130_fd_sc_hd__buf_4)
+                  0.08    0.41    4.97 v _506_/X (sky130_fd_sc_hd__buf_4)
+     1    0.03                           la_data_out[61] (net)
+                  0.08    0.00    4.97 v la_data_out[61] (out)
                                   4.97   data arrival time
 
                   0.15    0.00    0.00   clock wb_clk_i (rise edge)
@@ -1626,37 +1643,6 @@ Fanout     Cap    Slew   Delay    Time   Description
                                   8.72   slack (MET)
 
 
-Startpoint: wbs_dat_i[29] (input port clocked by wb_clk_i)
-Endpoint: la_data_out[61] (output port clocked by wb_clk_i)
-Path Group: wb_clk_i
-Path Type: min
-
-Fanout     Cap    Slew   Delay    Time   Description
------------------------------------------------------------------------------
-                  0.15    0.00    0.00   clock wb_clk_i (rise edge)
-                          0.00    0.00   clock network delay (ideal)
-                          4.00    4.00 v input external delay
-                  0.72    0.56    4.56 v wbs_dat_i[29] (in)
-     5    0.33                           wbs_dat_i[29] (net)
-                  0.78    0.00    4.56 v _506_/A (sky130_fd_sc_hd__buf_4)
-                  0.08    0.42    4.98 v _506_/X (sky130_fd_sc_hd__buf_4)
-     1    0.03                           la_data_out[61] (net)
-                  0.08    0.00    4.98 v la_data_out[61] (out)
-                                  4.98   data arrival time
-
-                  0.15    0.00    0.00   clock wb_clk_i (rise edge)
-                          0.00    0.00   clock network delay (ideal)
-                          0.25    0.25   clock uncertainty
-                          0.00    0.25   clock reconvergence pessimism
-                         -4.00   -3.75   output external delay
-                                 -3.75   data required time
------------------------------------------------------------------------------
-                                 -3.75   data required time
-                                 -4.98   data arrival time
------------------------------------------------------------------------------
-                                  8.73   slack (MET)
-
-
 min_report_end
 max_report
 
@@ -1664,7 +1650,7 @@ max_report
 report_checks -path_delay max (Setup)
 ============================================================================
 Startpoint: wbs_adr_i[11] (input port clocked by wb_clk_i)
-Endpoint: wbs_dat_o[29] (output port clocked by wb_clk_i)
+Endpoint: wbs_dat_o[0] (output port clocked by wb_clk_i)
 Path Group: wb_clk_i
 Path Type: max
 
@@ -1678,23 +1664,23 @@ Fanout     Cap    Slew   Delay    Time   Description
                   0.38    0.00    4.31 v _159_/A (sky130_fd_sc_hd__inv_2)
                   0.09    0.14    4.45 ^ _159_/Y (sky130_fd_sc_hd__inv_2)
      2    0.00                           _016_ (net)
-                  0.09    0.00    4.45 ^ _160_/A (sky130_fd_sc_hd__buf_1)
-                  0.93    0.73    5.18 ^ _160_/X (sky130_fd_sc_hd__buf_1)
-     5    0.08                           _017_ (net)
-                  0.93    0.02    5.20 ^ _161_/A (sky130_fd_sc_hd__buf_1)
-                  0.91    0.79    5.98 ^ _161_/X (sky130_fd_sc_hd__buf_1)
-     5    0.08                           _018_ (net)
-                  0.91    0.02    6.00 ^ _303_/A1 (sky130_fd_sc_hd__a22o_2)
-                  0.31    0.52    6.52 ^ _303_/X (sky130_fd_sc_hd__a22o_2)
-     1    0.06                           _124_ (net)
-                  0.32    0.02    6.54 ^ _304_/B2 (sky130_fd_sc_hd__o22a_2)
-                  0.59    0.59    7.13 ^ _304_/X (sky130_fd_sc_hd__o22a_2)
-     2    0.04                           la_data_out[29] (net)
-                  0.60    0.07    7.19 ^ _538_/A (sky130_fd_sc_hd__buf_4)
-                  0.21    0.36    7.55 ^ _538_/X (sky130_fd_sc_hd__buf_4)
-     1    0.03                           wbs_dat_o[29] (net)
-                  0.21    0.02    7.58 ^ wbs_dat_o[29] (out)
-                                  7.58   data arrival time
+                  0.09    0.00    4.45 ^ _186_/A (sky130_fd_sc_hd__buf_1)
+                  0.58    0.49    4.93 ^ _186_/X (sky130_fd_sc_hd__buf_1)
+     5    0.05                           _036_ (net)
+                  0.58    0.00    4.93 ^ _187_/A (sky130_fd_sc_hd__buf_1)
+                  0.62    0.57    5.51 ^ _187_/X (sky130_fd_sc_hd__buf_1)
+     5    0.05                           _037_ (net)
+                  0.62    0.01    5.52 ^ _189_/A1 (sky130_fd_sc_hd__a22o_2)
+                  0.10    0.33    5.85 ^ _189_/X (sky130_fd_sc_hd__a22o_2)
+     1    0.02                           _039_ (net)
+                  0.10    0.00    5.85 ^ _190_/B2 (sky130_fd_sc_hd__o22a_2)
+                  0.69    0.58    6.44 ^ _190_/X (sky130_fd_sc_hd__o22a_2)
+     2    0.04                           la_data_out[0] (net)
+                  0.70    0.09    6.52 ^ _509_/A (sky130_fd_sc_hd__buf_4)
+                  0.19    0.36    6.88 ^ _509_/X (sky130_fd_sc_hd__buf_4)
+     1    0.03                           wbs_dat_o[0] (net)
+                  0.19    0.02    6.90 ^ wbs_dat_o[0] (out)
+                                  6.90   data arrival time
 
                   0.15   20.00   20.00   clock wb_clk_i (rise edge)
                           0.00   20.00   clock network delay (ideal)
@@ -1704,13 +1690,13 @@ Fanout     Cap    Slew   Delay    Time   Description
                                  15.75   data required time
 -----------------------------------------------------------------------------
                                  15.75   data required time
-                                 -7.58   data arrival time
+                                 -6.90   data arrival time
 -----------------------------------------------------------------------------
-                                  8.17   slack (MET)
+                                  8.85   slack (MET)
 
 
 Startpoint: wbs_adr_i[11] (input port clocked by wb_clk_i)
-Endpoint: wbs_dat_o[28] (output port clocked by wb_clk_i)
+Endpoint: wbs_dat_o[1] (output port clocked by wb_clk_i)
 Path Group: wb_clk_i
 Path Type: max
 
@@ -1724,23 +1710,23 @@ Fanout     Cap    Slew   Delay    Time   Description
                   0.38    0.00    4.31 v _159_/A (sky130_fd_sc_hd__inv_2)
                   0.09    0.14    4.45 ^ _159_/Y (sky130_fd_sc_hd__inv_2)
      2    0.00                           _016_ (net)
-                  0.09    0.00    4.45 ^ _160_/A (sky130_fd_sc_hd__buf_1)
-                  0.93    0.73    5.18 ^ _160_/X (sky130_fd_sc_hd__buf_1)
-     5    0.08                           _017_ (net)
-                  0.93    0.02    5.20 ^ _161_/A (sky130_fd_sc_hd__buf_1)
-                  0.91    0.79    5.98 ^ _161_/X (sky130_fd_sc_hd__buf_1)
-     5    0.08                           _018_ (net)
-                  0.91    0.02    6.00 ^ _300_/A1 (sky130_fd_sc_hd__a22o_2)
-                  0.31    0.52    6.52 ^ _300_/X (sky130_fd_sc_hd__a22o_2)
-     1    0.06                           _122_ (net)
-                  0.31    0.02    6.54 ^ _301_/B2 (sky130_fd_sc_hd__o22a_2)
-                  0.59    0.59    7.13 ^ _301_/X (sky130_fd_sc_hd__o22a_2)
-     2    0.04                           la_data_out[28] (net)
-                  0.60    0.07    7.19 ^ _537_/A (sky130_fd_sc_hd__buf_4)
-                  0.21    0.36    7.55 ^ _537_/X (sky130_fd_sc_hd__buf_4)
-     1    0.03                           wbs_dat_o[28] (net)
-                  0.21    0.02    7.58 ^ wbs_dat_o[28] (out)
-                                  7.58   data arrival time
+                  0.09    0.00    4.45 ^ _186_/A (sky130_fd_sc_hd__buf_1)
+                  0.58    0.49    4.93 ^ _186_/X (sky130_fd_sc_hd__buf_1)
+     5    0.05                           _036_ (net)
+                  0.58    0.00    4.93 ^ _187_/A (sky130_fd_sc_hd__buf_1)
+                  0.62    0.57    5.51 ^ _187_/X (sky130_fd_sc_hd__buf_1)
+     5    0.05                           _037_ (net)
+                  0.62    0.01    5.52 ^ _192_/A1 (sky130_fd_sc_hd__a22o_2)
+                  0.10    0.33    5.85 ^ _192_/X (sky130_fd_sc_hd__a22o_2)
+     1    0.02                           _041_ (net)
+                  0.10    0.00    5.85 ^ _193_/B2 (sky130_fd_sc_hd__o22a_2)
+                  0.68    0.58    6.43 ^ _193_/X (sky130_fd_sc_hd__o22a_2)
+     2    0.04                           la_data_out[1] (net)
+                  0.69    0.09    6.52 ^ _510_/A (sky130_fd_sc_hd__buf_4)
+                  0.19    0.36    6.88 ^ _510_/X (sky130_fd_sc_hd__buf_4)
+     1    0.03                           wbs_dat_o[1] (net)
+                  0.19    0.02    6.89 ^ wbs_dat_o[1] (out)
+                                  6.89   data arrival time
 
                   0.15   20.00   20.00   clock wb_clk_i (rise edge)
                           0.00   20.00   clock network delay (ideal)
@@ -1750,13 +1736,13 @@ Fanout     Cap    Slew   Delay    Time   Description
                                  15.75   data required time
 -----------------------------------------------------------------------------
                                  15.75   data required time
-                                 -7.58   data arrival time
+                                 -6.89   data arrival time
 -----------------------------------------------------------------------------
-                                  8.17   slack (MET)
+                                  8.86   slack (MET)
 
 
 Startpoint: wbs_adr_i[11] (input port clocked by wb_clk_i)
-Endpoint: wbs_dat_o[31] (output port clocked by wb_clk_i)
+Endpoint: wbs_dat_o[2] (output port clocked by wb_clk_i)
 Path Group: wb_clk_i
 Path Type: max
 
@@ -1770,23 +1756,23 @@ Fanout     Cap    Slew   Delay    Time   Description
                   0.38    0.00    4.31 v _159_/A (sky130_fd_sc_hd__inv_2)
                   0.09    0.14    4.45 ^ _159_/Y (sky130_fd_sc_hd__inv_2)
      2    0.00                           _016_ (net)
-                  0.09    0.00    4.45 ^ _160_/A (sky130_fd_sc_hd__buf_1)
-                  0.93    0.73    5.18 ^ _160_/X (sky130_fd_sc_hd__buf_1)
-     5    0.08                           _017_ (net)
-                  0.93    0.02    5.20 ^ _161_/A (sky130_fd_sc_hd__buf_1)
-                  0.91    0.79    5.98 ^ _161_/X (sky130_fd_sc_hd__buf_1)
-     5    0.08                           _018_ (net)
-                  0.91    0.01    5.99 ^ _309_/A1 (sky130_fd_sc_hd__a22o_2)
-                  0.14    0.39    6.38 ^ _309_/X (sky130_fd_sc_hd__a22o_2)
-     1    0.02                           _128_ (net)
-                  0.14    0.00    6.38 ^ _310_/B2 (sky130_fd_sc_hd__o22a_2)
-                  0.65    0.58    6.95 ^ _310_/X (sky130_fd_sc_hd__o22a_2)
-     2    0.04                           la_data_out[31] (net)
-                  0.67    0.08    7.03 ^ _540_/A (sky130_fd_sc_hd__buf_4)
-                  0.18    0.35    7.38 ^ _540_/X (sky130_fd_sc_hd__buf_4)
-     1    0.03                           wbs_dat_o[31] (net)
-                  0.18    0.02    7.40 ^ wbs_dat_o[31] (out)
-                                  7.40   data arrival time
+                  0.09    0.00    4.45 ^ _186_/A (sky130_fd_sc_hd__buf_1)
+                  0.58    0.49    4.93 ^ _186_/X (sky130_fd_sc_hd__buf_1)
+     5    0.05                           _036_ (net)
+                  0.58    0.00    4.93 ^ _187_/A (sky130_fd_sc_hd__buf_1)
+                  0.62    0.57    5.51 ^ _187_/X (sky130_fd_sc_hd__buf_1)
+     5    0.05                           _037_ (net)
+                  0.62    0.01    5.52 ^ _195_/A1 (sky130_fd_sc_hd__a22o_2)
+                  0.10    0.33    5.85 ^ _195_/X (sky130_fd_sc_hd__a22o_2)
+     1    0.02                           _043_ (net)
+                  0.10    0.00    5.85 ^ _196_/B2 (sky130_fd_sc_hd__o22a_2)
+                  0.67    0.57    6.43 ^ _196_/X (sky130_fd_sc_hd__o22a_2)
+     2    0.04                           la_data_out[2] (net)
+                  0.68    0.08    6.51 ^ _511_/A (sky130_fd_sc_hd__buf_4)
+                  0.19    0.36    6.87 ^ _511_/X (sky130_fd_sc_hd__buf_4)
+     1    0.03                           wbs_dat_o[2] (net)
+                  0.19    0.02    6.88 ^ wbs_dat_o[2] (out)
+                                  6.88   data arrival time
 
                   0.15   20.00   20.00   clock wb_clk_i (rise edge)
                           0.00   20.00   clock network delay (ideal)
@@ -1796,59 +1782,13 @@ Fanout     Cap    Slew   Delay    Time   Description
                                  15.75   data required time
 -----------------------------------------------------------------------------
                                  15.75   data required time
-                                 -7.40   data arrival time
+                                 -6.88   data arrival time
 -----------------------------------------------------------------------------
-                                  8.35   slack (MET)
+                                  8.87   slack (MET)
 
 
 Startpoint: wbs_adr_i[11] (input port clocked by wb_clk_i)
-Endpoint: wbs_dat_o[30] (output port clocked by wb_clk_i)
-Path Group: wb_clk_i
-Path Type: max
-
-Fanout     Cap    Slew   Delay    Time   Description
------------------------------------------------------------------------------
-                  0.15    0.00    0.00   clock wb_clk_i (rise edge)
-                          0.00    0.00   clock network delay (ideal)
-                          4.00    4.00 v input external delay
-                  0.32    0.31    4.31 v wbs_adr_i[11] (in)
-     5    0.15                           wbs_adr_i[11] (net)
-                  0.38    0.00    4.31 v _159_/A (sky130_fd_sc_hd__inv_2)
-                  0.09    0.14    4.45 ^ _159_/Y (sky130_fd_sc_hd__inv_2)
-     2    0.00                           _016_ (net)
-                  0.09    0.00    4.45 ^ _160_/A (sky130_fd_sc_hd__buf_1)
-                  0.93    0.73    5.18 ^ _160_/X (sky130_fd_sc_hd__buf_1)
-     5    0.08                           _017_ (net)
-                  0.93    0.02    5.20 ^ _161_/A (sky130_fd_sc_hd__buf_1)
-                  0.91    0.79    5.98 ^ _161_/X (sky130_fd_sc_hd__buf_1)
-     5    0.08                           _018_ (net)
-                  0.91    0.01    5.99 ^ _306_/A1 (sky130_fd_sc_hd__a22o_2)
-                  0.14    0.39    6.38 ^ _306_/X (sky130_fd_sc_hd__a22o_2)
-     1    0.02                           _126_ (net)
-                  0.14    0.00    6.38 ^ _307_/B2 (sky130_fd_sc_hd__o22a_2)
-                  0.64    0.57    6.95 ^ _307_/X (sky130_fd_sc_hd__o22a_2)
-     2    0.04                           la_data_out[30] (net)
-                  0.65    0.08    7.03 ^ _539_/A (sky130_fd_sc_hd__buf_4)
-                  0.18    0.35    7.38 ^ _539_/X (sky130_fd_sc_hd__buf_4)
-     1    0.03                           wbs_dat_o[30] (net)
-                  0.19    0.02    7.40 ^ wbs_dat_o[30] (out)
-                                  7.40   data arrival time
-
-                  0.15   20.00   20.00   clock wb_clk_i (rise edge)
-                          0.00   20.00   clock network delay (ideal)
-                         -0.25   19.75   clock uncertainty
-                          0.00   19.75   clock reconvergence pessimism
-                         -4.00   15.75   output external delay
-                                 15.75   data required time
------------------------------------------------------------------------------
-                                 15.75   data required time
-                                 -7.40   data arrival time
------------------------------------------------------------------------------
-                                  8.35   slack (MET)
-
-
-Startpoint: wbs_adr_i[11] (input port clocked by wb_clk_i)
-Endpoint: wbs_dat_o[11] (output port clocked by wb_clk_i)
+Endpoint: wbs_dat_o[3] (output port clocked by wb_clk_i)
 Path Group: wb_clk_i
 Path Type: max
 
@@ -1857,28 +1797,28 @@ Fanout     Cap    Slew   Delay    Time   Description
                   0.15    0.00    0.00   clock wb_clk_i (rise edge)
                           0.00    0.00   clock network delay (ideal)
                           4.00    4.00 ^ input external delay
-                  0.67    0.56    4.56 ^ wbs_adr_i[11] (in)
+                  0.67    0.55    4.55 ^ wbs_adr_i[11] (in)
      5    0.15                           wbs_adr_i[11] (net)
-                  0.71    0.00    4.56 ^ _173_/A (sky130_fd_sc_hd__and2_2)
-                  0.08    0.31    4.87 ^ _173_/X (sky130_fd_sc_hd__and2_2)
+                  0.70    0.00    4.55 ^ _173_/A (sky130_fd_sc_hd__and2_2)
+                  0.10    0.33    4.88 ^ _173_/X (sky130_fd_sc_hd__and2_2)
      2    0.01                           _026_ (net)
-                  0.08    0.00    4.87 ^ _209_/A (sky130_fd_sc_hd__buf_1)
-                  0.83    0.66    5.53 ^ _209_/X (sky130_fd_sc_hd__buf_1)
-     5    0.07                           _054_ (net)
-                  0.83    0.03    5.56 ^ _230_/A (sky130_fd_sc_hd__buf_1)
-                  0.21    0.28    5.84 ^ _230_/X (sky130_fd_sc_hd__buf_1)
-     5    0.02                           _070_ (net)
-                  0.21    0.00    5.84 ^ _234_/B1 (sky130_fd_sc_hd__a22o_2)
-                  0.32    0.39    6.24 ^ _234_/X (sky130_fd_sc_hd__a22o_2)
-     1    0.06                           _073_ (net)
-                  0.32    0.02    6.26 ^ _235_/B2 (sky130_fd_sc_hd__o22a_2)
-                  0.72    0.66    6.92 ^ _235_/X (sky130_fd_sc_hd__o22a_2)
-     2    0.04                           la_data_out[11] (net)
-                  0.73    0.09    7.01 ^ _520_/A (sky130_fd_sc_hd__buf_4)
-                  0.16    0.34    7.35 ^ _520_/X (sky130_fd_sc_hd__buf_4)
-     1    0.03                           wbs_dat_o[11] (net)
-                  0.16    0.01    7.36 ^ wbs_dat_o[11] (out)
-                                  7.36   data arrival time
+                  0.10    0.00    4.89 ^ _174_/A (sky130_fd_sc_hd__buf_1)
+                  0.46    0.41    5.29 ^ _174_/X (sky130_fd_sc_hd__buf_1)
+     5    0.04                           _027_ (net)
+                  0.47    0.00    5.29 ^ _188_/A (sky130_fd_sc_hd__buf_1)
+                  0.19    0.25    5.55 ^ _188_/X (sky130_fd_sc_hd__buf_1)
+     5    0.02                           _038_ (net)
+                  0.19    0.00    5.55 ^ _199_/B1 (sky130_fd_sc_hd__a22o_2)
+                  0.10    0.23    5.78 ^ _199_/X (sky130_fd_sc_hd__a22o_2)
+     1    0.02                           _046_ (net)
+                  0.10    0.00    5.78 ^ _200_/B2 (sky130_fd_sc_hd__o22a_2)
+                  0.66    0.57    6.35 ^ _200_/X (sky130_fd_sc_hd__o22a_2)
+     2    0.04                           la_data_out[3] (net)
+                  0.68    0.08    6.43 ^ _512_/A (sky130_fd_sc_hd__buf_4)
+                  0.19    0.36    6.78 ^ _512_/X (sky130_fd_sc_hd__buf_4)
+     1    0.03                           wbs_dat_o[3] (net)
+                  0.19    0.02    6.80 ^ wbs_dat_o[3] (out)
+                                  6.80   data arrival time
 
                   0.15   20.00   20.00   clock wb_clk_i (rise edge)
                           0.00   20.00   clock network delay (ideal)
@@ -1888,9 +1828,55 @@ Fanout     Cap    Slew   Delay    Time   Description
                                  15.75   data required time
 -----------------------------------------------------------------------------
                                  15.75   data required time
-                                 -7.36   data arrival time
+                                 -6.80   data arrival time
 -----------------------------------------------------------------------------
-                                  8.39   slack (MET)
+                                  8.95   slack (MET)
+
+
+Startpoint: wbs_adr_i[11] (input port clocked by wb_clk_i)
+Endpoint: wbs_dat_o[4] (output port clocked by wb_clk_i)
+Path Group: wb_clk_i
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.15    0.00    0.00   clock wb_clk_i (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                          4.00    4.00 ^ input external delay
+                  0.67    0.55    4.55 ^ wbs_adr_i[11] (in)
+     5    0.15                           wbs_adr_i[11] (net)
+                  0.70    0.00    4.55 ^ _173_/A (sky130_fd_sc_hd__and2_2)
+                  0.10    0.33    4.88 ^ _173_/X (sky130_fd_sc_hd__and2_2)
+     2    0.01                           _026_ (net)
+                  0.10    0.00    4.89 ^ _174_/A (sky130_fd_sc_hd__buf_1)
+                  0.46    0.41    5.29 ^ _174_/X (sky130_fd_sc_hd__buf_1)
+     5    0.04                           _027_ (net)
+                  0.47    0.00    5.29 ^ _188_/A (sky130_fd_sc_hd__buf_1)
+                  0.19    0.25    5.55 ^ _188_/X (sky130_fd_sc_hd__buf_1)
+     5    0.02                           _038_ (net)
+                  0.19    0.00    5.55 ^ _202_/B1 (sky130_fd_sc_hd__a22o_2)
+                  0.10    0.23    5.77 ^ _202_/X (sky130_fd_sc_hd__a22o_2)
+     1    0.02                           _048_ (net)
+                  0.10    0.00    5.78 ^ _203_/B2 (sky130_fd_sc_hd__o22a_2)
+                  0.66    0.57    6.34 ^ _203_/X (sky130_fd_sc_hd__o22a_2)
+     2    0.04                           la_data_out[4] (net)
+                  0.67    0.08    6.42 ^ _513_/A (sky130_fd_sc_hd__buf_4)
+                  0.19    0.36    6.78 ^ _513_/X (sky130_fd_sc_hd__buf_4)
+     1    0.03                           wbs_dat_o[4] (net)
+                  0.19    0.02    6.80 ^ wbs_dat_o[4] (out)
+                                  6.80   data arrival time
+
+                  0.15   20.00   20.00   clock wb_clk_i (rise edge)
+                          0.00   20.00   clock network delay (ideal)
+                         -0.25   19.75   clock uncertainty
+                          0.00   19.75   clock reconvergence pessimism
+                         -4.00   15.75   output external delay
+                                 15.75   data required time
+-----------------------------------------------------------------------------
+                                 15.75   data required time
+                                 -6.80   data arrival time
+-----------------------------------------------------------------------------
+                                  8.95   slack (MET)
 
 
 max_report_end
@@ -1900,7 +1886,7 @@ check_report
 report_checks -unconstrained
 ============================================================================
 Startpoint: wbs_adr_i[11] (input port clocked by wb_clk_i)
-Endpoint: wbs_dat_o[29] (output port clocked by wb_clk_i)
+Endpoint: wbs_dat_o[0] (output port clocked by wb_clk_i)
 Path Group: wb_clk_i
 Path Type: max
 
@@ -1914,23 +1900,23 @@ Fanout     Cap    Slew   Delay    Time   Description
                   0.38    0.00    4.31 v _159_/A (sky130_fd_sc_hd__inv_2)
                   0.09    0.14    4.45 ^ _159_/Y (sky130_fd_sc_hd__inv_2)
      2    0.00                           _016_ (net)
-                  0.09    0.00    4.45 ^ _160_/A (sky130_fd_sc_hd__buf_1)
-                  0.93    0.73    5.18 ^ _160_/X (sky130_fd_sc_hd__buf_1)
-     5    0.08                           _017_ (net)
-                  0.93    0.02    5.20 ^ _161_/A (sky130_fd_sc_hd__buf_1)
-                  0.91    0.79    5.98 ^ _161_/X (sky130_fd_sc_hd__buf_1)
-     5    0.08                           _018_ (net)
-                  0.91    0.02    6.00 ^ _303_/A1 (sky130_fd_sc_hd__a22o_2)
-                  0.31    0.52    6.52 ^ _303_/X (sky130_fd_sc_hd__a22o_2)
-     1    0.06                           _124_ (net)
-                  0.32    0.02    6.54 ^ _304_/B2 (sky130_fd_sc_hd__o22a_2)
-                  0.59    0.59    7.13 ^ _304_/X (sky130_fd_sc_hd__o22a_2)
-     2    0.04                           la_data_out[29] (net)
-                  0.60    0.07    7.19 ^ _538_/A (sky130_fd_sc_hd__buf_4)
-                  0.21    0.36    7.55 ^ _538_/X (sky130_fd_sc_hd__buf_4)
-     1    0.03                           wbs_dat_o[29] (net)
-                  0.21    0.02    7.58 ^ wbs_dat_o[29] (out)
-                                  7.58   data arrival time
+                  0.09    0.00    4.45 ^ _186_/A (sky130_fd_sc_hd__buf_1)
+                  0.58    0.49    4.93 ^ _186_/X (sky130_fd_sc_hd__buf_1)
+     5    0.05                           _036_ (net)
+                  0.58    0.00    4.93 ^ _187_/A (sky130_fd_sc_hd__buf_1)
+                  0.62    0.57    5.51 ^ _187_/X (sky130_fd_sc_hd__buf_1)
+     5    0.05                           _037_ (net)
+                  0.62    0.01    5.52 ^ _189_/A1 (sky130_fd_sc_hd__a22o_2)
+                  0.10    0.33    5.85 ^ _189_/X (sky130_fd_sc_hd__a22o_2)
+     1    0.02                           _039_ (net)
+                  0.10    0.00    5.85 ^ _190_/B2 (sky130_fd_sc_hd__o22a_2)
+                  0.69    0.58    6.44 ^ _190_/X (sky130_fd_sc_hd__o22a_2)
+     2    0.04                           la_data_out[0] (net)
+                  0.70    0.09    6.52 ^ _509_/A (sky130_fd_sc_hd__buf_4)
+                  0.19    0.36    6.88 ^ _509_/X (sky130_fd_sc_hd__buf_4)
+     1    0.03                           wbs_dat_o[0] (net)
+                  0.19    0.02    6.90 ^ wbs_dat_o[0] (out)
+                                  6.90   data arrival time
 
                   0.15   20.00   20.00   clock wb_clk_i (rise edge)
                           0.00   20.00   clock network delay (ideal)
@@ -1940,9 +1926,9 @@ Fanout     Cap    Slew   Delay    Time   Description
                                  15.75   data required time
 -----------------------------------------------------------------------------
                                  15.75   data required time
-                                 -7.58   data arrival time
+                                 -6.90   data arrival time
 -----------------------------------------------------------------------------
-                                  8.17   slack (MET)
+                                  8.85   slack (MET)
 
 
 
@@ -1962,69 +1948,63 @@ Pin                                    Limit    Slew   Slack
 ------------------------------------------------------------
 wbs_adr_i[2]                            1.50    2.51   -1.01 (VIOLATED)
 wbs_adr_i[3]                            1.50    2.50   -1.00 (VIOLATED)
-wbs_adr_i[10]                           1.50    2.16   -0.66 (VIOLATED)
-wbs_adr_i[9]                            1.50    2.15   -0.66 (VIOLATED)
-wbs_adr_i[8]                            1.50    2.04   -0.54 (VIOLATED)
-wbs_adr_i[7]                            1.50    2.03   -0.53 (VIOLATED)
-wbs_adr_i[6]                            1.50    2.01   -0.51 (VIOLATED)
-wbs_adr_i[5]                            1.50    2.00   -0.50 (VIOLATED)
-wbs_adr_i[4]                            1.50    1.98   -0.48 (VIOLATED)
-_477_/A                                 1.50    1.78   -0.28 (VIOLATED)
-_178_/X                                 1.51    1.78   -0.28 (VIOLATED)
-_478_/A                                 1.50    1.76   -0.26 (VIOLATED)
-_479_/A                                 1.50    1.75   -0.25 (VIOLATED)
-wbs_dat_i[0]                            1.50    1.74   -0.25 (VIOLATED)
-_480_/A                                 1.50    1.73   -0.23 (VIOLATED)
-wbs_dat_i[1]                            1.50    1.73   -0.23 (VIOLATED)
-_481_/A                                 1.50    1.72   -0.22 (VIOLATED)
-wbs_dat_i[2]                            1.50    1.72   -0.22 (VIOLATED)
-_482_/A                                 1.50    1.71   -0.21 (VIOLATED)
-wbs_dat_i[3]                            1.50    1.70   -0.20 (VIOLATED)
-_483_/A                                 1.50    1.70   -0.20 (VIOLATED)
-_484_/A                                 1.50    1.69   -0.19 (VIOLATED)
-wbs_dat_i[4]                            1.50    1.69   -0.19 (VIOLATED)
-_485_/A                                 1.50    1.68   -0.18 (VIOLATED)
-wbs_dat_i[5]                            1.50    1.68   -0.18 (VIOLATED)
-_486_/A                                 1.50    1.67   -0.17 (VIOLATED)
-wbs_dat_i[6]                            1.50    1.67   -0.17 (VIOLATED)
-_487_/A                                 1.50    1.67   -0.17 (VIOLATED)
-wbs_dat_i[7]                            1.50    1.66   -0.16 (VIOLATED)
-_488_/A                                 1.50    1.66   -0.16 (VIOLATED)
-wbs_dat_i[8]                            1.50    1.65   -0.15 (VIOLATED)
-_489_/A                                 1.50    1.65   -0.15 (VIOLATED)
-wbs_dat_i[9]                            1.50    1.64   -0.15 (VIOLATED)
-_490_/A                                 1.50    1.64   -0.14 (VIOLATED)
-wbs_dat_i[10]                           1.50    1.63   -0.14 (VIOLATED)
-_491_/A                                 1.50    1.63   -0.13 (VIOLATED)
-wbs_dat_i[11]                           1.50    1.63   -0.13 (VIOLATED)
-_492_/A                                 1.50    1.62   -0.12 (VIOLATED)
-wbs_dat_i[12]                           1.50    1.62   -0.12 (VIOLATED)
-_493_/A                                 1.50    1.61   -0.11 (VIOLATED)
-wbs_dat_i[13]                           1.50    1.61   -0.11 (VIOLATED)
-_494_/A                                 1.50    1.60   -0.10 (VIOLATED)
-wbs_dat_i[14]                           1.50    1.60   -0.10 (VIOLATED)
-wbs_dat_i[15]                           1.50    1.59   -0.09 (VIOLATED)
-_495_/A                                 1.50    1.59   -0.09 (VIOLATED)
-_496_/A                                 1.50    1.58   -0.08 (VIOLATED)
-wbs_dat_i[16]                           1.50    1.58   -0.08 (VIOLATED)
-wbs_dat_i[17]                           1.50    1.57   -0.07 (VIOLATED)
-_497_/A                                 1.50    1.57   -0.07 (VIOLATED)
-_498_/A                                 1.50    1.56   -0.06 (VIOLATED)
-wbs_dat_i[18]                           1.50    1.56   -0.06 (VIOLATED)
-wbs_dat_i[19]                           1.50    1.55   -0.06 (VIOLATED)
-_499_/A                                 1.50    1.56   -0.06 (VIOLATED)
-wbs_dat_i[20]                           1.50    1.54   -0.05 (VIOLATED)
-_500_/A                                 1.50    1.55   -0.05 (VIOLATED)
-wbs_dat_i[21]                           1.50    1.54   -0.04 (VIOLATED)
-_501_/A                                 1.50    1.54   -0.04 (VIOLATED)
-wbs_dat_i[22]                           1.50    1.53   -0.03 (VIOLATED)
-_502_/A                                 1.50    1.53   -0.03 (VIOLATED)
-wbs_dat_i[23]                           1.50    1.52   -0.02 (VIOLATED)
-_503_/A                                 1.50    1.52   -0.02 (VIOLATED)
-wbs_dat_i[24]                           1.50    1.51   -0.01 (VIOLATED)
-_504_/A                                 1.50    1.51   -0.01 (VIOLATED)
-wbs_dat_i[25]                           1.50    1.50   -0.00 (VIOLATED)
-_505_/A                                 1.50    1.50   -0.00 (VIOLATED)
+wbs_adr_i[10]                           1.50    2.18   -0.68 (VIOLATED)
+wbs_adr_i[9]                            1.50    2.18   -0.68 (VIOLATED)
+wbs_adr_i[8]                            1.50    2.07   -0.57 (VIOLATED)
+wbs_adr_i[7]                            1.50    2.05   -0.56 (VIOLATED)
+wbs_adr_i[6]                            1.50    2.03   -0.54 (VIOLATED)
+wbs_adr_i[5]                            1.50    2.02   -0.52 (VIOLATED)
+wbs_adr_i[4]                            1.50    2.00   -0.50 (VIOLATED)
+_477_/A                                 1.50    1.75   -0.25 (VIOLATED)
+_478_/A                                 1.50    1.75   -0.25 (VIOLATED)
+_479_/A                                 1.50    1.73   -0.23 (VIOLATED)
+_480_/A                                 1.50    1.71   -0.21 (VIOLATED)
+_481_/A                                 1.50    1.70   -0.20 (VIOLATED)
+wbs_dat_i[2]                            1.50    1.69   -0.20 (VIOLATED)
+_482_/A                                 1.50    1.69   -0.19 (VIOLATED)
+_178_/X                                 1.51    1.69   -0.19 (VIOLATED)
+wbs_dat_i[3]                            1.50    1.68   -0.18 (VIOLATED)
+_483_/A                                 1.50    1.68   -0.18 (VIOLATED)
+_484_/A                                 1.50    1.67   -0.17 (VIOLATED)
+wbs_dat_i[4]                            1.50    1.67   -0.17 (VIOLATED)
+_485_/A                                 1.50    1.66   -0.16 (VIOLATED)
+wbs_dat_i[5]                            1.50    1.66   -0.16 (VIOLATED)
+_486_/A                                 1.50    1.65   -0.15 (VIOLATED)
+wbs_dat_i[0]                            1.50    1.65   -0.15 (VIOLATED)
+wbs_dat_i[6]                            1.50    1.65   -0.15 (VIOLATED)
+wbs_dat_i[1]                            1.50    1.65   -0.15 (VIOLATED)
+_487_/A                                 1.50    1.64   -0.14 (VIOLATED)
+wbs_dat_i[7]                            1.50    1.64   -0.14 (VIOLATED)
+_488_/A                                 1.50    1.63   -0.13 (VIOLATED)
+wbs_dat_i[8]                            1.50    1.63   -0.13 (VIOLATED)
+_489_/A                                 1.50    1.62   -0.12 (VIOLATED)
+wbs_dat_i[9]                            1.50    1.62   -0.12 (VIOLATED)
+_490_/A                                 1.50    1.61   -0.11 (VIOLATED)
+wbs_dat_i[10]                           1.50    1.61   -0.11 (VIOLATED)
+_491_/A                                 1.50    1.61   -0.11 (VIOLATED)
+wbs_dat_i[11]                           1.50    1.60   -0.11 (VIOLATED)
+_492_/A                                 1.50    1.60   -0.10 (VIOLATED)
+wbs_dat_i[12]                           1.50    1.59   -0.10 (VIOLATED)
+_493_/A                                 1.50    1.59   -0.09 (VIOLATED)
+wbs_dat_i[13]                           1.50    1.58   -0.09 (VIOLATED)
+_494_/A                                 1.50    1.58   -0.08 (VIOLATED)
+wbs_dat_i[14]                           1.50    1.58   -0.08 (VIOLATED)
+wbs_dat_i[15]                           1.50    1.57   -0.07 (VIOLATED)
+_495_/A                                 1.50    1.57   -0.07 (VIOLATED)
+_496_/A                                 1.50    1.56   -0.06 (VIOLATED)
+wbs_dat_i[16]                           1.50    1.56   -0.06 (VIOLATED)
+_497_/A                                 1.50    1.55   -0.05 (VIOLATED)
+wbs_dat_i[17]                           1.50    1.55   -0.05 (VIOLATED)
+_498_/A                                 1.50    1.54   -0.04 (VIOLATED)
+wbs_dat_i[18]                           1.50    1.54   -0.04 (VIOLATED)
+wbs_dat_i[19]                           1.50    1.53   -0.03 (VIOLATED)
+_499_/A                                 1.50    1.53   -0.03 (VIOLATED)
+wbs_dat_i[20]                           1.50    1.52   -0.02 (VIOLATED)
+_500_/A                                 1.50    1.52   -0.02 (VIOLATED)
+wbs_dat_i[21]                           1.50    1.51   -0.02 (VIOLATED)
+_501_/A                                 1.50    1.51   -0.01 (VIOLATED)
+wbs_dat_i[22]                           1.50    1.50   -0.01 (VIOLATED)
+_502_/A                                 1.50    1.51   -0.01 (VIOLATED)
 
 max fanout
 
@@ -2048,45 +2028,43 @@ wbs_adr_i[2]                            0.33    0.56   -0.23 (VIOLATED)
 wbs_adr_i[3]                            0.33    0.56   -0.23 (VIOLATED)
 wbs_adr_i[10]                           0.33    0.49   -0.16 (VIOLATED)
 wbs_adr_i[9]                            0.33    0.49   -0.16 (VIOLATED)
-wbs_adr_i[8]                            0.33    0.46   -0.13 (VIOLATED)
+wbs_adr_i[8]                            0.33    0.47   -0.14 (VIOLATED)
 wbs_adr_i[7]                            0.33    0.46   -0.13 (VIOLATED)
-wbs_adr_i[6]                            0.33    0.45   -0.12 (VIOLATED)
-wbs_adr_i[5]                            0.33    0.45   -0.12 (VIOLATED)
-wbs_adr_i[4]                            0.33    0.45   -0.11 (VIOLATED)
-wbs_dat_i[0]                            0.33    0.39   -0.06 (VIOLATED)
-wbs_dat_i[1]                            0.33    0.39   -0.05 (VIOLATED)
+wbs_adr_i[6]                            0.33    0.46   -0.13 (VIOLATED)
+wbs_adr_i[5]                            0.33    0.46   -0.12 (VIOLATED)
+wbs_adr_i[4]                            0.33    0.45   -0.12 (VIOLATED)
 wbs_dat_i[2]                            0.33    0.38   -0.05 (VIOLATED)
-wbs_dat_i[3]                            0.33    0.38   -0.05 (VIOLATED)
-wbs_dat_i[4]                            0.33    0.38   -0.05 (VIOLATED)
-wbs_dat_i[5]                            0.33    0.38   -0.04 (VIOLATED)
+wbs_dat_i[3]                            0.33    0.38   -0.04 (VIOLATED)
+wbs_dat_i[4]                            0.33    0.37   -0.04 (VIOLATED)
+wbs_dat_i[5]                            0.33    0.37   -0.04 (VIOLATED)
+wbs_dat_i[0]                            0.33    0.37   -0.04 (VIOLATED)
+wbs_dat_i[1]                            0.33    0.37   -0.04 (VIOLATED)
 wbs_dat_i[6]                            0.33    0.37   -0.04 (VIOLATED)
-wbs_dat_i[7]                            0.33    0.37   -0.04 (VIOLATED)
-wbs_dat_i[8]                            0.33    0.37   -0.04 (VIOLATED)
-wbs_dat_i[9]                            0.33    0.37   -0.04 (VIOLATED)
-wbs_dat_i[10]                           0.33    0.37   -0.03 (VIOLATED)
+wbs_dat_i[7]                            0.33    0.37   -0.03 (VIOLATED)
+wbs_dat_i[8]                            0.33    0.36   -0.03 (VIOLATED)
+wbs_dat_i[9]                            0.33    0.36   -0.03 (VIOLATED)
+wbs_dat_i[10]                           0.33    0.36   -0.03 (VIOLATED)
 wbs_dat_i[11]                           0.33    0.36   -0.03 (VIOLATED)
-wbs_dat_i[12]                           0.33    0.36   -0.03 (VIOLATED)
-wbs_dat_i[13]                           0.33    0.36   -0.03 (VIOLATED)
-wbs_dat_i[14]                           0.33    0.36   -0.03 (VIOLATED)
+wbs_dat_i[12]                           0.33    0.36   -0.02 (VIOLATED)
+wbs_dat_i[13]                           0.33    0.35   -0.02 (VIOLATED)
+wbs_dat_i[14]                           0.33    0.35   -0.02 (VIOLATED)
+wbs_dat_i[15]                           0.33    0.35   -0.02 (VIOLATED)
 _178_/X                                 0.13    0.15   -0.02 (VIOLATED)
-wbs_dat_i[15]                           0.33    0.36   -0.02 (VIOLATED)
 wbs_dat_i[16]                           0.33    0.35   -0.02 (VIOLATED)
-wbs_dat_i[17]                           0.33    0.35   -0.02 (VIOLATED)
-wbs_dat_i[18]                           0.33    0.35   -0.02 (VIOLATED)
-wbs_dat_i[19]                           0.33    0.35   -0.02 (VIOLATED)
-wbs_dat_i[20]                           0.33    0.35   -0.01 (VIOLATED)
+wbs_dat_i[17]                           0.33    0.35   -0.01 (VIOLATED)
+wbs_dat_i[18]                           0.33    0.34   -0.01 (VIOLATED)
+wbs_dat_i[19]                           0.33    0.34   -0.01 (VIOLATED)
+wbs_dat_i[20]                           0.33    0.34   -0.01 (VIOLATED)
 wbs_dat_i[21]                           0.33    0.34   -0.01 (VIOLATED)
-wbs_dat_i[22]                           0.33    0.34   -0.01 (VIOLATED)
-wbs_dat_i[23]                           0.33    0.34   -0.01 (VIOLATED)
-wbs_dat_i[24]                           0.33    0.34   -0.01 (VIOLATED)
-wbs_dat_i[25]                           0.33    0.34   -0.00 (VIOLATED)
-wbs_dat_i[26]                           0.33    0.33   -0.00 (VIOLATED)
+wbs_dat_i[22]                           0.33    0.34   -0.00 (VIOLATED)
+wbs_dat_i[23]                           0.33    0.33   -0.00 (VIOLATED)
+wbs_dat_i[24]                           0.33    0.33   -0.00 (VIOLATED)
 
 
 ===========================================================================
-max slew violation count 65
+max slew violation count 59
 max fanout violation count 9
-max cap violation count 37
+max cap violation count 35
 ============================================================================
 check_slew_end
 tns_report
@@ -2108,12 +2086,12 @@ worst_slack
 ===========================================================================
  report_worst_slack -max (Setup)
 ============================================================================
-worst slack 8.17
+worst slack 8.85
 
 ===========================================================================
  report_worst_slack -min (Hold)
 ============================================================================
-worst slack 1.99
+worst slack 2.15
 worst_slack_end
 clock_skew
 
@@ -2136,18 +2114,18 @@ power_report
 Group                  Internal  Switching    Leakage      Total
                           Power      Power      Power      Power (Watts)
 ----------------------------------------------------------------
-Sequential             2.08e-06   1.72e-07   8.44e-12   2.25e-06   1.8%
-Combinational          3.48e-05   8.63e-05   1.38e-08   1.21e-04  98.2%
+Sequential             2.08e-06   1.72e-07   8.44e-12   2.25e-06   2.0%
+Combinational          3.47e-05   7.38e-05   1.38e-08   1.09e-04  98.0%
 Macro                  0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
 Pad                    0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
 ----------------------------------------------------------------
-Total                  3.69e-05   8.65e-05   1.38e-08   1.23e-04 100.0%
-                          29.9%      70.1%       0.0%
+Total                  3.68e-05   7.40e-05   1.38e-08   1.11e-04 100.0%
+                          33.2%      66.8%       0.0%
 power_report_end
 area_report
 
 ===========================================================================
  report_design_area
 ============================================================================
-Design area 1314646 u^2 13% utilization.
+Design area 1314447 u^2 13% utilization.
 area_report_end

@@ -17,33 +17,33 @@ Components of this program may be licensed under more restrictive licenses which
 [INFO ODB-0094] 		Created 700000 Insts
 [INFO ODB-0094] 		Created 800000 Insts
 [INFO ODB-0130]     Created 645 pins.
-[INFO ODB-0131]     Created 899260 components and 3347606 component-terminals.
-[INFO ODB-0132]     Created 8 special nets and 3341864 connections.
-[INFO ODB-0133]     Created 2927 nets and 5579 connections.
+[INFO ODB-0131]     Created 898267 components and 3343830 component-terminals.
+[INFO ODB-0132]     Created 8 special nets and 3338210 connections.
+[INFO ODB-0133]     Created 2926 nets and 5457 connections.
 [INFO ODB-0134] Finished DEF file: /home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper/results/routing/user_project_wrapper.def
 Using RCX ruleset '/home/serdar/pdks/sky130A/libs.tech/openlane/rules.openrcx.sky130A.nom.spef_extractor'...
 [INFO RCX-0431] Defined process_corner X with ext_model_index 0
 [INFO RCX-0029] Defined extraction corner X
 [INFO RCX-0008] extracting parasitics of user_project_wrapper ...
-Notice 0: Split top of 128 T shapes.
+Notice 0: Split top of 113 T shapes.
 [INFO RCX-0435] Reading extraction model file /home/serdar/pdks/sky130A/libs.tech/openlane/rules.openrcx.sky130A.nom.spef_extractor ...
 [INFO RCX-0436] RC segment generation user_project_wrapper (max_merge_res 50.0) ...
-[INFO RCX-0040] Final 10627 rc segments
+[INFO RCX-0040] Final 10651 rc segments
 [INFO RCX-0439] Coupling Cap extraction user_project_wrapper ...
 [INFO RCX-0440] Coupling threshhold is 0.1000 fF, coupling capacitance less than 0.1000 fF will be grounded.
-[INFO RCX-0043] 59308 wires to be extracted
-[INFO RCX-0442] 15% completion -- 9480 wires have been extracted
-[INFO RCX-0442] 28% completion -- 16823 wires have been extracted
-[INFO RCX-0442] 37% completion -- 22286 wires have been extracted
-[INFO RCX-0442] 47% completion -- 28370 wires have been extracted
-[INFO RCX-0442] 57% completion -- 34311 wires have been extracted
-[INFO RCX-0442] 67% completion -- 40255 wires have been extracted
-[INFO RCX-0442] 84% completion -- 49993 wires have been extracted
-[INFO RCX-0442] 90% completion -- 53929 wires have been extracted
-[INFO RCX-0442] 98% completion -- 58484 wires have been extracted
-[INFO RCX-0045] Extract 2933 nets, 13058 rsegs, 13058 caps, 13876 ccs
+[INFO RCX-0043] 59232 wires to be extracted
+[INFO RCX-0442] 16% completion -- 9626 wires have been extracted
+[INFO RCX-0442] 28% completion -- 16778 wires have been extracted
+[INFO RCX-0442] 37% completion -- 22470 wires have been extracted
+[INFO RCX-0442] 47% completion -- 28427 wires have been extracted
+[INFO RCX-0442] 58% completion -- 34368 wires have been extracted
+[INFO RCX-0442] 68% completion -- 40312 wires have been extracted
+[INFO RCX-0442] 84% completion -- 50050 wires have been extracted
+[INFO RCX-0442] 91% completion -- 54023 wires have been extracted
+[INFO RCX-0442] 98% completion -- 58327 wires have been extracted
+[INFO RCX-0045] Extract 2932 nets, 13101 rsegs, 13101 caps, 13225 ccs
 [INFO RCX-0015] Finished extracting user_project_wrapper.
 Writing result to /home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper/results/routing/user_project_wrapper.nom.spef...
 [INFO RCX-0016] Writing SPEF ...
-[INFO RCX-0443] 2927 nets finished
+[INFO RCX-0443] 2926 nets finished
 [INFO RCX-0017] Finished writing SPEF ...

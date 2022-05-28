@@ -17,9 +17,9 @@ Components of this program may be licensed under more restrictive licenses which
 [INFO ODB-0094] 		Created 700000 Insts
 [INFO ODB-0094] 		Created 800000 Insts
 [INFO ODB-0130]     Created 645 pins.
-[INFO ODB-0131]     Created 899260 components and 3347606 component-terminals.
-[INFO ODB-0132]     Created 8 special nets and 3341864 connections.
-[INFO ODB-0133]     Created 2927 nets and 5579 connections.
+[INFO ODB-0131]     Created 898267 components and 3343830 component-terminals.
+[INFO ODB-0132]     Created 8 special nets and 3338210 connections.
+[INFO ODB-0133]     Created 2926 nets and 5457 connections.
 [INFO ODB-0134] Finished DEF file: /home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper/results/routing/user_project_wrapper.def
 [INFO ODB-0222] Reading LEF file: /home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/merged.nom.lef
 [INFO ODB-0223]     Created 13 technology layers
@@ -37,7 +37,7 @@ Default power net:  vccd1
 Default ground net: vssd1
 Found a total of 4 power ports.
 Found a total of 4 ground ports.
-Modified power connections of 899260 cells (Remaining: 0 ).
+Modified power connections of 898267 cells (Remaining: 0 ).
 STDOUT:
 OpenROAD 79a46b62da64bbebc18f06b20c42211046de719a 
 This program is licensed under the BSD-3 license. See the LICENSE file for details.

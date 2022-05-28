@@ -1,16 +1,16 @@
-box 426091 240505 426119 240521
+box 432091 234505 432119 234521
 feedback add "device missing 1 terminal;
  connecting remainder to node a_16_183#" pale
-box 426091 240277 426119 240293
+box 432091 234277 432119 234293
 feedback add "device missing 1 terminal;
  connecting remainder to node a_38_133#" pale
-box 348295 239961 348323 239977
+box 354295 233961 354323 233977
 feedback add "device missing 1 terminal;
  connecting remainder to node VDD" pale
-box 348295 240027 348323 240057
+box 354295 234027 354323 234057
 feedback add "device missing 1 terminal;
  connecting remainder to node VDD" pale
-box 348295 240189 348323 240205
+box 354295 234189 354323 234205
 feedback add "device missing 1 terminal;
  connecting remainder to node a_38_133#" pale
 box 413435 701603 413645 701713

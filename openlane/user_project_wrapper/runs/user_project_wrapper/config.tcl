@@ -81,10 +81,10 @@ set ::env(FP_IO_VTHICKNESS_MULT) {4}
 set ::env(FP_PDN_AUTO_ADJUST) {1}
 set ::env(FP_PDN_CHECK_NODES) {1}
 set ::env(FP_PDN_CORE_RING) {1}
-set ::env(FP_PDN_CORE_RING_HOFFSET) {14}
+set ::env(FP_PDN_CORE_RING_HOFFSET) {12.45}
 set ::env(FP_PDN_CORE_RING_HSPACING) {1.7}
 set ::env(FP_PDN_CORE_RING_HWIDTH) {3.1}
-set ::env(FP_PDN_CORE_RING_VOFFSET) {14}
+set ::env(FP_PDN_CORE_RING_VOFFSET) {12.45}
 set ::env(FP_PDN_CORE_RING_VSPACING) {1.7}
 set ::env(FP_PDN_CORE_RING_VWIDTH) {3.1}
 set ::env(FP_PDN_ENABLE_GLOBAL_CONNECTIONS) {1}
@@ -250,7 +250,7 @@ set ::env(SAVE_FINAL_VIEWS) {1}
 set ::env(SPEF_EDGE_CAP_FACTOR) {1}
 set ::env(SPEF_EXTRACTOR) {openrcx}
 set ::env(SPEF_WIRE_MODEL) {L}
-set ::env(START_TIME) {2022.05.27_13.55.51}
+set ::env(START_TIME) {2022.05.28_12.17.25}
 set ::env(STA_REPORT_POWER) {1}
 set ::env(STD_CELL_GROUND_PINS) {VGND VNB}
 set ::env(STD_CELL_LIBRARY) {sky130_fd_sc_hd}
@@ -441,10 +441,10 @@ set ::env(FP_IO_VTHICKNESS_MULT) {4}
 set ::env(FP_PDN_AUTO_ADJUST) {1}
 set ::env(FP_PDN_CHECK_NODES) {1}
 set ::env(FP_PDN_CORE_RING) {1}
-set ::env(FP_PDN_CORE_RING_HOFFSET) {14}
+set ::env(FP_PDN_CORE_RING_HOFFSET) {12.45}
 set ::env(FP_PDN_CORE_RING_HSPACING) {1.7}
 set ::env(FP_PDN_CORE_RING_HWIDTH) {3.1}
-set ::env(FP_PDN_CORE_RING_VOFFSET) {14}
+set ::env(FP_PDN_CORE_RING_VOFFSET) {12.45}
 set ::env(FP_PDN_CORE_RING_VSPACING) {1.7}
 set ::env(FP_PDN_CORE_RING_VWIDTH) {3.1}
 set ::env(FP_PDN_ENABLE_GLOBAL_CONNECTIONS) {1}
@@ -504,7 +504,7 @@ set ::env(GPIO_PADS_LEF) { /home/serdar/pdks/sky130A/libs.ref/sky130_fd_io/lef/s
 set ::env(GPIO_PADS_LEF_CORE_SIDE) { /home/serdar/pdks/sky130A/libs.tech/openlane/custom_cells/lef/sky130_fd_io_core.lef /home/serdar/pdks/sky130A/libs.tech/openlane/custom_cells/lef/sky130_ef_io_core.lef }
 set ::env(GPIO_PADS_VERILOG) { /home/serdar/pdks/sky130A/libs.ref/sky130_fd_io/verilog/sky130_ef_io.v /home/serdar/pdks/sky130A/libs.ref/sky130_fd_io/verilog/sky130_ef_io__gpiov2_pad_wrapped.v }
 set ::env(HOME) {/}
-set ::env(HOSTNAME) {fe824ed0108e}
+set ::env(HOSTNAME) {3a869b0060a9}
 set ::env(INPUT_DEF) {/home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/signoff/34-powered_def.def}
 set ::env(IO_PCT) {0.2}
 set ::env(KLAYOUT_DRC_KLAYOUT_GDS) {0}
@@ -669,7 +669,7 @@ set ::env(SPEF_EDGE_CAP_FACTOR) {1}
 set ::env(SPEF_EXTRACTOR) {openrcx}
 set ::env(SPEF_PREFIX) {/home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper/results/routing/user_project_wrapper}
 set ::env(SPEF_WIRE_MODEL) {L}
-set ::env(START_TIME) {2022.05.27_13.55.51}
+set ::env(START_TIME) {2022.05.28_12.17.25}
 set ::env(STA_LEF) {/home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/merged.nom.lef}
 set ::env(STA_PRE_CTS) {0}
 set ::env(STA_REPORT_POWER) {1}
@@ -767,6 +767,6 @@ set ::env(synthesis_logs) {/home/serdar/Desktop/openram_demo/openram_openmpw/ope
 set ::env(synthesis_reports) {/home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper/reports/synthesis}
 set ::env(synthesis_results) {/home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper/results/synthesis}
 set ::env(synthesis_tmpfiles) {/home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/synthesis}
-set ::env(timer_end) {1653664948}
-set ::env(timer_routed) {1653660517}
-set ::env(timer_start) {1653659751}
+set ::env(timer_end) {1653745147}
+set ::env(timer_routed) {1653740849}
+set ::env(timer_start) {1653740245}

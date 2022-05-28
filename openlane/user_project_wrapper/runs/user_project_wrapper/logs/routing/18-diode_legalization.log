@@ -10,20 +10,20 @@ Components of this program may be licensed under more restrictive licenses which
 [INFO ODB-0128] Design: user_project_wrapper
 [INFO ODB-0094] 		Created 100000 Insts
 [INFO ODB-0130]     Created 645 pins.
-[INFO ODB-0131]     Created 133726 components and 285054 component-terminals.
-[INFO ODB-0132]     Created 8 special nets and 279728 connections.
-[INFO ODB-0133]     Created 2927 nets and 5163 connections.
+[INFO ODB-0131]     Created 133566 components and 284730 component-terminals.
+[INFO ODB-0132]     Created 8 special nets and 279406 connections.
+[INFO ODB-0133]     Created 2926 nets and 5161 connections.
 [INFO ODB-0134] Finished DEF file: /home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/routing/16-resizer_timing.def
 Placement Analysis
 ---------------------------------
 total displacement          0.0 u
 average displacement        0.0 u
 max displacement            0.0 u
-original HPWL          376012.5 u
-legalized HPWL         378471.2 u
+original HPWL          385922.4 u
+legalized HPWL         388561.9 u
 delta HPWL                    1 %
 
-[INFO DPL-0020] Mirrored 1020 instances
-[INFO DPL-0021] HPWL before          378471.2 u
-[INFO DPL-0022] HPWL after           376012.5 u
-[INFO DPL-0023] HPWL delta               -0.6 %
+[INFO DPL-0020] Mirrored 1089 instances
+[INFO DPL-0021] HPWL before          388561.9 u
+[INFO DPL-0022] HPWL after           385922.4 u
+[INFO DPL-0023] HPWL delta               -0.7 %

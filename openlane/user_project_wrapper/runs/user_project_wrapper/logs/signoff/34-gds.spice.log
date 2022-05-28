@@ -31,7 +31,7 @@ Reading "sky130_fd_sc_hd__fill_2".
 Reading "sky130_fd_sc_hd__diode_2".
 Reading "sky130_fd_sc_hd__dlymetal6s2s_1".
 Reading "sky130_fd_sc_hd__clkdlybuf4s15_2".
-Reading "sky130_fd_sc_hd__nand3b_2".
+Reading "sky130_fd_sc_hd__nand3b_1".
 Reading "sky130_fd_sc_hd__conb_1".
 Reading "sky130_fd_sc_hd__buf_1".
 Reading "sky130_fd_sc_hd__buf_2".
@@ -182,35 +182,35 @@ Reading "sky130_sram_2kbyte_1rw1r_32x512_8_port_data".
 Reading "sky130_sram_2kbyte_1rw1r_32x512_8_contact_9".
 Reading "sky130_sram_2kbyte_1rw1r_32x512_8_contact_8".
 Reading "sky130_fd_bd_sram__openram_dp_cell_cap_row".
-Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_cap_row" (byte position 2708554): Unknown layer/datatype in boundary, layer=33 type=42
-Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_cap_row" (byte position 2709258): Unknown layer/datatype in boundary, layer=33 type=43
-Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_cap_row" (byte position 2710218): Unknown layer/datatype in boundary, layer=22 type=21
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_cap_row" (byte position 2707140): Unknown layer/datatype in boundary, layer=33 type=42
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_cap_row" (byte position 2707844): Unknown layer/datatype in boundary, layer=33 type=43
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_cap_row" (byte position 2708804): Unknown layer/datatype in boundary, layer=22 type=21
 Reading "sky130_sram_2kbyte_1rw1r_32x512_8_row_cap_array_0".
 Reading "sky130_sram_2kbyte_1rw1r_32x512_8_row_cap_array".
 Reading "sky130_fd_bd_sram__openram_dp_cell_cap_col".
 Reading "sky130_sram_2kbyte_1rw1r_32x512_8_col_cap_array".
 Reading "sky130_sram_2kbyte_1rw1r_32x512_8_col_cap_array_0".
 Reading "sky130_fd_bd_sram__openram_dp_cell_dummy".
-Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_dummy" (byte position 3202464): Unknown layer/datatype in boundary, layer=33 type=42
-Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_dummy" (byte position 3206240): Unknown layer/datatype in boundary, layer=33 type=43
-Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_dummy" (byte position 3210432): Unknown layer/datatype in boundary, layer=22 type=21
-Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_dummy" (byte position 3215232): Unknown layer/datatype in boundary, layer=22 type=22
-Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_dummy" (byte position 3217280): Unknown layer/datatype in boundary, layer=235 type=0
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_dummy" (byte position 3201050): Unknown layer/datatype in boundary, layer=33 type=42
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_dummy" (byte position 3204826): Unknown layer/datatype in boundary, layer=33 type=43
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_dummy" (byte position 3209018): Unknown layer/datatype in boundary, layer=22 type=21
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_dummy" (byte position 3213818): Unknown layer/datatype in boundary, layer=22 type=22
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_dummy" (byte position 3215866): Unknown layer/datatype in boundary, layer=235 type=0
 Reading "sky130_sram_2kbyte_1rw1r_32x512_8_dummy_array".
 Reading "sky130_fd_bd_sram__openram_dp_cell_replica".
-Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_replica" (byte position 3396722): Unknown layer/datatype in boundary, layer=33 type=42
-Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_replica" (byte position 3400498): Unknown layer/datatype in boundary, layer=33 type=43
-Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_replica" (byte position 3404690): Unknown layer/datatype in boundary, layer=22 type=21
-Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_replica" (byte position 3411154): Unknown layer/datatype in boundary, layer=22 type=22
-Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_replica" (byte position 3413330): Unknown layer/datatype in boundary, layer=235 type=0
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_replica" (byte position 3395308): Unknown layer/datatype in boundary, layer=33 type=42
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_replica" (byte position 3399084): Unknown layer/datatype in boundary, layer=33 type=43
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_replica" (byte position 3403276): Unknown layer/datatype in boundary, layer=22 type=21
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_replica" (byte position 3409740): Unknown layer/datatype in boundary, layer=22 type=22
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell_replica" (byte position 3411916): Unknown layer/datatype in boundary, layer=235 type=0
 Reading "sky130_sram_2kbyte_1rw1r_32x512_8_replica_column_0".
 Reading "sky130_sram_2kbyte_1rw1r_32x512_8_replica_column".
 Reading "sky130_fd_bd_sram__openram_dp_cell".
-Error while reading cell "sky130_fd_bd_sram__openram_dp_cell" (byte position 3653780): Unknown layer/datatype in boundary, layer=33 type=42
-Error while reading cell "sky130_fd_bd_sram__openram_dp_cell" (byte position 3657556): Unknown layer/datatype in boundary, layer=33 type=43
-Error while reading cell "sky130_fd_bd_sram__openram_dp_cell" (byte position 3661748): Unknown layer/datatype in boundary, layer=22 type=21
-Error while reading cell "sky130_fd_bd_sram__openram_dp_cell" (byte position 3668212): Unknown layer/datatype in boundary, layer=22 type=22
-Error while reading cell "sky130_fd_bd_sram__openram_dp_cell" (byte position 3670388): Unknown layer/datatype in boundary, layer=235 type=0
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell" (byte position 3652366): Unknown layer/datatype in boundary, layer=33 type=42
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell" (byte position 3656142): Unknown layer/datatype in boundary, layer=33 type=43
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell" (byte position 3660334): Unknown layer/datatype in boundary, layer=22 type=21
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell" (byte position 3666798): Unknown layer/datatype in boundary, layer=22 type=22
+Error while reading cell "sky130_fd_bd_sram__openram_dp_cell" (byte position 3668974): Unknown layer/datatype in boundary, layer=235 type=0
 Reading "sky130_sram_2kbyte_1rw1r_32x512_8_bitcell_array".
     5000 uses
     10000 uses
@@ -219,27 +219,25 @@ Reading "sky130_sram_2kbyte_1rw1r_32x512_8_replica_bitcell_array".
 Reading "sky130_sram_2kbyte_1rw1r_32x512_8_bank".
 Reading "sky130_sram_2kbyte_1rw1r_32x512_8".
     5000 uses
-Reading "sky130_fd_sc_hd__mux2_1".
-Reading "sky130_fd_sc_hd__o22a_1".
+Reading "sky130_fd_sc_hd__clkbuf_16".
+Reading "sky130_fd_sc_hd__dfxtp_1".
 Reading "sky130_fd_sc_hd__buf_12".
 Reading "sky130_fd_sc_hd__o21a_1".
+Reading "sky130_fd_sc_hd__o22a_1".
 Reading "sky130_fd_sc_hd__o22a_2".
-Reading "sky130_fd_sc_hd__dfxtp_1".
 Reading "sky130_fd_sc_hd__inv_2".
-Reading "sky130_fd_sc_hd__or2_1".
-Reading "sky130_fd_sc_hd__nor2_1".
 Reading "sky130_fd_sc_hd__or4_1".
-Reading "sky130_fd_sc_hd__or3_2".
+Reading "sky130_fd_sc_hd__clkdlybuf4s18_2".
+Reading "sky130_fd_sc_hd__or2_1".
 Reading "sky130_fd_sc_hd__or3_1".
 Reading "sky130_fd_sc_hd__and2_1".
-Reading "sky130_fd_sc_hd__or4_2".
-Reading "sky130_fd_sc_hd__or3b_1".
 Reading "sky130_fd_sc_hd__clkbuf_2".
 Reading "sky130_fd_sc_hd__clkbuf_8".
+Reading "sky130_fd_sc_hd__nor2_1".
+Reading "sky130_fd_sc_hd__clkinv_2".
+Reading "sky130_fd_sc_hd__or3b_1".
 Reading "sky130_fd_sc_hd__a22o_1".
 Reading "sky130_fd_sc_hd__a22o_2".
-Reading "sky130_fd_sc_hd__clkdlybuf4s18_2".
-Reading "sky130_fd_sc_hd__clkbuf_16".
 Reading "user_project_wrapper".
     5000 uses
     10000 uses
@@ -420,27 +418,26 @@ Reading "user_project_wrapper".
     885000 uses
     890000 uses
     895000 uses
-Processing sky130_fd_sc_hd__mux2_2
-Processing sky130_fd_sc_hd__nand3b_2
+Processing sky130_fd_sc_hd__clkdlybuf4s25_1
+Processing sky130_fd_sc_hd__nand3b_1
 Processing sky130_fd_sc_hd__buf_1
-Processing sky130_fd_sc_hd__mux2_1
-Processing sky130_fd_sc_hd__o22a_2
+Processing sky130_fd_sc_hd__mux2_2
 Processing sky130_fd_sc_hd__dfxtp_1
-Processing sky130_fd_sc_hd__or2_1
-Processing sky130_fd_sc_hd__nor2_1
+Processing sky130_fd_sc_hd__buf_12
+Processing sky130_fd_sc_hd__o22a_2
+Processing sky130_fd_sc_hd__inv_2
 Processing sky130_fd_sc_hd__o22a_1
 Processing sky130_fd_sc_hd__o21a_1
-Processing sky130_fd_sc_hd__or3_2
-Processing sky130_fd_sc_hd__clkdlybuf4s25_1
+Processing sky130_fd_sc_hd__or2_1
 Processing sky130_fd_sc_hd__or4_1
-Processing sky130_fd_sc_hd__or3_1
 Processing sky130_fd_sc_hd__and2_1
-Processing sky130_fd_sc_hd__or4_2
-Processing sky130_fd_sc_hd__inv_2
-Processing sky130_fd_sc_hd__buf_12
-Processing sky130_fd_sc_hd__or3b_1
-Processing sky130_fd_sc_hd__a22o_2
+Processing sky130_fd_sc_hd__or3_1
 Processing sky130_fd_sc_hd__clkdlybuf4s18_2
+Processing sky130_fd_sc_hd__nor2_1
+Processing sky130_fd_sc_hd__clkinv_2
+Processing sky130_fd_sc_hd__or3b_1
+Processing sky130_fd_sc_hd__a22o_1
+Processing sky130_fd_sc_hd__a22o_2
 Processing sky130_fd_sc_hd__clkbuf_16
 Processing sky130_fd_sc_hd__clkbuf_8
 Processing sky130_fd_sc_hd__clkbuf_2
@@ -606,13 +603,12 @@ Processing sky130_sram_2kbyte_1rw1r_32x512_8_contact_19
 Processing sky130_sram_2kbyte_1rw1r_32x512_8_contact_39
 Processing sky130_sram_2kbyte_1rw1r_32x512_8
 Processing sky130_fd_sc_hd__buf_2
-Processing sky130_fd_sc_hd__a22o_1
 Processing sky130_fd_sc_hd__buf_6
+Processing sky130_fd_sc_hd__clkdlybuf4s15_2
 Processing sky130_fd_sc_hd__diode_2
 Processing sky130_fd_sc_hd__clkbuf_4
 Processing sky130_fd_sc_hd__dlymetal6s2s_1
 Processing sky130_fd_sc_hd__buf_4
-Processing sky130_fd_sc_hd__clkdlybuf4s15_2
 Processing sky130_fd_sc_hd__decap_4
 Processing sky130_fd_sc_hd__fill_2
 Processing sky130_fd_sc_hd__conb_1
@@ -623,27 +619,26 @@ Processing sky130_fd_sc_hd__decap_3
 Processing sky130_fd_sc_hd__fill_1
 Processing sky130_fd_sc_hd__decap_6
 Processing user_project_wrapper
-Extracting sky130_fd_sc_hd__mux2_2 into sky130_fd_sc_hd__mux2_2.ext:
-Extracting sky130_fd_sc_hd__nand3b_2 into sky130_fd_sc_hd__nand3b_2.ext:
+Extracting sky130_fd_sc_hd__clkdlybuf4s25_1 into sky130_fd_sc_hd__clkdlybuf4s25_1.ext:
+Extracting sky130_fd_sc_hd__nand3b_1 into sky130_fd_sc_hd__nand3b_1.ext:
 Extracting sky130_fd_sc_hd__buf_1 into sky130_fd_sc_hd__buf_1.ext:
-Extracting sky130_fd_sc_hd__mux2_1 into sky130_fd_sc_hd__mux2_1.ext:
-Extracting sky130_fd_sc_hd__o22a_2 into sky130_fd_sc_hd__o22a_2.ext:
+Extracting sky130_fd_sc_hd__mux2_2 into sky130_fd_sc_hd__mux2_2.ext:
 Extracting sky130_fd_sc_hd__dfxtp_1 into sky130_fd_sc_hd__dfxtp_1.ext:
-Extracting sky130_fd_sc_hd__or2_1 into sky130_fd_sc_hd__or2_1.ext:
-Extracting sky130_fd_sc_hd__nor2_1 into sky130_fd_sc_hd__nor2_1.ext:
+Extracting sky130_fd_sc_hd__buf_12 into sky130_fd_sc_hd__buf_12.ext:
+Extracting sky130_fd_sc_hd__o22a_2 into sky130_fd_sc_hd__o22a_2.ext:
+Extracting sky130_fd_sc_hd__inv_2 into sky130_fd_sc_hd__inv_2.ext:
 Extracting sky130_fd_sc_hd__o22a_1 into sky130_fd_sc_hd__o22a_1.ext:
 Extracting sky130_fd_sc_hd__o21a_1 into sky130_fd_sc_hd__o21a_1.ext:
-Extracting sky130_fd_sc_hd__or3_2 into sky130_fd_sc_hd__or3_2.ext:
-Extracting sky130_fd_sc_hd__clkdlybuf4s25_1 into sky130_fd_sc_hd__clkdlybuf4s25_1.ext:
+Extracting sky130_fd_sc_hd__or2_1 into sky130_fd_sc_hd__or2_1.ext:
 Extracting sky130_fd_sc_hd__or4_1 into sky130_fd_sc_hd__or4_1.ext:
-Extracting sky130_fd_sc_hd__or3_1 into sky130_fd_sc_hd__or3_1.ext:
 Extracting sky130_fd_sc_hd__and2_1 into sky130_fd_sc_hd__and2_1.ext:
-Extracting sky130_fd_sc_hd__or4_2 into sky130_fd_sc_hd__or4_2.ext:
-Extracting sky130_fd_sc_hd__inv_2 into sky130_fd_sc_hd__inv_2.ext:
-Extracting sky130_fd_sc_hd__buf_12 into sky130_fd_sc_hd__buf_12.ext:
-Extracting sky130_fd_sc_hd__or3b_1 into sky130_fd_sc_hd__or3b_1.ext:
-Extracting sky130_fd_sc_hd__a22o_2 into sky130_fd_sc_hd__a22o_2.ext:
+Extracting sky130_fd_sc_hd__or3_1 into sky130_fd_sc_hd__or3_1.ext:
 Extracting sky130_fd_sc_hd__clkdlybuf4s18_2 into sky130_fd_sc_hd__clkdlybuf4s18_2.ext:
+Extracting sky130_fd_sc_hd__nor2_1 into sky130_fd_sc_hd__nor2_1.ext:
+Extracting sky130_fd_sc_hd__clkinv_2 into sky130_fd_sc_hd__clkinv_2.ext:
+Extracting sky130_fd_sc_hd__or3b_1 into sky130_fd_sc_hd__or3b_1.ext:
+Extracting sky130_fd_sc_hd__a22o_1 into sky130_fd_sc_hd__a22o_1.ext:
+Extracting sky130_fd_sc_hd__a22o_2 into sky130_fd_sc_hd__a22o_2.ext:
 Extracting sky130_fd_sc_hd__clkbuf_16 into sky130_fd_sc_hd__clkbuf_16.ext:
 Extracting sky130_fd_sc_hd__clkbuf_8 into sky130_fd_sc_hd__clkbuf_8.ext:
 Extracting sky130_fd_sc_hd__clkbuf_2 into sky130_fd_sc_hd__clkbuf_2.ext:
@@ -667,7 +662,7 @@ Error:  Asymmetric device with multiple terminals!
 Error:  Asymmetric device with multiple terminals!
 sky130_fd_bd_sram__openram_dp_cell: 2 warnings
 Extracting sky130_sram_2kbyte_1rw1r_32x512_8_bitcell_array into sky130_sram_2kbyte_1rw1r_32x512_8_bitcell_array.ext:
-Created database crash recovery file /tmp//MAG931.vtn1PX
+Created database crash recovery file /tmp//MAG930.dBelvf
 Extracting sky130_sram_2kbyte_1rw1r_32x512_8_replica_column into sky130_sram_2kbyte_1rw1r_32x512_8_replica_column.ext:
 Extracting sky130_fd_bd_sram__openram_dp_cell_replica into sky130_fd_bd_sram__openram_dp_cell_replica.ext:
 Warning:  Ports "BR1" and "br1" are electrically shorted.
@@ -895,13 +890,12 @@ Extracting sky130_sram_2kbyte_1rw1r_32x512_8_contact_19 into sky130_sram_2kbyte_
 Extracting sky130_sram_2kbyte_1rw1r_32x512_8_contact_39 into sky130_sram_2kbyte_1rw1r_32x512_8_contact_39.ext:
 Extracting sky130_sram_2kbyte_1rw1r_32x512_8 into sky130_sram_2kbyte_1rw1r_32x512_8.ext:
 Extracting sky130_fd_sc_hd__buf_2 into sky130_fd_sc_hd__buf_2.ext:
-Extracting sky130_fd_sc_hd__a22o_1 into sky130_fd_sc_hd__a22o_1.ext:
 Extracting sky130_fd_sc_hd__buf_6 into sky130_fd_sc_hd__buf_6.ext:
+Extracting sky130_fd_sc_hd__clkdlybuf4s15_2 into sky130_fd_sc_hd__clkdlybuf4s15_2.ext:
 Extracting sky130_fd_sc_hd__diode_2 into sky130_fd_sc_hd__diode_2.ext:
 Extracting sky130_fd_sc_hd__clkbuf_4 into sky130_fd_sc_hd__clkbuf_4.ext:
 Extracting sky130_fd_sc_hd__dlymetal6s2s_1 into sky130_fd_sc_hd__dlymetal6s2s_1.ext:
 Extracting sky130_fd_sc_hd__buf_4 into sky130_fd_sc_hd__buf_4.ext:
-Extracting sky130_fd_sc_hd__clkdlybuf4s15_2 into sky130_fd_sc_hd__clkdlybuf4s15_2.ext:
 Extracting sky130_fd_sc_hd__decap_4 into sky130_fd_sc_hd__decap_4.ext:
 sky130_fd_sc_hd__decap_4: 2 warnings
 Extracting sky130_fd_sc_hd__fill_2 into sky130_fd_sc_hd__fill_2.ext:

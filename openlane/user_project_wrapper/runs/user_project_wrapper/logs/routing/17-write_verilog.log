@@ -10,7 +10,7 @@ Components of this program may be licensed under more restrictive licenses which
 [INFO ODB-0128] Design: user_project_wrapper
 [INFO ODB-0094] 		Created 100000 Insts
 [INFO ODB-0130]     Created 645 pins.
-[INFO ODB-0131]     Created 133726 components and 285054 component-terminals.
-[INFO ODB-0132]     Created 8 special nets and 279728 connections.
-[INFO ODB-0133]     Created 2927 nets and 5163 connections.
+[INFO ODB-0131]     Created 133566 components and 284730 component-terminals.
+[INFO ODB-0132]     Created 8 special nets and 279406 connections.
+[INFO ODB-0133]     Created 2926 nets and 5161 connections.
 [INFO ODB-0134] Finished DEF file: /home/serdar/Desktop/openram_demo/openram_openmpw/openlane/user_project_wrapper/runs/user_project_wrapper/tmp/routing/16-resizer_timing.def
